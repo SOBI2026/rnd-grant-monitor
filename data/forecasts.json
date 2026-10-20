@@ -1283,7 +1283,9 @@
   },
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20",
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -1319,7 +1321,9 @@
   },
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20",
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -1559,7 +1563,9 @@
   },
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20",
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,

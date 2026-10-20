@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T23:28:48+09:00",
+ "updated_at": "2026-10-20T23:36:22+09:00",
  "jobs": [
   {
    "job": "NTIS 통합공고",
@@ -18,8 +18,8 @@
   },
   {
    "job": "IRIS 과거공고(관심부처)",
-   "ok": true,
-   "count": 226
+   "ok": false,
+   "count": 0
   },
   {
    "job": "IRIS 사업예고",
@@ -58,10 +58,15 @@
    "count": 34
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "job": "IRIS 과거공고(관심부처)",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.iris.go.kr', port=443): Max retries exceeded with url: /contents/retrieveBsnsAncmBtinSituListView.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.iris.go.kr', port=443) at 0x7f7b0f94e8a0>, 'Connection to www.iris.go.kr timed out. (connect timeout=30)'))"
+  }
+ ],
  "counts": {
   "notice": 18,
-  "notice_other": 263,
+  "notice_other": 147,
   "history": 249,
   "forecast": 37,
   "signal": 20
@@ -148,10 +153,10 @@
   }
  ],
  "missing_required": {
-  "notice_no": 129,
+  "notice_no": 246,
   "open_date": 35,
   "close_date": 20,
-  "type": 93,
-  "agency": 95
+  "type": 210,
+  "agency": 212
  }
 }
