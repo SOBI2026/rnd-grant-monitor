@@ -73,7 +73,7 @@ h2{font:700 17px var(--serif);margin:24px 0 8px}
 .months{position:relative;height:34px}
 .month{position:absolute;top:0;bottom:0;border-left:1px solid var(--line);font-size:11px;color:var(--ink-2);padding:4px 4px 0;font-variant-numeric:tabular-nums}
 .month.y{border-left-color:var(--ink-2);color:var(--ink);font-weight:600}
-.g-group{padding:6px 10px;font:700 13px var(--serif);background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.g-group{padding:7px 10px;background:var(--bg);border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .g-row{border-bottom:1px solid #EFEAE0}
 .g-row:hover{background:#F8F4EA}
 .g-name{padding:6px 10px;font-size:12.5px;line-height:1.35;min-width:0;border-right:1px solid var(--line)}
@@ -112,7 +112,33 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
 .nk{display:block;font-size:10.5px;color:var(--ink-2)}
 .dday{font-weight:700;color:var(--bad)}
 .empty{padding:24px;text-align:center;color:var(--ink-2)}
-@media (max-width:640px){h1{font-size:21px}.meta{text-align:left}.srcs{justify-content:flex-start}}
+/* 접기·숨기기 */
+.bh{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:24px 0 8px}
+.bh h2{margin:0}
+.hide{margin-left:auto;font:500 12px var(--sans);background:none;border:1px solid var(--line);padding:3px 10px;cursor:pointer;color:var(--ink-2)}
+.hide:hover{border-color:var(--ink-2);color:var(--ink)}
+.seg{display:inline-flex;border:1px solid var(--line)}
+.seg button{font:500 12px var(--sans);border:0;background:var(--paper);padding:4px 10px;cursor:pointer;color:var(--ink-2)}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+/* 부처별 비중 */
+.mchart{background:var(--paper);border:1px solid var(--line);padding:12px 14px}
+.mrow{display:grid;grid-template-columns:150px 1fr 92px;gap:10px;align-items:center;padding:4px 0;cursor:pointer;border:0;background:none;width:100%;text-align:left;font:inherit;color:inherit}
+.mrow:hover .mbar{filter:brightness(.95)}
+.mrow[aria-pressed=true] .mname{font-weight:700;color:var(--gold-ink)}
+.mname{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mtrack{height:18px;background:#EFEAE0;position:relative}
+.mbar{position:absolute;inset:0 auto 0 0;display:flex}
+.mbar i{display:block;height:100%}
+.mval{font-size:12px;color:var(--ink-2);text-align:right;font-variant-numeric:tabular-nums}
+.mval b{color:var(--ink);font-size:14px}
+.mleg{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--ink-2);margin-top:10px}
+.mleg i{display:inline-block;width:10px;height:10px;margin-right:4px;vertical-align:-1px}
+.g-group{display:flex;gap:8px;align-items:center;width:100%;cursor:pointer;text-align:left;font:700 13px var(--serif);color:var(--ink)}
+.g-group .car{display:inline-block;width:12px;transition:transform .15s}
+.g-group[aria-expanded=true] .car{transform:rotate(90deg)}
+.g-group .gs{font:400 12px var(--sans);color:var(--ink-2);margin-left:auto}
+.more{display:block;margin:8px auto 0;font:500 12px var(--sans);background:var(--paper);border:1px solid var(--line);padding:5px 14px;cursor:pointer}
+@media (max-width:640px){.mrow{grid-template-columns:96px 1fr 76px}h1{font-size:21px}.meta{text-align:left}.srcs{justify-content:flex-start}}
 @media (prefers-reduced-motion:no-preference){.bar{transition:filter .15s}.bar:hover{filter:brightness(.92)}}
 </style>
 </head>
@@ -127,6 +153,19 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
   </header>
 
   <div class="kpis" id="kpis"></div>
+
+  <section aria-labelledby="h-mchart">
+    <div class="bh">
+      <h2 id="h-mchart">부처별 공고 비중</h2>
+      <div class="seg" role="group" aria-label="기준">
+        <button data-mset="hist" aria-pressed="true">지난 13개월 공고</button>
+        <button data-mset="now" aria-pressed="false">현재 공고</button>
+        <button data-mset="pred" aria-pressed="false">예상 공고(12개월)</button>
+      </div>
+      <button class="hide" data-hide="mchart" aria-expanded="true">숨기기</button>
+    </div>
+    <div class="mchart" id="mchart"></div>
+  </section>
 
   <nav class="tabs" role="tablist">
     <button role="tab" id="t-gantt" aria-controls="p-gantt" aria-selected="true">공고 일정 · 예측</button>
@@ -147,7 +186,12 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
   </div>
 
   <section id="p-gantt" role="tabpanel" aria-labelledby="t-gantt">
-    <h2>사업별 공고 일정 <span class="note">지난 13개월 실적 + 향후 12개월 예측</span></h2>
+    <div class="bh">
+      <h2>사업별 공고 일정 <span class="note">지난 13개월 실적 + 향후 12개월 예측</span></h2>
+      <button class="hide" id="g-all" aria-pressed="false">모두 펼치기</button>
+      <button class="hide" style="margin-left:0" data-hide="gsec" aria-expanded="true">숨기기</button>
+    </div>
+    <div id="gsec">
     <div class="filters" style="margin:4px 0">
       <label class="tog"><input type="checkbox" id="f-predonly"> 예측이 있는 사업만</label>
       <label class="tog"><input type="checkbox" id="f-multi"> 연 2회 이상 반복 사업만</label>
@@ -160,11 +204,18 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
     </div>
     <div class="gantt-box" id="gbox"><div class="gantt" id="gantt"></div></div>
     <p class="note" id="method"></p>
-    <h2>다가오는 예상 공고 <span class="note">(향후 6개월, 시작일 순)</span></h2>
+    </div>
+    <div class="bh">
+      <h2>다가오는 예상 공고 <span class="note">(향후 6개월, 시작일 순)</span></h2>
+      <button class="hide" data-hide="upsec" aria-expanded="true">숨기기</button>
+    </div>
+    <div id="upsec">
     <div class="tbl-box"><table style="min-width:820px">
       <thead><tr><th>예상 접수기간</th><th>신뢰도</th><th>사업</th><th>부처 · 기관</th><th>근거</th></tr></thead>
       <tbody id="upc"></tbody>
     </table></div>
+    <button class="more" id="up-more" hidden>더보기</button>
+    </div>
   </section>
 
   <section id="p-list" role="tabpanel" aria-labelledby="t-list" hidden>
@@ -196,7 +247,10 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
 <script>
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const state = { dom: "", min: "", q: "" };
+const state = { dom: "", min: "", q: "", mset: "hist", openGroups: new Set(), upAll: false };
+const store = { get(k, d) { try { const v = localStorage.getItem("radar:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+                set(k, v) { try { localStorage.setItem("radar:" + k, JSON.stringify(v)); } catch {} } };
+state.openGroups = new Set(store.get("openGroups", []));  // 처음에는 모두 접힌 상태
 let D = {};
 
 async function load(name, fallback) {
@@ -211,9 +265,9 @@ const fmt = s => s ? s.slice(2).replace(/-/g, ".") : "";
 const dday = s => { if (!s) return ""; const n = Math.round((pd(s) - today) / 864e5); return n < 0 ? "" : n === 0 ? "D-day" : `D-${n}`; };
 const domTags = ds => (ds || []).map(d => `<span class="dom dom-${esc(d)}">${esc(d)}</span>`).join("");
 
-function matches(o) {
+function matches(o, ignoreMin) {
   if (state.dom && !(o.domains || []).includes(state.dom)) return false;
-  if (state.min && !((o.ministry || "").includes(state.min))) return false;
+  if (!ignoreMin && state.min && !((o.ministry || "").includes(state.min))) return false;
   if (state.q) { const q = state.q.toLowerCase(); const hay = [o.name, o.title, o.agency, (o.agencies||[]).join(" "), o.ministry].join(" ").toLowerCase(); if (!hay.includes(q)) return false; }
   return true;
 }
@@ -258,7 +312,13 @@ function renderGantt() {
   const order = ["보건복지부", "과학기술정보통신부", "산업통상부", "중소벤처기업부", "식품의약품안전처", "질병관리청", "다부처"];
   const keys = Object.keys(groups).sort((a, b) => ((order.indexOf(a) + 1) || 99) - ((order.indexOf(b) + 1) || 99) || a.localeCompare(b));
   window._bars = [];
-  const rows = keys.map(k => `<div class="g-group">${esc(k)} <span class="note">${groups[k].length}개 사업</span></div>` + groups[k].map(s => {
+  const allOpen = $("#g-all").getAttribute("aria-pressed") === "true";
+  const rows = keys.map(k => {
+    const open = allOpen || state.openGroups.has(k);
+    const next = groups[k].flatMap(s => s.predictions).map(p => p.start).sort()[0];
+    const live = groups[k].filter(s => s.rounds.some(r => (pd(r.end) || pd(r.start)) >= today)).length;
+    return `<button class="g-group" data-g="${esc(k)}" aria-expanded="${open}"><span class="car">▸</span>${esc(k)} <span class="note">${groups[k].length}개 사업</span>
+      <span class="gs">${live ? `접수중·예정 ${live} · ` : ""}${next ? `다음 예상 ${fmt(next)}` : "예상 없음"}</span></button>` + (open ? groups[k].map(s => {
     const bars = s.rounds.map(r => {
       const a = pd(r.start), b = pd(r.end) || new Date(+a + 30 * 864e5);
       const isOpen = b >= today;
@@ -269,11 +329,15 @@ function renderGantt() {
       return `<button class="bar pred conf-${esc(p.confidence)}" data-i="${i}" style="left:${x(pd(p.start))}%;width:${Math.max(.4, x(pd(p.end)) - x(pd(p.start)))}%" aria-label="예상 ${esc(s.name)} ${fmt(p.start)}~${fmt(p.end)}"></button>`;
     }).join("");
     return `<div class="g-row"><div class="g-name"><div class="nm">${esc(s.name)}</div><div class="sub">${domTags(s.domains)}${esc((s.agencies || []).slice(0, 2).join(", "))} · ${s.rounds_per_year}회</div></div><div class="track">${grid}${bars}</div></div>`;
-  }).join("")).join("");
+  }).join("") : "");
+  }).join("");
   $("#gantt").innerHTML = head + (rows || `<div class="empty">조건에 맞는 사업이 없습니다. 필터를 바꿔 보세요.</div>`);
   $("#method").textContent = "예측 방법: " + (D.pred.method || "") + " 과거 이력이 쌓일수록 정확해집니다.";
 
-  const up = (D.pred.upcoming || []).filter(matches).filter(u => (pd(u.start) - today) / 864e5 <= 183);
+  const upAll = (D.pred.upcoming || []).filter(matches).filter(u => (pd(u.start) - today) / 864e5 <= 183);
+  const up = state.upAll ? upAll : upAll.slice(0, 10);
+  $("#up-more").hidden = upAll.length <= 10;
+  $("#up-more").textContent = state.upAll ? "접기" : `더보기 (${upAll.length - 10}건 더)`;
   $("#upc").innerHTML = up.length ? up.map(u => `<tr><td class="num">${fmt(u.start)} ~ ${fmt(u.end)}<br><span class="dday">${dday(u.start)}</span></td>
       <td><span class="pill conf-${esc(u.confidence)}" style="margin:0">${esc(u.confidence)}</span></td>
       <td>${esc(u.name)}<div>${domTags(u.domains)}</div></td>
@@ -347,7 +411,47 @@ function renderSignals() {
     || `<tr><td colspan="6" class="empty">사업예고가 없습니다.</td></tr>`;
 }
 
-function renderAll() { renderGantt(); renderList(); renderSignals(); }
+/* ── 부처별 비중 ── */
+const DOMS = ["제약", "바이오", "디지털헬스", "의료기기", "보건의료"];
+const DCOL = {"제약": "var(--pharma)", "바이오": "var(--bio)", "디지털헬스": "var(--digital)", "의료기기": "var(--device)", "보건의료": "#8C7B63", "기타": "#CFC6B6"};
+const minOf = m => { m = m || "기타"; return (m.includes(",") || m.startsWith("다부처")) ? "다부처" : m; };
+function renderMinChart() {
+  let items;
+  if (state.mset === "hist") {
+    const seen = new Map();
+    [...(D.history || []), ...(D.notices || [])].forEach(x => { if (x.category !== "비R&D") seen.set(x.id, x); });
+    items = [...seen.values()];
+  } else if (state.mset === "now") {
+    items = (D.notices || []).filter(x => x.status !== "마감");
+  } else {
+    items = (D.pred.upcoming || []).map(u => ({...u, title: u.name}));
+  }
+  items = items.filter(x => matches(x, true));   // 분야·검색 필터만 적용 (부처는 도표에서 선택)
+  const total = items.length;
+  const by = {};
+  items.forEach(x => {
+    const m = minOf(x.ministry); const d = DOMS.find(d => (x.domains || []).includes(d)) || "기타";
+    (by[m] ||= {n: 0, d: {}}); by[m].n++; by[m].d[d] = (by[m].d[d] || 0) + 1;
+  });
+  let rows = Object.entries(by).sort((a, b) => b[1].n - a[1].n);
+  if (rows.length > 9) {
+    const rest = rows.slice(8).reduce((acc, [, v]) => { acc.n += v.n; Object.entries(v.d).forEach(([k, c]) => acc.d[k] = (acc.d[k] || 0) + c); return acc; }, {n: 0, d: {}});
+    rows = [...rows.slice(0, 8), ["그 외 부처", rest]];
+  }
+  const max = rows.length ? rows[0][1].n : 1;
+  $("#mchart").innerHTML = total ? rows.map(([m, v]) => {
+    const segs = [...DOMS, "기타"].filter(d => v.d[d]).map(d => `<i style="width:${v.d[d] / v.n * 100}%;background:${DCOL[d]}" title="${esc(d)} ${v.d[d]}건"></i>`).join("");
+    const pct = Math.round(v.n / total * 1000) / 10;
+    return `<button class="mrow" data-m="${esc(m)}" aria-pressed="${state.min === m}" title="${esc(m)} 공고만 보기">
+      <span class="mname">${esc(m)}</span>
+      <span class="mtrack"><span class="mbar" style="width:${v.n / max * 100}%">${segs}</span></span>
+      <span class="mval"><b>${pct}%</b> · ${v.n}건</span></button>`;
+  }).join("") + `<div class="mleg">${[...DOMS, "기타"].map(d => `<span><i style="background:${DCOL[d]}"></i>${d}</span>`).join("")}
+      <span>· 막대 길이 = 건수, 색 = 분야 구성 · 부처를 누르면 아래 목록이 그 부처로 걸러집니다 · 합계 ${total}건</span></div>`
+    : `<div class="empty">해당하는 공고가 없습니다.</div>`;
+}
+
+function renderAll() { renderMinChart(); renderGantt(); renderList(); renderSignals(); }
 
 /* 이벤트 */
 document.querySelectorAll(".chip[data-dom]").forEach(b => b.addEventListener("click", () => {
@@ -357,6 +461,42 @@ document.querySelectorAll(".chip[data-dom]").forEach(b => b.addEventListener("cl
 $("#f-min").addEventListener("change", e => { state.min = e.target.value; renderAll(); });
 $("#f-q").addEventListener("input", e => { state.q = e.target.value.trim(); renderAll(); });
 ["#f-predonly", "#f-multi"].forEach(s => $(s).addEventListener("change", renderGantt));
+document.querySelectorAll("[data-mset]").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("[data-mset]").forEach(c => c.setAttribute("aria-pressed", c === b));
+  state.mset = b.dataset.mset; renderMinChart();
+}));
+document.addEventListener("click", e => {
+  const mr = e.target.closest(".mrow");
+  if (mr) {
+    const m = mr.dataset.m === "그 외 부처" ? "" : mr.dataset.m;
+    state.min = state.min === m ? "" : m;
+    $("#f-min").value = [...$("#f-min").options].some(o => o.value === state.min) ? state.min : "";
+    if (state.min) { state.openGroups.add(state.min); }
+    renderAll(); return;
+  }
+  const g = e.target.closest(".g-group");
+  if (g) {
+    const k = g.dataset.g; state.openGroups.has(k) ? state.openGroups.delete(k) : state.openGroups.add(k);
+    store.set("openGroups", [...state.openGroups]); renderGantt(); return;
+  }
+  const h = e.target.closest("[data-hide]");
+  if (h) {
+    const el = document.getElementById(h.dataset.hide); const show = el.hidden;
+    el.hidden = !show; h.textContent = show ? "숨기기" : "보이기"; h.setAttribute("aria-expanded", show);
+    const hid = store.get("hidden", {}); hid[h.dataset.hide] = !show; store.set("hidden", hid);
+  }
+});
+$("#g-all").addEventListener("click", e => {
+  const on = e.currentTarget.getAttribute("aria-pressed") !== "true";
+  e.currentTarget.setAttribute("aria-pressed", on); e.currentTarget.textContent = on ? "모두 접기" : "모두 펼치기";
+  if (!on) { state.openGroups.clear(); store.set("openGroups", []); }
+  renderGantt();
+});
+$("#up-more").addEventListener("click", () => { state.upAll = !state.upAll; renderGantt(); });
+Object.entries(store.get("hidden", {})).forEach(([id, h]) => {
+  const el = document.getElementById(id), b = document.querySelector(`[data-hide="${id}"]`);
+  if (el && b && h) { el.hidden = true; b.textContent = "보이기"; b.setAttribute("aria-expanded", "false"); }
+});
 ["#f-st", "#f-cat"].forEach(s => $(s).addEventListener("change", renderList));
 const tabs = [["t-gantt", "p-gantt"], ["t-list", "p-list"], ["t-sig", "p-sig"]];
 tabs.forEach(([t, p]) => $("#" + t).addEventListener("click", () => {
@@ -367,9 +507,9 @@ tabs.forEach(([t, p]) => $("#" + t).addEventListener("click", () => {
 const h = location.hash.slice(1); const hit = tabs.find(([, p]) => p === "p-" + h); if (hit) $("#" + hit[0]).click();
 
 (async () => {
-  const [meta, notices, signals, forecasts, pred] = await Promise.all([
-    load("meta", {}), load("notices", []), load("signals", []), load("forecasts", []), load("predictions", {series: [], upcoming: []})]);
-  D = {meta, notices, signals, forecasts, pred};
+  const [meta, notices, signals, forecasts, pred, history] = await Promise.all([
+    load("meta", {}), load("notices", []), load("signals", []), load("forecasts", []), load("predictions", {series: [], upcoming: []}), load("history", [])]);
+  D = {meta, notices, signals, forecasts, pred, history};
   renderHeader(); renderAll();
 })();
 </script>
