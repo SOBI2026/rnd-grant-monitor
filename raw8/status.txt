@@ -1,0 +1,3 @@
+ntis_open.html 200 293773 https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?searchStatusList=P,B&pageUnit=100&pageIndex=1
+ntis_open2.html 200 123411 https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?searchStatusList=P,B&pageUnit=100&pageIndex=2
+ntis_view.html 200 259828 https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279968
