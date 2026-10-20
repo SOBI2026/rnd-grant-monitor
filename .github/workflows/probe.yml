@@ -16,10 +16,10 @@ jobs:
           curl -sS -L -A "$UA" -c iris.jar -o /dev/null "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do"
           for p in "pageUnit=100" "recordCountPerPage=100" "pageUnit=100&recordCountPerPage=100" "pageSize=100&pageUnit=100"; do
             f=$(echo "$p" | tr '&=' '__')
-            /usr/bin/time -f "$f %e s" curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&blngGovdSeArr=AR4012&$p" -o "end_$f.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" 2>> timing.txt
+            curl -w "$f %{time_total}s\n" -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&blngGovdSeArr=AR4012&$p" -o "end_$f.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" >> timing.txt
           done
-          /usr/bin/time -f "all_end %e s" curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1" -o "end_all.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" 2>> timing.txt
-          /usr/bin/time -f "pre %e s" curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmPre&pageIndex=1" -o "pre.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" 2>> timing.txt
+          curl -w "all_end %{time_total}s\n" -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1" -o "end_all.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" >> timing.txt
+          curl -w "pre %{time_total}s\n" -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmPre&pageIndex=1" -o "pre.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" >> timing.txt
           rm -f *.jar; cat timing.txt
       - name: Save
         run: |
