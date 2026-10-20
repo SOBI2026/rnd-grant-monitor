@@ -24,7 +24,7 @@ def core_noyear(title):
 
 
 def full(title):
-    return re.sub(r"[\s·,.\-_~]", "", title or "").lower()
+    return re.sub(r"[\s·,.\-_~&()\[\]]", "", title or "").lower()
 
 
 def no_key(no):
@@ -114,6 +114,10 @@ def dedupe(items):
             continue
         top = min(_pri(h) for h in hits)
         hits = [h for h in hits if _pri(h) == top]
+        # 괄호 속 세부 RFP명까지 같은 항목이 있으면 그쪽에만 병합 (공고번호 오배정 방지)
+        exact = [h for h in hits if full(h["title"]) == full(o["title"])]
+        if exact:
+            hits = exact
         for h in hits:
             _merge(h, o)
         alive.pop(o["id"], None)
