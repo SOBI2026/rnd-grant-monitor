@@ -12,7 +12,7 @@ from datetime import datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path[:0] = [HERE, os.path.join(HERE, "collectors")]
 
-from classify import classify  # noqa: E402
+from classify import SOURCE_LABEL, classify, notice_no_kind  # noqa: E402
 from common import KST, compute_status, missing_fields, today_kst  # noqa: E402
 from dedupe import dedupe  # noqa: E402
 import iris  # noqa: E402
@@ -21,7 +21,8 @@ import kmdf  # noqa: E402
 
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
-FILES = {"notice": "notices.json", "history": "history.json",
+FILES = {"notice": "notices.json", "notice_other": "notices_other.json",
+         "history": "history.json",
          "forecast": "forecasts.json", "signal": "signals.json"}
 JOBS = [
     ("IRIS 사업공고", "IRIS", "notice", iris.fetch_notices),
@@ -91,6 +92,24 @@ def main():
                                           it["status"])
     results["notice"], dup_log = dedupe(results["notice"])
 
+    # 출처·공고번호 형식 표시 + 분류
+    for kind, items in results.items():
+        for it in items.values():
+            classify(it, profile)
+            srcs = [it["source"]] + it["extra"].get("also_listed", [])
+            it["origin"] = " + ".join(srcs)
+            it["origin_label"] = " / ".join(SOURCE_LABEL.get(x, x) for x in srcs)
+            if kind in ("notice", "history"):
+                it["notice_no_kind"] = notice_no_kind(it["notice_no"])
+
+    # 분야 밖 공고는 목록에서 분리(검증용 보관)
+    other = {i: x for i, x in results["notice"].items() if not x["relevant"]}
+    results["notice"] = {i: x for i, x in results["notice"].items()
+                         if x["relevant"]}
+    results["notice_other"] = other
+    results["forecast"] = {i: x for i, x in results["forecast"].items()
+                           if x["relevant"]}
+
     # 병합되어 사라진 id도 "이미 본 것"으로 취급 (중복 알림 방지)
     seen_before = {k: set(v) | {m for x in v.values()
                                 for m in x.get("extra", {}).get("merged_ids", [])}
@@ -108,9 +127,8 @@ def main():
             it["first_seen"] = old["first_seen"] if old else today
             if it["id"] in fresh:
                 it["last_seen"] = today
-            classify(it, profile)
             if (it["id"] not in seen_before[kind] and not first_run
-                    and kind != "history"):
+                    and kind not in ("history", "notice_other")):
                 new_items.append(it)
         ordered = sorted(items.values(),
                          key=lambda x: (x["score"], x.get("posted") or ""),

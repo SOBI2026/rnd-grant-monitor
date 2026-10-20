@@ -40,12 +40,13 @@ def classify(it, profile):
 
     # 보건의료 관련성 게이트: 보건 기관이 아니면 보건 용어가 있어야 점수 인정
     health = bool(_hits(text, profile.get("health_terms", [])))
-    relevant = focus_org or health
+    strong = bool(_hits(text, profile.get("strong_terms", [])))
+    relevant = focus_org or health or strong
 
     score = 0
     if focus_org:
         score += 35
-    elif health:
+    elif health or strong:
         score += 20
     score += min(len(domains), 2) * 15
     score += min(len(interest), 3) * 10
@@ -59,9 +60,31 @@ def classify(it, profile):
     it["domains"] = domains
     it["matched"] = sorted(set(matched + interest))
     it["focus_org"] = focus_org
-    it["health"] = relevant
+    it["health"] = relevant  # 하위 호환
+    it["relevant"] = relevant
     it["score"] = score
     if it["kind"] == "signal":
         it["signal_type"] = next(
             (t for t, ws in SIGNAL_TYPES if _hits(it["title"], ws)), "일반공지")
     return it
+
+
+SOURCE_LABEL = {
+    "IRIS": "IRIS (범부처통합연구지원시스템)",
+    "KHIDI": "KHIDI 보건의료R&D포털(htdream)",
+    "KMDF": "KMDF 범부처의료기기사업단",
+}
+
+
+def notice_no_kind(no):
+    """공고번호 형식 구분. 출처·기관마다 형식이 달라 화면에서 함께 표시."""
+    no = no or ""
+    if re.fullmatch(r"\s*[A-Z]{2}_\d{4}_\d+\s*", no):
+        return "IRIS 접수코드"
+    if "사업단" in no:
+        return "사업단 공고"
+    if re.search(r"(부|처|청|위원회)\s*공고", no):
+        return "부처 공고"
+    if re.search(r"제?\s*\d{4}\s*-\s*\d+", no):
+        return "공고번호(기관 미표기)"
+    return "없음" if not no.strip() else "기타"
