@@ -13,14 +13,14 @@ jobs:
         run: |
           set +e
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-          mkdir -p raw7; cd raw7
+          mkdir -p raw8; cd raw8
           g() { curl -sS -L --max-time 40 -A "$UA" -o "$1" -w "$1 %{http_code} %{size_download} %{url_effective}\n" "$2" >> status.txt 2>&1; sleep 2; }
-          g ntis_rndgate.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do"
-          g ntis_rndgate2.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?pageIndex=1&searchKeyword=%EB%B0%94%EC%9D%B4%EC%98%A4"
-          g ntis_api_main.html "https://www.ntis.go.kr/rndopen/api/mng/apiMain.do"
+          g ntis_open.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?searchStatusList=P,B&pageUnit=100&pageIndex=1"
+          g ntis_open2.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?searchStatusList=P,B&pageUnit=100&pageIndex=2"
+          g ntis_view.html "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279968"
           cat status.txt
       - name: Save
         if: always()
         run: |
           git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
-          git add -A raw7; git commit -m "raw7 [skip ci]"; git push
+          git add -A raw8; git commit -m "raw8 [skip ci]"; git push
