@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T22:42:33+09:00",
+ "updated_at": "2026-10-20T23:28:48+09:00",
  "jobs": [
   {
    "job": "NTIS 통합공고",
@@ -12,9 +12,14 @@
    "count": 24
   },
   {
+   "job": "NTIS 과거공고(13개월)",
+   "ok": true,
+   "count": 259
+  },
+  {
    "job": "IRIS 과거공고(관심부처)",
    "ok": true,
-   "count": 326
+   "count": 226
   },
   {
    "job": "IRIS 사업예고",
@@ -56,8 +61,8 @@
  "errors": [],
  "counts": {
   "notice": 18,
-  "notice_other": 344,
-  "history": 116,
+  "notice_other": 263,
+  "history": 249,
   "forecast": 37,
   "signal": 20
  },
@@ -143,8 +148,10 @@
   }
  ],
  "missing_required": {
-  "notice_no": 34,
+  "notice_no": 129,
   "open_date": 35,
-  "close_date": 20
+  "close_date": 20,
+  "type": 93,
+  "agency": 95
  }
 }
