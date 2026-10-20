@@ -6,6 +6,7 @@
 """
 import json
 import os
+import re
 import sys
 from datetime import date, timedelta
 
@@ -85,7 +86,8 @@ def build(today, since):
         xs.sort(key=lambda x: x.get("close_date") or "9")
         head = dict(xs[0])
         if len(xs) > 1:
-            rfps = [x["title"].rsplit("_(", 1)[1].rstrip(")") if "_(" in x["title"] else "" for x in xs]
+            rfps = [re.sub(r"^\d{4}\)\(", "", x["title"].rsplit("_(", 1)[1]).rstrip(")")
+                    if "_(" in x["title"] else "" for x in xs]
             head["title"] = f"{base} — RFP {len(xs)}건"
             head["rfps"] = [r for r in rfps if r]
             head["domains"] = sorted({d for x in xs for d in (x.get("domains") or [])})
