@@ -41,7 +41,12 @@ def classify(it, profile):
     # 보건의료 관련성 게이트: 보건 기관이 아니면 보건 용어가 있어야 점수 인정
     health = bool(_hits(text, profile.get("health_terms", [])))
     strong = bool(_hits(text, profile.get("strong_terms", [])))
-    relevant = focus_org or health or strong
+    if it["extra"].get("terms_only"):  # 비R&D 게시판: 부처만으로는 관련 판단 안 함
+        relevant = health or strong
+    else:
+        relevant = focus_org or health or strong
+    topics = [name for name, ws in profile.get("watch_topics", {}).items()
+              if _hits(it["title"], ws)]
 
     score = 0
     if focus_org:
@@ -61,7 +66,9 @@ def classify(it, profile):
     it["matched"] = sorted(set(matched + interest))
     it["focus_org"] = focus_org
     it["health"] = relevant  # 하위 호환
-    it["relevant"] = relevant
+    it["relevant"] = relevant or bool(topics)
+    it["topics"] = topics
+    it["category"] = it["extra"].get("category", "R&D")
     it["score"] = score
     if it["kind"] == "signal":
         it["signal_type"] = next(

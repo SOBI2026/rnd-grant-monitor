@@ -14,6 +14,9 @@ GitHub Actions(매일 06:50 KST) → src/run.py → data/*.json → GitHub Pages
 | IRIS 사업예고 | 화면 내부 JSON | forecast (선제 신호) |
 | KHIDI 공지 | 화면 내부 JSON | signal (수요조사·설명회) |
 | KMDF 공지 | HTML 목록 | signal |
+| KHIDI 대표사이트 사업공고 | HTML 목록 | 비R&D notice·signal |
+| NIPA 사업공고 | HTML 목록 | 비R&D notice (헬스 관련만) |
+| 보건복지부 공지(공고) | HTML 목록 | 비R&D notice (혁신형 제약 등) |
 
 ## 데이터 (`data/`)
 

@@ -18,6 +18,7 @@ from dedupe import dedupe  # noqa: E402
 import iris  # noqa: E402
 import khidi  # noqa: E402
 import kmdf  # noqa: E402
+import boards  # noqa: E402
 
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
@@ -31,7 +32,12 @@ JOBS = [
     ("KHIDI 사업공고", "KHIDI", "notice", khidi.fetch_notices),
     ("KHIDI 공지", "KHIDI", "signal", khidi.fetch_signals),
     ("KMDF 공지", "KMDF", "signal", kmdf.fetch_signals),
+    # 비R&D 게시판: 공고·신호가 섞여 나오므로 kind는 항목별(mixed)
+    ("KHIDI 비R&D 사업공고", "KHIDIWEB", "mixed", boards.fetch_khidi_biz),
+    ("NIPA 사업공고", "NIPA", "mixed", boards.fetch_nipa),
+    ("보건복지부 공고", "MOHW", "mixed", boards.fetch_mohw),
 ]
+ARCHIVE_DAYS = 30  # 마감 후 이 기간이 지나거나, 기간 없이 60일 지난 게시물은 history로
 
 
 def load(path, default):
@@ -61,7 +67,8 @@ def main():
     fresh = set()  # 이번 실행에서 실제 수집된 id
     status, errors = [], []
     for label, source, kind, fn in JOBS:
-        ctx = {"prev": {i: x for i, x in prev[kind].items()
+        kinds = list(FILES) if kind == "mixed" else [kind]
+        ctx = {"prev": {i: x for k in kinds for i, x in prev[k].items()
                         if x["source"] == source},
                "state": state}
         try:
@@ -69,21 +76,20 @@ def main():
             if not items:
                 raise RuntimeError("0건 수집 (사이트 구조 변경 가능성)")
             for it in items:
-                results[kind][it["id"]] = it
+                results[it["kind"]][it["id"]] = it
                 fresh.add(it["id"])
             status.append({"job": label, "ok": True, "count": len(items)})
         except iris.Skip as e:  # 계획된 건너뛰기: 이전 데이터 유지
             status.append({"job": label, "ok": True, "count": 0,
                            "skipped": str(e)})
             for x in ctx["prev"].values():
-                results[kind].setdefault(x["id"], x)
+                results[x["kind"]].setdefault(x["id"], x)
         except Exception as e:  # 실패한 소스는 이전 데이터 유지
             errors.append({"job": label, "error": f"{type(e).__name__}: {e}"})
             status.append({"job": label, "ok": False, "count": 0})
             traceback.print_exc()
-            for x in prev[kind].values():
-                if x["source"] == source:
-                    results[kind].setdefault(x["id"], x)
+            for x in ctx["prev"].values():
+                results[x["kind"]].setdefault(x["id"], x)
 
     # 공고: 상태 재계산 → 중복 제거
     for kind in ("notice", "history"):
@@ -91,6 +97,21 @@ def main():
             it["status"] = compute_status(it["open_date"], it["close_date"],
                                           it["status"])
     results["notice"], dup_log = dedupe(results["notice"])
+
+    # 오래된 게시판 공고는 history로 이동 (IRIS 과거공고와 같은 보관함)
+    from datetime import timedelta
+    cut = (today_kst() - timedelta(days=ARCHIVE_DAYS)).isoformat()
+    cut_nodate = (today_kst() - timedelta(days=60)).isoformat()
+    for i, it in list(results["notice"].items()):
+        if it["source"] == "IRIS":
+            continue
+        old = ((it["close_date"] and it["close_date"] < cut)
+               or (not it["close_date"] and (it["posted"] or "") < cut_nodate))
+        if old:
+            it["kind"] = "history"
+            if not it["close_date"]:
+                it["status"] = "마감(추정)"
+            results["history"][i] = results["notice"].pop(i)
 
     # 출처·공고번호 형식 표시 + 분류
     for kind, items in results.items():
@@ -109,6 +130,11 @@ def main():
     results["notice_other"] = other
     results["forecast"] = {i: x for i, x in results["forecast"].items()
                            if x["relevant"]}
+    # 비R&D 게시판 항목은 신호·보관함에서도 분야 밖이면 분리
+    for k in ("signal", "history"):
+        for i, x in list(results[k].items()):
+            if x["extra"].get("terms_only") and not x["relevant"]:
+                results["notice_other"][i] = results[k].pop(i)
 
     # 병합되어 사라진 id도 "이미 본 것"으로 취급 (중복 알림 방지)
     seen_before = {k: set(v) | {m for x in v.values()
@@ -149,7 +175,8 @@ def main():
 
     # 알림 본문 (관련도 기준 이상 신규 항목 + 실패 내역)
     min_score = profile.get("notify_min_score", 50)
-    hot = sorted([x for x in new_items if x["score"] >= min_score],
+    hot = sorted([x for x in new_items
+                  if x["score"] >= min_score or x.get("topics")],
                  key=lambda x: -x["score"])
     lines = []
     if hot:
@@ -158,7 +185,8 @@ def main():
                    "history": "과거"}
         for x in hot[:30]:
             dl = f" · 마감 {x['close_date']}" if x.get("close_date") else ""
-            lines.append(f"- [{kind_ko[x['kind']]}] **{x['title']}** "
+            tp = f" #{' #'.join(x['topics'])}" if x.get("topics") else ""
+            lines.append(f"- [{kind_ko[x['kind']]}·{x['origin']}]{tp} **{x['title']}** "
                          f"({x['agency'] or x['ministry']}) · {x['score']}점{dl}  \n"
                          f"  {x['url']}")
     if errors:

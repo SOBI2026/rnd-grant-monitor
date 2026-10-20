@@ -115,3 +115,27 @@ def compute_status(open_date, close_date, fallback=""):
 
 def missing_fields(it):
     return [k for k in REQUIRED if not it.get(k)]
+
+
+def parse_deadline(title, posted):
+    """제목 속 마감 표기 추출: '(~10.23.(금)', '(~11월 30일', '(10.16(금), 18:00까지)', '~10/23'.
+    게시일보다 앞서면 다음 해로 간주."""
+    if not title or not posted:
+        return None
+    pats = [r"~\s*(\d{1,2})\s*[./]\s*(\d{1,2})",
+            r"~\s*(\d{1,2})\s*월\s*(\d{1,2})\s*일",
+            r"\(\s*(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*\([월화수목금토일]\)[^)]*까지",
+            r"(\d{1,2})\s*월\s*(\d{1,2})\s*일[^)]*까지",
+            r"(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*\([월화수목금토일]\)[^)]*마감"]
+    for p in pats:
+        m = re.search(p, title)
+        if m:
+            mo, d = int(m.group(1)), int(m.group(2))
+            if not (1 <= mo <= 12 and 1 <= d <= 31):
+                continue
+            y = int(posted[:4])
+            cand = f"{y:04d}-{mo:02d}-{d:02d}"
+            if cand < posted:
+                cand = f"{y + 1:04d}-{mo:02d}-{d:02d}"
+            return cand
+    return None
