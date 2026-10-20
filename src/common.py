@@ -55,20 +55,29 @@ def clean(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
+# 공고(notice/history) 필수 필드: 공고명, 공고번호, 공고일자, 공고상태, 공고유형,
+# 소관부처, 전문기관, 접수기간(시작·마감)
+REQUIRED = ["title", "notice_no", "posted", "status", "type", "ministry",
+            "agency", "open_date", "close_date"]
+
+
 def item(*, id, source, kind, title, url, ministry="", agency="", notice_no="",
-         status="", posted=None, open_date=None, close_date=None, extra=None):
+         type="", status="", posted=None, open_date=None, close_date=None,
+         extra=None):
     """공통 스키마. 모든 수집기는 이 형태로 반환.
 
-    kind: notice(사업공고) | forecast(사업예고) | signal(수요조사·설명회 등 공지)
+    kind: notice(사업공고) | history(과거 공고) | forecast(사업예고)
+          | signal(수요조사·설명회 등 공지)
     """
     return {
         "id": id,
         "source": source,
         "kind": kind,
         "title": clean(title),
+        "notice_no": clean(notice_no),
+        "type": clean(type),
         "ministry": clean(ministry),
         "agency": clean(agency),
-        "notice_no": clean(notice_no),
         "status": clean(status),
         "posted": posted,
         "open_date": open_date,
@@ -76,3 +85,19 @@ def item(*, id, source, kind, title, url, ministry="", agency="", notice_no="",
         "url": url,
         "extra": extra or {},
     }
+
+
+def compute_status(open_date, close_date, fallback=""):
+    """접수기간 기준으로 상태를 다시 계산. 원천 사이트 상태값은 신뢰하지 않음."""
+    t = today_kst().isoformat()
+    if open_date and t < open_date:
+        return "접수예정"
+    if close_date and t > close_date:
+        return "마감"
+    if open_date or close_date:
+        return "접수중"
+    return fallback or "확인필요"
+
+
+def missing_fields(it):
+    return [k for k in REQUIRED if not it.get(k)]

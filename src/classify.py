@@ -32,9 +32,11 @@ def classify(it, profile):
     interest = _hits(text, profile["interests"])
     excluded = bool(_hits(it["title"], profile["exclude"]))
 
-    focus_org = (it["ministry"] in profile["focus_ministries"]
-                 or it["agency"] in profile["focus_agencies"]
-                 or any(m in it["ministry"] for m in profile["focus_ministries"]))
+    ministries = [it["ministry"]] + it["extra"].get("co_ministries", [])
+    agencies = [it["agency"]] + it["extra"].get("co_agencies", [])
+    focus_org = (any(a in profile["focus_agencies"] for a in agencies)
+                 or any(f in m for m in ministries
+                        for f in profile["focus_ministries"]))
 
     # 보건의료 관련성 게이트: 보건 기관이 아니면 보건 용어가 있어야 점수 인정
     health = bool(_hits(text, profile.get("health_terms", [])))

@@ -13,17 +13,19 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path[:0] = [HERE, os.path.join(HERE, "collectors")]
 
 from classify import classify  # noqa: E402
-from common import KST, today_kst  # noqa: E402
+from common import KST, compute_status, missing_fields, today_kst  # noqa: E402
+from dedupe import dedupe  # noqa: E402
 import iris  # noqa: E402
 import khidi  # noqa: E402
 import kmdf  # noqa: E402
 
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
-FILES = {"notice": "notices.json", "forecast": "forecasts.json",
-         "signal": "signals.json"}
+FILES = {"notice": "notices.json", "history": "history.json",
+         "forecast": "forecasts.json", "signal": "signals.json"}
 JOBS = [
     ("IRIS 사업공고", "IRIS", "notice", iris.fetch_notices),
+    ("IRIS 과거공고(관심부처)", "IRIS", "history", iris.fetch_history),
     ("IRIS 사업예고", "IRIS", "forecast", iris.fetch_forecasts),
     ("KHIDI 사업공고", "KHIDI", "notice", khidi.fetch_notices),
     ("KHIDI 공지", "KHIDI", "signal", khidi.fetch_signals),
@@ -72,15 +74,28 @@ def main():
                 if x["source"] == source:
                     results[kind].setdefault(x["id"], x)
 
+    # 공고: 상태 재계산 → 중복 제거
+    for kind in ("notice", "history"):
+        for it in results[kind].values():
+            it["status"] = compute_status(it["open_date"], it["close_date"],
+                                          it["status"])
+    results["notice"], dup_log = dedupe(results["notice"])
+
     new_items = []
+    missing = {}
     for kind, items in results.items():
         for it in items.values():
+            if kind in ("notice", "history"):
+                m = missing_fields(it)
+                it["missing"] = m
+                for k in m:
+                    missing[k] = missing.get(k, 0) + 1
             old = prev[kind].get(it["id"])
             it["first_seen"] = old["first_seen"] if old else today
             if it["id"] in fresh:
                 it["last_seen"] = today
             classify(it, profile)
-            if not old and not first_run:
+            if not old and not first_run and kind != "history":
                 new_items.append(it)
         ordered = sorted(items.values(),
                          key=lambda x: (x["score"], x.get("posted") or ""),
@@ -93,6 +108,8 @@ def main():
         "errors": errors,
         "counts": {k: len(v) for k, v in results.items()},
         "new_today": [x["id"] for x in new_items],
+        "merged_duplicates": dup_log,
+        "missing_required": missing,
     }
     save(os.path.join(DATA, "meta.json"), meta)
 
@@ -103,7 +120,8 @@ def main():
     lines = []
     if hot:
         lines.append(f"## 신규 관련 항목 {len(hot)}건\n")
-        kind_ko = {"notice": "공고", "forecast": "예고", "signal": "신호"}
+        kind_ko = {"notice": "공고", "forecast": "예고", "signal": "신호",
+                   "history": "과거"}
         for x in hot[:30]:
             dl = f" · 마감 {x['close_date']}" if x.get("close_date") else ""
             lines.append(f"- [{kind_ko[x['kind']]}] **{x['title']}** "

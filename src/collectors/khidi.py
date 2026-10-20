@@ -17,16 +17,32 @@ PBAN = re.compile(
     re.S)
 
 
+def _infer_type(title):
+    """KHIDI 화면에는 공고유형이 없어 제목으로 추정."""
+    for key, label in [("사업단장", "사업단장 공모"), ("지정공모", "지정공모"),
+                       ("품목지정", "품목지정"), ("정책지정", "정책지정"),
+                       ("자유공모", "자유공모"), ("신규지원", "신규과제 공모"),
+                       ("신규과제", "신규과제 공모")]:
+        if key in title:
+            return label + " (추정)"
+    return ""
+
+
 def fetch_notices():
     s = session()
     html = polite_get(s, BASE + "/").text
     out = {}
     for state, _close, pid, title, no, start, end in PBAN.findall(html):
+        title = re.sub(r"<[^>]+>", "", title)
+        no = clean(no)
+        ministry = "보건복지부"
+        if "공고" not in no:  # 공고번호 칸에 부처명만 적힌 경우
+            ministry, no = (no or ministry), ""
         out[f"khidi-pban-{pid}"] = item(
             id=f"khidi-pban-{pid}", source="KHIDI", kind="notice",
-            title=re.sub(r"<[^>]+>", "", title), url=BOARD_URL,
-            ministry="보건복지부", agency="한국보건산업진흥원",
-            notice_no=clean(no), status=clean(state),
+            title=title, url=BOARD_URL,
+            ministry=ministry, agency="한국보건산업진흥원",
+            notice_no=no, type=_infer_type(title), status=clean(state),
             posted=norm_date(start), open_date=norm_date(start),
             close_date=norm_date(end),
             extra={"phase": "접수중" if "진행" in state else clean(state),

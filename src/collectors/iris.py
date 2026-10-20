@@ -18,10 +18,13 @@ PRNTC_JSON = BASE + "/contents/retrieveAncmPrntcList.do"
 DETAIL = BASE + "/contents/retrieveBsnsAncmView.do?ancmId={}"
 
 # ancmIng=접수중, ancmPre=접수예정, ancmEnd=마감
-PHASES = {"ancmIng": "접수중", "ancmPre": "접수예정", "ancmEnd": "마감"}
-ENDED_LOOKBACK_DAYS = 60
-PRE_LOOKBACK_DAYS = 120   # 접수예정은 오래된 미정리 공고가 많아 최근 것만
-MAX_PAGES = 40
+RECENT_END_DAYS = 30      # 공고 목록에 남길 최근 마감 공고
+HISTORY_DAYS = 400        # 예측용 과거 공고 (관심 부처만)
+PRE_LOOKBACK_DAYS = 120   # 접수예정은 오래된 미정리 글이 많아 최근 게시분만
+MAX_PAGES = 80
+# 관심 부처 코드 (IRIS 검색조건 blngGovdSe)
+FOCUS_GOVD = {"AR4012": "보건복지부", "AR4014": "식품의약품안전처",
+              "AR4933": "질병관리청", "AR4999": "범부처"}
 # 연구자 대상 행정 접수·테스트 글 제외
 NOISE = re.compile(r"연차실적|실적계획서|단계평가|보고서\s*접수|협약변경|^\s*test\s*$|테스트",
                    re.I)
@@ -38,43 +41,75 @@ def _post_json(s, url, referer, data):
     return r.json()
 
 
+def _to_item(r, kind):
+    aid = r.get("ancmId")
+    return item(
+        id=f"iris-{aid}", source="IRIS", kind=kind,
+        title=r.get("ancmTl"), url=DETAIL.format(aid),
+        ministry=r.get("blngGovdSeNm") or r.get("blngGovdSe"),
+        agency=r.get("sorgnNm"), notice_no=r.get("ancmNo"),
+        type=r.get("pbofrTpSeNmLst") or "",
+        status=r.get("rcveSttSeNmLst") or "",
+        posted=norm_date(r.get("ancmDe")),
+        open_date=norm_date(r.get("rcveStrDe")),
+        close_date=norm_date(r.get("rcveEndDe")),
+        extra={"raw_status": r.get("rcveSttSeNmLst") or "",
+               "raw_phase": r.get("rcveStt") or ""})
+
+
+def _crawl(s, params, kind, posted_cutoff=None, stop_when_old=False):
+    """페이지를 끝까지 넘기며 수집. stop_when_old면 한 페이지 전체가
+    cutoff 이전일 때 중단(목록이 공고일 내림차순이라는 전제)."""
+    out = {}
+    page = 1
+    while page <= MAX_PAGES:
+        d = _post_json(s, LIST_JSON, LIST_VIEW, {**params, "pageIndex": page})
+        rows = d.get("listBsnsAncmBtinSitu") or []
+        old = 0
+        for r in rows:
+            posted = norm_date(r.get("ancmDe"))
+            if posted_cutoff and (not posted or posted < posted_cutoff):
+                old += 1
+                continue
+            if _noise(r.get("ancmTl")):
+                continue
+            it = _to_item(r, kind)
+            out[it["id"]] = it
+        info = d.get("paginationInfo") or {}
+        if not rows or page >= int(info.get("totalPageCount") or 1):
+            break
+        if stop_when_old and old == len(rows):
+            break
+        page += 1
+    return out
+
+
+def _cut(days):
+    return (today_kst() - timedelta(days=days)).isoformat()
+
+
 def fetch_notices():
+    """접수중·접수예정(전 부처) + 최근 30일 마감(전 부처)."""
     s = session()
     polite_get(s, LIST_VIEW)  # 세션 쿠키 확보
-    cutoff = (today_kst() - timedelta(days=ENDED_LOOKBACK_DAYS)).isoformat()
-    pre_cutoff = (today_kst() - timedelta(days=PRE_LOOKBACK_DAYS)).isoformat()
     out = {}
-    for phase, label in PHASES.items():
-        page = 1
-        while page <= MAX_PAGES:
-            d = _post_json(s, LIST_JSON, LIST_VIEW,
-                           {"ancmPrg": phase, "pageIndex": page, "pageUnit": 100})
-            rows = d.get("listBsnsAncmBtinSitu") or []
-            stop = False
-            for r in rows:
-                posted = norm_date(r.get("ancmDe"))
-                if phase == "ancmEnd" and posted and posted < cutoff:
-                    stop = True
-                    continue
-                if _noise(r.get("ancmTl")):
-                    continue
-                if phase == "ancmPre" and (not posted or posted < pre_cutoff):
-                    continue
-                aid = r.get("ancmId")
-                out[f"iris-{aid}"] = item(
-                    id=f"iris-{aid}", source="IRIS", kind="notice",
-                    title=r.get("ancmTl"), url=DETAIL.format(aid),
-                    ministry=r.get("blngGovdSeNm") or r.get("blngGovdSe"),
-                    agency=r.get("sorgnNm"), notice_no=r.get("ancmNo"),
-                    status=r.get("rcveSttSeNmLst") or label, posted=posted,
-                    open_date=norm_date(r.get("rcveStrDe")),
-                    close_date=norm_date(r.get("rcveEndDe")),
-                    extra={"phase": label,
-                           "type": r.get("pbofrTpSeNmLst") or ""})
-            info = d.get("paginationInfo") or {}
-            if stop or not rows or page >= int(info.get("totalPageCount") or 1):
-                break
-            page += 1
+    out.update(_crawl(s, {"ancmPrg": "ancmIng"}, "notice"))
+    out.update(_crawl(s, {"ancmPrg": "ancmPre"}, "notice",
+                      posted_cutoff=_cut(PRE_LOOKBACK_DAYS)))
+    out.update(_crawl(s, {"ancmPrg": "ancmEnd"}, "notice",
+                      posted_cutoff=_cut(RECENT_END_DAYS), stop_when_old=True))
+    return list(out.values())
+
+
+def fetch_history():
+    """관심 부처의 과거 마감 공고(약 13개월). 반복 사업 시점 예측용."""
+    s = session()
+    polite_get(s, LIST_VIEW)
+    out = {}
+    for code in FOCUS_GOVD:
+        out.update(_crawl(s, {"ancmPrg": "ancmEnd", "blngGovdSeArr": code},
+                          "history", posted_cutoff=_cut(HISTORY_DAYS),
+                          stop_when_old=True))
     return list(out.values())
 
 
