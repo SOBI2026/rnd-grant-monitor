@@ -68,6 +68,8 @@ def classify(it, profile):
         score = min(score, 10)
     score = min(score, 100)
 
+    if relevant and not domains:
+        domains = ["보건의료"]  # 관련 공고인데 세부 분야 키워드가 없는 경우
     it["domains"] = domains
     it["matched"] = sorted(set(matched + interest))
     it["focus_org"] = focus_org

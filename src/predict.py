@@ -26,12 +26,13 @@ DROP_WORDS = [
 
 def series_key(title):
     t = title or ""
-    t = re.sub(r"_?\([^)]*\)|\[[^\]]*\]|「|」|『|』|<[^>]*>", " ", t)
-    t = re.sub(r"_\S*$", " ", t)
+    t = re.sub(r"_.*$", " ", t)  # NTIS RFP 접미사('_(RFP명)', '_1. 일반형' 등) 제거 → 사업 단위
+    t = re.sub(r"\([^)]*\)|\[[^\]]*\]|「|」|『|』|<[^>]*>", " ", t)
     t = re.sub(r"\d{4}\s*년도?|\(\s*\d{4}\s*\)|'\d{2}년?", " ", t)
     t = re.sub(r"제?\s*\d+\s*차(\s*\d+\s*차)?", " ", t)
-    for w in DROP_WORDS:
-        t = t.replace(w, " ")
+    t = re.sub(r"\s+", "", t)
+    for w in sorted({w.replace(" ", "") for w in DROP_WORDS}, key=len, reverse=True):
+        t = t.replace(w, "")
     t = re.sub(r"[^가-힣A-Za-z0-9]", "", t)
     return t
 
@@ -58,7 +59,7 @@ def build(history, notices, forecasts, today, domains_of):
         key = series_key(it["title"])
         if len(key) < 4:
             continue
-        pool.setdefault((it.get("ministry") or "기타", key), []).append(it)
+        pool.setdefault(key, []).append(it)
 
     fc_keys = {}
     for f in forecasts:
@@ -68,8 +69,11 @@ def build(history, notices, forecasts, today, domains_of):
 
     series = []
     horizon = today + timedelta(days=365)
-    for (ministry, key), items in pool.items():
+    for key, items in pool.items():
         items.sort(key=lambda x: x["open_date"])
+        mins = sorted({m.strip() for it in items
+                       for m in (it.get("ministry") or "기타").split(",")})
+        ministry = mins[0] if len(mins) == 1 else "다부처(" + "·".join(mins) + ")"
         rounds = []
         for it in items:
             od = _d(it["open_date"])
@@ -135,8 +139,7 @@ def build(history, notices, forecasts, today, domains_of):
 
 def _display_name(items):
     """사람이 읽을 사업명: 가장 짧은 원제목에서 연도·차수만 정리."""
-    t = min((x["title"] for x in items), key=len)
-    t = re.sub(r"_\(.*$", "", t)
+    t = min((re.sub(r"_.*$", "", x["title"]) for x in items), key=len)
     t = re.sub(r"^\s*\(?[^)]*공고\)\s*", "", t) if t.startswith("(") else t
     t = re.sub(r"\d{4}\s*년도?\s*", "", t)
     t = re.sub(r"제?\s*\d+\s*차\s*", "", t)

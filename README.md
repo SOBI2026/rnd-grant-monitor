@@ -21,10 +21,22 @@ GitHub Actions(매일 06:50 KST) → src/run.py → data/*.json → GitHub Pages
 
 ## 데이터 (`data/`)
 
-- `notices.json` 사업공고 · `forecasts.json` 사업예고 · `signals.json` 공지 신호
+- `notices.json` 현재 공고(접수중·예정·최근 마감) · `history.json` 과거 13개월 공고 · `forecasts.json` IRIS 사업예고 · `signals.json` 수요조사·설명회 등
+- `predictions.json` 사업별 공고 회차와 다음 공고 예상 시점 (간트차트용, `src/predict.py`)
+- `notices_other.json` 분야 밖으로 분류된 공고 (검증용)
 - `meta.json` 마지막 실행 시각, 소스별 건수, 실패 내역, 신규 항목
 
 공통 필드: `id, source, kind, title, ministry, agency, notice_no, status, posted, open_date, close_date, url, domains, matched, score, first_seen, last_seen, extra`
+
+## 화면
+
+GitHub Pages: https://sobi2026.github.io/rnd-grant-monitor/ — 공고 일정·예측(간트), 현재 공고, 신호·사업예고.
+수집(`collect`) 성공 후 `pages` 워크플로가 `web/` + `data/`를 배포.
+
+## 예측 방법
+
+과거 공고를 사업 단위로 묶고(연도·차수·RFP 접미사 제거), 각 회차를 1년 뒤로 옮겨 예상 시점으로 표시.
+신뢰도: 상(13개월 내 2회 이상 + IRIS 사업예고 등재), 중(둘 중 하나), 하(1회).
 
 ## 설정
 

@@ -1,0 +1,50 @@
+name: pages
+
+# 화면(web/) + 최신 데이터(data/)를 GitHub Pages로 배포.
+# 수집(collect) 완료 후, 또는 화면 코드가 main에 바뀌었을 때 실행.
+on:
+  workflow_run:
+    workflows: [collect]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths: ["web/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Build site
+        run: |
+          mkdir -p _site/data
+          cp web/index.html _site/
+          for f in meta notices signals forecasts predictions; do
+            [ -f "data/$f.json" ] && cp "data/$f.json" _site/data/
+          done
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

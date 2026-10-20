@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R&amp;D 과제 레이더</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* 레이아웃: 상단 요약 → 탭(공고 일정 간트 / 현재 공고 / 신호·예고). 간트는 사업 단위 행, 월 단위 열. */
+:root{
+  --bg:#F4F1EB; --paper:#FBFAF6; --ink:#2B2620; --ink-2:#6B6257; --line:#E2DCD0;
+  --gold:#D4A03C; --gold-ink:#8A6418; --gold-soft:#F3E6C8;
+  --past:#B9AE9C; --open:#C98A1F; --pred:#D4A03C;
+  --pharma:#9C4F3C; --bio:#4F7A5A; --digital:#3F6B8F; --device:#7A5B8F;
+  --ok:#4F7A5A; --warn:#B26A1E; --bad:#A3412F;
+  --serif:"Noto Serif KR",Georgia,serif; --sans:"Noto Sans KR",Calibri,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 var(--sans)}
+.wrap{max-width:1280px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:12px}
+h1{font:700 26px/1.2 var(--serif);margin:0;letter-spacing:-.01em}
+h1 small{display:block;font:500 12px var(--sans);color:var(--ink-2);letter-spacing:.08em;margin-bottom:4px}
+.meta{font-size:12px;color:var(--ink-2);text-align:right}
+.meta b{color:var(--ink)}
+.srcs{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;margin-top:6px}
+.src{font-size:11px;padding:1px 7px;border:1px solid var(--line);border-radius:10px;background:var(--paper)}
+.src.bad{border-color:var(--bad);color:var(--bad)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0}
+.kpi{background:var(--paper);border:1px solid var(--line);padding:12px 14px}
+.kpi .n{font:700 26px/1 var(--serif);font-variant-numeric:tabular-nums}
+.kpi .l{font-size:12px;color:var(--ink-2);margin-top:6px}
+.kpi.gold{border-color:var(--gold);background:var(--gold-soft)}
+nav.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-top:8px;overflow-x:auto}
+nav.tabs button{font:500 14px var(--sans);background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--gold)}
+nav.tabs button:focus-visible,.chip:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}
+.chip{font:500 12px var(--sans);border:1px solid var(--line);background:var(--paper);padding:4px 10px;border-radius:14px;cursor:pointer;color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+select,input[type=search]{font:13px var(--sans);border:1px solid var(--line);background:var(--paper);padding:5px 8px;color:var(--ink)}
+input[type=search]{min-width:200px;flex:1;max-width:320px}
+label.tog{font-size:12px;color:var(--ink-2);display:flex;gap:4px;align-items:center}
+section[hidden]{display:none}
+h2{font:700 17px var(--serif);margin:24px 0 8px}
+.note{font-size:12px;color:var(--ink-2)}
+
+/* 다가오는 예상 공고 */
+.upc{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.card{background:var(--paper);border:1px solid var(--line);padding:10px 12px;min-width:0}
+.card .d{font:600 13px var(--sans);color:var(--gold-ink);font-variant-numeric:tabular-nums}
+.card .t{font-weight:500;margin:2px 0;overflow-wrap:anywhere}
+.card .s{font-size:12px;color:var(--ink-2)}
+.pill{display:inline-block;font-size:11px;padding:0 6px;border-radius:8px;border:1px solid currentColor;margin-left:4px}
+.conf-상{color:var(--ok)} .conf-중{color:var(--warn)} .conf-하{color:var(--ink-2)}
+.dom{display:inline-block;font-size:11px;padding:0 6px;border-radius:2px;color:#fff;margin-right:3px}
+.dom-제약{background:var(--pharma)} .dom-바이오{background:var(--bio)} .dom-디지털헬스{background:var(--digital)} .dom-의료기기{background:var(--device)} .dom-보건의료{background:#8C7B63}
+
+/* 간트 */
+.gantt-box{overflow-x:auto;background:var(--paper);border:1px solid var(--line);margin-top:8px}
+.gantt{min-width:980px;position:relative}
+.g-head,.g-row{display:grid;grid-template-columns:280px 1fr}
+.g-head{position:sticky;top:0;background:var(--paper);z-index:3;border-bottom:1px solid var(--ink)}
+.g-head .lab{padding:8px 10px;font:600 12px var(--sans);color:var(--ink-2)}
+.months{position:relative;height:34px}
+.month{position:absolute;top:0;bottom:0;border-left:1px solid var(--line);font-size:11px;color:var(--ink-2);padding:4px 4px 0;font-variant-numeric:tabular-nums}
+.month.y{border-left-color:var(--ink-2);color:var(--ink);font-weight:600}
+.g-group{padding:6px 10px;font:700 13px var(--serif);background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.g-row{border-bottom:1px solid #EFEAE0}
+.g-row:hover{background:#F8F4EA}
+.g-name{padding:6px 10px;font-size:12.5px;line-height:1.35;min-width:0;border-right:1px solid var(--line)}
+.g-name .nm{overflow-wrap:anywhere}
+.g-name .sub{font-size:11px;color:var(--ink-2)}
+.track{position:relative;min-height:34px}
+.grid-line{position:absolute;top:0;bottom:0;border-left:1px solid #F0EBE1}
+.today{position:absolute;top:0;bottom:0;border-left:2px solid var(--bad);z-index:2;pointer-events:none}
+.today span{position:absolute;top:16px;left:3px;font-size:10px;line-height:1;color:var(--bad);background:var(--paper);padding:1px 2px;white-space:nowrap}
+.bar{position:absolute;top:9px;height:16px;border-radius:2px;cursor:pointer;min-width:6px;border:0;padding:0}
+.bar.past{background:var(--past)}
+.bar.open{background:var(--open)}
+.bar.pred{background:repeating-linear-gradient(135deg,var(--gold-soft) 0 5px,#fff 5px 9px);border:1.5px dashed var(--pred)}
+.bar.pred.conf-상{border-style:solid}
+.bar:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--ink-2);margin-top:8px}
+.legend i{display:inline-block;width:22px;height:10px;vertical-align:middle;margin-right:4px;border-radius:2px}
+.tip{position:absolute;z-index:10;background:var(--ink);color:#F4F1EB;padding:10px 12px;font-size:12px;max-width:420px;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.tip a{color:var(--gold-soft)}
+.tip b{color:#fff}
+.tip ul{margin:4px 0 0;padding-left:16px}
+
+/* 공고 표 */
+.tbl-box{overflow-x:auto;background:var(--paper);border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:1100px;font-size:12.5px}
+th,td{padding:7px 8px;border-bottom:1px solid #EFEAE0;text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--ink-2);background:var(--paper);position:sticky;top:0;border-bottom:1px solid var(--ink);white-space:nowrap}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2px}
+.st{font-size:11px;font-weight:600;padding:1px 6px;border-radius:2px;white-space:nowrap}
+.st-접수중{background:var(--gold);color:#fff}
+.st-접수예정{background:var(--gold-soft);color:var(--gold-ink)}
+.st-마감{background:#E7E2D8;color:var(--ink-2)}
+.st-other{background:#fff;border:1px solid var(--line);color:var(--ink-2)}
+.cat{font-size:11px;color:var(--ink-2)}
+.nk{display:block;font-size:10.5px;color:var(--ink-2)}
+.dday{font-weight:700;color:var(--bad)}
+.empty{padding:24px;text-align:center;color:var(--ink-2)}
+@media (max-width:640px){h1{font-size:21px}.meta{text-align:left}.srcs{justify-content:flex-start}}
+@media (prefers-reduced-motion:no-preference){.bar{transition:filter .15s}.bar:hover{filter:brightness(.92)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><small>제약 · 바이오 · 디지털헬스 · 의료기기</small>R&amp;D 과제 레이더</h1>
+    <div class="meta">
+      <div>마지막 수집 <b id="updated">불러오는 중…</b></div>
+      <div class="srcs" id="srcs"></div>
+    </div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="t-gantt" aria-controls="p-gantt" aria-selected="true">공고 일정 · 예측</button>
+    <button role="tab" id="t-list" aria-controls="p-list" aria-selected="false">현재 공고</button>
+    <button role="tab" id="t-sig" aria-controls="p-sig" aria-selected="false">신호 · 사업예고</button>
+  </nav>
+
+  <div class="filters" id="filters">
+    <span class="note">분야</span>
+    <button class="chip" data-dom="" aria-pressed="true">전체</button>
+    <button class="chip" data-dom="제약" aria-pressed="false">제약</button>
+    <button class="chip" data-dom="바이오" aria-pressed="false">바이오</button>
+    <button class="chip" data-dom="디지털헬스" aria-pressed="false">디지털헬스</button>
+    <button class="chip" data-dom="의료기기" aria-pressed="false">의료기기</button>
+    <button class="chip" data-dom="보건의료" aria-pressed="false">보건의료</button>
+    <select id="f-min" aria-label="소관부처"><option value="">전체 부처</option></select>
+    <input type="search" id="f-q" placeholder="사업명·공고명 검색" aria-label="검색">
+  </div>
+
+  <section id="p-gantt" role="tabpanel" aria-labelledby="t-gantt">
+    <h2>사업별 공고 일정 <span class="note">지난 13개월 실적 + 향후 12개월 예측</span></h2>
+    <div class="filters" style="margin:4px 0">
+      <label class="tog"><input type="checkbox" id="f-predonly"> 예측이 있는 사업만</label>
+      <label class="tog"><input type="checkbox" id="f-multi"> 연 2회 이상 반복 사업만</label>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--past)"></i>과거 접수기간</span>
+      <span><i style="background:var(--open)"></i>현재 접수중·예정</span>
+      <span><i style="background:repeating-linear-gradient(135deg,var(--gold-soft) 0 5px,#fff 5px 9px);border:1.5px dashed var(--pred)"></i>예상(점선) · 신뢰도 상은 실선</span>
+      <span><i style="background:none;border-left:2px solid var(--bad);width:2px"></i>오늘</span>
+    </div>
+    <div class="gantt-box" id="gbox"><div class="gantt" id="gantt"></div></div>
+    <p class="note" id="method"></p>
+    <h2>다가오는 예상 공고 <span class="note">(향후 6개월, 시작일 순)</span></h2>
+    <div class="tbl-box"><table style="min-width:820px">
+      <thead><tr><th>예상 접수기간</th><th>신뢰도</th><th>사업</th><th>부처 · 기관</th><th>근거</th></tr></thead>
+      <tbody id="upc"></tbody>
+    </table></div>
+  </section>
+
+  <section id="p-list" role="tabpanel" aria-labelledby="t-list" hidden>
+    <div class="filters" style="margin:4px 0">
+      <select id="f-st" aria-label="상태"><option value="">전체 상태</option><option>접수중</option><option>접수예정</option><option>마감</option><option value="etc">기간 확인 필요</option></select>
+      <select id="f-cat" aria-label="구분"><option value="">R&amp;D·비R&amp;D</option><option>R&amp;D</option><option>비R&amp;D</option></select>
+    </div>
+    <div class="tbl-box"><table>
+      <thead><tr><th>상태</th><th>공고명</th><th>공고번호</th><th>공고일</th><th>공고유형</th><th>소관부처</th><th>전문기관</th><th>접수기간</th><th>출처</th></tr></thead>
+      <tbody id="tb"></tbody>
+    </table></div>
+  </section>
+
+  <section id="p-sig" role="tabpanel" aria-labelledby="t-sig" hidden>
+    <h2>수요조사 · 설명회 · 공지</h2>
+    <div class="tbl-box"><table style="min-width:760px">
+      <thead><tr><th>게시일</th><th>구분</th><th>제목</th><th>기관</th><th>출처</th></tr></thead>
+      <tbody id="sb"></tbody>
+    </table></div>
+    <h2>IRIS 사업예고 <span class="note">(공고 전 예정 사업)</span></h2>
+    <div class="tbl-box"><table style="min-width:900px">
+      <thead><tr><th>연도</th><th>예고 시점</th><th>사업</th><th>기관</th><th>지원분야</th><th>연구비(최대)</th></tr></thead>
+      <tbody id="fb"></tbody>
+    </table></div>
+  </section>
+</div>
+<div class="tip" id="tip" hidden role="dialog"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const state = { dom: "", min: "", q: "" };
+let D = {};
+
+async function load(name, fallback) {
+  try { const r = await fetch(`data/${name}.json`, {cache: "no-cache"}); if (!r.ok) throw 0; return await r.json(); }
+  catch { return fallback; }
+}
+const today = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Seoul"}));
+today.setHours(0,0,0,0);
+const iso = d => d.toISOString().slice(0,10);
+const pd = s => s ? new Date(s + "T00:00:00") : null;
+const fmt = s => s ? s.slice(2).replace(/-/g, ".") : "";
+const dday = s => { if (!s) return ""; const n = Math.round((pd(s) - today) / 864e5); return n < 0 ? "" : n === 0 ? "D-day" : `D-${n}`; };
+const domTags = ds => (ds || []).map(d => `<span class="dom dom-${esc(d)}">${esc(d)}</span>`).join("");
+
+function matches(o) {
+  if (state.dom && !(o.domains || []).includes(state.dom)) return false;
+  if (state.min && !((o.ministry || "").includes(state.min))) return false;
+  if (state.q) { const q = state.q.toLowerCase(); const hay = [o.name, o.title, o.agency, (o.agencies||[]).join(" "), o.ministry].join(" ").toLowerCase(); if (!hay.includes(q)) return false; }
+  return true;
+}
+
+function renderHeader() {
+  const m = D.meta || {};
+  $("#updated").textContent = m.updated_at ? m.updated_at.replace("T", " ").slice(0, 16) : "데이터 없음";
+  const label = {"NTIS 통합공고":"NTIS","IRIS 사업공고":"IRIS 공고","IRIS 사업예고":"IRIS 예고","KHIDI 사업공고":"KHIDI","KHIDI 공지":"KHIDI 공지","KMDF 공지":"KMDF","KHIDI 비R&D 사업공고":"KHIDI 비R&D","NIPA 사업공고":"NIPA","보건복지부 공고":"복지부"};
+  $("#srcs").innerHTML = (m.jobs || []).filter(j => label[j.job]).map(j =>
+    `<span class="src ${j.ok ? "" : "bad"}" title="${esc(j.job)}${j.skipped ? " · " + esc(j.skipped) : ""}">${esc(label[j.job])}${j.ok ? "" : " 실패"}</span>`).join("");
+  const n = D.notices || [];
+  const open = n.filter(x => x.status === "접수중").length, pre = n.filter(x => x.status === "접수예정").length;
+  const soon = (D.pred.upcoming || []).filter(u => (pd(u.start) - today) / 864e5 <= 90).length;
+  const sig = (D.signals || []).filter(x => (today - pd(x.posted)) / 864e5 <= 30).length;
+  $("#kpis").innerHTML = [
+    [open, "접수중 공고"], [pre, "접수예정 공고"], [soon, "90일 내 예상 공고", "gold"], [sig, "최근 30일 신호(수요조사 등)"],
+    [(D.pred.series || []).length, "추적 중인 사업"],
+  ].map(([v, l, c]) => `<div class="kpi ${c || ""}"><div class="n">${v}</div><div class="l">${l}</div></div>`).join("");
+  const mins = new Set([...(D.pred.series || []).map(s => s.ministry), ...n.map(x => x.ministry)].filter(Boolean).flatMap(m => m.split(",")));
+  $("#f-min").innerHTML = `<option value="">전체 부처</option>` + [...mins].sort().map(m => `<option>${esc(m)}</option>`).join("");
+}
+
+/* ── 간트 ── */
+function renderGantt() {
+  const start = new Date(today.getFullYear(), today.getMonth() - 13, 1);
+  const end = new Date(today.getFullYear(), today.getMonth() + 13, 1);
+  const span = end - start;
+  const x = d => Math.max(0, Math.min(100, (d - start) / span * 100));
+  const months = [];
+  for (let d = new Date(start); d < end; d.setMonth(d.getMonth() + 1)) months.push(new Date(d));
+  const grid = months.map(d => `<div class="grid-line" style="left:${x(d)}%"></div>`).join("") +
+               `<div class="today" style="left:${x(today)}%"></div>`;
+  const head = `<div class="g-head"><div class="lab">사업 (회차 수/13개월)</div><div class="months">${
+    months.map(d => `<div class="month ${d.getMonth() === 0 ? "y" : ""}" style="left:${x(d)}%">${d.getMonth() === 0 ? d.getFullYear() + "." : ""}${d.getMonth() + 1}</div>`).join("")
+  }<div class="today" style="left:${x(today)}%"><span>오늘</span></div></div></div>`;
+
+  let ss = (D.pred.series || []).filter(matches);
+  if ($("#f-predonly").checked) ss = ss.filter(s => s.predictions.length);
+  if ($("#f-multi").checked) ss = ss.filter(s => s.rounds_per_year >= 2);
+  const groups = {};
+  ss.forEach(s => (groups[s.ministry] ||= []).push(s));
+  const order = ["보건복지부", "과학기술정보통신부", "산업통상부", "중소벤처기업부", "식품의약품안전처", "질병관리청", "다부처"];
+  const keys = Object.keys(groups).sort((a, b) => ((order.indexOf(a) + 1) || 99) - ((order.indexOf(b) + 1) || 99) || a.localeCompare(b));
+  window._bars = [];
+  const rows = keys.map(k => `<div class="g-group">${esc(k)} <span class="note">${groups[k].length}개 사업</span></div>` + groups[k].map(s => {
+    const bars = s.rounds.map(r => {
+      const a = pd(r.start), b = pd(r.end) || new Date(+a + 30 * 864e5);
+      const isOpen = b >= today;
+      const i = window._bars.push({type: "round", s, r}) - 1;
+      return `<button class="bar ${isOpen ? "open" : "past"}" data-i="${i}" style="left:${x(a)}%;width:${Math.max(.4, x(b) - x(a))}%" aria-label="${esc(s.name)} ${fmt(r.start)}~${fmt(r.end)}"></button>`;
+    }).join("") + s.predictions.map(p => {
+      const i = window._bars.push({type: "pred", s, p}) - 1;
+      return `<button class="bar pred conf-${esc(p.confidence)}" data-i="${i}" style="left:${x(pd(p.start))}%;width:${Math.max(.4, x(pd(p.end)) - x(pd(p.start)))}%" aria-label="예상 ${esc(s.name)} ${fmt(p.start)}~${fmt(p.end)}"></button>`;
+    }).join("");
+    return `<div class="g-row"><div class="g-name"><div class="nm">${esc(s.name)}</div><div class="sub">${domTags(s.domains)}${esc((s.agencies || []).slice(0, 2).join(", "))} · ${s.rounds_per_year}회</div></div><div class="track">${grid}${bars}</div></div>`;
+  }).join("")).join("");
+  $("#gantt").innerHTML = head + (rows || `<div class="empty">조건에 맞는 사업이 없습니다. 필터를 바꿔 보세요.</div>`);
+  $("#method").textContent = "예측 방법: " + (D.pred.method || "") + " 과거 이력이 쌓일수록 정확해집니다.";
+
+  const up = (D.pred.upcoming || []).filter(matches).filter(u => (pd(u.start) - today) / 864e5 <= 183);
+  $("#upc").innerHTML = up.length ? up.map(u => `<tr><td class="num">${fmt(u.start)} ~ ${fmt(u.end)}<br><span class="dday">${dday(u.start)}</span></td>
+      <td><span class="pill conf-${esc(u.confidence)}" style="margin:0">${esc(u.confidence)}</span></td>
+      <td>${esc(u.name)}<div>${domTags(u.domains)}</div></td>
+      <td>${esc(u.ministry)}${u.agencies?.length ? `<span class="nk">${esc(u.agencies.join(", "))}</span>` : ""}</td>
+      <td class="note">${esc((u.basis || []).join(" · "))}</td></tr>`).join("")
+    : `<tr><td colspan="5" class="empty">향후 6개월 안에 예상되는 공고가 없습니다.</td></tr>`;
+}
+
+function showTip(btn) {
+  const o = window._bars[+btn.dataset.i]; const tip = $("#tip");
+  if (o.type === "round") {
+    tip.innerHTML = `<b>${esc(o.s.name)}</b><div>${esc(o.s.ministry)} · ${fmt(o.r.start)} ~ ${fmt(o.r.end)}</div><ul>${
+      o.r.items.slice(0, 8).map(it => `<li><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${it.notice_no ? `<br><span>${esc(it.notice_no)}</span>` : ""} <span>(${esc(srcName({origin: it.source}))})</span></li>`).join("")}</ul>${o.r.items.length > 8 ? `<div>외 ${o.r.items.length - 8}건</div>` : ""}`;
+  } else {
+    tip.innerHTML = `<b>예상: ${esc(o.s.name)}</b><div>${fmt(o.p.start)} ~ ${fmt(o.p.end)} · 신뢰도 ${esc(o.p.confidence)}</div><div>근거: ${esc(o.p.basis.join(", "))}</div>${
+      o.s.forecast_refs?.length ? `<div>사업예고: ${o.s.forecast_refs.map(f => esc(`${f.year} ${f.title} (${f.expected})`)).join("; ")}</div>` : ""}<div style="margin-top:4px;opacity:.8">작년 같은 시기 공고를 기준으로 한 추정입니다.</div>`;
+  }
+  tip.hidden = false;
+  const r = btn.getBoundingClientRect();
+  const left = Math.min(window.scrollX + r.left, window.scrollX + document.documentElement.clientWidth - tip.offsetWidth - 12);
+  tip.style.left = Math.max(8, left) + "px";
+  tip.style.top = (window.scrollY + r.bottom + 6) + "px";
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest(".bar");
+  if (b) { showTip(b); e.stopPropagation(); return; }
+  if (!e.target.closest("#tip")) $("#tip").hidden = true;
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") $("#tip").hidden = true; });
+
+/* ── 공고 목록 ── */
+const SRC = {NTIS: "NTIS", IRIS: "IRIS", KHIDI: "KHIDI R&D포털", KHIDIWEB: "KHIDI 대표", MOHW: "복지부", NIPA: "NIPA", KMDF: "KMDF"};
+const srcName = o => (o.origin || o.source || "").split(" + ").map(x => SRC[x] || x).join(" + ");
+function stClass(s) { return ["접수중", "접수예정", "마감"].includes(s) ? `st-${s}` : "st-other"; }
+function renderList() {
+  const st = $("#f-st").value, cat = $("#f-cat").value;
+  const rank = {"접수중": 0, "접수예정": 1, "마감": 3};
+  const rows = (D.notices || []).filter(matches)
+    .filter(n => !st || (st === "etc" ? !(n.status in rank) : n.status === st))
+    .filter(n => !cat || n.category === cat)
+    .sort((a, b) => ((rank[a.status] ?? 2) - (rank[b.status] ?? 2)) || String(a.close_date || "9").localeCompare(String(b.close_date || "9")));
+  $("#tb").innerHTML = rows.length ? rows.map(n => `<tr>
+    <td><span class="st ${stClass(n.status)}">${esc(n.status.replace("게시중(기간 확인 필요)", "기간 확인"))}</span><br><span class="cat">${esc(n.category || "")}</span></td>
+    <td><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><div>${domTags(n.domains)}${(n.topics || []).map(t => `<span class="pill" style="color:var(--gold-ink)">#${esc(t)}</span>`).join("")}</div></td>
+    <td>${esc(n.notice_no || "—")}<span class="nk">${esc(n.notice_no_kind || "")}</span></td>
+    <td class="num">${fmt(n.posted)}</td>
+    <td>${esc(n.type || "—")}</td>
+    <td>${esc(n.ministry)}${(n.extra?.co_ministries || []).length ? `<span class="nk">+${esc(n.extra.co_ministries.join(", "))}</span>` : ""}</td>
+    <td>${esc(n.agency || "—")}</td>
+    <td class="num">${fmt(n.open_date) || "?"} ~ ${fmt(n.close_date) || "?"}<br><span class="dday">${dday(n.close_date)}</span></td>
+    <td>${esc(srcName(n))}</td></tr>`).join("")
+    : `<tr><td colspan="9" class="empty">조건에 맞는 공고가 없습니다.</td></tr>`;
+}
+
+function renderSignals() {
+  const s = (D.signals || []).filter(x => matches({...x, name: x.title})).sort((a, b) => String(b.posted).localeCompare(String(a.posted)));
+  $("#sb").innerHTML = s.map(x => `<tr><td class="num">${fmt(x.posted)}</td><td>${esc(x.signal_type || x.type || "공지")}</td>
+    <td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.agency || x.ministry)}</td><td>${esc(srcName(x))}</td></tr>`).join("")
+    || `<tr><td colspan="5" class="empty">신호가 없습니다.</td></tr>`;
+  const f = (D.forecasts || []).filter(x => matches({...x, name: x.title})).sort((a, b) => String(b.extra.year).localeCompare(String(a.extra.year)));
+  const won = v => v ? (v >= 1e8 ? (v / 1e8).toFixed(1).replace(/\.0$/, "") + "억" : (v / 1e4).toLocaleString() + "만") : "—";
+  $("#fb").innerHTML = f.map(x => `<tr><td class="num">${esc(x.extra.year)}</td><td>${esc(x.extra.expected || "")}</td>
+    <td>${esc(x.title)}<div>${domTags(x.domains)}</div></td><td>${esc(x.agency)}</td><td style="max-width:360px">${esc((x.extra.field || "").slice(0, 120))}</td><td class="num">${won(x.extra.budget_max)}</td></tr>`).join("")
+    || `<tr><td colspan="6" class="empty">사업예고가 없습니다.</td></tr>`;
+}
+
+function renderAll() { renderGantt(); renderList(); renderSignals(); }
+
+/* 이벤트 */
+document.querySelectorAll(".chip[data-dom]").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".chip[data-dom]").forEach(c => c.setAttribute("aria-pressed", c === b));
+  state.dom = b.dataset.dom; renderAll();
+}));
+$("#f-min").addEventListener("change", e => { state.min = e.target.value; renderAll(); });
+$("#f-q").addEventListener("input", e => { state.q = e.target.value.trim(); renderAll(); });
+["#f-predonly", "#f-multi"].forEach(s => $(s).addEventListener("change", renderGantt));
+["#f-st", "#f-cat"].forEach(s => $(s).addEventListener("change", renderList));
+const tabs = [["t-gantt", "p-gantt"], ["t-list", "p-list"], ["t-sig", "p-sig"]];
+tabs.forEach(([t, p]) => $("#" + t).addEventListener("click", () => {
+  tabs.forEach(([t2, p2]) => { $("#" + t2).setAttribute("aria-selected", t2 === t); $("#" + p2).hidden = t2 !== t; });
+  $("#tip").hidden = true;
+  try { history.replaceState(null, "", "#" + p.slice(2)); } catch {}
+}));
+const h = location.hash.slice(1); const hit = tabs.find(([, p]) => p === "p-" + h); if (hit) $("#" + hit[0]).click();
+
+(async () => {
+  const [meta, notices, signals, forecasts, pred] = await Promise.all([
+    load("meta", {}), load("notices", []), load("signals", []), load("forecasts", []), load("predictions", {series: [], upcoming: []})]);
+  D = {meta, notices, signals, forecasts, pred};
+  renderHeader(); renderAll();
+})();
+</script>
+</body>
+</html>
