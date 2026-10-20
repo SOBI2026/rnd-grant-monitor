@@ -1,15 +1,20 @@
 {
- "updated_at": "2026-10-20T19:32:09+09:00",
+ "updated_at": "2026-10-20T19:44:06+09:00",
  "jobs": [
   {
    "job": "IRIS 사업공고",
    "ok": true,
-   "count": 437
+   "count": 41
   },
   {
    "job": "IRIS 사업예고",
    "ok": true,
-   "count": 594
+   "count": 228
+  },
+  {
+   "job": "KHIDI 사업공고",
+   "ok": true,
+   "count": 2
   },
   {
    "job": "KHIDI 공지",
@@ -24,9 +29,12 @@
  ],
  "errors": [],
  "counts": {
-  "notice": 437,
-  "forecast": 594,
+  "notice": 43,
+  "forecast": 228,
   "signal": 15
  },
- "new_today": []
+ "new_today": [
+  "khidi-pban-8906",
+  "khidi-pban-8926"
+ ]
 }
