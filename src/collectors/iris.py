@@ -26,7 +26,7 @@ HISTORY_DAYS = 400        # 예측용 과거 공고 (관심 부처만)
 PRE_LOOKBACK_DAYS = 120   # 접수예정은 오래된 미정리 글이 많아 최근 게시분만
 PAGE_CAP = 15             # 한 목록당 하루 최대 페이지
 BACKFILL_PAGES = 10       # 과거 공고 백필: 조회당 하루 추가 페이지
-ALL_BACKFILL_PAGES = 40   # 전 부처 조회 백필: 하루 추가 페이지(약 400건)
+ALL_BACKFILL_PAGES = 60   # 전 부처 조회 백필: 회당 추가 페이지(약 600건, 주 1회 실행)
 FORECAST_WEEKDAY = 0      # 사업예고 전체 갱신 요일(월)
 # 관심 부처 코드 (IRIS 검색조건 blngGovdSe)
 FOCUS_GOVD = {"AR4012": "보건복지부", "AR4014": "식품의약품안전처",

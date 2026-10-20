@@ -2,7 +2,7 @@ name: collect
 
 on:
   schedule:
-    - cron: "50 21 * * *"   # 매일 06:50 KST 수집 (알림은 notify.yml: 월·금 10:00)
+    - cron: "50 21 * * 0"   # 매주 월요일 06:50 KST (일요일 21:50 UTC) 수집 → 화면 자동 갱신
   workflow_dispatch:
   push:
     branches: [dev]

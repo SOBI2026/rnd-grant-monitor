@@ -57,7 +57,7 @@ KHIDI_ROW = re.compile(
     r'<td>[^<]*</td>\s*<td>(\d{4}-\d{2}-\d{2})</td>', re.S)
 
 
-def fetch_khidi_biz(ctx=None, pages=2):
+def fetch_khidi_biz(ctx=None, pages=3):
     s = session()
     out = {}
     for p in range(1, pages + 1):
@@ -107,7 +107,7 @@ MOHW_ROW = re.compile(
 MOHW_LIST = MOHW + "/board.es?mid=a10501010100&bid=0003&act=list"
 
 
-def fetch_mohw(ctx=None, pages=3):
+def fetch_mohw(ctx=None, pages=8):
     """복지부 공지사항 중 '공고'만. 최근 몇 페이지 + '혁신형' 검색 결과(인증 이력)."""
     s = session()
     out = {}

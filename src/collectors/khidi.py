@@ -53,7 +53,7 @@ def fetch_notices(ctx=None):
     return list(out.values())
 
 
-def fetch_signals(ctx=None, pages=3):
+def fetch_signals(ctx=None, pages=6):
     s = session()
     polite_get(s, BASE + "/")
     out = {}

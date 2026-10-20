@@ -9,7 +9,7 @@ ROW = re.compile(
     re.S)
 
 
-def fetch_signals(ctx=None, pages=2):
+def fetch_signals(ctx=None, pages=3):
     s = session()
     out = {}
     for page in range(1, pages + 1):

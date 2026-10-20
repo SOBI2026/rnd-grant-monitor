@@ -1,9 +1,11 @@
 name: notify
 
-# 요약 알림: 매주 월요일 10:00 KST. 필요할 때는 Actions > notify > Run workflow 로 즉시 발송.
+# 요약 알림 (현재 수동 발송만).
 on:
-  schedule:
-    - cron: "0 1 * * 1"   # 월 01:00 UTC = 10:00 KST (GitHub 사정으로 수 분 늦을 수 있음)
+  # 정기 발송 중지 (2026-10-21). 필요할 때 Actions > notify > Run workflow 로 수동 발송.
+  # 다시 켜려면 아래 두 줄 주석 해제:
+  # schedule:
+  #   - cron: "0 1 * * 1"   # 월 10:00 KST
   workflow_dispatch:
 
 permissions:
