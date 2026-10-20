@@ -33,7 +33,7 @@
   "category": "비R&D",
   "score": 60,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -76,7 +76,7 @@
   "category": "비R&D",
   "score": 60,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -122,7 +122,7 @@
   "category": "비R&D",
   "score": 50,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -133,131 +133,52 @@
   "last_seen": "2026-10-20"
  },
  {
-  "id": "iris-024438",
-  "source": "IRIS",
+  "id": "ntis-1279968",
+  "source": "NTIS",
   "kind": "notice",
-  "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제품 AX R&D)_KHIDI",
+  "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX RD)",
   "notice_no": "보건복지부 공고 제2026-779호",
-  "type": "지정공모",
-  "ministry": "다부처",
-  "agency": "정보통신산업진흥원",
-  "status": "접수예정",
-  "posted": "2026-10-14",
-  "open_date": "2026-10-30",
-  "close_date": "2026-11-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024438",
-  "extra": {
-   "raw_status": "공고예고",
-   "raw_phase": "예정",
-   "also_listed": [
-    "KHIDI"
-   ],
-   "co_agencies": [
-    "한국보건산업진흥원"
-   ],
-   "co_ministries": [
-    "과학기술정보통신부·보건복지부"
-   ],
-   "merged_ids": [
-    "khidi-pban-8926"
-   ]
-  },
-  "domains": [
-   "디지털헬스"
-  ],
-  "matched": [
-   "AX"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "origin": "IRIS + KHIDI",
-  "origin_label": "IRIS (범부처통합연구지원시스템) / KHIDI 보건의료R&D포털(htdream)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "iris-024420",
-  "source": "IRIS",
-  "kind": "notice",
-  "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제품 AX R&D)_NRF, KEIT",
-  "notice_no": "과학기술정보통신부 공고 제2026-1002호, 산업통상부 공고 제2026-643호",
-  "type": "지정공모",
-  "ministry": "다부처",
-  "agency": "정보통신산업진흥원",
-  "status": "접수예정",
-  "posted": "2026-10-13",
-  "open_date": "2026-10-29",
-  "close_date": "2026-11-12",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024420",
-  "extra": {
-   "raw_status": "공고예고",
-   "raw_phase": "예정",
-   "also_listed": [
-    "KHIDI"
-   ],
-   "co_agencies": [
-    "한국보건산업진흥원"
-   ],
-   "co_ministries": [
-    "과학기술정보통신부·보건복지부"
-   ],
-   "merged_ids": [
-    "khidi-pban-8926"
-   ]
-  },
-  "domains": [
-   "디지털헬스"
-  ],
-  "matched": [
-   "AX"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "origin": "IRIS + KHIDI",
-  "origin_label": "IRIS (범부처통합연구지원시스템) / KHIDI 보건의료R&D포털(htdream)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "iris-024397",
-  "source": "IRIS",
-  "kind": "notice",
-  "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)",
-  "notice_no": "과학기술정보통신부 공고 제2026-1000호",
-  "type": "지정공모",
-  "ministry": "다부처",
+  "type": "본공고",
+  "ministry": "과학기술정보통신부",
   "agency": "정보통신산업진흥원",
   "status": "접수예정",
   "posted": "2026-10-08",
   "open_date": "2026-10-26",
   "close_date": "2026-11-09",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024397",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279968",
   "extra": {
-   "raw_status": "공고예고",
-   "raw_phase": "예정",
+   "business": "지역거점AX혁신기술개발(R&D)",
+   "amount": "2,286 억원",
+   "form": "통합공고",
+   "detail_ok": true,
+   "d_ministry": "과학기술정보통신부",
+   "d_agency": "정보통신산업진흥원",
+   "d_posted": "2026-10-08",
+   "d_type": "본공고",
+   "d_form": "통합공고",
+   "d_business": "지역거점AX혁신기술개발(R&D)",
+   "d_amount": "2,286 억원",
+   "d_notice_no": "",
    "also_listed": [
-    "KHIDI"
+    "KHIDI",
+    "IRIS"
    ],
+   "links": {
+    "KHIDI": "https://www.htdream.kr/",
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024438"
+   },
    "co_agencies": [
     "한국보건산업진흥원"
    ],
    "co_ministries": [
-    "과학기술정보통신부·보건복지부"
+    "과학기술정보통신부·보건복지부",
+    "다부처"
    ],
    "merged_ids": [
-    "khidi-pban-8926"
+    "khidi-pban-8926",
+    "iris-024438",
+    "iris-024420",
+    "iris-024397"
    ]
   },
   "domains": [
@@ -272,8 +193,76 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "IRIS + KHIDI",
-  "origin_label": "IRIS (범부처통합연구지원시스템) / KHIDI 보건의료R&D포털(htdream)",
+  "origin": "NTIS + KHIDI + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / KHIDI 보건의료R&D포털(htdream) / IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "ntis-1279831",
+  "source": "NTIS",
+  "kind": "notice",
+  "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내",
+  "notice_no": "보건복지부 공고 제2026-779호",
+  "type": "본공고",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "접수중",
+  "posted": "2026-10-07",
+  "open_date": "2026-10-07",
+  "close_date": "2026-12-31",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279831",
+  "extra": {
+   "business": "한국보건산업진흥원 사업공고",
+   "amount": "781.67 억원",
+   "form": "통합공고",
+   "detail_ok": true,
+   "d_ministry": "보건복지부",
+   "d_agency": "한국보건산업진흥원",
+   "d_posted": "2026-10-07",
+   "d_type": "본공고",
+   "d_form": "통합공고",
+   "d_business": "한국보건산업진흥원 사업공고",
+   "d_amount": "781.67 억원",
+   "d_notice_no": "",
+   "also_listed": [
+    "KHIDI",
+    "IRIS"
+   ],
+   "links": {
+    "KHIDI": "https://www.htdream.kr/",
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024438"
+   },
+   "co_ministries": [
+    "과학기술정보통신부·보건복지부",
+    "다부처"
+   ],
+   "merged_ids": [
+    "khidi-pban-8926",
+    "iris-024438",
+    "iris-024420",
+    "iris-024397"
+   ],
+   "co_agencies": [
+    "정보통신산업진흥원"
+   ]
+  },
+  "domains": [
+   "디지털헬스"
+  ],
+  "matched": [
+   "AX"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "NTIS + KHIDI + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / KHIDI 보건의료R&D포털(htdream) / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
@@ -315,7 +304,7 @@
   "category": "비R&D",
   "score": 50,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -357,7 +346,7 @@
   "category": "비R&D",
   "score": 50,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -402,12 +391,186 @@
   "category": "비R&D",
   "score": 50,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
    "open_date"
   ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "ntis-1278997",
+  "source": "NTIS",
+  "kind": "notice",
+  "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-40_생명/신약_딥테크 챌린지 프로젝트(DCP))",
+  "notice_no": "중소벤처기업부 공고 제2026-446호",
+  "type": "본공고",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "접수중",
+  "posted": "2026-07-10",
+  "open_date": "2026-09-23",
+  "close_date": "2026-11-23",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278997",
+  "extra": {
+   "business": "투·융자연계기술개발(R&D)",
+   "amount": "50 억원",
+   "form": "개별공고",
+   "detail_ok": true,
+   "d_ministry": "중소벤처기업부",
+   "d_agency": "중소기업기술정보진흥원",
+   "d_posted": "2026-07-10",
+   "d_type": "본공고",
+   "d_form": "개별공고",
+   "d_business": "투·융자연계기술개발(R&D)",
+   "d_amount": "50 억원",
+   "d_notice_no": "",
+   "also_listed": [
+    "IRIS"
+   ],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+   },
+   "merged_ids": [
+    "iris-019508"
+   ]
+  },
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "생명",
+   "신약"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "NTIS + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "ntis-1278996",
+  "source": "NTIS",
+  "kind": "notice",
+  "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2026-DCP-39_생명/신약_딥테크 챌린지 프로젝트(DCP))",
+  "notice_no": "중소벤처기업부 공고 제2026-446호",
+  "type": "본공고",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "접수중",
+  "posted": "2026-07-10",
+  "open_date": "2026-09-23",
+  "close_date": "2026-11-23",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278996",
+  "extra": {
+   "business": "투·융자연계기술개발(R&D)",
+   "amount": "50 억원",
+   "form": "개별공고",
+   "detail_ok": true,
+   "d_ministry": "중소벤처기업부",
+   "d_agency": "중소기업기술정보진흥원",
+   "d_posted": "2026-07-10",
+   "d_type": "본공고",
+   "d_form": "개별공고",
+   "d_business": "투·융자연계기술개발(R&D)",
+   "d_amount": "50 억원",
+   "d_notice_no": "",
+   "also_listed": [
+    "IRIS"
+   ],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+   },
+   "merged_ids": [
+    "iris-019508"
+   ]
+  },
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "생명",
+   "신약"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "NTIS + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "ntis-1263312",
+  "source": "NTIS",
+  "kind": "notice",
+  "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-10_생명·신약(전략투자로드맵 기반)_딥테크 챌린지 프로젝트(DCP*))",
+  "notice_no": "중소벤처기업부 공고 제2026-446호",
+  "type": "본공고",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "접수중",
+  "posted": "2026-07-10",
+  "open_date": "2026-09-30",
+  "close_date": "2026-10-30",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263312",
+  "extra": {
+   "business": "투·융자연계기술개발(R&D)",
+   "amount": "50 억원",
+   "form": "개별공고",
+   "detail_ok": true,
+   "d_ministry": "중소벤처기업부",
+   "d_agency": "중소기업기술정보진흥원",
+   "d_posted": "2026-07-10",
+   "d_type": "본공고",
+   "d_form": "개별공고",
+   "d_business": "투·융자연계기술개발(R&D)",
+   "d_amount": "50 억원",
+   "d_notice_no": "",
+   "also_listed": [
+    "IRIS"
+   ],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+   },
+   "merged_ids": [
+    "iris-019508"
+   ]
+  },
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "생명",
+   "신약"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "NTIS + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -440,7 +603,7 @@
   "category": "비R&D",
   "score": 35,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -478,7 +641,7 @@
   "category": "비R&D",
   "score": 35,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -516,7 +679,7 @@
   "category": "비R&D",
   "score": 35,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -526,30 +689,46 @@
   "last_seen": "2026-10-20"
  },
  {
-  "id": "khidi-pban-8906",
-  "source": "KHIDI",
+  "id": "ntis-1279523",
+  "source": "NTIS",
   "kind": "notice",
   "title": "2026년도 한의약혁신기술개발사업 사업단장 공모안내",
   "notice_no": "보건복지부 공고 제2026-760호",
-  "type": "사업단장 공모 (추정)",
+  "type": "본공고",
   "ministry": "보건복지부",
   "agency": "한국보건산업진흥원",
   "status": "접수중",
   "posted": "2026-10-02",
   "open_date": "2026-10-02",
   "close_date": "2026-11-02",
-  "url": "https://www.htdream.kr/",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279523",
   "extra": {
-   "phase": "접수중",
-   "pbanId": "8906",
+   "business": "한국보건산업진흥원 사업공고",
+   "amount": "1,575.9 억원",
+   "form": "통합공고",
+   "detail_ok": true,
+   "d_ministry": "보건복지부",
+   "d_agency": "한국보건산업진흥원",
+   "d_posted": "2026-10-02",
+   "d_type": "본공고",
+   "d_form": "통합공고",
+   "d_business": "한국보건산업진흥원 사업공고",
+   "d_amount": "1,575.9 억원",
+   "d_notice_no": "보건복지부 공고 제2026-760호",
    "also_listed": [
-    "MOHW"
+    "MOHW",
+    "KHIDI"
    ],
+   "links": {
+    "MOHW": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492137",
+    "KHIDI": "https://www.htdream.kr/"
+   },
    "co_agencies": [
     "보건복지부"
    ],
    "merged_ids": [
-    "mohw-1492137"
+    "mohw-1492137",
+    "khidi-pban-8906"
    ]
   },
   "domains": [],
@@ -560,8 +739,8 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "KHIDI + MOHW",
-  "origin_label": "KHIDI 보건의료R&D포털(htdream) / MOHW",
+  "origin": "NTIS + MOHW + KHIDI",
+  "origin_label": "NTIS 국가R&D통합공고 / 보건복지부 공지 / KHIDI 보건의료R&D포털(htdream)",
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
@@ -596,7 +775,7 @@
   "category": "비R&D",
   "score": 35,
   "origin": "KHIDIWEB",
-  "origin_label": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "missing": [
    "notice_no",
@@ -627,6 +806,9 @@
    "also_listed": [
     "MOHW"
    ],
+   "links": {
+    "MOHW": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491975"
+   },
    "co_agencies": [
     "보건복지부"
    ],
@@ -645,12 +827,124 @@
   "category": "비R&D",
   "score": 35,
   "origin": "KHIDIWEB + MOHW",
-  "origin_label": "KHIDIWEB / MOHW",
+  "origin_label": "KHIDI 대표사이트 사업공고 / 보건복지부 공지",
   "notice_no_kind": "번호만",
   "missing": [
    "open_date",
    "close_date"
   ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "ntis-1278995",
+  "source": "NTIS",
+  "kind": "notice",
+  "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-38_헬스케어_딥테크 챌린지 프로젝트(DCP))",
+  "notice_no": "중소벤처기업부 공고 제2026-446호",
+  "type": "본공고",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "접수중",
+  "posted": "2026-07-10",
+  "open_date": "2026-09-23",
+  "close_date": "2026-11-23",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278995",
+  "extra": {
+   "business": "투·융자연계기술개발(R&D)",
+   "amount": "50 억원",
+   "form": "개별공고",
+   "detail_ok": true,
+   "d_ministry": "중소벤처기업부",
+   "d_agency": "중소기업기술정보진흥원",
+   "d_posted": "2026-07-10",
+   "d_type": "본공고",
+   "d_form": "개별공고",
+   "d_business": "투·융자연계기술개발(R&D)",
+   "d_amount": "50 억원",
+   "d_notice_no": "",
+   "also_listed": [
+    "IRIS"
+   ],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+   },
+   "merged_ids": [
+    "iris-019508"
+   ]
+  },
+  "domains": [
+   "디지털헬스"
+  ],
+  "matched": [
+   "헬스케어"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "NTIS + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "ntis-1278994",
+  "source": "NTIS",
+  "kind": "notice",
+  "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-37_헬스케어_딥테크 챌린지 프로젝트(DCP))",
+  "notice_no": "중소벤처기업부 공고 제2026-446호",
+  "type": "본공고",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "접수중",
+  "posted": "2026-07-10",
+  "open_date": "2026-09-23",
+  "close_date": "2026-11-23",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278994",
+  "extra": {
+   "business": "투·융자연계기술개발(R&D)",
+   "amount": "50 억원",
+   "form": "개별공고",
+   "detail_ok": true,
+   "d_ministry": "중소벤처기업부",
+   "d_agency": "중소기업기술정보진흥원",
+   "d_posted": "2026-07-10",
+   "d_type": "본공고",
+   "d_form": "개별공고",
+   "d_business": "투·융자연계기술개발(R&D)",
+   "d_amount": "50 억원",
+   "d_notice_no": "",
+   "also_listed": [
+    "IRIS"
+   ],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+   },
+   "merged_ids": [
+    "iris-019508"
+   ]
+  },
+  "domains": [
+   "디지털헬스"
+  ],
+  "matched": [
+   "헬스케어"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "NTIS + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  }
