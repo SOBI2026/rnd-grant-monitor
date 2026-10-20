@@ -9,21 +9,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Paging test
+      - name: Fetch pages
         run: |
           set +e
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-          mkdir -p raw4; cd raw4
-          curl -sS -L -A "$UA" --max-time 40 -c iris.jar -o /dev/null -w "view %{http_code} %{time_total}s\n" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do" >> timing.txt 2>> timing.txt 2>&1
-          for p in "pageUnit=100" "recordCountPerPage=100" "pageUnit=100&recordCountPerPage=100" "pageSize=100&pageUnit=100"; do
-            f=$(echo "$p" | tr '&=' '__')
-            curl -w "$f %{time_total}s\n" -sS -L --max-time 40 -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&blngGovdSeArr=AR4012&$p" -o "end_$f.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" >> timing.txt 2>&1
-          done
-          curl -w "all_end %{time_total}s\n" -sS -L --max-time 40 -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1" -o "end_all.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" >> timing.txt 2>&1
-          curl -w "pre %{time_total}s\n" -sS -L --max-time 40 -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmPre&pageIndex=1" -o "pre.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" >> timing.txt 2>&1
-          rm -f *.jar; cat timing.txt
+          mkdir -p raw5; cd raw5
+          g() { curl -sS -L --max-time 40 -A "$UA" -o "$1" -w "$1 %{http_code} %{size_download} %{url_effective}\n" "$2" >> status.txt 2>&1; sleep 2; }
+          g nipa_main.html "https://www.nipa.kr/"
+          g nipa_biz.html "https://www.nipa.kr/home/2-2"
+          g khidi_intro.html "https://www.khidi.or.kr/intro"
+          g khidi_m159.html "https://www.khidi.or.kr/board?menuId=MENU00159"
+          g khidi_board.html "https://www.khidi.or.kr/board?menuId=MENU00100"
+          g bizinfo_list.html "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/list.do?schEtcYn=Y&rows=15&cpage=1&schKeyword=%ED%97%AC%EC%8A%A4%EC%BC%80%EC%96%B4"
+          g mohw_notice.html "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003"
+          cat status.txt
       - name: Save
         if: always()
         run: |
           git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
-          git add -A raw4; git commit -m "raw4 [skip ci]"; git push
+          git add -A raw5; git commit -m "raw5 [skip ci]"; git push
