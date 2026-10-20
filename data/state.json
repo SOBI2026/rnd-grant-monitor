@@ -15,6 +15,60 @@
   "AR4999": {
    "next_page": 2,
    "done": true
+  },
+  "sorgn:10023": {
+   "next_page": 3,
+   "done": true
+  },
+  "sorgn:10021": {
+   "next_page": 3,
+   "done": true
+  },
+  "sorgn:10022": {
+   "next_page": 2,
+   "done": true
+  },
+  "sorgn:10032": {
+   "next_page": 3,
+   "done": true
+  },
+  "kw:바이오": {
+   "unsupported": true
+  },
+  "kw:신약": {
+   "unsupported": true
+  },
+  "kw:의약품": {
+   "unsupported": true
+  },
+  "kw:백신": {
+   "next_page": 4,
+   "done": true
+  },
+  "kw:세포": {
+   "unsupported": true
+  },
+  "kw:유전자": {
+   "unsupported": true
+  },
+  "kw:항체": {
+   "unsupported": true
+  },
+  "kw:재생의료": {
+   "next_page": 3,
+   "done": true
+  },
+  "kw:의료기기": {
+   "unsupported": true
+  },
+  "kw:헬스케어": {
+   "unsupported": true
+  },
+  "kw:디지털헬스": {
+   "unsupported": true
+  },
+  "kw:임상": {
+   "unsupported": true
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T21:32:03+09:00",
+ "updated_at": "2026-10-20T22:06:19+09:00",
  "jobs": [
   {
    "job": "IRIS 사업공고",
@@ -9,7 +9,7 @@
   {
    "job": "IRIS 과거공고(관심부처)",
    "ok": true,
-   "count": 40
+   "count": 52
   },
   {
    "job": "IRIS 사업예고",
@@ -44,32 +44,25 @@
   },
   {
    "job": "보건복지부 공고",
-   "ok": true,
-   "count": 34
+   "ok": false,
+   "count": 0
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "job": "보건복지부 공고",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mohw.go.kr', port=443): Max retries exceeded with url: /board.es?mid=a10501010100&bid=0003&act=list&nPage=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mohw.go.kr', port=443) at 0x7f3ecb5dfb00>, 'Connection to www.mohw.go.kr timed out. (connect timeout=30)'))"
+  }
+ ],
  "counts": {
   "notice": 15,
-  "notice_other": 72,
-  "history": 64,
+  "notice_other": 75,
+  "history": 73,
   "forecast": 37,
   "signal": 18
  },
  "new_today": [],
  "merged_duplicates": [
-  {
-   "kept": "khidiweb-48950142",
-   "dropped": "mohw-1491975",
-   "reason": "같은 제목·접수기간",
-   "title": "2026년도 혁신형 제약기업 및 제약산업 발전 유공자 포상 공고"
-  },
-  {
-   "kept": "khidi-pban-8906",
-   "dropped": "mohw-1492137",
-   "reason": "출처 간 동일 공고",
-   "title": "한의약혁신기술개발사업 사업단장 공모"
-  },
   {
    "kept": "iris-024438,iris-024420,iris-024397",
    "dropped": "khidi-pban-8926",
@@ -78,7 +71,7 @@
   }
  ],
  "missing_required": {
-  "notice_no": 34,
+  "notice_no": 35,
   "open_date": 35,
   "close_date": 20
  }

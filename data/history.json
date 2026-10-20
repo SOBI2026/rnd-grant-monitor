@@ -95,9 +95,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약",
    "바이오"
@@ -108,13 +105,16 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "사업단 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-018095",
@@ -134,9 +134,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약",
    "바이오"
@@ -147,13 +144,16 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "사업단 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-019316",
@@ -251,9 +251,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약",
    "바이오"
@@ -265,13 +262,16 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-015894",
@@ -291,9 +291,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약",
    "바이오"
@@ -304,13 +301,16 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "사업단 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "khidiweb-48948775",
@@ -439,6 +439,82 @@
    "notice_no",
    "open_date"
   ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-022054",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고",
+  "notice_no": "KDDF_2026_02",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "재단법인 국가신약개발재단",
+  "status": "마감",
+  "posted": "2026-06-01",
+  "open_date": "2026-06-18",
+  "close_date": "2026-07-01",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022054",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "번호만",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-016254",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년 제1차 국가신약개발사업 신규지원 대상과제 통합공고",
+  "notice_no": "KDDF_2026_01",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "재단법인 국가신약개발재단",
+  "status": "마감",
+  "posted": "2025-12-15",
+  "open_date": "2026-01-02",
+  "close_date": "2026-01-14",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016254",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "번호만",
+  "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -647,6 +723,43 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-022777",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고",
+  "notice_no": "제2026-04호",
+  "type": "품목지정공모",
+  "ministry": "다부처",
+  "agency": "재단법인 범부처의료기기연구개발사업단",
+  "status": "마감",
+  "posted": "2026-07-01",
+  "open_date": "2026-07-03",
+  "close_date": "2026-07-10",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022777",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "번호만",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-022378",
   "source": "IRIS",
   "kind": "history",
@@ -716,6 +829,43 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-021934",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고",
+  "notice_no": "제2026-03호",
+  "type": "자유공모,품목지정공모",
+  "ministry": "다부처",
+  "agency": "재단법인 범부처의료기기연구개발사업단",
+  "status": "마감",
+  "posted": "2026-05-29",
+  "open_date": "2026-06-09",
+  "close_date": "2026-06-30",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021934",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
@@ -869,6 +1019,43 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-019936",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고",
+  "notice_no": "제2026-02호",
+  "type": "자유공모,품목지정공모",
+  "ministry": "다부처",
+  "agency": "재단법인 범부처의료기기연구개발사업단",
+  "status": "마감",
+  "posted": "2026-03-12",
+  "open_date": "2026-03-13",
+  "close_date": "2026-03-24",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019936",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "번호만",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-019015",
   "source": "IRIS",
   "kind": "history",
@@ -943,6 +1130,43 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-018597",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고",
+  "notice_no": "제2026-01호",
+  "type": "자유공모,품목지정공모",
+  "ministry": "다부처",
+  "agency": "재단법인 범부처의료기기연구개발사업단",
+  "status": "마감",
+  "posted": "2026-02-06",
+  "open_date": "2026-02-19",
+  "close_date": "2026-03-10",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "번호만",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-018401",
   "source": "IRIS",
   "kind": "history",
@@ -960,9 +1184,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "바이오"
   ],
@@ -971,13 +1192,16 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "사업단 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-017435",
@@ -1034,9 +1258,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "바이오"
   ],
@@ -1045,13 +1266,53 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "사업단 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-016994",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고",
+  "notice_no": "제2026-01호",
+  "type": "품목지정공모",
+  "ministry": "다부처",
+  "agency": "범부처재생의료기술개발사업단",
+  "status": "마감",
+  "posted": "2025-12-15",
+  "open_date": "2025-12-29",
+  "close_date": "2026-01-14",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016994",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "재생"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
   "topics": [],
-  "category": "R&D"
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "번호만",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "mohw-1487048",
@@ -1296,22 +1557,22 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [
    "암"
   ],
   "focus_org": true,
   "health": true,
-  "score": 45,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-017054",
@@ -1366,22 +1627,22 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [
    "암"
   ],
   "focus_org": true,
   "health": true,
-  "score": 45,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "khidiweb-48949928",
@@ -1875,6 +2136,39 @@
   "category": "R&D"
  },
  {
+  "id": "iris-018412",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 재공고",
+  "notice_no": "질병관리청 국립보건연구원 공고 제2025-624호",
+  "type": "품목지정공모",
+  "ministry": "다부처",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-30",
+  "open_date": "2026-01-30",
+  "close_date": "2026-02-09",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018412",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "소속기관 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-018075",
   "source": "IRIS",
   "kind": "history",
@@ -1941,6 +2235,43 @@
   "category": "R&D"
  },
  {
+  "id": "iris-017755",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026-0028호",
+  "type": "지정공모,품목지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-01-09",
+  "open_date": "2026-01-09",
+  "close_date": "2026-02-11",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017755",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-017436",
   "source": "IRIS",
   "kind": "history",
@@ -1991,20 +2322,20 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-017414",

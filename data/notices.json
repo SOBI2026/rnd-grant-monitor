@@ -541,16 +541,7 @@
   "url": "https://www.htdream.kr/",
   "extra": {
    "phase": "접수중",
-   "pbanId": "8906",
-   "also_listed": [
-    "MOHW"
-   ],
-   "co_agencies": [
-    "보건복지부"
-   ],
-   "merged_ids": [
-    "mohw-1492137"
-   ]
+   "pbanId": "8906"
   },
   "domains": [],
   "matched": [],
@@ -560,8 +551,8 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "KHIDI + MOHW",
-  "origin_label": "KHIDI 보건의료R&D포털(htdream) / MOHW",
+  "origin": "KHIDI",
+  "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
@@ -610,7 +601,7 @@
   "source": "KHIDIWEB",
   "kind": "notice",
   "title": "2026년도 혁신형 제약기업 및 제약산업 발전 유공자 포상 공고",
-  "notice_no": "2026-727호",
+  "notice_no": "",
   "type": "포상 (추정)",
   "ministry": "보건복지부",
   "agency": "한국보건산업진흥원",
@@ -623,16 +614,7 @@
    "category": "비R&D",
    "terms_only": true,
    "deadline_from": "",
-   "pinned": false,
-   "also_listed": [
-    "MOHW"
-   ],
-   "co_agencies": [
-    "보건복지부"
-   ],
-   "merged_ids": [
-    "mohw-1491975"
-   ]
+   "pinned": false
   },
   "domains": [],
   "matched": [],
@@ -644,10 +626,11 @@
   ],
   "category": "비R&D",
   "score": 35,
-  "origin": "KHIDIWEB + MOHW",
-  "origin_label": "KHIDIWEB / MOHW",
-  "notice_no_kind": "번호만",
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
   "missing": [
+   "notice_no",
    "open_date",
    "close_date"
   ],
