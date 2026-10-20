@@ -2,7 +2,7 @@ name: collect
 
 on:
   schedule:
-    - cron: "50 21 * * *"   # 매일 06:50 KST
+    - cron: "50 21 * * *"   # 매일 06:50 KST 수집 (알림은 notify.yml: 월·금 10:00)
   workflow_dispatch:
   push:
     branches: [dev]
@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency:
   group: collect
@@ -44,12 +43,3 @@ jobs:
             git commit -m "data: $(date -u -d '+9 hours' '+%Y-%m-%d %H:%M') KST [skip ci]"
             git push
           fi
-
-      - name: Notify via issue
-        if: hashFiles('notify.md') != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh issue create \
-            --title "과제 모니터링 $(date -u -d '+9 hours' '+%Y-%m-%d')" \
-            --body-file notify.md

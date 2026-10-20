@@ -138,7 +138,8 @@ def main():
     # 신호(게시판)·과거공고도 분야 밖이면 분리
     for k in ("signal", "history"):
         for i, x in list(results[k].items()):
-            if (x["extra"].get("terms_only") or k == "history") and not x["relevant"]:
+            if not x["relevant"] and (x["extra"].get("terms_only") or k == "history"
+                                      or x["source"] in ("NTIS", "IRIS")):
                 results["notice_other"][i] = results[k].pop(i)
 
     # 병합되어 사라진 id도 "이미 본 것"으로 취급 (중복 알림 방지)

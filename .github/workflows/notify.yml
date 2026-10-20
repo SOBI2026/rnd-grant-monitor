@@ -1,0 +1,40 @@
+name: notify
+
+# 요약 알림: 매주 월·금 10:00 KST. 필요할 때는 Actions > notify > Run workflow 로 즉시 발송.
+on:
+  schedule:
+    - cron: "0 1 * * 1,5"   # 01:00 UTC = 10:00 KST (GitHub 사정으로 수 분 늦을 수 있음)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: collect   # 수집과 동시에 돌지 않게
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Build digest
+        run: python src/digest.py
+      - name: Send as issue (→ email)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "$(cat digest_title.txt)" --body-file digest.md
+      - name: Save last sent date
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/digest_state.json
+          git diff --cached --quiet || (git commit -m "digest sent [skip ci]" && git push)
