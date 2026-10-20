@@ -130,10 +130,10 @@ def main():
     results["notice_other"] = other
     results["forecast"] = {i: x for i, x in results["forecast"].items()
                            if x["relevant"]}
-    # 비R&D 게시판 항목은 신호·보관함에서도 분야 밖이면 분리
+    # 신호(게시판)·과거공고도 분야 밖이면 분리
     for k in ("signal", "history"):
         for i, x in list(results[k].items()):
-            if x["extra"].get("terms_only") and not x["relevant"]:
+            if (x["extra"].get("terms_only") or k == "history") and not x["relevant"]:
                 results["notice_other"][i] = results[k].pop(i)
 
     # 병합되어 사라진 id도 "이미 본 것"으로 취급 (중복 알림 방지)

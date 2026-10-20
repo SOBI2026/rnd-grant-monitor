@@ -29,6 +29,11 @@ FORECAST_WEEKDAY = 0      # 사업예고 전체 갱신 요일(월)
 # 관심 부처 코드 (IRIS 검색조건 blngGovdSe)
 FOCUS_GOVD = {"AR4012": "보건복지부", "AR4014": "식품의약품안전처",
               "AR4933": "질병관리청", "AR4999": "범부처"}
+# 과거 공고 추가 조회: 관심 전문기관 + 공고명 키워드(부처 무관)
+FOCUS_SORGN = {"10023": "국가신약개발재단", "10021": "범부처의료기기연구개발사업단",
+               "10022": "범부처재생의료기술개발사업단", "10032": "국립암센터"}
+HISTORY_KEYWORDS = ["바이오", "신약", "의약품", "백신", "세포", "유전자", "항체",
+                    "재생의료", "의료기기", "헬스케어", "디지털헬스", "임상"]
 # 연구자 대상 행정 접수·테스트 글 제외
 NOISE = re.compile(r"연차실적|실적계획서|단계평가|보고서\s*접수|협약변경|^\s*test\s*$|테스트",
                    re.I)
@@ -118,7 +123,8 @@ def fetch_notices(ctx):
 
 
 def fetch_history(ctx):
-    """관심 부처의 과거 마감 공고(약 13개월). 반복 사업 시점 예측용.
+    """과거 마감 공고(약 13개월). 반복 사업 시점 예측용.
+    관심 부처 + 관심 전문기관 + 공고명 키워드(바이오·신약 등, 부처 무관)로 조회.
     매일: 1페이지부터 이미 아는 공고까지(증분). 백필 미완료면 이어서 몇 페이지 더."""
     s = session()
     polite_get(s, LIST_VIEW)
@@ -127,10 +133,24 @@ def fetch_history(ctx):
     out = dict(prev)  # 과거 공고는 누적 보관
     state = ctx["state"].setdefault("history_backfill", {})
     cutoff = _cut(HISTORY_DAYS)
-    for code in FOCUS_GOVD:
-        params = {"ancmPrg": "ancmEnd", "blngGovdSeArr": code}
-        new, _, _ = _crawl(s, params, "history", cutoff=cutoff, known=known)
-        out.update(new)
+    queries = ([(c, {"blngGovdSeArr": c}) for c in FOCUS_GOVD]
+               + [(f"sorgn:{c}", {"sorgnIdArr": c}) for c in FOCUS_SORGN]
+               + [(f"kw:{k}", {"bsnsTl": k}) for k in HISTORY_KEYWORDS])
+    for code, q in queries:
+        params = {"ancmPrg": "ancmEnd", **q}
+        st = state.get(code)
+        if st and st.get("unsupported"):
+            continue
+        if st is None and "bsnsTl" in q:
+            # 공고명 검색이 실제로 적용되는지 첫 페이지로 확인
+            rows, _ = _page(s, params, 1)
+            hit = sum(q["bsnsTl"] in (r.get("ancmTl") or "") for r in rows)
+            if rows and hit < len(rows) / 2:
+                state[code] = {"unsupported": True}
+                continue
+        if st is not None:  # 백필을 시작한 조회만 증분 수집
+            new, _, _ = _crawl(s, params, "history", cutoff=cutoff, known=known)
+            out.update(new)
         st = state.setdefault(code, {"next_page": 1, "done": False})
         if not st["done"]:
             got, last, done = _crawl(s, params, "history", cutoff=cutoff,
