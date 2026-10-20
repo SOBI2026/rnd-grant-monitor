@@ -48,6 +48,9 @@ def classify(it, profile):
         relevant = health or strong
     else:
         relevant = focus_org or health or strong
+    if (not focus_org and not health and
+            any(m in it["ministry"] for m in profile.get("nonhealth_ministries", []))):
+        relevant = False  # 농림·해양 '바이오' 등 보건 무관 바이오 제외
     topics = [name for name, ws in profile.get("watch_topics", {}).items()
               if _hits(it["title"], ws)]
 

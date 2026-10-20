@@ -99,3 +99,49 @@ def fetch_notices(ctx=None, pages=5):
                    "form": d.get("form", ""), "detail_ok": ok,
                    **{"d_" + k: v for k, v in d.items()}}))
     return out
+
+
+# ── 과거 공고(마감) ─────────────────────────────────────────────────────
+# 목록만 사용(상세 조회 없음): 공고명·부처·접수일·마감일. 분야 키워드로 검색해
+# 13개월치를 모으고, 이후에는 이미 아는 공고가 나오면 멈춤(증분).
+HIST_LIST = (BASE + "/rndgate/eg/un/ra/mng.do?searchStatusList=Y&pageUnit=100"
+             "&searchKeyword={}&pageIndex={}")
+HIST_KEYWORDS = ["바이오", "신약", "의약", "제약", "백신", "세포", "유전자", "항체",
+                 "재생", "의료", "보건", "헬스", "임상", "질환", "진단", "치료",
+                 "감염", "암", "한의약", "의사과학자"]
+HIST_DAYS = 400
+HIST_PAGE_CAP = 6
+
+
+def fetch_history(ctx=None):
+    from datetime import timedelta
+    from urllib.parse import quote
+
+    from common import today_kst
+    prev = (ctx or {}).get("prev", {})
+    cutoff = (today_kst() - timedelta(days=HIST_DAYS)).isoformat()
+    s = session()
+    out = {i: x for i, x in prev.items() if (x.get("open_date") or "") >= cutoff}
+    for kw in HIST_KEYWORDS:
+        for p in range(1, HIST_PAGE_CAP + 1):
+            rows = _rows(polite_get(s, HIST_LIST.format(quote(kw), p),
+                                    delay=DELAY).text)
+            old = known = 0
+            for r in rows:
+                iid = f"ntis-{r['uid']}"
+                if not r["open"] or r["open"] < cutoff:
+                    old += 1
+                    continue
+                if iid in prev:
+                    known += 1
+                kind = "history"
+                out[iid] = item(
+                    id=iid, source="NTIS", kind=kind, title=r["title"],
+                    url=VIEW.format(r["uid"]), ministry=r["ministry"],
+                    type="수요조사" if "수요조사" in r["title"] else "",
+                    status="마감", posted=r["open"], open_date=r["open"],
+                    close_date=r["close"],
+                    extra={"posted_from": "접수일", "search_kw": kw})
+            if len(rows) < 100 or old == len(rows) or known == len(rows):
+                break
+    return list(out.values())

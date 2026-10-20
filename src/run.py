@@ -15,6 +15,7 @@ sys.path[:0] = [HERE, os.path.join(HERE, "collectors")]
 from classify import SOURCE_LABEL, classify, notice_no_kind  # noqa: E402
 from common import KST, compute_status, missing_fields, today_kst  # noqa: E402
 from dedupe import dedupe  # noqa: E402
+import predict  # noqa: E402
 import iris  # noqa: E402
 import khidi  # noqa: E402
 import kmdf  # noqa: E402
@@ -29,6 +30,7 @@ FILES = {"notice": "notices.json", "notice_other": "notices_other.json",
 JOBS = [
     ("NTIS 통합공고", "NTIS", "mixed", ntis.fetch_notices),
     ("IRIS 사업공고", "IRIS", "notice", iris.fetch_notices),
+    ("NTIS 과거공고(13개월)", "NTIS", "history", ntis.fetch_history),
     ("IRIS 과거공고(관심부처)", "IRIS", "history", iris.fetch_history),
     ("IRIS 사업예고", "IRIS", "forecast", iris.fetch_forecasts),
     ("KHIDI 사업공고", "KHIDI", "notice", khidi.fetch_notices),
@@ -99,6 +101,7 @@ def main():
             it["status"] = compute_status(it["open_date"], it["close_date"],
                                           it["status"])
     results["notice"], dup_log = dedupe(results["notice"])
+    results["history"], hist_dup = dedupe(results["history"])
 
     # 오래된 게시판 공고는 history로 이동 (IRIS 과거공고와 같은 보관함)
     from datetime import timedelta
@@ -173,6 +176,13 @@ def main():
         "missing_required": missing,
     }
     save(os.path.join(DATA, "meta.json"), meta)
+
+    # 사업별 공고 주기 → 다음 공고 예측 (간트차트용)
+    preds = predict.build(list(results["history"].values()),
+                          list(results["notice"].values()),
+                          list(results["forecast"].values()),
+                          today_kst(), lambda it: it.get("domains", []))
+    save(os.path.join(DATA, "predictions.json"), preds)
     save(state_path, state)
 
     # 알림 본문 (관련도 기준 이상 신규 항목 + 실패 내역)
