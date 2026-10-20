@@ -13,14 +13,16 @@ jobs:
         run: |
           set +e
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-          mkdir -p raw8; cd raw8
+          mkdir -p raw9; cd raw9
           g() { curl -sS -L --max-time 40 -A "$UA" -o "$1" -w "$1 %{http_code} %{size_download} %{url_effective}\n" "$2" >> status.txt 2>&1; sleep 2; }
-          g ntis_open.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?searchStatusList=P,B&pageUnit=100&pageIndex=1"
-          g ntis_open2.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?searchStatusList=P,B&pageUnit=100&pageIndex=2"
-          g ntis_view.html "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279968"
+          g ht_bbs_view.html "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10830"
+          g ht_pban_get.html "https://www.htdream.kr/mypage/selectBsnsPbanViewAjax.do?pbanId=8906"
+          g ht_pban_page.html "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&pbanId=8906"
+          g iris_detail.html "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024477&ancmPrg=ancmIng"
+          g ntis_view.html "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263312"
           cat status.txt
       - name: Save
         if: always()
         run: |
           git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
-          git add -A raw8; git commit -m "raw8 [skip ci]"; git push
+          git add -A raw9; git commit -m "raw9 [skip ci]"; git push
