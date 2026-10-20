@@ -21,7 +21,8 @@ def _hits(text, words):
 
 
 def classify(it, profile):
-    text = " ".join([it["title"], it["extra"].get("content", ""),
+    text = " ".join([it["title"], it["extra"].get("business", ""),
+                     it["extra"].get("content", ""),
                      it["extra"].get("field", ""), it["extra"].get("purpose", "")])
     domains, matched = [], []
     for name, words in profile["domains"].items():
@@ -79,6 +80,10 @@ def classify(it, profile):
 
 
 SOURCE_LABEL = {
+    "NTIS": "NTIS 국가R&D통합공고",
+    "KHIDIWEB": "KHIDI 대표사이트 사업공고",
+    "NIPA": "NIPA 사업공고",
+    "MOHW": "보건복지부 공지",
     "IRIS": "IRIS (범부처통합연구지원시스템)",
     "KHIDI": "KHIDI 보건의료R&D포털(htdream)",
     "KMDF": "KMDF 범부처의료기기사업단",

@@ -19,6 +19,7 @@ import iris  # noqa: E402
 import khidi  # noqa: E402
 import kmdf  # noqa: E402
 import boards  # noqa: E402
+import ntis  # noqa: E402
 
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
@@ -26,6 +27,7 @@ FILES = {"notice": "notices.json", "notice_other": "notices_other.json",
          "history": "history.json",
          "forecast": "forecasts.json", "signal": "signals.json"}
 JOBS = [
+    ("NTIS 통합공고", "NTIS", "mixed", ntis.fetch_notices),
     ("IRIS 사업공고", "IRIS", "notice", iris.fetch_notices),
     ("IRIS 과거공고(관심부처)", "IRIS", "history", iris.fetch_history),
     ("IRIS 사업예고", "IRIS", "forecast", iris.fetch_forecasts),

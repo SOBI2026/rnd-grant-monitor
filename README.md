@@ -10,7 +10,8 @@ GitHub Actions(매일 06:50 KST) → src/run.py → data/*.json → GitHub Pages
 
 | 소스 | 방식 | 종류 |
 |---|---|---|
-| IRIS 사업공고 | 화면 내부 JSON | notice |
+| NTIS 국가R&D통합공고 | 공개 HTML (RFP 단위) | notice·signal (수요조사) |
+| IRIS 사업공고 | 화면 내부 JSON | notice (공고번호 보완) |
 | IRIS 사업예고 | 화면 내부 JSON | forecast (선제 신호) |
 | KHIDI 공지 | 화면 내부 JSON | signal (수요조사·설명회) |
 | KMDF 공지 | HTML 목록 | signal |
