@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국가신약개발재단 KDDF - 대한민국 신약개발의 중심</title>
+    <meta name="description" content="국가신약개발재단(KDDF)은 대한민국 제약·바이오 산업의 글로벌 경쟁력 강화를 위해 신약개발 전주기를 지원합니다.">
+    <link href="https://www.kddf.org/assets/v3/favicon/favicon.ico?v=20260630b" rel="icon">
+    <link rel="icon" href="https://www.kddf.org/assets/v3/favicon/favicon-16x16.png?v=20260630b" sizes="16x16">
+    <link rel="icon" href="https://www.kddf.org/assets/v3/favicon/favicon-32x32.png?v=20260630b" sizes="32x32">
+    <link rel="icon" href="https://www.kddf.org/assets/v3/favicon/favicon-96x96.png?v=20260630b" sizes="96x96">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.kddf.org/assets/v3/styles.css?v=20260630b">
+    <style>
+        .nav-menu { gap: var(--spacing-lg); }
+        .nav-menu > .nav-item > a {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 1.138rem;
+            font-weight: 500;
+            letter-spacing: 0;
+            padding: 6px 0;
+        }
+        .ko-lang-switch { display:flex; align-items:center; gap:8px; margin-left:10px; }
+        .ko-lang-switch a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Pretendard, 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            min-width: 52px;
+            padding: 9px 13px !important;
+            border: 1px solid var(--gray-200) !important;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 800;
+            line-height: 1;
+            text-align: center;
+            color: var(--gray-700) !important;
+        }
+        .ko-lang-switch a::after { display: none; }
+        .ko-lang-switch a.active { background:var(--primary); border-color:var(--primary) !important; color:#fff !important; }
+        .navbar:not(.scrolled) .ko-lang-switch a {
+            border-color: rgba(255,255,255,.45) !important;
+            color: rgba(255,255,255,.94) !important;
+        }
+        .navbar:not(.scrolled) .ko-lang-switch a.active {
+            background: rgba(255,255,255,.95);
+            border-color: rgba(255,255,255,.95) !important;
+            color: var(--primary) !important;
+        }
+        .navbar.scrolled .ko-lang-switch a { border-color:var(--gray-200); color:var(--gray-700); }
+        .navbar.scrolled .ko-lang-switch a.active { background:var(--primary); color:#fff; border-color:var(--primary); }
+        @media (max-width: 1024px) {
+            .ko-lang-switch { margin-left:0; justify-content:center; }
+            #navMenu.active .ko-lang-switch a { color:var(--gray-700) !important; background:transparent !important; border-color:var(--gray-200) !important; }
+            #navMenu.active .ko-lang-switch a.active { color:#fff !important; background:var(--primary) !important; border-color:var(--primary) !important; }
+        }
+        /* v3 파이프라인 레전드 - 시안대로 'Oncology  51%' 형태 (이름+퍼센트 자연 간격) */
+        .pie-chart-card .pie-legend {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: 1.1fr 0.9fr;
+            grid-template-rows: repeat(var(--legend-rows, 5), auto);
+            column-gap: 18px;
+            row-gap: 8px;
+        }
+        .pie-chart-card .pie-legend li {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.78rem;
+            white-space: nowrap;
+            min-width: 0;
+            justify-content: flex-start;
+        }
+        .pie-chart-card .pie-legend li .legend-dot { flex-shrink: 0; }
+        .pie-chart-card .pie-legend li .legend-name {
+            flex: 0 1 auto;
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-right: 8px;
+        }
+        .pie-chart-card .pie-legend li strong {
+            flex-shrink: 0;
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--white);
+        }
+        @media (max-width: 1100px) {
+            .pie-chart-card .pie-legend { column-gap: 12px; row-gap: 6px; }
+            .pie-chart-card .pie-legend li { font-size: 0.7rem; gap: 4px; }
+            .pie-chart-card .pie-legend li .legend-name { margin-right: 5px; }
+            .pie-chart-card .pie-legend li strong { font-size: 0.7rem; }
+        }
+
+        /* v3 게시판 카드 호버 - 배경 패턴 위에서도 가독성 확보 */
+        .bento-board-card .bento-board-list a {
+            transition: background 0.25s ease, padding-left 0.25s ease, box-shadow 0.25s ease;
+        }
+        .bento-board-blue .bento-board-list a:hover {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 14px rgba(0, 102, 204, 0.18);
+        }
+        .bento-board-blue .bento-board-list a:hover .board-title {
+            color: #0052a3;
+            font-weight: 700;
+        }
+        .bento-board-blue .bento-board-list a:hover .board-date {
+            color: #0066cc;
+        }
+        .bento-board-orange .bento-board-list a:hover {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 14px rgba(255, 107, 53, 0.2);
+        }
+        .bento-board-orange .bento-board-list a:hover .board-title {
+            color: #c84a14;
+            font-weight: 700;
+        }
+        .bento-board-orange .bento-board-list a:hover .board-date {
+            color: #ff6b35;
+        }
+
+        /* v4 전용: 공지/연구 카드 — 배경 그래픽 노출 강화 + 하단 여백 확보 */
+        .bento-board-card {
+            padding: 22px 24px 96px !important;
+        }
+        .bento-board-blue,
+        .bento-board-orange {
+            background-position: center bottom;
+            background-size: cover, 130% auto;
+        }
+        .bento-board-blue {
+            background-image:
+                linear-gradient(135deg, rgba(0, 92, 196, 0.72), rgba(88, 167, 255, 0.32)),
+                url('https://www.kddf.org/assets/v3/img/board_bg_blue.png');
+        }
+        .bento-board-orange {
+            background-image:
+                linear-gradient(135deg, rgba(225, 92, 30, 0.72), rgba(255, 180, 99, 0.32)),
+                url('https://www.kddf.org/assets/v3/img/board_bg_orange.png');
+        }
+
+        /* 히어로 버튼 — 사업소개: btn-secondary 외형 유지 + 호버만 별도 컬러 */
+        .hero-buttons .btn-flip-hover:hover {
+            background: linear-gradient(135deg, #10B981 0%, #34D399 100%) !important;
+            color: var(--white) !important;
+            border-color: rgba(221, 243, 255, 0.95) !important;
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.45);
+            transform: translateY(-3px);
+        }
+
+        /* 지원 프로그램 — 위로 뜨는 모션만, 색상은 btn-secondary 기존 그대로 (녹색 아님) */
+        .hero-buttons .btn-lift-hover:hover {
+            transform: translateY(-3px);
+        }
+
+        /* 사업공고 카드 — 공지/연구 카드와 동일한 헤더 구조 (아이콘+h3) + 안정감 있는 딥 네이비 톤 */
+        .bento-hero-card {
+            /* 제목·날짜를 사업공고 헤더 바로 아래(위쪽)로 정렬 */
+            justify-content: flex-start !important;
+            background:
+                radial-gradient(ellipse 65% 55% at 90% 8%, rgba(56, 102, 180, 0.32), transparent 70%),
+                radial-gradient(ellipse 55% 60% at 5% 100%, rgba(15, 28, 60, 0.55), transparent 65%),
+                /* 분자(단백질) 모형을 살짝만 비치도록 네이비 워시를 위에 덮음 */
+                linear-gradient(135deg, rgba(15, 23, 42, 0.62), rgba(30, 41, 59, 0.58)),
+                url('/assets/v3/img/hero-molecules.svg') no-repeat right top / auto 100%,
+                linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e3a8a 100%) !important;
+        }
+        .bento-hero-card::after {
+            opacity: 0.32 !important;
+        }
+        .bento-hero-card .bento-board-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 18px;
+            position: relative;
+            z-index: 2;
+        }
+        .bento-hero-card .bento-board-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .bento-hero-card .bento-board-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            flex-shrink: 0;
+            background: rgba(255, 255, 255, 0.12);
+            color: var(--white);
+            transition: transform 0.4s ease;
+        }
+        .bento-hero-card .bento-board-icon svg {
+            width: 18px;
+            height: 18px;
+        }
+        .bento-hero-card:hover .bento-board-icon {
+            transform: scale(1.08) rotate(-6deg);
+        }
+        .bento-hero-card .bento-board-title h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--white);
+            margin: 0;
+        }
+        /* h2 본문 타이틀 — 카드 폭에 맞춰 축소 */
+        .bento-hero-card .bento-content h2 {
+            font-size: clamp(1.3rem, 1.7vw, 1.65rem) !important;
+            line-height: 1.3 !important;
+        }
+
+        /* 파이차트 레전드 — 텍스트 잘림 방지 (폰트/자간 축소 + ellipsis 해제) */
+        .pie-chart-card .pie-legend li {
+            font-size: 0.72rem;
+            letter-spacing: -0.015em;
+        }
+        .pie-chart-card .pie-legend li .legend-name {
+            overflow: visible;
+            text-overflow: clip;
+            margin-right: 6px;
+        }
+        @media (max-width: 1100px) {
+            .pie-chart-card .pie-legend li { font-size: 0.66rem; }
+        }
+
+        /* GNB 메가메뉴 — 서브페이지(front styles.css) 기준으로 정합 (구 7컬럼 → 6컬럼) */
+        .nav-container,
+        .mega-menu-inner { max-width: 1400px; }
+        .mega-menu-inner {
+            grid-template-columns: 0.8fr max-content 1fr 1.2fr 0.9fr 0.9fr;
+        }
+        .mega-col-title { white-space: nowrap; }
+        .mega-col-title a { font-weight: inherit; color: inherit; }
+        .mega-col-links a .biz-badge-end {
+            display: inline-block;
+            margin-left: 6px;
+            padding: 1px 7px;
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 1.6;
+            color: var(--gray-500);
+            background: var(--gray-100);
+            border: 1px solid var(--gray-200);
+            border-radius: 10px;
+            vertical-align: middle;
+            letter-spacing: 0;
+        }
+
+        /* 푸터 — 서브페이지(front styles.css) 기준 정합: footer-left + 기관 셀렉트 */
+        .footer-left {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-lg);
+            flex-wrap: wrap;
+        }
+        .footer-links {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xl);
+        }
+        .footer-select {
+            min-width: 200px;
+            padding: 10px 14px;
+            font-size: var(--font-size-sm);
+            color: var(--gray-200);
+            background: var(--gray-800);
+            border: 1px solid var(--gray-700);
+            border-radius: 6px;
+            cursor: pointer;
+            appearance: none;
+            -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23a0a0a0' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            padding-right: 34px;
+        }
+        .footer-select:hover { border-color: var(--gray-500); }
+        .footer-select option { color: var(--gray-900); background: var(--white); }
+        @media (max-width: 768px) {
+            .footer-links { flex-wrap: wrap; width: 100%; }
+            .footer-select { min-width: 0; flex: 1 1 100%; }
+        }
+        /* 뉴스 섹션 제목: 전 컬럼 1줄 ellipsis 통일 (갤러리처럼) */
+        .news-grid .news-thumb-title,
+        .news-grid .news-sub-title {
+            -webkit-line-clamp: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="https://www.kddf.org/ko" class="logo">
+                <img src="https://www.kddf.org/assets/front/Ko/img/logo_color2.png" alt="KDDF 국가신약개발재단" class="logo-img dark">
+                <img src="https://www.kddf.org/assets/front/Ko/img/logo_color.png" alt="KDDF 국가신약개발재단" class="logo-img light">
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="https://www.kddf.org/ko/info/welcome">재단소개</a></li>
+                <li class="nav-item"><a href="https://www.kddf.org/ko/nationalbiz/business">주요사업</a></li>
+                <li class="nav-item"><a href="https://www.kddf.org/ko/nationalbiz/pipeline">국가신약개발사업 파이프라인</a></li>
+                <li class="nav-item"><a href="https://www.kddf.org/ko/rnd">신약개발 지원플랫폼</a></li>
+                <li class="nav-item"><a href="https://www.kddf.org/ko/board/business_notice">알림마당</a></li>
+                <li class="nav-item"><a href="https://www.kddf.org/ko/board/research">정보마당</a></li>
+                <li class="ko-lang-switch">
+                    <a href="https://www.kddf.org/ko" class="active">KOR</a>
+                    <a href="https://www.kddf.org/en">ENG</a>
+                </li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- 메가 메뉴 -->
+        <div class="mega-menu" id="megaMenu">
+            <div class="mega-menu-inner">
+                <div class="mega-col">
+                    <span class="mega-col-title">재단소개</span>
+                    <div class="mega-col-links">
+                        <a href="https://www.kddf.org/ko/info/welcome">인사말</a>
+                        <a href="https://www.kddf.org/ko/info/vision">비전</a>
+                        <a href="https://www.kddf.org/ko/info/history">연혁</a>
+                        <a href="https://www.kddf.org/ko/info/organization">조직</a>
+                        <a href="https://www.kddf.org/ko/info/ci">CI</a>
+                        <a href="https://www.kddf.org/ko/info/map">오시는 길</a>
+                    </div>
+                </div>
+                <div class="mega-col">
+                    <span class="mega-col-title">주요사업</span>
+                    <div class="mega-col-links">
+                        <a href="https://www.kddf.org/ko/nationalbiz/business">국가신약개발사업</a>
+                        <a href="https://www.kddf.org/ko/covid19biz/business">코로나19치료제·백신신약개발사업<span class="biz-badge-end">종료</span></a>
+                        <a href="https://www.kddf.org/ko/govbiz/business">범부처전주기신약개발사업<span class="biz-badge-end">종료</span></a>
+                    </div>
+                </div>
+                <div class="mega-col">
+                    <span class="mega-col-title"><a href="https://www.kddf.org/ko/nationalbiz/pipeline">국가신약개발사업 파이프라인</a></span>
+                </div>
+                <div class="mega-col">
+                    <span class="mega-col-title">신약개발 지원플랫폼</span>
+                    <div class="mega-col-links">
+                        <a href="https://www.kddf.org/ko/rnd">신약R&amp;D사업화지원</a>
+                        <a href="https://seed.kddf.org/" target="_blank" rel="noopener">신약개발 SEED 창출</a>
+                        <a href="https://www.kddf.org/ko/cmc">CMC 인프라</a>
+                    </div>
+                </div>
+                <div class="mega-col">
+                    <span class="mega-col-title">알림마당</span>
+                    <div class="mega-col-links">
+                        <a href="https://www.kddf.org/ko/board/business_notice">사업공고</a>
+                        <a href="https://www.kddf.org/ko/board/notice">공지사항</a>
+                        <a href="https://www.kddf.org/ko/board/press">보도자료</a>
+                        <a href="https://www.kddf.org/ko/board/cardnews">뉴스레터</a>
+                        <a href="https://www.kddf.org/ko/board/gallery">갤러리</a>
+                        <a href="https://www.kddf.org/ko/board/agency_news">유관기관 소식</a>
+                    </div>
+                </div>
+                <div class="mega-col">
+                    <span class="mega-col-title">정보마당</span>
+                    <div class="mega-col-links">
+                        <a href="https://www.kddf.org/ko/board/research">연구·산업 동향</a>
+                        <a href="https://www.kddf.org/ko/board/broshure">발행물</a>
+                        <a href="https://www.kddf.org/ko/board/pds">자료실</a>
+                        <a href="https://www.kddf.org/ko/board/docs">규정 및 양식</a>
+                        <a href="https://www.kddf.org/ko/cs/faq">자주묻는 질문</a>
+                        <a href="https://www.kddf.org/ko/event">교육·행사 신청</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 섹션 1: 히어로 -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                성공적인 신약개발,<br>
+                <span class="gradient-text">대한민국</span>의 미래입니다.
+            </h1>
+            <p class="hero-desc" data-aos="fade-up" data-aos-delay="200">
+                국가신약개발사업은 국내 제약∙바이오 산업의 글로벌 경쟁력 강화를 위하여<br>
+                신약개발의 전주기를 지원하는 범부처 국가 R&D 사업입니다.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="/ko/nationalbiz/business" class="btn btn-secondary btn-flip-hover">사업 소개</a>
+                <a href="/ko/rnd/info?category=%EC%BB%A8%EC%84%A4%ED%8C%85" class="btn btn-secondary btn-lift-hover">신약R&D사업화지원</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>스크롤하여 더 알아보기</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- 섹션 1.5: 벤토 그리드 소개 -->
+    <section class="bento-showcase" id="bento">
+        <div class="bento-spotlight"></div>
+        <div class="container">
+            <div class="bento-grid">
+                <!-- 사업공고 카드 - 대형 (실데이터: tb_board_content / business_notice 최신 1건) -->
+                                <div class="bento-item bento-hero-card" data-aos="fade-up">
+                    <div class="bento-glow"></div>
+                    <div class="bento-board-header">
+                        <div class="bento-board-title">
+                            <span class="bento-board-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-7v17l-18-7z"/><path d="M7 12v5l3 1v-3"/></svg>
+                            </span>
+                            <h3>사업공고</h3>
+                        </div>
+                    </div>
+                    <div class="bento-content">
+                                                    <h2>국가신약개발사업 2026년 CMC 전략컨설팅 3차 지원과제 모집 공고</h2>
+                                                        <div class="bento-notice-info">
+                                <span class="notice-status">진행중</span>
+                                <span class="notice-period">2026.10.08 ~ 2026.10.30</span>
+                            </div>
+                                            </div>
+                    <a href="https://www.kddf.org//ko/board/business_notice/view?bc_no=2978" class="bento-btn">
+                        <span>바로가기</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <div class="bento-visual">
+                        <div class="bento-visual-circle"></div>
+                    </div>
+                </div>
+
+                <!-- 버튼 카드 1: 선정과제분석 -->
+                <a href="https://www.kddf.org/ko/board/pds/view/?bc_no=2913&page=1" class="bento-item bento-stat-card bento-btn-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bento-icon cyan">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+                            <rect x="9" y="3" width="6" height="4" rx="2"/>
+                            <path d="M9 12h6M9 16h6"/>
+                        </svg>
+                    </div>
+                    <div class="bento-stat-content">
+                        <span class="bento-btn-label">국가신약개발사업<br>선정과제분석</span>
+                    </div>
+                    <span class="bento-btn-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- 버튼 카드 2: 과제 사전/사후 상담 -->
+                <a href="https://www.kddf.org/ko/board/docs?category_code=forms" class="bento-item bento-mid-card bento-btn-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bento-icon green">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            <path d="M8 10h8M8 14h4"/>
+                        </svg>
+                    </div>
+                    <div class="bento-stat-content">
+                        <span class="bento-btn-label">과제<br>사전/사후 상담</span>
+                    </div>
+                    <span class="bento-btn-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- 버튼 카드 3: SEED 창출 플랫폼 사업 -->
+                <a href="https://seed.kddf.org/" target="_blank" rel="noopener" class="bento-item bento-small-1 bento-btn-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bento-icon green">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12z"/>
+                            <path d="M12 6v6M9 9h6"/>
+                        </svg>
+                    </div>
+                    <span class="bento-btn-label">신약개발 SEED<br>창출 플랫폼</span>
+                    <span class="bento-btn-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- 버튼 카드 4: CMC 인프라 -->
+                <a href="https://www.kddf.org/ko/cmc" class="bento-item bento-small-2 bento-btn-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="bento-icon orange">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/>
+                            <path d="M8.5 2h7M7 16.5h10"/>
+                        </svg>
+                    </div>
+                    <span class="bento-btn-label">CMC 인프라</span>
+                    <span class="bento-btn-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- 버튼 카드 5: 비임상 CRO인프라 -->
+                <a href="https://www.nonclinical.org/CRO.php" target="_blank" rel="noopener" class="bento-item bento-small-3 bento-btn-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bento-icon purple">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="18" cy="5" r="3"/>
+                            <circle cx="6" cy="12" r="3"/>
+                            <circle cx="18" cy="19" r="3"/>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="11.49"/>
+                        </svg>
+                    </div>
+                    <span class="bento-btn-label">비임상 CRO인프라</span>
+                    <span class="bento-btn-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- 공지사항 카드 (실데이터: tb_board_content / notice) -->
+                                <div class="bento-item bento-wide-card bento-board-card bento-board-blue" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bento-board-header">
+                        <div class="bento-board-title">
+                            <span class="bento-board-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+                            </span>
+                            <h3>공지사항</h3>
+                        </div>
+                        <a href="https://www.kddf.org//ko/board/notice" class="bento-board-more">더보기 +</a>
+                    </div>
+                    <ul class="bento-board-list">
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/notice/view?bc_no=2982">
+                                <span class="board-title-group">
+                                    <span class="board-title">2026년도 제2차 국가신약개발사업 과제 선정 공고문</span>
+                                                                    </span>
+                                <span class="board-date">2026.10.08</span>
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/notice/view?bc_no=2977">
+                                <span class="board-title-group">
+                                    <span class="board-title">식품의약품안전평가원 소기업·연구개발자를 위한 알기 쉬운 제품화 가이드(민원인 안내서) 제정 알림</span>
+                                                                    </span>
+                                <span class="board-date">2026.10.02</span>
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/notice/view?bc_no=2969">
+                                <span class="board-title-group">
+                                    <span class="board-title">2026 K-BIO Global Partnership Forum 개최 안내(10/21, 킨텍스)</span>
+                                                                    </span>
+                                <span class="board-date">2026.09.22</span>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+
+                <!-- 연구·산업 동향 카드 (실데이터: tb_board_content / research) -->
+                <div class="bento-item bento-wide-card bento-board-card bento-board-orange" data-aos="fade-up" data-aos-delay="500">
+                    <div class="bento-board-header">
+                        <div class="bento-board-title">
+                            <span class="bento-board-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg>
+                            </span>
+                            <h3>연구·산업 동향</h3>
+                        </div>
+                        <a href="https://www.kddf.org//ko/board/research" class="bento-board-more">더보기 +</a>
+                    </div>
+                    <ul class="bento-board-list">
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/research/view?bc_no=2987">
+                                <span class="board-title-group">
+                                    <span class="board-title">Lp(a) 표적 치료의 임상적 검증 - Lp(a)HORIZON이 남긴 과제</span>
+                                                                    </span>
+                                <span class="board-date">2026.10.13</span>
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/research/view?bc_no=2986">
+                                <span class="board-title-group">
+                                    <span class="board-title">2026년 9월 신약개발관련 주요 Deal</span>
+                                                                    </span>
+                                <span class="board-date">2026.10.13</span>
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/research/view?bc_no=2960">
+                                <span class="board-title-group">
+                                    <span class="board-title">[전문가 기고] AI 기반 바이오마커 발굴과 약물 반응 예측: 정밀의료를 앞당기는 데이터 기반 신약개발</span>
+                                                                    </span>
+                                <span class="board-date">2026.09.14</span>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 섹션 3: 핵심 숫자 (성과 인포그래픽) -->
+    <section class="stats" id="stats">
+        <div class="stats-bg">
+            <div class="stats-grid-bg"></div>
+        </div>
+        <div class="container">
+            <div class="section-header light" data-aos="fade-up">
+                <span class="section-badge">ACHIEVEMENTS</span>
+                <h2 class="section-title">숫자로 보는 국가신약개발사업 성과</h2>
+                <p class="section-desc">2021~현재 (2026. 08. 기준)</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-glow cyan"></div>
+                    <div class="stat-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="ring-bg"/>
+                            <circle cx="50" cy="50" r="45" class="ring-fill cyan" style="--progress: 90"/>
+                        </svg>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="609">0</div>
+                            <div class="stat-unit">개</div>
+                        </div>
+                    </div>
+                    <div class="stat-label">국가신약개발사업 협약과제</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-glow blue"></div>
+                    <div class="stat-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="ring-bg"/>
+                            <circle cx="50" cy="50" r="45" class="ring-fill blue" style="--progress: 30"/>
+                        </svg>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="2">0</div>
+                            <div class="stat-unit">건</div>
+                        </div>
+                    </div>
+                    <div class="stat-label">FDA/EMA 승인</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-glow accent"></div>
+                    <div class="stat-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="ring-bg"/>
+                            <circle cx="50" cy="50" r="45" class="ring-fill accent" style="--progress: 20"/>
+                        </svg>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="2">0</div>
+                            <div class="stat-unit">건</div>
+                        </div>
+                    </div>
+                    <div class="stat-label">식약처 승인</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-glow cyan"></div>
+                    <div class="stat-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="ring-bg"/>
+                            <circle cx="50" cy="50" r="45" class="ring-fill cyan" style="--progress: 68"/>
+                        </svg>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="71">0</div>
+                            <div class="stat-unit">건</div>
+                        </div>
+                    </div>
+                    <div class="stat-label">기술이전</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="card-glow blue"></div>
+                    <div class="stat-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="ring-bg"/>
+                            <circle cx="50" cy="50" r="45" class="ring-fill blue" style="--progress: 40"/>
+                        </svg>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="15">0</div>
+                            <div class="stat-unit">건</div>
+                        </div>
+                    </div>
+                    <div class="stat-label">희귀의약품 지정</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card-glow accent"></div>
+                    <div class="stat-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="ring-bg"/>
+                            <circle cx="50" cy="50" r="45" class="ring-fill accent" style="--progress: 78"/>
+                        </svg>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="87">0</div>
+                            <div class="stat-unit">건</div>
+                        </div>
+                    </div>
+                    <div class="stat-label">IND 승인</div>
+                </div>
+            </div>
+
+            <div class="pipeline-section" data-aos="fade-up">
+                <div class="section-header light" style="margin-bottom: 2rem;">
+                    <span class="section-badge">PIPELINE</span>
+                    <h2 class="section-title">파이프라인 현황</h2>
+                </div>
+                <div class="pie-chart-grid">
+                    <!-- 치료군별 (9개 카테고리) -->
+                    <div class="pie-chart-card">
+                        <h4 class="pie-card-title">치료군별</h4>
+                        <div class="pie-chart" style="background: conic-gradient(#5470C6 0.0000% 50.5747%, #73C0DE 50.5747% 61.4122%, #3BA272 61.4122% 70.4433%, #EE6666 70.4433% 77.9967%, #FAC858 77.9967% 84.5649%, #9A60B4 84.5649% 88.0131%, #EA7CCC 88.0131% 90.4762%, #9F8B75 90.4762% 90.9688%, #4ECDC4 90.9688% 100.0000%);"></div>
+                        <ul class="pie-legend" style="--legend-rows:5;">
+                                                        <li>
+                                <span class="legend-dot" style="background:#5470C6"></span>
+                                <span class="legend-name">Oncology</span>
+                                <strong>51%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#73C0DE"></span>
+                                <span class="legend-name">Immunology</span>
+                                <strong>11%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#3BA272"></span>
+                                <span class="legend-name">Neurology</span>
+                                <strong>9%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#EE6666"></span>
+                                <span class="legend-name">Metabolic</span>
+                                <strong>8%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#FAC858"></span>
+                                <span class="legend-name">Ophthalmology</span>
+                                <strong>7%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#9A60B4"></span>
+                                <span class="legend-name">Respiratory</span>
+                                <strong>3%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#EA7CCC"></span>
+                                <span class="legend-name">Cardiovascular</span>
+                                <strong>2%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#9F8B75"></span>
+                                <span class="legend-name">Gastrointestinal</span>
+                                <strong>0%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#4ECDC4"></span>
+                                <span class="legend-name">Others</span>
+                                <strong>9%</strong>
+                            </li>
+                                                    </ul>
+                    </div>
+
+                    <!-- 모달리티별 (10개 카테고리) -->
+                    <div class="pie-chart-card">
+                        <h4 class="pie-card-title">모달리티별</h4>
+                        <div class="pie-chart" style="background: conic-gradient(#5470C6 0.0000% 40.3941%, #73C0DE 40.3941% 58.2923%, #3BA272 58.2923% 70.7718%, #EE6666 70.7718% 82.1018%, #FAC858 82.1018% 88.0131%, #9A60B4 88.0131% 92.9392%, #EA7CCC 92.9392% 94.2529%, #9F8B75 94.2529% 96.5517%, #4ECDC4 96.5517% 100.0000%);"></div>
+                        <ul class="pie-legend" style="--legend-rows:5;">
+                                                        <li>
+                                <span class="legend-dot" style="background:#5470C6"></span>
+                                <span class="legend-name">Small molecules</span>
+                                <strong>40%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#73C0DE"></span>
+                                <span class="legend-name">Antibody</span>
+                                <strong>18%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#3BA272"></span>
+                                <span class="legend-name">Gene &amp; Nucleic acids</span>
+                                <strong>13%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#EE6666"></span>
+                                <span class="legend-name">rProtein</span>
+                                <strong>11%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#FAC858"></span>
+                                <span class="legend-name">TPD</span>
+                                <strong>6%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#9A60B4"></span>
+                                <span class="legend-name">Cell therapies</span>
+                                <strong>5%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#EA7CCC"></span>
+                                <span class="legend-name">RPT</span>
+                                <strong>1%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#9F8B75"></span>
+                                <span class="legend-name">Others-Synth.</span>
+                                <strong>2%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#4ECDC4"></span>
+                                <span class="legend-name">Other-Bio.</span>
+                                <strong>4%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#FF9F43"></span>
+                                <span class="legend-name">Botanic medicine</span>
+                                <strong>0%</strong>
+                            </li>
+                                                    </ul>
+                    </div>
+
+                    <!-- 개발단계별 (6개 카테고리) -->
+                    <div class="pie-chart-card">
+                        <h4 class="pie-card-title">개발단계별</h4>
+                        <div class="pie-chart" style="background: conic-gradient(#5470C6 0.0000% 17.8982%, #73C0DE 17.8982% 42.3645%, #3BA272 42.3645% 67.1593%, #EE6666 67.1593% 88.0131%, #FAC858 88.0131% 96.2233%, #9A60B4 96.2233% 100.0000%);"></div>
+                        <ul class="pie-legend" style="--legend-rows:3;">
+                                                        <li>
+                                <span class="legend-dot" style="background:#5470C6"></span>
+                                <span class="legend-name">유효</span>
+                                <strong>18%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#73C0DE"></span>
+                                <span class="legend-name">선도</span>
+                                <strong>24%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#3BA272"></span>
+                                <span class="legend-name">후보</span>
+                                <strong>25%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#EE6666"></span>
+                                <span class="legend-name">비임상</span>
+                                <strong>21%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#FAC858"></span>
+                                <span class="legend-name">임상 1상</span>
+                                <strong>8%</strong>
+                            </li>
+                                                        <li>
+                                <span class="legend-dot" style="background:#9A60B4"></span>
+                                <span class="legend-name">임상 2상</span>
+                                <strong>4%</strong>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div>
+                <p style="text-align:center;color:#94a3b8;font-size:0.85rem;margin-top:1.5rem;">
+                    국가신약개발사업 협약과제 총 <strong style="color:#fff;">609건</strong> 기준
+                </p>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="/ko/nationalbiz/pipeline" class="btn btn-outline-light btn-large">
+                        <span>전체 파이프라인 보기</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px; margin-left: 8px; vertical-align: middle;">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 섹션 5: 파이프라인 현황 (주석처리)
+    <section class="pipeline" id="pipeline">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">PIPELINE</span>
+                <h2 class="section-title">개발 단계별 현황</h2>
+                <p class="section-desc">Discovery부터 임상 3상까지, 전주기 파이프라인 현황</p>
+            </div>
+
+            <div class="pipeline-visualization" data-aos="fade-up">
+                <div class="pipeline-funnel">
+                    <div class="funnel-stage" data-width="100">
+                        <div class="funnel-bar discovery">
+                            <span class="funnel-label">Discovery</span>
+                            <span class="funnel-count">170+</span>
+                        </div>
+                        <div class="funnel-tooltip">신약 후보 물질 발굴 단계</div>
+                    </div>
+                    <div class="funnel-stage" data-width="70">
+                        <div class="funnel-bar preclinical">
+                            <span class="funnel-label">Preclinical</span>
+                            <span class="funnel-count">55+</span>
+                        </div>
+                        <div class="funnel-tooltip">비임상 시험 단계</div>
+                    </div>
+                    <div class="funnel-stage" data-width="45">
+                        <div class="funnel-bar phase1">
+                            <span class="funnel-label">Phase 1</span>
+                            <span class="funnel-count">23+</span>
+                        </div>
+                        <div class="funnel-tooltip">안전성 평가 단계</div>
+                    </div>
+                    <div class="funnel-stage" data-width="25">
+                        <div class="funnel-bar phase2">
+                            <span class="funnel-label">Phase 2</span>
+                            <span class="funnel-count">6+</span>
+                        </div>
+                        <div class="funnel-tooltip">유효성 탐색 단계</div>
+                    </div>
+                    <div class="funnel-stage" data-width="20">
+                        <div class="funnel-bar phase3">
+                            <span class="funnel-label">Phase 3</span>
+                            <span class="funnel-count">진행중</span>
+                            <span class="funnel-pulse"></span>
+                        </div>
+                        <div class="funnel-tooltip">대규모 임상 확증 단계</div>
+                    </div>
+                </div>
+
+                <div class="pipeline-legend">
+                    <p>* 종양학(Oncology) 분야 기준 예시</p>
+                    <a href="https://kddf.org/ko/nationalbiz/pipeline" class="btn btn-pipeline">
+                        <span>전체 파이프라인 대시보드</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="disease-bars" data-aos="fade-up">
+                <h4>질병 분야별 분포</h4>
+                <div class="disease-bar-list">
+                    <div class="disease-bar-item" data-delay="0">
+                        <div class="disease-info">
+                            <span class="disease-name">종양학</span>
+                            <span class="disease-value">254</span>
+                        </div>
+                        <div class="disease-track">
+                            <div class="disease-fill" data-width="100" style="- -color: linear-gradient(90deg, #0066CC, #0088FF);"></div>
+                        </div>
+                        <span class="disease-percent">51.2%</span>
+                    </div>
+                    <div class="disease-bar-item" data-delay="100">
+                        <div class="disease-info">
+                            <span class="disease-name">면역학</span>
+                            <span class="disease-value">57</span>
+                        </div>
+                        <div class="disease-track">
+                            <div class="disease-fill" data-width="22" style="- -color: linear-gradient(90deg, #6B5BFF, #8B7BFF);"></div>
+                        </div>
+                        <span class="disease-percent">11.5%</span>
+                    </div>
+                    <div class="disease-bar-item" data-delay="200">
+                        <div class="disease-info">
+                            <span class="disease-name">대사질환</span>
+                            <span class="disease-value">45</span>
+                        </div>
+                        <div class="disease-track">
+                            <div class="disease-fill" data-width="18" style="- -color: linear-gradient(90deg, #00C9A7, #00E5BD);"></div>
+                        </div>
+                        <span class="disease-percent">9.1%</span>
+                    </div>
+                    <div class="disease-bar-item" data-delay="300">
+                        <div class="disease-info">
+                            <span class="disease-name">신경과학</span>
+                            <span class="disease-value">44</span>
+                        </div>
+                        <div class="disease-track">
+                            <div class="disease-fill" data-width="17" style="- -color: linear-gradient(90deg, #FF6B9D, #FF8BB5);"></div>
+                        </div>
+                        <span class="disease-percent">8.9%</span>
+                    </div>
+                    <div class="disease-bar-item" data-delay="400">
+                        <div class="disease-info">
+                            <span class="disease-name">기타</span>
+                            <span class="disease-value">96</span>
+                        </div>
+                        <div class="disease-track">
+                            <div class="disease-fill" data-width="38" style="- -color: linear-gradient(90deg, #FFB347, #FFCC70);"></div>
+                        </div>
+                        <span class="disease-percent">19.4%</span>
+                    </div>
+                </div>
+                <div class="disease-total">
+                    <span>총 파이프라인</span>
+                    <strong class="disease-total-count" data-count="496">0</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- 섹션 6: 지원 서비스 (주석처리)
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">SUPPORT SERVICES</span>
+                <h2 class="section-title">R&D 지원 서비스</h2>
+                <p class="section-desc">신약개발 성공률 제고를 위한 맞춤형 지원</p>
+            </div>
+
+            <div class="services-accordion" data-aos="fade-up">
+                <div class="service-accordion-item active" data-color="blue">
+                    <div class="accordion-header">
+                        <div class="accordion-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="accordion-title">
+                            <h3>컨설팅</h3>
+                            <span class="accordion-count">9개 프로그램</span>
+                        </div>
+                        <div class="accordion-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-desc">전문가 자문을 통한 신약개발 전략 수립 및 규제 대응 지원</p>
+                        <div class="program-tags">
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">💡</span>
+                                <span class="tag-name">ACT 프로그램</span>
+                                <span class="tag-sub">질환별 임상의 자문</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🔬</span>
+                                <span class="tag-name">BRIDGE</span>
+                                <span class="tag-sub">비임상-임상 전환</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🧪</span>
+                                <span class="tag-name">CIDD</span>
+                                <span class="tag-sub">임상개발 전략</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">📋</span>
+                                <span class="tag-name">CMC 전략컨설팅</span>
+                                <span class="tag-sub">품질관리 전략</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🌐</span>
+                                <span class="tag-name">글로벌 RA</span>
+                                <span class="tag-sub">FDA/EMA 대응</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">📊</span>
+                                <span class="tag-name">CPG 컨설팅</span>
+                                <span class="tag-sub">임상프로토콜 검토</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🧬</span>
+                                <span class="tag-name">바이오마커 발굴</span>
+                                <span class="tag-sub">진단지표 개발</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">📝</span>
+                                <span class="tag-name">신약개발전문가 자문</span>
+                                <span class="tag-sub">전주기 전략</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🎯</span>
+                                <span class="tag-name">K-STAND</span>
+                                <span class="tag-sub">표준화 지원</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item" data-color="green">
+                    <div class="accordion-header">
+                        <div class="accordion-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                        </div>
+                        <div class="accordion-title">
+                            <h3>교육</h3>
+                            <span class="accordion-count">4개 프로그램</span>
+                        </div>
+                        <div class="accordion-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-desc">신약개발 전문인력 양성을 위한 체계적인 교육 프로그램</p>
+                        <div class="program-tags">
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">📚</span>
+                                <span class="tag-name">CMC 역량강화</span>
+                                <span class="tag-sub">품질관리 전문교육</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">📖</span>
+                                <span class="tag-name">RA 교육</span>
+                                <span class="tag-sub">규제과학 전문과정</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🎓</span>
+                                <span class="tag-name">CRO 관리 워크샵</span>
+                                <span class="tag-sub">위탁연구 관리</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🚀</span>
+                                <span class="tag-name">Young BD 워크샵</span>
+                                <span class="tag-sub">사업개발 역량</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item" data-color="purple">
+                    <div class="accordion-header">
+                        <div class="accordion-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 16v-4M12 8h.01"></path>
+                            </svg>
+                        </div>
+                        <div class="accordion-title">
+                            <h3>기술사업화</h3>
+                            <span class="accordion-count">3개 프로그램</span>
+                        </div>
+                        <div class="accordion-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-desc">기술 가치 평가 및 지식재산권 전략 수립 지원</p>
+                        <div class="program-tags">
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">💎</span>
+                                <span class="tag-name">IP 컨설팅</span>
+                                <span class="tag-sub">특허전략 수립</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🔗</span>
+                                <span class="tag-name">IP-R&D 전략</span>
+                                <span class="tag-sub">연구-특허 연계</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">💰</span>
+                                <span class="tag-name">약물가치평가</span>
+                                <span class="tag-sub">기술이전 가치산정</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item" data-color="pink">
+                    <div class="accordion-header">
+                        <div class="accordion-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <div class="accordion-title">
+                            <h3>파트너링</h3>
+                            <span class="accordion-count">5개 프로그램</span>
+                        </div>
+                        <div class="accordion-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <p class="accordion-desc">국내외 파트너십 구축 및 네트워킹 기회 제공</p>
+                        <div class="program-tags">
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🏭</span>
+                                <span class="tag-name">CDMO 사전상담</span>
+                                <span class="tag-sub">위탁생산 매칭</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🌱</span>
+                                <span class="tag-name">SEED 창출 플랫폼</span>
+                                <span class="tag-sub">초기 파이프라인 발굴</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🌍</span>
+                                <span class="tag-name">Global Biotech Showcase</span>
+                                <span class="tag-sub">해외진출 지원</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">🤝</span>
+                                <span class="tag-name">CPG 심포지엄</span>
+                                <span class="tag-sub">전문가 네트워킹</span>
+                            </a>
+                            <a href="#" class="program-tag">
+                                <span class="tag-icon">📈</span>
+                                <span class="tag-name">기술이전 중개</span>
+                                <span class="tag-sub">L/O 지원</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-links-banner" data-aos="fade-up">
+                <a href="https://kddf.org/ko/rnd" class="service-link-item">
+                    <span class="link-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                    </span>
+                    <span class="link-text">지원사업안내</span>
+                    <span class="link-arrow-icon">→</span>
+                </a>
+                <a href="https://kddf.org/ko/rnd/performance" class="service-link-item">
+                    <span class="link-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </span>
+                    <span class="link-text">지원사업성과</span>
+                    <span class="link-arrow-icon">→</span>
+                </a>
+                <a href="https://kddf.org/ko/rnd/schedule" class="service-link-item">
+                    <span class="link-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </span>
+                    <span class="link-text">지원사업일정</span>
+                    <span class="link-arrow-icon">→</span>
+                </a>
+                <a href="https://kddf.org/ko/board/notice" class="service-link-item">
+                    <span class="link-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </span>
+                    <span class="link-text">게시판</span>
+                    <span class="link-arrow-icon">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- 섹션 7: 뉴스 & 공지 -->
+    <section class="news" id="news">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">NEWS & MEDIA</span>
+                <h2 class="section-title">최신 소식</h2>
+            </div>
+
+            <div class="news-grid">
+                <!-- 보도자료 (실데이터: tb_board_content / press) -->
+                                <div class="news-column" data-aos="fade-up">
+                    <div class="news-column-header">
+                        <h3>보도자료</h3>
+                        <a href="https://www.kddf.org//ko/board/press" class="bento-board-more">더보기 +</a>
+                    </div>
+                                        <a href="https://www.kddf.org//ko/board/press/view?bc_no=2975" class="news-thumb-card">
+                        <div class="news-thumb-img" style="background-image: url('https://kddf.org//upload/thumb/d5db7dbd22f2ef70188a3d54a328ac6b.jpg'); background-size: cover; background-position: center;"></div>
+                        <div class="news-thumb-content">
+                            <div class="news-thumb-title">[인터뷰] 박영민 단장 &quot;기술이전은 중간성과…글로벌 허가까지 가야 성공&quot;</div>
+                            <div class="news-thumb-date">2026.09.23</div>
+                        </div>
+                    </a>
+                                        <ul class="news-sub-list">
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/press/view?bc_no=2967" class="news-sub-item">
+                                <div class="news-sub-thumb" style="background-image: url('https://kddf.org//upload/thumb/8afe1af53bc0cc9020eb42af442b2b0b.jpg'); background-size: cover; background-position: center;"></div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">연구성과, 기술수출 넘어 신약으로…K-신약 글로벌 진출 돕는다</span>
+                                    <span class="news-sub-date">2026.09.22</span>
+                                </div>
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/press/view?bc_no=2966" class="news-sub-item">
+                                <div class="news-sub-thumb" style="background-image: url('https://www.kddf.org/assets/v3/img/logo_color.png'); background-size: 68%; background-color: #f0f4ff; background-repeat: no-repeat; background-position: center;"></div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">연구비만 주던 R&amp;D는 옛말…임상·CMC·규제까지 함께 뛴다</span>
+                                    <span class="news-sub-date">2026.09.22</span>
+                                </div>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+
+                <!-- 뉴스레터 (실데이터: tb_board_content / cardnews) -->
+                                <div class="news-column" data-aos="fade-up" data-aos-delay="100">
+                    <div class="news-column-header">
+                        <h3>뉴스레터</h3>
+                        <a href="https://www.kddf.org//ko/board/cardnews" class="bento-board-more">더보기 +</a>
+                    </div>
+                                        <a href="https://www.kddf.org//ko/board/cardnews/view?bc_no=2988" class="news-thumb-card">
+                        <div class="news-thumb-img" style="background-image: url('https://kddf.org//upload/thumb/0571d3f2a496c7474469d71971ef05ec.png'); background-size: cover; background-position: top;"></div>
+                        <div class="news-thumb-content">
+                            <div class="news-thumb-title">(재)국가신약개발재단 소식지 2026년 10월호</div>
+                            <div class="news-thumb-date">2026.10.14</div>
+                        </div>
+                    </a>
+                                        <ul class="news-sub-list">
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/cardnews/view?bc_no=2961" class="news-sub-item">
+                                <div class="news-sub-thumb" style="background-image: url('https://kddf.org//upload/thumb/3b2c05ba83803f2673b24c7884fce275.jpg'); background-size: cover; background-position: top;"></div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">(재)국가신약개발재단 소식지 2026년 9월호</span>
+                                    <span class="news-sub-date">2026.09.15</span>
+                                </div>
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/cardnews/view?bc_no=2925" class="news-sub-item">
+                                <div class="news-sub-thumb" style="background-image: url('https://kddf.org//upload/thumb/c4cb9a382a8d0a0da3d0ce3baf00bfb6.jpg'); background-size: cover; background-position: top;"></div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">(재)국가신약개발재단 소식지 2026년 8월호</span>
+                                    <span class="news-sub-date">2026.08.18</span>
+                                </div>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+
+                <!-- 갤러리 (실데이터: tb_board_content / gallery) -->
+                                <div class="news-column" data-aos="fade-up" data-aos-delay="200">
+                    <div class="news-column-header">
+                        <h3>갤러리</h3>
+                        <a href="https://www.kddf.org//ko/board/gallery" class="bento-board-more">더보기 +</a>
+                    </div>
+                                        <a href="https://www.kddf.org//ko/board/gallery/view?bc_no=2989" class="news-thumb-card">
+                        <div class="news-thumb-img" style="background-image: url('https://kddf.org//upload/thumb/7b3fca4b4bbcc2392655a39d77f12e3c.jpg'); background-size: cover; background-position: center;"></div>
+                        <div class="news-thumb-content">
+                            <div class="news-thumb-title">2026 KDDF CPG Symposium(10/12-13, 웨스틴 조선 서울)</div>
+                            <div class="news-thumb-date">2026.10.19</div>
+                        </div>
+                    </a>
+                                        <ul class="news-sub-list">
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/gallery/view?bc_no=2927" class="news-sub-item">
+                                <div class="news-sub-thumb" style="background-image: url('https://kddf.org//upload/thumb/eeab9c974747d2149c24cea7536a5507.jpg'); background-size: cover; background-position: center;"></div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">2026 KDDF Science Conference(8/27-28, 평창 알펜시아리조트 컨벤션센터)</span>
+                                    <span class="news-sub-date">2026.08.27</span>
+                                </div>
+                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.kddf.org//ko/board/gallery/view?bc_no=2928" class="news-sub-item">
+                                <div class="news-sub-thumb" style="background-image: url('https://kddf.org//upload/thumb/7914aa11b631df624c5dbb1c589156fc.jpg'); background-size: cover; background-position: center;"></div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">국가신약개발재단-기술보증기금 &#039;IP-Value 강소기업&#039; 선정서 수여식(8/20, 대회의실)</span>
+                                    <span class="news-sub-date">2026.08.21</span>
+                                </div>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+
+                <!-- 유튜브 -->
+                <div class="news-column" data-aos="fade-up" data-aos-delay="300">
+                    <div class="news-column-header">
+                        <h3>유튜브</h3>
+                        <a href="https://www.youtube.com/@kddf7204" class="bento-board-more" target="_blank">더보기 +</a>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=fJ9LZIXEQHw" class="news-thumb-card youtube-card" target="_blank" rel="noopener">
+                        <div class="news-thumb-img youtube-thumb" style="background-image: url('https://i.ytimg.com/vi/fJ9LZIXEQHw/hqdefault.jpg'); background-size: cover; background-position: center;">
+                            <div class="youtube-play">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"></polygon></svg>
+                            </div>
+                        </div>
+                        <div class="news-thumb-content">
+                            <div class="news-thumb-title">2026 KDDF Young BD Workshop</div>
+                            <div class="news-thumb-date">2026.05.06</div>
+                        </div>
+                    </a>
+                    <ul class="news-sub-list">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=fdeGo9ABjDk" class="news-sub-item" target="_blank" rel="noopener">
+                                <div class="news-sub-thumb youtube-thumb" style="background-image: url('https://i.ytimg.com/vi/fdeGo9ABjDk/hqdefault.jpg'); background-size: cover; background-position: center;">
+                                    <svg viewBox="0 0 24 24" fill="#FF0000" class="youtube-mini-play"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"></polygon></svg>
+                                </div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">2025 국가신약개발사업 평가위원 워크샵</span>
+                                    <span class="news-sub-date">2026.01.06</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=8mMAsIwe7X0" class="news-sub-item" target="_blank" rel="noopener">
+                                <div class="news-sub-thumb youtube-thumb" style="background-image: url('https://i.ytimg.com/vi/8mMAsIwe7X0/hqdefault.jpg'); background-size: cover; background-position: center;">
+                                    <svg viewBox="0 0 24 24" fill="#FF0000" class="youtube-mini-play"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"></polygon></svg>
+                                </div>
+                                <div class="news-sub-info">
+                                    <span class="news-sub-title">2025 국가신약개발사업 우수과제 발표회</span>
+                                    <span class="news-sub-date">2026.01.01</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- SNS 링크 -->
+            <div class="social-links" data-aos="fade-up">
+                <a href="https://www.facebook.com/KoreaDrugDevelopmentFund" class="social-link facebook" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                <a href="https://www.youtube.com/@kddf7204" class="social-link youtube" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon class="yt-play" points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"></polygon></svg>
+                </a>
+                <a href="https://kddf.org/ko/press/newsletter" class="social-link newsletter">
+                    <span>뉴스레터 구독</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 섹션 8: 미션 & 비전 -->
+    <section class="mission" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">ABOUT US</span>
+                <h2 class="section-title" style="font-size: 27.5px;"><span class="highlight">선택과 집중, 창조와 혁신</span>으로<br>국가 제약-바이오 산업을 견인합니다</h2>
+            </div>
+
+            <div class="mission-grid">
+                <div class="mission-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="mission-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2" />
+                            <path d="M8.5 2h7" />
+                            <path d="M14 16H5.5" />
+                        </svg>
+                    </div>
+                    <h3>과학적 엄격성</h3>
+                    <p>과학적 전문성과 명확한 기준을 바탕으로<br>연구개발 전반에 실질적 지원을 제공합니다.</p>
+                </div>
+                <div class="mission-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="mission-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            <path d="M2 12h20"/>
+                        </svg>
+                    </div>
+                    <h3>협력과 개방</h3>
+                    <p>국내외 전문가 및 기관 간 협력을 주도하며 오픈이노베이션 환경을 조성합니다.</p>
+                </div>
+                <div class="mission-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="mission-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+                            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+                            <path d="M7 21h10"/>
+                            <path d="M12 3v18"/>
+                            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
+                        </svg>
+                    </div>
+                    <h3>윤리적 책임</h3>
+                    <p>공정한 기준과 투명성을 바탕으로<br>사업을 추진합니다.</p>
+                </div>
+                <div class="mission-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="mission-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                        </svg>
+                    </div>
+                    <h3>사회적 기여</h3>
+                    <p>국민 보건 향상과 경제·산업<br>가치 창출에 기여합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 섹션 8: 연혁 타임라인 (주석처리)
+    <section class="history" id="history">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">HISTORY</span>
+                <h2 class="section-title">신약개발 지원의 발자취</h2>
+                <p class="section-desc">2011년부터 대한민국 신약개발을 이끌어온 여정</p>
+            </div>
+
+            <div class="timeline" data-aos="fade-up">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2025</span>
+                        <h4>출범 4주년</h4>
+                        <p>기자간담회, 과학축제 부스 운영, Young BD 워크숍, R&D 워크샵 개최</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2024</span>
+                        <h4>박영민 2대 사업단장 취임</h4>
+                        <p>신약개발 SEED 창출 플랫폼 개설, 제4회 KDDF Science Conference</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2023</span>
+                        <h4>ADC 특허분석 발표</h4>
+                        <p>10대 과제 선정, 제3회 Science Conference 개최</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-dot highlight"></div>
+                    <div class="timeline-content highlight">
+                        <span class="timeline-year">2021</span>
+                        <h4>국가신약개발사업단 출범</h4>
+                        <p>재단 설립, 묵현상 1대 사업단장 취임</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2020</span>
+                        <h4>코로나19 사업단 출범</h4>
+                        <p>코로나19 치료제·백신 신약개발사업단 신설</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2011</span>
+                        <h4>범부처신약개발사업단 설립</h4>
+                        <p>이동호 초대 단장 취임, 국가 신약개발 지원 체계 구축</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="history-cta" data-aos="fade-up">
+                <a href="https://kddf.org/ko/info/history" class="btn btn-outline">전체 연혁 보기</a>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- 섹션 9: CTA -->
+    <section class="cta" id="apply">
+        <div class="cta-bg"></div>
+        <div class="cta-particles"></div>
+        <div class="cta-glow cta-glow-1"></div>
+        <div class="cta-glow cta-glow-2"></div>
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <div class="cta-contact">
+                    <span class="cta-contact-label">문의하기</span>
+                    <div class="cta-contact-info">
+                        <a href="mailto:kddf@kddf.org" class="cta-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+                            kddf@kddf.org
+                        </a>
+                        <span class="cta-contact-divider">|</span>
+                        <a href="tel:02-6379-3050" class="cta-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            02-6379-3050
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 섹션 10: 푸터 (서브페이지 공통 푸터와 동일 구조) -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="https://www.kddf.org/assets/v3/img/ft_logo_color.png?v=ftc0804" alt="KDDF 국가신약개발재단">
+                    </div>
+                    <div class="footer-contact">
+                        <p><strong>주소</strong> 서울시 마포구 마포대로 137 KPX빌딩 9층</p>
+                        <p><strong>대표전화</strong> 02-6379-3050</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <select class="footer-select" onchange="if(this.value){window.open(this.value,'_blank');}this.selectedIndex=0;" aria-label="정부부처·전문기관 바로가기">
+                        <option value="">정부부처·전문기관</option>
+                        <option value="https://www.msit.go.kr/index.do">과학기술정보통신부</option>
+                        <option value="https://www.motir.go.kr/">산업통상부</option>
+                        <option value="https://www.mohw.go.kr/">보건복지부</option>
+                        <option value="https://www.nrf.re.kr/">한국연구재단</option>
+                        <option value="https://www.keit.re.kr/">한국산업기술기획평가원</option>
+                        <option value="https://www.khidi.or.kr/intro">한국보건산업진흥원</option>
+                    </select>
+                    <select class="footer-select" onchange="if(this.value){window.open(this.value,'_blank');}this.selectedIndex=0;" aria-label="유관기관 바로가기">
+                        <option value="">유관기관</option>
+                        <option value="https://www.mfds.go.kr/index.do">식품의약품안전처</option>
+                        <option value="https://www.moip.go.kr/ko/MainApp.do">지식재산처</option>
+                        <option value="https://www.seoulbiohub.kr/front/user/main.do">서울바이오허브</option>
+                        <option value="https://www.konect.or.kr/kr/gate.do">국가임상시험지원재단</option>
+                        <option value="https://www.kmedihub.re.kr/">대구경북첨단의료산업진흥재단</option>
+                        <option value="https://kobia.kr/">한국바이오의약품협회</option>
+                        <option value="http://ipogiv.or.kr/">백신글로벌산업화기반구축사업단</option>
+                        <option value="https://www.samsunghospital.com/home/main/index.do">삼성서울병원</option>
+                        <option value="https://www.amc.seoul.kr/asan/main.do">서울아산병원</option>
+                        <option value="https://www.snu.ac.kr/">서울대학교</option>
+                        <option value="https://www.k-rsc.or.kr/">한국규제과학센터</option>
+                        <option value="https://www.kmelloddy.org/main">K-MELLODDY 사업단</option>
+                        <option value="https://www.rmaf.kr/">재생의료진흥재단</option>
+                        <option value="https://www.bayer.com/ko/kr/korea-home">바이엘코리아</option>
+                        <option value="https://www.kista.re.kr/">한국특허전략개발원</option>
+                        <option value="https://www.kibo.or.kr/index.do">기술보증기금</option>
+                        <option value="https://www.kbiohealth.kr/">오송첨단의료산업진흥재단</option>
+                        <option value="https://www.ip-korea.org/ko/">한국파스퇴르연구소</option>
+                        <option value="https://www.kvca.or.kr/">한국벤쳐캐피탈협회</option>
+                        <option value="https://www.fda.gov/">FDA (미국)</option>
+                        <option value="https://www.ema.europa.eu/en/homepage">EMA (유럽)</option>
+                        <option value="https://www.pmda.go.jp/">PMDA (일본)</option>
+                        <option value="https://www.mhlw.go.jp/index.html">MHLW (일본)</option>
+                        <option value="https://ansm.sante.fr/">ANSM (프랑스)</option>
+                        <option value="https://www.gov.uk/">MHRA (영국)</option>
+                        <option value="https://www.canada.ca/en/health-canada.html">Health Canada (캐나다)</option>
+                        <option value="https://english.nmpa.gov.cn/">NMPA (중국)</option>
+                        <option value="https://www.tga.gov.au/">TGA (호주)</option>
+                        <option value="https://clinicaltrials.gov/">ClinicalTrials.gov</option>
+                        <option value="https://www.nih.gov/">NIH (미국)</option>
+                        <option value="https://www.ich.org/">ICH</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-policies">
+                    <a href="https://www.kddf.org/ko/info/security">이메일 무단 수집거부</a>
+                    <a href="https://www.kddf.org/ko/info/policy">개인정보 취급방침</a>
+                </div>
+                <p class="copyright">© Korea Drug Development Fund. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- 스크립트 -->
+    <script src="https://www.kddf.org/assets/v3/script.js?v=20260630b"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 툴팁 요소 생성
+            const tooltip = document.createElement('div');
+            tooltip.className = 'pie-tooltip';
+            document.body.appendChild(tooltip);
+
+            document.querySelectorAll('.pie-chart-card').forEach(card => {
+                const chart = card.querySelector('.pie-chart');
+                const legendItems = card.querySelectorAll('.pie-legend li');
+                
+                let slices = [];
+                let cumulative = 0;
+                
+                legendItems.forEach(item => {
+                    const dot = item.querySelector('.legend-dot');
+                    const color = dot.style.background || dot.style.backgroundColor;
+                    
+                    let text = "";
+                    let valueText = "";
+                    let valueObj = item.querySelector('strong');
+                    let nameObj = item.querySelector('.legend-name');
+                    
+                    if (nameObj) {
+                        text = nameObj.textContent.trim();
+                    } else {
+                        item.childNodes.forEach(node => {
+                            if (node.nodeType === Node.TEXT_NODE) {
+                                text += node.textContent;
+                            }
+                        });
+                        text = text.trim();
+                    }
+                    
+                    if (valueObj) {
+                        valueText = valueObj.textContent.trim();
+                    }
+
+                    // valueText 형식 예: "283건 (51.2%)" 또는 "51%"
+                    let numValue;
+                    const m = valueText.match(/\(([\d.]+)%\)/);
+                    if (m) {
+                        numValue = parseFloat(m[1]);
+                    } else {
+                        numValue = parseFloat(valueText.replace('%', ''));
+                    }
+                    if (!isNaN(numValue) && numValue > 0) {
+                        slices.push({
+                            name: text,
+                            valueStr: valueText,
+                            color: color,
+                            start: cumulative,
+                            end: cumulative + numValue
+                        });
+                        cumulative += numValue;
+                    }
+                });
+
+                chart.addEventListener('mousemove', (e) => {
+                    const rect = chart.getBoundingClientRect();
+                    const cx = rect.width / 2;
+                    const cy = rect.height / 2;
+                    const mouseX = e.clientX - rect.left;
+                    const mouseY = e.clientY - rect.top;
+                    
+                    const dist = Math.sqrt(Math.pow(mouseX - cx, 2) + Math.pow(mouseY - cy, 2));
+                    if (dist > rect.width / 2) {
+                        tooltip.style.opacity = '0';
+                        return;
+                    }
+
+                    // 12시 방향을 0도로 기준 (수학적으로는 -90도)
+                    let angle = Math.atan2(mouseY - cy, mouseX - cx) * (180 / Math.PI);
+                    angle += 90;
+                    if (angle < 0) angle += 360;
+                    
+                    const percent = (angle / 360) * 100;
+                    const slice = slices.find(s => percent >= s.start && percent <= s.end);
+                    
+                    if (slice) {
+                        tooltip.innerHTML = `<span class="tt-dot" style="background:${slice.color}"></span> 
+                                            <span class="tt-name">${slice.name}</span> 
+                                            <strong class="tt-value">${slice.valueStr}</strong>`;
+                        tooltip.style.left = (e.pageX + 15) + 'px';
+                        tooltip.style.top = (e.pageY + 15) + 'px';
+                        tooltip.style.opacity = '1';
+                        chart.style.cursor = 'crosshair';
+                    } else {
+                        tooltip.style.opacity = '0';
+                    }
+                });
+
+                chart.addEventListener('mouseleave', () => {
+                    tooltip.style.opacity = '0';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
