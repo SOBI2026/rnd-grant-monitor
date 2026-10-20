@@ -133,48 +133,6 @@
   "last_seen": "2026-10-20"
  },
  {
-  "id": "mohw-1492239",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "새글 배아·태아 대상 유전자검사 질환 공고",
-  "notice_no": "",
-  "type": "비R&D 사업",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-10-15",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492239",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": ""
-  },
-  "domains": [
-   "바이오"
-  ],
-  "matched": [
-   "유전자"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "비R&D",
-  "score": 50,
-  "origin": "MOHW",
-  "origin_label": "MOHW",
-  "notice_no_kind": "없음",
-  "missing": [
-   "notice_no",
-   "open_date",
-   "close_date"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
   "id": "iris-024438",
   "source": "IRIS",
   "kind": "notice",
@@ -454,44 +412,6 @@
   "last_seen": "2026-10-20"
  },
  {
-  "id": "mohw-1492280",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "새글 급성기 정신질환 집중치료병원 집중치료실 병상 확대 모집계획 공고",
-  "notice_no": "",
-  "type": "참여기업 모집 (추정)",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-10-20",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492280",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "비R&D",
-  "score": 35,
-  "origin": "MOHW",
-  "origin_label": "MOHW",
-  "notice_no_kind": "없음",
-  "missing": [
-   "notice_no",
-   "open_date",
-   "close_date"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
   "id": "khidiweb-48951045",
   "source": "KHIDIWEB",
   "kind": "notice",
@@ -606,44 +526,6 @@
   "last_seen": "2026-10-20"
  },
  {
-  "id": "mohw-1492171",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "「정신질환자 지속치료 지원 시범사업」 사업기관 추가 공모",
-  "notice_no": "",
-  "type": "공모 (추정)",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-10-07",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492171",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "비R&D",
-  "score": 35,
-  "origin": "MOHW",
-  "origin_label": "MOHW",
-  "notice_no_kind": "없음",
-  "missing": [
-   "notice_no",
-   "open_date",
-   "close_date"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
   "id": "khidi-pban-8906",
   "source": "KHIDI",
   "kind": "notice",
@@ -659,7 +541,16 @@
   "url": "https://www.htdream.kr/",
   "extra": {
    "phase": "접수중",
-   "pbanId": "8906"
+   "pbanId": "8906",
+   "also_listed": [
+    "MOHW"
+   ],
+   "co_agencies": [
+    "보건복지부"
+   ],
+   "merged_ids": [
+    "mohw-1492137"
+   ]
   },
   "domains": [],
   "matched": [],
@@ -669,48 +560,10 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "KHIDI",
-  "origin_label": "KHIDI 보건의료R&D포털(htdream)",
+  "origin": "KHIDI + MOHW",
+  "origin_label": "KHIDI 보건의료R&D포털(htdream) / MOHW",
   "notice_no_kind": "부처 공고",
   "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "mohw-1492137",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "한의약혁신기술개발사업 사업단장 공모",
-  "notice_no": "",
-  "type": "공모 (추정)",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-10-02",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492137",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "비R&D",
-  "score": 35,
-  "origin": "MOHW",
-  "origin_label": "MOHW",
-  "notice_no_kind": "없음",
-  "missing": [
-   "notice_no",
-   "open_date",
-   "close_date"
-  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -748,44 +601,6 @@
   "missing": [
    "notice_no",
    "open_date"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "mohw-1492123",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "2026년도 2차 간호조무사 신규교육훈련기관 예비 지정 평가 시행 계획 공고",
-  "notice_no": "",
-  "type": "비R&D 사업",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-10-01",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492123",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "비R&D",
-  "score": 35,
-  "origin": "MOHW",
-  "origin_label": "MOHW",
-  "notice_no_kind": "없음",
-  "missing": [
-   "notice_no",
-   "open_date",
-   "close_date"
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"

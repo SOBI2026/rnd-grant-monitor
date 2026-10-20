@@ -1070,7 +1070,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [
    "의료기기"
@@ -1114,7 +1115,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [
    "의료기기"
@@ -1158,7 +1160,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [
    "의료기기"
@@ -1202,7 +1205,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [
    "의료기기"
@@ -1246,7 +1250,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [
    "의료기기"
@@ -1471,7 +1476,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2116,7 +2122,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2156,7 +2163,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2196,7 +2204,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2236,7 +2245,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2276,7 +2286,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2316,7 +2327,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2356,7 +2368,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -2396,7 +2409,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],

@@ -1,9 +1,43 @@
 [
  {
+  "id": "mohw-1492280",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "급성기 정신질환 집중치료병원 집중치료실 병상 확대 모집계획 공고",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-10-20",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492280",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "mohw-1492272",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 2027년 정신건강증진시설 인권교육 사업 수행기관 공모",
+  "title": "2027년 정신건강증진시설 인권교육 사업 수행기관 공모",
   "notice_no": "",
   "type": "공모 (추정)",
   "ministry": "보건복지부",
@@ -16,7 +50,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -36,7 +71,7 @@
   "id": "mohw-1492271",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 장애친화 산부인과 운영지원사업 4차 공모",
+  "title": "장애친화 산부인과 운영지원사업 4차 공모",
   "notice_no": "",
   "type": "공모 (추정)",
   "ministry": "보건복지부",
@@ -49,7 +84,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -69,7 +105,7 @@
   "id": "mohw-1492264",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 「2026년도 스마트 사회서비스 시범사업」4차 공고",
+  "title": "「2026년도 스마트 사회서비스 시범사업」4차 공고",
   "notice_no": "",
   "type": "비R&D 사업",
   "ministry": "보건복지부",
@@ -82,7 +118,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -102,7 +139,7 @@
   "id": "mohw-1492262",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 2027년도 제25회 사회복지사 1급 국가시험 시행계획 공고",
+  "title": "2027년도 제25회 사회복지사 1급 국가시험 시행계획 공고",
   "notice_no": "",
   "type": "비R&D 사업",
   "ministry": "보건복지부",
@@ -115,7 +152,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -135,7 +173,7 @@
   "id": "mohw-1492257",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 인증 공동이용탕전실 공고문",
+  "title": "인증 공동이용탕전실 공고문",
   "notice_no": "",
   "type": "인증 (추정)",
   "ministry": "보건복지부",
@@ -148,7 +186,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -168,7 +207,7 @@
   "id": "mohw-1492255",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 2027년 장애인식개선교육기관 지정계획 공고",
+  "title": "2027년 장애인식개선교육기관 지정계획 공고",
   "notice_no": "",
   "type": "비R&D 사업",
   "ministry": "보건복지부",
@@ -181,7 +220,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -201,7 +241,7 @@
   "id": "mohw-1492249",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 [2026-17호] 민간자격 등록폐지 공고",
+  "title": "[2026-17호] 민간자격 등록폐지 공고",
   "notice_no": "2026-17호",
   "type": "비R&D 사업",
   "ministry": "보건복지부",
@@ -214,7 +254,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -265,6 +306,42 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "mohw-1492239",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "배아·태아 대상 유전자검사 질환 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-10-15",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492239",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [
+   "유전자"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "mohw-1492205",
   "source": "MOHW",
   "kind": "notice",
@@ -281,7 +358,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -314,7 +392,42 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-1492171",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "「정신질환자 지속치료 지원 시범사업」 사업기관 추가 공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-10-07",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492171",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -415,7 +528,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -448,7 +562,42 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-1492123",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2026년도 2차 간호조무사 신규교육훈련기관 예비 지정 평가 시행 계획 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-10-01",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492123",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -1255,7 +1404,7 @@
   "id": "mohw-1492265",
   "source": "MOHW",
   "kind": "notice",
-  "title": "새글 국유재산(여성의류 및 잡화) 사용허가 입찰 재공고",
+  "title": "국유재산(여성의류 및 잡화) 사용허가 입찰 재공고",
   "notice_no": "",
   "type": "비R&D 사업",
   "ministry": "보건복지부",
@@ -1268,7 +1417,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
@@ -1337,7 +1487,8 @@
   "extra": {
    "category": "비R&D",
    "terms_only": true,
-   "deadline_from": ""
+   "deadline_from": "",
+   "strict": true
   },
   "domains": [],
   "matched": [],
