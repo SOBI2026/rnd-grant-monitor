@@ -54,18 +54,28 @@ def main():
             for k, f in FILES.items()}
     first_run = not any(prev.values())
 
+    state_path = os.path.join(DATA, "state.json")
+    state = load(state_path, {})
     results = {k: {} for k in FILES}
     fresh = set()  # 이번 실행에서 실제 수집된 id
     status, errors = [], []
     for label, source, kind, fn in JOBS:
+        ctx = {"prev": {i: x for i, x in prev[kind].items()
+                        if x["source"] == source},
+               "state": state}
         try:
-            items = fn()
+            items = fn(ctx)
             if not items:
                 raise RuntimeError("0건 수집 (사이트 구조 변경 가능성)")
             for it in items:
                 results[kind][it["id"]] = it
                 fresh.add(it["id"])
             status.append({"job": label, "ok": True, "count": len(items)})
+        except iris.Skip as e:  # 계획된 건너뛰기: 이전 데이터 유지
+            status.append({"job": label, "ok": True, "count": 0,
+                           "skipped": str(e)})
+            for x in ctx["prev"].values():
+                results[kind].setdefault(x["id"], x)
         except Exception as e:  # 실패한 소스는 이전 데이터 유지
             errors.append({"job": label, "error": f"{type(e).__name__}: {e}"})
             status.append({"job": label, "ok": False, "count": 0})
@@ -81,6 +91,10 @@ def main():
                                           it["status"])
     results["notice"], dup_log = dedupe(results["notice"])
 
+    # 병합되어 사라진 id도 "이미 본 것"으로 취급 (중복 알림 방지)
+    seen_before = {k: set(v) | {m for x in v.values()
+                                for m in x.get("extra", {}).get("merged_ids", [])}
+                   for k, v in prev.items()}
     new_items = []
     missing = {}
     for kind, items in results.items():
@@ -95,7 +109,8 @@ def main():
             if it["id"] in fresh:
                 it["last_seen"] = today
             classify(it, profile)
-            if not old and not first_run and kind != "history":
+            if (it["id"] not in seen_before[kind] and not first_run
+                    and kind != "history"):
                 new_items.append(it)
         ordered = sorted(items.values(),
                          key=lambda x: (x["score"], x.get("posted") or ""),
@@ -112,6 +127,7 @@ def main():
         "missing_required": missing,
     }
     save(os.path.join(DATA, "meta.json"), meta)
+    save(state_path, state)
 
     # 알림 본문 (관련도 기준 이상 신규 항목 + 실패 내역)
     min_score = profile.get("notify_min_score", 50)

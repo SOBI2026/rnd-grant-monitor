@@ -28,7 +28,7 @@ def _infer_type(title):
     return ""
 
 
-def fetch_notices():
+def fetch_notices(ctx=None):
     s = session()
     html = polite_get(s, BASE + "/").text
     out = {}
@@ -50,7 +50,7 @@ def fetch_notices():
     return list(out.values())
 
 
-def fetch_signals(pages=3):
+def fetch_signals(ctx=None, pages=3):
     s = session()
     polite_get(s, BASE + "/")
     out = {}

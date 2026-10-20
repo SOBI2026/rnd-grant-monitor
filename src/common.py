@@ -8,7 +8,8 @@ import requests
 KST = timezone(timedelta(hours=9))
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
-DELAY = 0.7  # 요청 간 대기(초). 서버 부담 최소화.
+DELAY = 0.7  # 요청 간 기본 대기(초)
+RETRIES = 2   # 타임아웃·5xx 재시도 횟수 (대기 20초, 40초)
 
 
 def today_kst():
@@ -21,18 +22,31 @@ def session():
     return s
 
 
-def polite_get(s, url, **kw):
-    time.sleep(DELAY)
-    r = s.get(url, timeout=30, **kw)
-    r.raise_for_status()
-    return r
+def _call(fn, url, delay, **kw):
+    last = None
+    for attempt in range(RETRIES + 1):
+        time.sleep(delay if attempt == 0 else 20 * attempt)
+        try:
+            r = fn(url, timeout=30, **kw)
+            if r.status_code >= 500:
+                raise requests.HTTPError(f"{r.status_code}", response=r)
+            r.raise_for_status()
+            return r
+        except (requests.ConnectionError, requests.Timeout,
+                requests.HTTPError) as e:
+            last = e
+            if isinstance(e, requests.HTTPError) and e.response is not None \
+                    and e.response.status_code < 500:
+                raise
+    raise last
 
 
-def polite_post(s, url, **kw):
-    time.sleep(DELAY)
-    r = s.post(url, timeout=30, **kw)
-    r.raise_for_status()
-    return r
+def polite_get(s, url, delay=DELAY, **kw):
+    return _call(s.get, url, delay, **kw)
+
+
+def polite_post(s, url, delay=DELAY, **kw):
+    return _call(s.post, url, delay, **kw)
 
 
 def norm_date(v):
