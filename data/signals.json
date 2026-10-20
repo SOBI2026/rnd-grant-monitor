@@ -1,0 +1,418 @@
+[
+ {
+  "id": "khidi-10829",
+  "source": "KHIDI",
+  "kind": "signal",
+  "title": "2026년도 제2차 국가신약개발사업 신규지원 대상과제 선정 공고문",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "notice_no": "",
+  "status": "일반공지",
+  "posted": "2026-10-12",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.htdream.kr/",
+  "extra": {
+   "seq": 10829
+  },
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 60,
+  "signal_type": "선정결과"
+ },
+ {
+  "id": "khidi-10830",
+  "source": "KHIDI",
+  "kind": "signal",
+  "title": "2026년 지역거점 AX 혁신 기술개발 사업설명회 안내",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "notice_no": "",
+  "status": "일반공지",
+  "posted": "2026-10-15",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.htdream.kr/",
+  "extra": {
+   "seq": 10830
+  },
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "디지털헬스"
+  ],
+  "matched": [
+   "AX"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50,
+  "signal_type": "설명회"
+ },
+ {
+  "id": "khidi-10828",
+  "source": "KHIDI",
+  "kind": "signal",
+  "title": "(재) 대구디지털혁신 진흥원 부설기관 지역거점AX혁신기술개발사업단장 공개모집 공고 안내",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "notice_no": "",
+  "status": "일반공지",
+  "posted": "2026-10-07",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.htdream.kr/",
+  "extra": {
+   "seq": 10828
+  },
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "디지털헬스"
+  ],
+  "matched": [
+   "AX",
+   "디지털"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "khidi-10816",
+  "source": "KHIDI",
+  "kind": "signal",
+  "title": "(기간 연장) 「범부처 첨단 의료기기 연구개발사업」 2027년도 신규과제 기획을 위한 기술수요조사 공고(제1차 필수의료기기)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "notice_no": "",
+  "status": "일반공지",
+  "posted": "2026-09-27",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.htdream.kr/",
+  "extra": {
+   "seq": 10816
+  },
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50,
+  "signal_type": "수요조사"
+ },
+ {
+  "id": "khidi-10815",
+  "source": "KHIDI",
+  "kind": "signal",
+  "title": "「범부처 첨단 의료기기 연구개발사업」 2027년도 신규과제 기획을 위한 기술수요조사 공고(제2차 미래유망 의료기기)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "notice_no": "",
+  "status": "일반공지",
+  "posted": "2026-09-27",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.htdream.kr/",
+  "extra": {
+   "seq": 10815
+  },
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50,
+  "signal_type": "수요조사"
+ },
+ {
+  "id": "kmdf-4413",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[행사] 2026 범부처 의료기기 STEP-UP 이니셔티브 통합포럼 개최(9.4)",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-08-31",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4413",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4370",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[공지] 첨단 의료기기 개발 및 의료현장 연계 전략 세미나 개최",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-07-07",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4370",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4456",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "「2026 KMDF 매칭데이」 개최 안내(10.15.)",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-09-30",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4456",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35,
+  "signal_type": "설명회"
+ },
+ {
+  "id": "kmdf-4011",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[공지] 미충족의료수요 기반 의료제품 설계서 양식 안내",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2025-12-03",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4011",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4468",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[교육] 2026년도 소프트웨어분야 의료기기 평가기술 개발 및 기술지원 3차 기업교육 홍보",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-10-16",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4468",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "디지털헬스",
+   "의료기기"
+  ],
+  "matched": [
+   "소프트웨어",
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 10,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4465",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[교육] 2026년도 용품분야 의료기기 평가기술 개발 및 기술지원 1차 기업교육 홍보",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-10-14",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4465",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 10,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4459",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[교육] 2026년도 소프트웨어분야 의료기기 평가기술 개발 및 기술지원 2차 기업교육 홍보",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-10-06",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4459",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "디지털헬스",
+   "의료기기"
+  ],
+  "matched": [
+   "소프트웨어",
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 10,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4455",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[교육] 2026년도 진단분야 의료기기 평가기술 개발 및 기술지원 1차/2차 기업교육 홍보",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-09-29",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4455",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기",
+   "진단"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 10,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4403",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[교육] 2026년도 치료분야 의료기기 평가기술 개발 및 기술지원 1차 기업교육",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-08-10",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4403",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 10,
+  "signal_type": "일반공지"
+ },
+ {
+  "id": "kmdf-4371",
+  "source": "KMDF",
+  "kind": "signal",
+  "title": "[교육] 2026년도 소프트웨어분야 의료기기 평가기술 개발 및 기술지원 1차 기업교육",
+  "ministry": "범부처",
+  "agency": "범부처의료기기연구개발사업단",
+  "notice_no": "",
+  "status": "",
+  "posted": "2026-07-08",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.kmdf.org/notice/view/id/4371",
+  "extra": {},
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "디지털헬스",
+   "의료기기"
+  ],
+  "matched": [
+   "소프트웨어",
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 10,
+  "signal_type": "일반공지"
+ }
+]
