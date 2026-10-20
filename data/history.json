@@ -257,7 +257,7 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "공고번호(기관 미표기)"
+  "notice_no_kind": "소속기관 공고"
  },
  {
   "id": "iris-015894",
@@ -432,7 +432,7 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "공고번호(기관 미표기)",
+  "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
@@ -467,7 +467,7 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "공고번호(기관 미표기)",
+  "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
@@ -1221,7 +1221,7 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "공고번호(기관 미표기)"
+  "notice_no_kind": "기관 자체번호"
  },
  {
   "id": "iris-017154",
@@ -1311,7 +1311,7 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "공고번호(기관 미표기)",
+  "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
@@ -1342,7 +1342,7 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "공고번호(기관 미표기)",
+  "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
