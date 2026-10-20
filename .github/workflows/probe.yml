@@ -9,26 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch data endpoints
+      - name: Fetch KHIDI detail
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-          mkdir -p raw2; cd raw2
-          C="-sS -L -A \"$UA\" --max-time 30"
+          mkdir -p raw3; cd raw3
+          curl -sS -L -A "$UA" -c ht.jar -o /dev/null "https://www.htdream.kr/"
+          for id in 8906 8926; do
+            curl -sS -L -A "$UA" -b ht.jar -X POST -H "X-Requested-With: XMLHttpRequest" -H "Referer: https://www.htdream.kr/" --data "pbanId=$id" -o "pban_$id.html" "https://www.htdream.kr/mypage/selectBsnsPbanViewAjax.do"
+          done
           curl -sS -L -A "$UA" -c iris.jar -o /dev/null "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do"
-          curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" -H "Referer: https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do" \
-            --data "pageIndex=1&pageUnit=10" -o iris_list.json -w "iris_list %{http_code}\n" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" >> status.txt
-          curl -sS -L -A "$UA" -b iris.jar -o iris_prntc_view.html -w "iris_prntc_view %{http_code}\n" "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do" >> status.txt
-          curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "pageIndex=1" -o iris_prntc.json -w "iris_prntc %{http_code}\n" "https://www.iris.go.kr/contents/retrieveAncmPrntcList.do" >> status.txt
-          curl -sS -L -A "$UA" -c ht.jar -o ht_list.html -w "ht_list %{http_code}\n" "https://www.htdream.kr/businessParticipateNotice/BusinessParticipateNoticeList.do" >> status.txt
-          curl -sS -L -A "$UA" -b ht.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "pageIndex=1" -o ht_pban.json -w "ht_pban %{http_code}\n" "https://www.htdream.kr/mypage/selectBsnsPbanRgstListAjax.do" >> status.txt
-          curl -sS -L -A "$UA" -b ht.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "pageIndex=1" -o ht_bbs.json -w "ht_bbs %{http_code}\n" "https://www.htdream.kr/mypage/selectComtnbbsListAjax.do" >> status.txt
-          curl -sS -L -A "$UA" -o kmdf_notice.html -w "kmdf_notice %{http_code}\n" "https://www.kmdf.org/notice" >> status.txt
-          curl -sS -L -A "$UA" -o kddf_ko.html -w "kddf_ko %{http_code}\n" "https://www.kddf.org/ko" >> status.txt
-          rm -f *.jar; cat status.txt; ls -la
-      - name: Save result
+          curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&blngGovdSeArr=AR4012" -o iris_mohw_end.json "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do"
+          curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&sorgnIdArr=10008" -o iris_khidi_end.json "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do"
+          rm -f *.jar; ls -la
+      - name: Save
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add -A raw2
-          git commit -m "raw2 [skip ci]"
-          git push
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add -A raw3; git commit -m "raw3 [skip ci]"; git push

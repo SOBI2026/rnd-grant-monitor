@@ -1,8 +1,0 @@
-iris_list 200
-iris_prntc_view 200
-iris_prntc 200
-ht_list 200
-ht_pban 200
-ht_bbs 200
-kmdf_notice 200
-kddf_ko 200
