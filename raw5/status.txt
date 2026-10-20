@@ -1,7 +1,0 @@
-nipa_main.html 200 3156 https://www.nipa.kr/
-nipa_biz.html 200 111956 https://www.nipa.kr/home/2-2
-khidi_intro.html 200 8410 https://www.khidi.or.kr/intro
-khidi_m159.html 200 103590 https://www.khidi.or.kr/board?menuId=MENU00159
-khidi_board.html 200 112677 https://www.khidi.or.kr/board?menuId=MENU00100
-bizinfo_list.html 200 112310 https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do?schEtcYn=Y&rows=15&cpage=1&schKeyword=%ED%97%AC%EC%8A%A4%EC%BC%80%EC%96%B4
-mohw_notice.html 200 116527 https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003
