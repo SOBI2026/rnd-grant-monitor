@@ -105,7 +105,10 @@ def build(history, notices, forecasts, today, domains_of):
                 basis.append("IRIS 사업예고 등재")
                 conf = "상" if n >= 2 else "중"
             preds.append({"start": ps.isoformat(), "end": pe.isoformat(),
-                          "confidence": conf, "basis": basis})
+                          "confidence": conf, "basis": basis,
+                          "last_refs": [{"title": x["title"], "url": x.get("url"),
+                                         "source": x.get("origin") or x.get("source") or ""}
+                                        for x in r["items"][:2] if x.get("url")]})
         series.append({
             "key": key,
             "name": _display_name(items),

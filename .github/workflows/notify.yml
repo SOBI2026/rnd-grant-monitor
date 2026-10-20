@@ -1,9 +1,9 @@
 name: notify
 
-# 요약 알림: 매주 월·금 10:00 KST. 필요할 때는 Actions > notify > Run workflow 로 즉시 발송.
+# 요약 알림: 매주 월요일 10:00 KST. 필요할 때는 Actions > notify > Run workflow 로 즉시 발송.
 on:
   schedule:
-    - cron: "0 1 * * 1,5"   # 01:00 UTC = 10:00 KST (GitHub 사정으로 수 분 늦을 수 있음)
+    - cron: "0 1 * * 1"   # 월 01:00 UTC = 10:00 KST (GitHub 사정으로 수 분 늦을 수 있음)
   workflow_dispatch:
 
 permissions:

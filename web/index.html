@@ -167,7 +167,7 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
       <select id="f-cat" aria-label="구분"><option value="">R&amp;D·비R&amp;D</option><option>R&amp;D</option><option>비R&amp;D</option></select>
     </div>
     <div class="tbl-box"><table>
-      <thead><tr><th>상태</th><th>공고명</th><th>공고번호</th><th>공고일</th><th>공고유형</th><th>소관부처</th><th>전문기관</th><th>접수기간</th><th>출처</th></tr></thead>
+      <thead><tr><th>상태</th><th>공고명</th><th>공고번호</th><th>공고일</th><th>공고유형</th><th>소관부처</th><th>전문기관</th><th>접수기간</th><th>원문 바로가기</th></tr></thead>
       <tbody id="tb"></tbody>
     </table></div>
   </section>
@@ -175,7 +175,7 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
   <section id="p-sig" role="tabpanel" aria-labelledby="t-sig" hidden>
     <h2>수요조사 · 설명회 · 공지</h2>
     <div class="tbl-box"><table style="min-width:760px">
-      <thead><tr><th>게시일</th><th>구분</th><th>제목</th><th>기관</th><th>출처</th></tr></thead>
+      <thead><tr><th>게시일</th><th>구분</th><th>제목</th><th>기관</th><th>원문 바로가기</th></tr></thead>
       <tbody id="sb"></tbody>
     </table></div>
     <h2>IRIS 사업예고 <span class="note">(공고 전 예정 사업)</span></h2>
@@ -301,6 +301,13 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") $("#tip").hi
 /* ── 공고 목록 ── */
 const SRC = {NTIS: "NTIS", IRIS: "IRIS", KHIDI: "KHIDI R&D포털", KHIDIWEB: "KHIDI 대표", MOHW: "복지부", NIPA: "NIPA", KMDF: "KMDF"};
 const srcName = o => (o.origin || o.source || "").split(" + ").map(x => SRC[x] || x).join(" + ");
+function linksHtml(o) {
+  const m = {}; if (o.url) m[o.source] = o.url;
+  Object.entries(o.extra?.links || {}).forEach(([k, v]) => { if (v && !(k in m)) m[k] = v; });
+  const out = Object.entries(m).filter(([, v]) => v.replace(/\/$/, "") !== "https://www.htdream.kr")
+    .map(([k, v]) => `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(SRC[k] || k)}</a>`);
+  return out.join(" · ") || "—";
+}
 function stClass(s) { return ["접수중", "접수예정", "마감"].includes(s) ? `st-${s}` : "st-other"; }
 function renderList() {
   const st = $("#f-st").value, cat = $("#f-cat").value;
@@ -318,14 +325,14 @@ function renderList() {
     <td>${esc(n.ministry)}${(n.extra?.co_ministries || []).length ? `<span class="nk">+${esc(n.extra.co_ministries.join(", "))}</span>` : ""}</td>
     <td>${esc(n.agency || "—")}</td>
     <td class="num">${fmt(n.open_date) || "?"} ~ ${fmt(n.close_date) || "?"}<br><span class="dday">${dday(n.close_date)}</span></td>
-    <td>${esc(srcName(n))}</td></tr>`).join("")
+    <td style="white-space:nowrap">${linksHtml(n)}</td></tr>`).join("")
     : `<tr><td colspan="9" class="empty">조건에 맞는 공고가 없습니다.</td></tr>`;
 }
 
 function renderSignals() {
   const s = (D.signals || []).filter(x => matches({...x, name: x.title})).sort((a, b) => String(b.posted).localeCompare(String(a.posted)));
   $("#sb").innerHTML = s.map(x => `<tr><td class="num">${fmt(x.posted)}</td><td>${esc(x.signal_type || x.type || "공지")}</td>
-    <td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.agency || x.ministry)}</td><td>${esc(srcName(x))}</td></tr>`).join("")
+    <td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.agency || x.ministry)}</td><td style="white-space:nowrap">${linksHtml(x)}</td></tr>`).join("")
     || `<tr><td colspan="5" class="empty">신호가 없습니다.</td></tr>`;
   const f = (D.forecasts || []).filter(x => matches({...x, name: x.title})).sort((a, b) => String(b.extra.year).localeCompare(String(a.extra.year)));
   const won = v => v ? (v >= 1e8 ? (v / 1e8).toFixed(1).replace(/\.0$/, "") + "억" : (v / 1e4).toLocaleString() + "만") : "—";

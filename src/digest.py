@@ -1,4 +1,4 @@
-"""주 2회(월·금 10:00) 요약 알림 본문 생성 → digest.md
+"""주 1회(월 10:00) 요약 알림 본문 생성 → digest.md
 
 지난 알림 이후 변화만 모아 한 통으로 보냄. GitHub Issue로 올리면 등록 이메일로 전달.
 섹션: 마감 임박 / 신규 공고 / 신규 신호 / 관심 주제 / 다가오는 예상 공고 / 수집 상태
@@ -49,6 +49,22 @@ def period(x):
     return f"{(a or '?')[5:]}~{(b or '?')[5:]}"
 
 
+def links(x):
+    """원문 링크: 대표 출처 + 병합된 다른 출처(IRIS 등). htdream 첫 화면 링크는 제외."""
+    out = {}
+    if x.get("url"):
+        out[x["source"]] = x["url"]
+    for k, v in (x.get("extra", {}).get("links") or {}).items():
+        out.setdefault(k, v)
+    out = {k: v for k, v in out.items() if v and v.rstrip("/") != "https://www.htdream.kr"}
+    return " · ".join(f"[{SRC.get(k, k)}]({v})" for k, v in out.items()) or "—"
+
+
+def short(x, n=60):
+    t = md(x["title"])
+    return t if len(t) <= n else t[:n - 1] + "…"
+
+
 def link(x, n=48):
     t = md(x["title"])
     t = t if len(t) <= n else t[:n - 1] + "…"
@@ -68,8 +84,8 @@ def build(today, since):
                   key=lambda x: x["close_date"])
     out.append(f"## ⏰ 마감 임박 (7일 이내) {len(soon)}건")
     if soon:
-        out += ["| D-day | 공고 | 부처 · 기관 | 접수기간 |", "|---|---|---|---|"]
-        out += [f"| **{dday(x['close_date'], today)}** | {link(x)} | {md(x['ministry'])} · {md(x['agency'])} | {period(x)} |"
+        out += ["| D-day | 공고 | 부처 · 기관 | 접수기간 | 원문 |", "|---|---|---|---|---|"]
+        out += [f"| **{dday(x['close_date'], today)}** | {short(x)} | {md(x['ministry'])} · {md(x['agency'])} | {period(x)} | {links(x)} |"
                 for x in soon]
     else:
         out.append("없음")
@@ -89,18 +105,20 @@ def build(today, since):
             rfps = [re.sub(r"^\d{4}\)\(", "", x["title"].rsplit("_(", 1)[1]).rstrip(")")
                     if "_(" in x["title"] else "" for x in xs]
             head["title"] = f"{base} — RFP {len(xs)}건"
-            head["rfps"] = [r for r in rfps if r]
+            head["rfps"] = rfps
+            head["rfp_items"] = xs
             head["domains"] = sorted({d for x in xs for d in (x.get("domains") or [])})
             head["close_date"] = xs[0].get("close_date")
         new.append(head)
     new.sort(key=lambda x: (x["status"] != "접수중", x.get("close_date") or "9"))
     out += ["", f"## 🆕 신규 공고 {len(new)}건"]
     if new:
-        out += ["| 상태 | 공고 | 분야 | 부처 · 기관 | 접수기간 | 출처 |", "|---|---|---|---|---|---|"]
-        out += [f"| {md(x['status']).replace('게시중(기간 확인 필요)', '기간확인')} | {link(x)} | "
+        out += ["| 상태 | 공고 | 분야 | 부처 · 기관 | 접수기간 | 원문 |", "|---|---|---|---|---|---|"]
+        out += [f"| {md(x['status']).replace('게시중(기간 확인 필요)', '기간확인')} | {short(x, 70)} | "
                 f"{', '.join(x.get('domains') or [])} | {md(x['ministry'])} · {md(x['agency'])} | "
-                f"{period(x)} {dday(x.get('close_date'), today)} | {src(x)} |"
-                + ("".join(f"\n|  | └ {md(r)[:70]} |  |  |  |  |" for r in x.get("rfps", [])[:6]))
+                f"{period(x)} {dday(x.get('close_date'), today)} | {links(x)} |"
+                + ("".join(f"\n|  | └ {md(r)[:70]} |  |  |  | {links(rx)} |"
+                           for r, rx in list(zip(x.get("rfps", []), x.get("rfp_items", [])))[:8]))
                 for x in new[:25]]
         if len(new) > 25:
             out.append(f"외 {len(new) - 25}건은 화면에서 확인")
@@ -113,14 +131,18 @@ def build(today, since):
                   and not x["title"].lstrip().startswith(("[교육]", "[행사]"))),
                  key=lambda x: x.get("posted") or "", reverse=True)
     out += ["", f"## 📡 신규 신호 (수요조사 · 설명회 등) {len(sig)}건"]
-    out += [f"- [{md(x.get('signal_type') or x.get('type') or '공지')}] {link(x, 60)} · "
-            f"{md(x.get('agency') or x['ministry'])} · {src(x)}" for x in sig[:15]] or ["없음"]
+    if sig:
+        out += ["| 게시일 | 구분 | 제목 | 기관 | 원문 |", "|---|---|---|---|---|"]
+        out += [f"| {(x.get('posted') or '')[5:]} | {md(x.get('signal_type') or x.get('type') or '공지')} | "
+                f"{short(x, 60)} | {md(x.get('agency') or x['ministry'])} | {links(x)} |" for x in sig[:15]]
+    else:
+        out.append("없음")
 
     # 4) 관심 주제 (혁신형 제약·의료기기, 디지털헬스): 신규만
     topic = [x for x in new + sig if x.get("topics")]
     if topic:
         out += ["", "## ⭐ 관심 주제"]
-        out += [f"- #{' #'.join(x['topics'])} {link(x, 60)}" for x in topic]
+        out += [f"- #{' #'.join(x['topics'])} {short(x, 60)} — {links(x)}" for x in topic]
 
     # 5) 다가오는 예상 공고: 오늘~45일
     up = [p for p in preds
@@ -128,8 +150,9 @@ def build(today, since):
     out += ["", f"## 🔮 다가오는 예상 공고 (45일 이내) {len(up)}건",
             "작년 같은 시기 공고 기준 추정. 신뢰도 상 = 연 2회 이상 반복 + IRIS 사업예고 등재"]
     if up:
-        out += ["| 예상 시기 | 사업 | 부처 | 신뢰도 |", "|---|---|---|---|"]
-        out += [f"| {p['start'][5:]}~{p['end'][5:]} | {md(p['name'])} | {md(p['ministry'])} | {p['confidence']} |"
+        out += ["| 예상 시기 | 사업 | 부처 | 신뢰도 | 작년 공고 |", "|---|---|---|---|---|"]
+        out += [f"| {p['start'][5:]}~{p['end'][5:]} | {md(p['name'])} | {md(p['ministry'])} | {p['confidence']} | "
+                f"{' · '.join(f'[{SRC.get(r["source"].split(" + ")[0], "원문")}]({r["url"]})' for r in p.get('last_refs', [])[:2]) or '—'} |"
                 for p in up[:20]]
     else:
         out.append("없음")

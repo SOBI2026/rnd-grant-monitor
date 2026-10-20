@@ -6,7 +6,7 @@
 
 ```
 GitHub Actions(매일 06:50 KST) → src/run.py → data/*.json → GitHub Pages 화면
-                 (월·금 10:00 KST) → src/digest.py → 요약 메일
+                 (월 10:00 KST) → src/digest.py → 요약 메일
 ```
 
 | 소스 | 방식 | 종류 |
@@ -45,6 +45,6 @@ GitHub Pages: https://sobi2026.github.io/rnd-grant-monitor/ — 공고 일정·�
 
 ## 알림
 
-매주 월·금 10:00 KST 요약 1통 (`notify.yml` → `src/digest.py` → GitHub Issue → 등록 이메일).
+매주 월요일 10:00 KST 요약 1통 (공고마다 원문 링크) (`notify.yml` → `src/digest.py` → GitHub Issue → 등록 이메일).
 구성: 마감 임박(7일) · 신규 공고(RFP 묶음) · 신규 신호(수요조사·설명회) · 관심 주제 · 45일 내 예상 공고 · 수집 상태.
 수시 발송: Actions › notify › Run workflow. 수집은 매일 06:50 KST(화면 갱신용, 알림 없음).

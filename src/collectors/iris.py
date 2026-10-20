@@ -15,7 +15,8 @@ LIST_VIEW = BASE + "/contents/retrieveBsnsAncmBtinSituListView.do"
 LIST_JSON = BASE + "/contents/retrieveBsnsAncmBtinSituList.do"
 PRNTC_VIEW = BASE + "/contents/retrieveAncmPrntcListView.do"
 PRNTC_JSON = BASE + "/contents/retrieveAncmPrntcList.do"
-DETAIL = BASE + "/contents/retrieveBsnsAncmView.do?ancmId={}"
+DETAIL = BASE + "/contents/retrieveBsnsAncmView.do?ancmId={}&ancmPrg={}"
+PRG = {"진행중": "ancmIng", "예정": "ancmPre"}
 
 # ancmIng=접수중, ancmPre=접수예정, ancmEnd=마감
 # IRIS는 페이지당 10건 고정, 공고일 내림차순. 짧은 시간 요청이 몰리면 접속 차단.
@@ -59,7 +60,8 @@ def _to_item(r, kind):
     aid = r.get("ancmId")
     return item(
         id=f"iris-{aid}", source="IRIS", kind=kind,
-        title=r.get("ancmTl"), url=DETAIL.format(aid),
+        title=r.get("ancmTl"),
+        url=DETAIL.format(aid, PRG.get(r.get("rcveStt") or "", "ancmEnd")),
         ministry=r.get("blngGovdSeNm") or r.get("blngGovdSe"),
         agency=r.get("sorgnNm"), notice_no=r.get("ancmNo"),
         type=r.get("pbofrTpSeNmLst") or "",

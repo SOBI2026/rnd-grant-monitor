@@ -10,6 +10,9 @@ from common import clean, item, norm_date, polite_get, polite_post, session
 BASE = "https://www.htdream.kr"
 BBS_JSON = BASE + "/mypage/selectComtnbbsListAjax.do"
 BOARD_URL = BASE + "/"
+# 공지 상세(GET으로 바로 열림). 사업공고 상세는 직접 주소가 없어 NTIS 링크로 대체(병합 시)
+BBS_VIEW = BASE + ("/businessParticipateNotice/addBusinessParticipateNoticeView.do"
+                   "?actionMode=view&invvNoticeSeqno={}")
 PBAN = re.compile(
     r'class="state">([^<]+)<.*?마감일\s*([\d-]+).*?'
     r"fn_selectBsnsPbanView\('(\d+)'[^>]*>(.*?)</a>.*?"
@@ -63,7 +66,7 @@ def fetch_signals(ctx=None, pages=3):
             no = x.get("invvNoticeSeqno")
             out[f"khidi-{no}"] = item(
                 id=f"khidi-{no}", source="KHIDI", kind="signal",
-                title=x.get("invvNoticeTtl"), url=BOARD_URL,
+                title=x.get("invvNoticeTtl"), url=BBS_VIEW.format(no),
                 ministry="보건복지부", agency="한국보건산업진흥원",
                 status=x.get("ctgrDsncNm") or "",
                 posted=norm_date(x.get("rgstDt")),
