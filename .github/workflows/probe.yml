@@ -2,7 +2,6 @@ name: source-probe
 on:
   push:
     branches: [probe]
-  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -10,36 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Probe sources from GitHub runner
+      - name: Save raw pages
         run: |
-          exec > >(tee probe-result.txt) 2>&1
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-          probe() {
-            name="$1"; url="$2"
-            out=$(curl -sS -L -A "$UA" --max-time 25 -o body.tmp -w "%{http_code}|%{content_type}|%{size_download}|%{url_effective}" "$url" 2>&1) || out="ERR|$out"
-            echo "=== $name"
-            echo "    $out"
-            head -c 400 body.tmp 2>/dev/null | tr '\n\r\t' '   ' | sed 's/  */ /g'; echo
-            grep -o -i -E 'rss|application/rss|\.xml|openapi|api' body.tmp 2>/dev/null | sort | uniq -c | head -5
-          }
-          probe IRIS_main        "https://www.iris.go.kr/main.do"
-          probe IRIS_ancm_list   "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do"
-          probe KHIDI_htdream    "https://www.htdream.kr/"
-          probe KHIDI_main       "https://www.khidi.or.kr/"
-          probe KDDF             "https://www.kddf.org/"
-          probe KMDF             "https://www.kmdf.org/"
-          probe NTIS_main        "https://www.ntis.go.kr/"
-          probe NTIS_openapi     "https://www.ntis.go.kr/rndopen/api/mng/apiMain.do"
-          probe BIZINFO_list     "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/list.do"
-          probe BIZINFO_api_nokey "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do?dataType=json&searchCnt=1"
-          probe MOHW_main        "https://www.mohw.go.kr/"
-          probe DATA_GO_KR       "https://www.data.go.kr/"
-          probe OPENFISCAL       "https://www.openfiscaldata.go.kr/"
+          mkdir -p raw
+          g() { curl -sS -L -A "$UA" --max-time 30 -o "raw/$1" "$2" || echo "fail $1" >> raw/errors.txt; }
+          g iris_main.html   "https://www.iris.go.kr/main.do"
+          g iris_list.html   "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do"
+          g htdream.html     "https://www.htdream.kr/"
+          g kddf.html        "https://www.kddf.org/"
+          g kmdf.html        "https://www.kmdf.org/"
+          g ntis_api.html    "https://www.ntis.go.kr/rndopen/api/mng/apiMain.do"
+          g mohw.html        "https://www.mohw.go.kr/"
+          ls -la raw
       - name: Save result
         run: |
-          sleep 2
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add probe-result.txt
-          git commit -m "probe result [skip ci]"
+          git add raw
+          git commit -m "raw pages [skip ci]"
           git push
