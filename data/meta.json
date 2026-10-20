@@ -1,15 +1,21 @@
 {
- "updated_at": "2026-10-20T19:44:06+09:00",
+ "updated_at": "2026-10-20T20:42:57+09:00",
  "jobs": [
   {
    "job": "IRIS 사업공고",
    "ok": true,
-   "count": 41
+   "count": 24
+  },
+  {
+   "job": "IRIS 과거공고(관심부처)",
+   "ok": true,
+   "count": 40
   },
   {
    "job": "IRIS 사업예고",
    "ok": true,
-   "count": 228
+   "count": 0,
+   "skipped": "주 1회(월요일) 갱신"
   },
   {
    "job": "KHIDI 사업공고",
@@ -29,12 +35,19 @@
  ],
  "errors": [],
  "counts": {
-  "notice": 43,
+  "notice": 25,
+  "history": 40,
   "forecast": 228,
   "signal": 15
  },
- "new_today": [
-  "khidi-pban-8906",
-  "khidi-pban-8926"
- ]
+ "new_today": [],
+ "merged_duplicates": [
+  {
+   "kept": "iris-024438,iris-024420,iris-024397",
+   "dropped": "khidi-pban-8926",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내"
+  }
+ ],
+ "missing_required": {}
 }

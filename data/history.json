@@ -1,0 +1,1190 @@
+[
+ {
+  "id": "iris-024077",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고",
+  "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-04호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-09-15",
+  "open_date": "2026-09-15",
+  "close_date": "2026-10-14",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024077",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "임상",
+   "재생"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-022014",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제3차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고",
+  "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-03호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-06-10",
+  "open_date": "2026-06-10",
+  "close_date": "2026-07-10",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022014",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "임상",
+   "재생"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-018115",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고",
+  "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-02호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-02-27",
+  "open_date": "2026-02-27",
+  "close_date": "2026-03-30",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018115",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "임상",
+   "재생"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-018095",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고",
+  "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-01호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-02-10",
+  "open_date": "2026-02-10",
+  "close_date": "2026-03-11",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018095",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "임상",
+   "재생"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-019316",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합재공고",
+  "notice_no": "세포기반인공혈액기술개발사업단 2026-01호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-13",
+  "open_date": "2026-02-20",
+  "close_date": "2026-03-02",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019316",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오",
+   "디지털헬스"
+  ],
+  "matched": [
+   "세포",
+   "플랫폼"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-017847",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고",
+  "notice_no": "세포기반인공혈액기술개발사업단 2026-01호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-13",
+  "open_date": "2026-01-13",
+  "close_date": "2026-02-12",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017847",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오",
+   "디지털헬스"
+  ],
+  "matched": [
+   "세포",
+   "플랫폼"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-017699",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 면역세포유전자치료제전주기기술개발사업 연구지원과제 공고",
+  "notice_no": "국립암센터 공고 제2026-1호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "국립암센터",
+  "status": "마감",
+  "posted": "2026-01-09",
+  "open_date": "2026-01-09",
+  "close_date": "2026-02-09",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017699",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "세포",
+   "유전자",
+   "치료제"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-015894",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2025년도 제3차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 통합공고",
+  "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2025-03호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-09-23",
+  "open_date": "2025-09-23",
+  "close_date": "2025-10-24",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=015894",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "임상",
+   "재생"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 65
+ },
+ {
+  "id": "iris-016474",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2025년도 글로벌 의사과학자 양성사업 (임상현장 의사과학자 연구 멘토링사업) 신규지원 대상과제 공고",
+  "notice_no": "보건복지부 공고 제2025-765호",
+  "type": "자유공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-11-03",
+  "open_date": "2025-11-20",
+  "close_date": "2025-12-03",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016474",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "글로벌",
+   "임상"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 60
+ },
+ {
+  "id": "iris-023057",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 재공고",
+  "notice_no": "백신실용화기술개발사업단 공고 제2026-004호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-07-10",
+  "open_date": "2026-07-10",
+  "close_date": "2026-07-20",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023057",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "백신"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-022378",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 공고",
+  "notice_no": "백신실용화기술개발사업단 공고 제2026-003호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-06-11",
+  "open_date": "2026-06-11",
+  "close_date": "2026-07-10",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022378",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "백신"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-022254",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
+  "notice_no": "질병관리청 국립보건연구원 공고 제2026-310호",
+  "type": "품목지정공모",
+  "ministry": "질병관리청",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-06-08",
+  "open_date": "2026-06-08",
+  "close_date": "2026-06-17",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022254",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "백신"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-021495",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
+  "notice_no": "질병관리청 국립보건연구원 공고 제2026-253호",
+  "type": "품목지정공모",
+  "ministry": "질병관리청",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-05-06",
+  "open_date": "2026-05-13",
+  "close_date": "2026-06-04",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021495",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "백신"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-021356",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고",
+  "notice_no": "식품의약품안전처 공고 제2026-210호",
+  "type": "지정공모",
+  "ministry": "식품의약품안전처",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-04-30",
+  "open_date": "2026-04-30",
+  "close_date": "2026-05-14",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021356",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "의약품"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-021294",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 첨단바이오 융합인재 양성사업 신규지원 대상과제 공고",
+  "notice_no": "보건복지부 공고 제2026-361호",
+  "type": "자유공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-04-27",
+  "open_date": "2026-04-27",
+  "close_date": "2026-05-27",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021294",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-021274",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고",
+  "notice_no": "보건복지부공고 제2026-363호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-04-24",
+  "open_date": "2026-05-04",
+  "close_date": "2026-05-26",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021274",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "치료제"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-019015",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(정정, 2026.2.11.)",
+  "notice_no": "식품의약품안전처 공고 제2026-075호",
+  "type": "지정공모,품목지정공모",
+  "ministry": "식품의약품안전처",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-02-10",
+  "open_date": "2026-02-10",
+  "close_date": "2026-02-19",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "의약품"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-018954",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)",
+  "notice_no": "식품의약품안전처 공고 제2026-075호-",
+  "type": "지정공모,품목지정공모",
+  "ministry": "식품의약품안전처",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-02-10",
+  "open_date": "2026-02-10",
+  "close_date": "2026-02-19",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018954",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "의약품"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-018401",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 재공고",
+  "notice_no": "백신실용화기술개발사업단 공고 제2026-002호",
+  "type": "지정공모,품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-30",
+  "open_date": "2026-01-30",
+  "close_date": "2026-02-09",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018401",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "백신"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-017435",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고(RFP 5-1,5-2 관련 FAQ 반영)",
+  "notice_no": "식품의약품안전처 공고 제2026-1호",
+  "type": "지정공모,품목지정공모",
+  "ministry": "식품의약품안전처",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-06",
+  "open_date": "2026-01-07",
+  "close_date": "2026-02-06",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "의약품"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-017314",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고",
+  "notice_no": "백신실용화기술개발사업단 공고 제2026-001호",
+  "type": "지정공모,품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-12-31",
+  "open_date": "2025-12-31",
+  "close_date": "2026-01-29",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017314",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "백신"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 50
+ },
+ {
+  "id": "iris-018734",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 암정복추진연구개발사업 신규과제 재공모",
+  "notice_no": "CC_2026_001",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "국립암센터",
+  "status": "마감",
+  "posted": "2026-02-03",
+  "open_date": "2026-02-03",
+  "close_date": "2026-02-12",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018734",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [
+   "암"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 45
+ },
+ {
+  "id": "iris-017054",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고",
+  "notice_no": "보건복지부공고 제2026-21호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-07",
+  "open_date": "2026-01-07",
+  "close_date": "2026-03-25",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017054",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [
+   "글로벌"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 45
+ },
+ {
+  "id": "iris-017194",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 암정복추진연구개발사업 신규과제 공모",
+  "notice_no": "CC_2025_004",
+  "type": "자유공모,품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "국립암센터",
+  "status": "마감",
+  "posted": "2025-12-29",
+  "open_date": "2025-12-29",
+  "close_date": "2026-01-27",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017194",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [
+   "암"
+  ],
+  "focus_org": true,
+  "health": true,
+  "score": 45
+ },
+ {
+  "id": "iris-021754",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고",
+  "notice_no": "보건복지부공고 제2026-451호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-06-01",
+  "open_date": "2026-06-10",
+  "close_date": "2026-07-01",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021754",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-021936",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 재공고",
+  "notice_no": "보건복지부공고 제2026-437호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-05-27",
+  "open_date": "2026-05-29",
+  "close_date": "2026-06-08",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021936",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-021355",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 연구중심병원(한미혁신성과창출R&D 협력지원 R&D) 신규지원 대상과제 공고",
+  "notice_no": "보건복지부 공고 제2026-373호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-04-29",
+  "open_date": "2026-05-07",
+  "close_date": "2026-05-29",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021355",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-021234",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 개별공고",
+  "notice_no": "보건복지부공고 제2026-362호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-04-24",
+  "open_date": "2026-05-04",
+  "close_date": "2026-05-26",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021234",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-020534",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고",
+  "notice_no": "보건복지부공고 제2026-313호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-04-07",
+  "open_date": "2026-04-14",
+  "close_date": "2026-05-19",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-020135",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 재공고",
+  "notice_no": "보조기기실용화연구개발사업단공고 제2026-2호",
+  "type": "지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-03-18",
+  "open_date": "2026-03-18",
+  "close_date": "2026-03-27",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020135",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-019194",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고",
+  "notice_no": "보조기기실용화연구개발사업단공고 제2026-1호",
+  "type": "지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-02-13",
+  "open_date": "2026-02-13",
+  "close_date": "2026-03-17",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019194",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-018694",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합 재공고",
+  "notice_no": "보건복지부공고 제2025-961호",
+  "type": "자유공모,품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-02-09",
+  "open_date": "2026-02-10",
+  "close_date": "2026-02-26",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-018474",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 연구중심병원 도약지원사업 신규지원 대상과제 공고",
+  "notice_no": "보건복지부공고 제2026-98호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-30",
+  "open_date": "2026-02-02",
+  "close_date": "2026-03-03",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018474",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-018075",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고",
+  "notice_no": "피부 기반기술 개발 사업단 공고 제2026-1호",
+  "type": "자유공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-23",
+  "open_date": "2026-01-28",
+  "close_date": "2026-02-24",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018075",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-017703",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고",
+  "notice_no": "보건복지부 공고 제2026-47호",
+  "type": "자유공모,품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-01-13",
+  "open_date": "2026-01-13",
+  "close_date": "2026-02-11",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017703",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-017436",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고",
+  "notice_no": "KDRC-2025-001",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-12-31",
+  "open_date": "2026-01-12",
+  "close_date": "2026-02-02",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017436",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-017154",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고",
+  "notice_no": "보건복지부공고 제2025-961호",
+  "type": "자유공모,품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-12-31",
+  "open_date": "2026-01-08",
+  "close_date": "2026-04-30",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017154",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-017414",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고",
+  "notice_no": "환자중심연구사업단 공고 제2025-04호",
+  "type": "품목지정공모",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-12-30",
+  "open_date": "2025-12-30",
+  "close_date": "2026-01-30",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017414",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-017434",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고",
+  "notice_no": "질병관리청 국립보건연구원 공고 제2025-624호",
+  "type": "품목지정공모",
+  "ministry": "다부처,질병관리청",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-12-30",
+  "open_date": "2026-01-08",
+  "close_date": "2026-01-29",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017434",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ },
+ {
+  "id": "iris-017417",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고",
+  "notice_no": "범부처방역연계감염병연구개발재단공고 제2025-007호",
+  "type": "품목지정공모",
+  "ministry": "질병관리청",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2025-12-30",
+  "open_date": "2025-12-31",
+  "close_date": "2026-01-30",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017417",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20",
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "score": 35
+ }
+]
