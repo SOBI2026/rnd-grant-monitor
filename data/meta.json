@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T21:10:43+09:00",
+ "updated_at": "2026-10-20T21:29:01+09:00",
  "jobs": [
   {
    "job": "IRIS 사업공고",
@@ -31,18 +31,59 @@
    "job": "KMDF 공지",
    "ok": true,
    "count": 10
+  },
+  {
+   "job": "KHIDI 비R&D 사업공고",
+   "ok": true,
+   "count": 27
+  },
+  {
+   "job": "NIPA 사업공고",
+   "ok": true,
+   "count": 30
+  },
+  {
+   "job": "보건복지부 공고",
+   "ok": true,
+   "count": 34
   }
  ],
  "errors": [],
  "counts": {
-  "notice": 4,
-  "notice_other": 21,
-  "history": 40,
+  "notice": 20,
+  "notice_other": 68,
+  "history": 64,
   "forecast": 37,
-  "signal": 15
+  "signal": 18
  },
- "new_today": [],
+ "new_today": [
+  "khidiweb-48951083",
+  "khidiweb-48951045",
+  "khidiweb-48950887",
+  "khidiweb-48950356",
+  "khidiweb-48950846",
+  "khidiweb-48950673",
+  "khidiweb-48950575",
+  "khidiweb-48950492",
+  "khidiweb-48950142",
+  "khidiweb-48949906",
+  "khidiweb-48949614",
+  "mohw-1492280",
+  "mohw-1492239",
+  "mohw-1492171",
+  "mohw-1492137",
+  "mohw-1492123",
+  "khidiweb-48950399",
+  "khidiweb-48948562",
+  "mohw-1492134"
+ ],
  "merged_duplicates": [
+  {
+   "kept": "khidiweb-48950142",
+   "dropped": "mohw-1491975",
+   "reason": "같은 제목·접수기간",
+   "title": "2026년도 혁신형 제약기업 및 제약산업 발전 유공자 포상 공고"
+  },
   {
    "kept": "iris-024438,iris-024420,iris-024397",
    "dropped": "khidi-pban-8926",
@@ -50,5 +91,9 @@
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내"
   }
  ],
- "missing_required": {}
+ "missing_required": {
+  "notice_no": 39,
+  "open_date": 40,
+  "close_date": 25
+ }
 }

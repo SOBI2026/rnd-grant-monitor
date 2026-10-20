@@ -28,6 +28,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -65,6 +67,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -108,7 +112,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-018095",
@@ -145,7 +151,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-019316",
@@ -182,7 +190,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017847",
@@ -219,7 +229,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017699",
@@ -257,7 +269,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "소속기관 공고"
+  "notice_no_kind": "소속기관 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-015894",
@@ -294,7 +308,139 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
+ },
+ {
+  "id": "khidiweb-48948775",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년 제2차 제약·바이오 글로벌 진출 지원 사업(K-VIP) 수행기업 모집 통합 연장 공고(~8/24 13시까지)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-08-18",
+  "open_date": null,
+  "close_date": "2026-08-24",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=916&linkId=48948775&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "글로벌",
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 60,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "khidiweb-48947899",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "(추가모집) 「2026년 바이오헬스 글로벌 석학 멘토십 프로그램 멘티 모집」 공고 안내",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감(추정)",
+  "posted": "2026-07-27",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=910&linkId=48947899&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "pinned": false
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "글로벌",
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 60,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "khidiweb-48947856",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년 제2차 제약·바이오 글로벌 진출 지원 사업(K-VIP) 수행기업 모집 통합 공고(~8/14 16시까지)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-07-24",
+  "open_date": null,
+  "close_date": "2026-08-14",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=909&linkId=48947856&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "글로벌",
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 60,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-016474",
@@ -330,7 +476,138 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고"
+  "notice_no_kind": "부처 공고",
+  "topics": [],
+  "category": "R&D"
+ },
+ {
+  "id": "khidiweb-48948364",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "체외진단의료기기 On-Site Meeting 신청 안내(~8.17(월))",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-08-10",
+  "open_date": null,
+  "close_date": "2026-08-17",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=913&linkId=48948364&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기",
+   "진단",
+   "체외진단"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "khidiweb-48948205",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년도 바이오헬스산업 기술평가-사업화 연계 지원사업 참여기관(업) 모집 공고(~8.25.(화) 18:00)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-08-05",
+  "open_date": null,
+  "close_date": "2026-08-25",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=912&linkId=48948205&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "khidiweb-48947846",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "[오스바이오텍(AusBiotech) 2026] 한-호주 바이오헬스 교류단 참여기업 모집 안내",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감(추정)",
+  "posted": "2026-07-24",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=908&linkId=48947846&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "pinned": false
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-023057",
@@ -359,6 +636,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -394,6 +673,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -429,6 +710,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -464,6 +747,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -499,6 +784,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -534,6 +821,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -569,6 +858,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -604,6 +895,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -639,6 +932,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -680,7 +975,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017435",
@@ -709,6 +1006,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -750,7 +1049,229 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
+ },
+ {
+  "id": "mohw-1487048",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "제4차 혁신형 의료기기기업 인증 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2025-07-25",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1487048",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 의료기기"
+  ],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-377075",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2023년 제3차 혁신형 의료기기기업 인증 모집 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2023-07-06",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=377075",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 의료기기"
+  ],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-369123",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "제2차 혁신형 의료기기기업 인증 현황 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2021-12-28",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=369123",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 의료기기"
+  ],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-367967",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2021년도 혁신형 의료기기기업 포상 계획 공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2021-09-24",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=367967",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 의료기기"
+  ],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-366238",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2021년 제 2차 혁신형 의료기기기업 인증 모집 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2021-06-30",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=366238",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 의료기기"
+  ],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-018734",
@@ -783,7 +1304,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "IRIS 접수코드"
+  "notice_no_kind": "IRIS 접수코드",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017054",
@@ -816,7 +1339,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고"
+  "notice_no_kind": "부처 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017194",
@@ -849,7 +1374,163 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "IRIS 접수코드"
+  "notice_no_kind": "IRIS 접수코드",
+  "topics": [],
+  "category": "R&D"
+ },
+ {
+  "id": "khidiweb-48949928",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "「2026 한-카자흐스탄 보건의료 해외진출 홍보 및 공공조달 협력 세미나」 참가기관 모집 공고(~9.18(금) 18:00)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-09-11",
+  "open_date": null,
+  "close_date": "2026-09-18",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=922&linkId=48949928&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "khidiweb-48949455",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년 GHKOL 국제의료사업 실무특화 컨설팅 사업 공고 (~9.16.(수) 까지)",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-09-03",
+  "open_date": null,
+  "close_date": "2026-09-16",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=917&linkId=48949455&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-1491615",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2026년도 혁신형 제약기업 신규인증 공고(Q&A 수정)",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2026-08-18",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491615",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "khidiweb-48948725",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "외국인환자 유치사업자 컨설팅 지원사업 참여기관 모집(~8월 28일(금) 18:00까지)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-08-13",
+  "open_date": null,
+  "close_date": "2026-08-28",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=915&linkId=48948725&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021754",
@@ -874,6 +1555,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -905,11 +1588,52 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "khidiweb-48943715",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년 한국의료 나눔문화 확산사업(나눔의료) 상시모집 공고",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감(추정)",
+  "posted": "2026-04-30",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999992&linkId=48943715&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "pinned": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDIWEB",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -936,6 +1660,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -967,6 +1693,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -1004,7 +1732,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고"
+  "notice_no_kind": "부처 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-020135",
@@ -1035,7 +1765,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-019194",
@@ -1066,7 +1798,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-018694",
@@ -1097,7 +1831,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고"
+  "notice_no_kind": "부처 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-018474",
@@ -1128,7 +1864,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고"
+  "notice_no_kind": "부처 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-018075",
@@ -1159,7 +1897,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017703",
@@ -1190,7 +1930,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고"
+  "notice_no_kind": "부처 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017436",
@@ -1221,7 +1963,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "기관 자체번호"
+  "notice_no_kind": "기관 자체번호",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017154",
@@ -1252,7 +1996,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고"
+  "notice_no_kind": "부처 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017414",
@@ -1283,7 +2029,9 @@
   "relevant": true,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "사업단 공고"
+  "notice_no_kind": "사업단 공고",
+  "topics": [],
+  "category": "R&D"
  },
  {
   "id": "iris-017434",
@@ -1308,6 +2056,8 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
@@ -1339,11 +2089,333 @@
   "focus_org": true,
   "health": true,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
   "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-1487527",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2025년 혁신형 제약기업 포상 및 후보 추천 안내 공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2025-09-26",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1487527",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-1482860",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2024년도 혁신형 제약기업 포상 및 후보 추천 안내 공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2024-08-26",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1482860",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-1482813",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2024년도 혁신형 제약기업 신규인증 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2024-08-21",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1482813",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-378696",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2023년 혁신형 제약기업 포상 및 후보 추천 안내 재공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2023-10-27",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=378696",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-378492",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2023년 혁신형 제약기업 포상 및 후보 추천 안내 공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2023-10-10",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=378492",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-373259",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2022년 혁신형 제약기업 포상 및 후보 추천 안내 공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2022-10-17",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=373259",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-373157",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2022년도 혁신형 제약기업 신규 인증 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2022-10-07",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=373157",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "mohw-368076",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "2021년도 혁신형 제약기업 포상 및 후보 추천 안내 공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2021-10-05",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=368076",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [
+   "혁신형 제약"
+  ],
+  "category": "비R&D",
+  "score": 35,
+  "origin": "MOHW",
+  "origin_label": "MOHW",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  }
