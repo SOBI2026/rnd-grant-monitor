@@ -1,12 +1,37 @@
-"""KHIDI 보건의료R&D포털(htdream) 공지 수집기 → 선제 신호.
+"""KHIDI 보건의료R&D포털(htdream) 수집기.
 
-기술수요조사, 사업설명회, 선정공고 등이 올라옴. 사업공고 자체는 IRIS로 수집.
+- 진행중 사업공고: 메인 페이지 HTML (IRIS에 없는 KHIDI 자체 공고 보완)
+- 공지(기술수요조사, 설명회, 선정공고): 내부 JSON → 선제 신호
 """
-from common import item, norm_date, polite_get, polite_post, session
+import re
+
+from common import clean, item, norm_date, polite_get, polite_post, session
 
 BASE = "https://www.htdream.kr"
 BBS_JSON = BASE + "/mypage/selectComtnbbsListAjax.do"
 BOARD_URL = BASE + "/"
+PBAN = re.compile(
+    r'class="state">([^<]+)<.*?마감일\s*([\d-]+).*?'
+    r"fn_selectBsnsPbanView\('(\d+)'[^>]*>(.*?)</a>.*?"
+    r"공고번호</span>([^<]*)<.*?공고기간</span>\s*([\d-]+)~([\d-]+)",
+    re.S)
+
+
+def fetch_notices():
+    s = session()
+    html = polite_get(s, BASE + "/").text
+    out = {}
+    for state, _close, pid, title, no, start, end in PBAN.findall(html):
+        out[f"khidi-pban-{pid}"] = item(
+            id=f"khidi-pban-{pid}", source="KHIDI", kind="notice",
+            title=re.sub(r"<[^>]+>", "", title), url=BOARD_URL,
+            ministry="보건복지부", agency="한국보건산업진흥원",
+            notice_no=clean(no), status=clean(state),
+            posted=norm_date(start), open_date=norm_date(start),
+            close_date=norm_date(end),
+            extra={"phase": "접수중" if "진행" in state else clean(state),
+                   "pbanId": pid})
+    return list(out.values())
 
 
 def fetch_signals(pages=3):

@@ -4,6 +4,7 @@
 - 사업예고: /contents/retrieveAncmPrntcList.do (POST, JSON) → 선제 신호
 공식 API가 아닌 화면 내부 JSON이므로 사이트 개편 시 깨질 수 있음.
 """
+import re
 from datetime import timedelta
 
 from common import (item, norm_date, polite_get, polite_post, session,
@@ -19,7 +20,16 @@ DETAIL = BASE + "/contents/retrieveBsnsAncmView.do?ancmId={}"
 # ancmIng=접수중, ancmPre=접수예정, ancmEnd=마감
 PHASES = {"ancmIng": "접수중", "ancmPre": "접수예정", "ancmEnd": "마감"}
 ENDED_LOOKBACK_DAYS = 60
+PRE_LOOKBACK_DAYS = 120   # 접수예정은 오래된 미정리 공고가 많아 최근 것만
 MAX_PAGES = 40
+# 연구자 대상 행정 접수·테스트 글 제외
+NOISE = re.compile(r"연차실적|실적계획서|단계평가|보고서\s*접수|협약변경|^\s*test\s*$|테스트",
+                   re.I)
+
+
+def _noise(title):
+    t = title or ""
+    return bool(NOISE.search(t)) or len(re.findall(r"[가-힣]", t)) < 5
 
 
 def _post_json(s, url, referer, data):
@@ -32,6 +42,7 @@ def fetch_notices():
     s = session()
     polite_get(s, LIST_VIEW)  # 세션 쿠키 확보
     cutoff = (today_kst() - timedelta(days=ENDED_LOOKBACK_DAYS)).isoformat()
+    pre_cutoff = (today_kst() - timedelta(days=PRE_LOOKBACK_DAYS)).isoformat()
     out = {}
     for phase, label in PHASES.items():
         page = 1
@@ -44,6 +55,10 @@ def fetch_notices():
                 posted = norm_date(r.get("ancmDe"))
                 if phase == "ancmEnd" and posted and posted < cutoff:
                     stop = True
+                    continue
+                if _noise(r.get("ancmTl")):
+                    continue
+                if phase == "ancmPre" and (not posted or posted < pre_cutoff):
                     continue
                 aid = r.get("ancmId")
                 out[f"iris-{aid}"] = item(
@@ -73,6 +88,8 @@ def fetch_forecasts():
                        {"pageIndex": page, "pageUnit": 100})
         rows = d.get("listAncmPrntc") or []
         for r in rows:
+            if str(r.get("bsnsYy") or "0") < str(today_kst().year):
+                continue  # 지난 연도 예고 제외
             no = r.get("bsnsPrntcNo")
             out[f"iris-prntc-{no}"] = item(
                 id=f"iris-prntc-{no}", source="IRIS", kind="forecast",

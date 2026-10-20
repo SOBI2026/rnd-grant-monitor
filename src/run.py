@@ -25,6 +25,7 @@ FILES = {"notice": "notices.json", "forecast": "forecasts.json",
 JOBS = [
     ("IRIS 사업공고", "IRIS", "notice", iris.fetch_notices),
     ("IRIS 사업예고", "IRIS", "forecast", iris.fetch_forecasts),
+    ("KHIDI 사업공고", "KHIDI", "notice", khidi.fetch_notices),
     ("KHIDI 공지", "KHIDI", "signal", khidi.fetch_signals),
     ("KMDF 공지", "KMDF", "signal", kmdf.fetch_signals),
 ]
