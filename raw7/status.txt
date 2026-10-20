@@ -1,0 +1,3 @@
+ntis_rndgate.html 200 149609 https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do
+ntis_rndgate2.html 200 148692 https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?pageIndex=1&searchKeyword=%EB%B0%94%EC%9D%B4%EC%98%A4
+ntis_api_main.html 200 52830 https://www.ntis.go.kr/rndopen/api/mng/apiMain.do
