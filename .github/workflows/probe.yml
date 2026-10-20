@@ -9,19 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch KHIDI detail
+      - name: Paging test
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-          mkdir -p raw3; cd raw3
-          curl -sS -L -A "$UA" -c ht.jar -o /dev/null "https://www.htdream.kr/"
-          for id in 8906 8926; do
-            curl -sS -L -A "$UA" -b ht.jar -X POST -H "X-Requested-With: XMLHttpRequest" -H "Referer: https://www.htdream.kr/" --data "pbanId=$id" -o "pban_$id.html" "https://www.htdream.kr/mypage/selectBsnsPbanViewAjax.do"
-          done
+          mkdir -p raw4; cd raw4
           curl -sS -L -A "$UA" -c iris.jar -o /dev/null "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do"
-          curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&blngGovdSeArr=AR4012" -o iris_mohw_end.json "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do"
-          curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&sorgnIdArr=10008" -o iris_khidi_end.json "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do"
-          rm -f *.jar; ls -la
+          for p in "pageUnit=100" "recordCountPerPage=100" "pageUnit=100&recordCountPerPage=100" "pageSize=100&pageUnit=100"; do
+            f=$(echo "$p" | tr '&=' '__')
+            /usr/bin/time -f "$f %e s" curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1&blngGovdSeArr=AR4012&$p" -o "end_$f.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" 2>> timing.txt
+          done
+          /usr/bin/time -f "all_end %e s" curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmEnd&pageIndex=1" -o "end_all.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" 2>> timing.txt
+          /usr/bin/time -f "pre %e s" curl -sS -L -A "$UA" -b iris.jar -X POST -H "X-Requested-With: XMLHttpRequest" --data "ancmPrg=ancmPre&pageIndex=1" -o "pre.json" "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituList.do" 2>> timing.txt
+          rm -f *.jar; cat timing.txt
       - name: Save
         run: |
           git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
-          git add -A raw3; git commit -m "raw3 [skip ci]"; git push
+          git add -A raw4; git commit -m "raw4 [skip ci]"; git push
