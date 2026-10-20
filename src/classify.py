@@ -78,13 +78,17 @@ SOURCE_LABEL = {
 
 def notice_no_kind(no):
     """공고번호 형식 구분. 출처·기관마다 형식이 달라 화면에서 함께 표시."""
-    no = no or ""
-    if re.fullmatch(r"\s*[A-Z]{2}_\d{4}_\d+\s*", no):
+    no = (no or "").strip()
+    if not no:
+        return "없음"
+    if re.fullmatch(r"[A-Z]{2}_\d{4}_\d+", no):
         return "IRIS 접수코드"
     if "사업단" in no:
         return "사업단 공고"
-    if re.search(r"(부|처|청|위원회)\s*공고", no):
+    if re.match(r"[가-힣]+(부|처|청|위원회)\s*공고", no):
         return "부처 공고"
-    if re.search(r"제?\s*\d{4}\s*-\s*\d+", no):
-        return "공고번호(기관 미표기)"
-    return "없음" if not no.strip() else "기타"
+    if "공고" in no:
+        return "소속기관 공고"   # 국립보건연구원, 국립암센터, 재단 등
+    if re.search(r"[A-Za-z]+-\d{4}-\d+", no):
+        return "기관 자체번호"
+    return "번호만"
