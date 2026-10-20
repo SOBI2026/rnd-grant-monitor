@@ -1,0 +1,2070 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- IE에서만 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes">
+    <meta name="description" content="연구자 중심 R&D 환경 조성의 시작, 범부처통합연구지원시스템(IRIS)">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="범부처통합연구지원시스템(IRIS)">
+    <meta property="og:description" content="연구자 중심 R&D 환경 조성의 시작, 범부처통합연구지원시스템(IRIS)">
+    <meta property="og:image" content="https://www.iris.go.kr/resources/1st/imgs/common/og_img.gif">
+    <meta property="og:url" content="https://www.iris.go.kr/">
+    <meta name="google-site-verification" content="gVUQ-q25AsVK2_AT3Qnq0Z9nuiOnYIt5n2-sPGw_L1U" />
+    <meta name="naver-site-verification" content="cf08eeb6dabad53f3a6c10b3effce0b1f095f161" />
+     
+    <title>범부처통합연구지원시스템(IRIS)</title>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/resources/imgs/common/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/resources/imgs/common/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/resources/imgs/common/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/resources/imgs/common/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/resources/imgs/common/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/resources/imgs/common/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/resources/imgs/common/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/resources/imgs/common/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/resources/imgs/common/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/resources/imgs/common/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/resources/imgs/common/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/resources/imgs/common/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/resources/imgs/common/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/resources/imgs/common/favicon-16x16.png">
+
+    <link rel="canonical" href="http://www.iris.go.kr">
+    <link rel="stylesheet" type="text/css" href="/resources/css/common_2025.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/layout_2025.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/font_2025.css">
+<script src="/resources/js/common/jquery/jquery-3.5.0.js"></script>
+<script src="/resources/js/common/jquery/jquery.form.js"></script>
+<script src="/resources/js/common/jquery/jquery.serializeObject.js"></script>
+<script src="/resources/js/common/jquery/jquery.blockUI.js"></script>
+<script src="/resources/js/common/jquery/jquery-ui.js"></script>
+<script src="/resources/js/common/jsrender/jsrender.js"></script>
+<script src="/resources/js/common/slick.min.js"></script>
+<script src="/resources/js/common/func.min.js"></script>
+<script src="/resources/js/common/common.js"></script>
+<script src="/resources/js/common/grnd/grnd_common.js"></script>
+<script src="/resources/js/common/grnd/grnd_paging.js"></script>
+<script>
+	var contextRoot = '';	
+</script>
+<link rel="stylesheet" type="text/css" href="/resources/css/sub.css">
+<script src="/resources/js/sub/sub.js"></script>
+<script>
+    document.domain="iris.go.kr";
+    </script>
+</head>
+<body>
+	<script>    
+$(function () {
+    var $popup = $('#layerPopup');
+    var $visibleDialogs = $('[role="dialog"]:visible');
+    var $activeDialog = $visibleDialogs.last();
+
+    $visibleDialogs.not($activeDialog).attr('tabindex', '-1');
+
+    $activeDialog.attr('tabindex', '0').focus();
+});
+</script>
+
+<!-- 202601 PORTALA에서 생성되는 표시순서가 작으면 먼저띄워져버리면서 오히려 뒤로감.. -->
+
+   <div id="skipNav">
+        <a href="#content">본문으로 바로가기</a>
+        <a href="#gnb">주메뉴 바로가기</a>
+    </div><script>
+//const loginAuthSe = '';
+function showPostPopup() {
+  //  console.log('loginAuthSe => ' + loginAuthSe);
+    $('#HeaderPopup').show();
+    $('.close_btn').focus();
+}
+
+function hidePostPopup() {
+    $('#HeaderPopup').hide();
+    $('.btn-logout').focus();
+}
+
+
+$(document).ready(function() {
+    $('.tabs .depth4 li').each(function() {
+        if ($(this).hasClass('active')) {
+            $(this).find('a').attr('title', '선택된 탭메뉴');
+        } else {
+            $(this).find('a').attr('title', '비활성 탭메뉴');
+        }
+    });
+});
+
+
+// 마우스 우클릭 안되게 설정
+document.addEventListener('contextmenu',function(){
+    event.preventDefault();
+});
+
+/**
+ * Desc   : NRI 사이트 링크
+ * name   : f_nri()
+ * param  : 폼 데이터
+ * return : 결과 값
+ */
+ function f_nri(hostUrl, ssoConnectChk, gbn){
+
+        if (hostUrl.indexOf("iris.go.kr") == -1){
+            ssoConnectChk = "SESSION";
+        }
+
+        if (ssoConnectChk == "SSO") {
+            $.ajax({
+                type       : "POST",
+                url        : contextRoot+"/lgin/lginadmn/ssoChk.do",
+                data       : "",
+                success    : function(data){
+                    if (data.gdsSSOChk == "Y") {
+                        if (gbn == "nri") {
+                            window.open(location.protocol+'//'+hostUrl+'/sso/RequestConnect.jsp?RelayCd=' + data.gdsSSOSendCd + '&RelayState=/resources/nui/indexSSO.do', '_blank');
+                        } else if (gbn == "portalWK") {
+                            window.open(location.protocol+'//'+hostUrl+'/sso/RequestConnect.jsp?RelayCd=' + data.gdsSSOSendCd + '&RelayState=/indexSSO.do?targetUrl=portalWK', '_blank');
+                        } else if (gbn == "note") {
+                            window.open(location.protocol+'//'+hostUrl+'/sso/RequestConnect.jsp?RelayCd=' + data.gdsSSOSendCd + '&RelayState=/note/indexSSO.do', '_blank');
+                        } else if (gbn == "sims") {
+                            window.open(location.protocol+'//'+hostUrl+'/sso/RequestConnect.jsp?RelayState=/sims/ssoLogin.do', '_blank');
+                        }
+                    } else if (data.gdsSSOChk == "NOT_TOKEN") {
+                        alert("로그인 시간이 만료되었습니다.");
+                        $(location).attr('href', '/logout.do');
+                    } else if (data.gdsSSOChk == "FOREIGNER") {
+                        alert("아직 회원가입 승인처리가 완료되지 않았습니다.");
+                    } else {
+                        alert("로그인 후 사용이 가능한 페이지 입니다.");
+                        $(location).attr('href', '/mbrs/entr/loginForm.do');
+                    }
+                },
+                error : function(request, status, error) {
+                    alert("로그인 시간이 만료되었습니다.");
+                    $(location).attr('href', '/logout.do');
+                }
+            });
+        } else if (ssoConnectChk == "SESSION") {
+            if (gbn == "note") {
+                $(location).attr('href',location.protocol+'//'+hostUrl+'/main.do');
+            } else {
+                $(location).attr('href',location.protocol+'//'+hostUrl+'/resources/nui/index.do');
+            }
+        }
+}
+
+/**
+ * Desc   : 로그인 폼
+ * name   : f_login_form
+ * param  : 폼 데이터
+ * return : 결과 값
+ */
+function f_login_form() {
+        $('#memberForm').attr("action", contextRoot + "/mbrs/entr/loginForm.do");
+        $('#memberForm').attr("method","post");
+        $('#memberForm').submit();
+}
+
+/**
+ * Desc   : 회원 가입 폼
+ * name   : f_mbrs_reg_form
+ * param  : 폼 데이터
+ * return : 결과 값
+ */
+function f_mbrs_reg_form() {
+//     $('#memberForm').attr("action", contextRoot + "/mbrs/entr/retrievePrvcClctCsntListView.do");
+    $('#memberForm').attr("action", contextRoot + "/mbrs/entr/retrievePrvcClctCsntMobileView.do");
+    $('#memberForm').attr("method","post");
+    $('#memberForm').submit();
+}
+
+/**
+ * Desc   : 회원 상세보기 폼
+ * name   : f_mbrs_dtl_form
+ * param  : 폼 데이터
+ * return : 결과 값
+ */
+function f_mbrs_dtl_form() {
+    $('#memberForm').attr("action",contextRoot + "/mbrs/entr/retrieveMbrsModView.do");
+    $('#memberForm').attr("method","post");
+    $('#memberForm').submit();
+}
+
+/**
+ * Desc   : 회원 상세보기 폼
+ * name   : f_mbrs_dtl_form
+ * param  : 폼 데이터
+ * return : 결과 값
+ */
+function f_mbrs_drn_form() {
+    $('#memberForm').attr("action",contextRoot + "/mbrs/drn/retrieveDrnMbrsView.do");
+    $('#memberForm').attr("method","post");
+    $('#memberForm').submit();
+}
+
+function f_mbrs_temp_form() {
+    $('#memberForm').attr("action",contextRoot + "/mbrs/drn/retrieveTempMbrsView.do");
+    $('#memberForm').attr("method","post");
+    $('#memberForm').submit();
+}
+function f_go_main() {
+    $('#lang').val("kr");
+    $('#memberForm').attr("action",contextRoot + "/main.do");
+    $('#memberForm').attr("method","post");
+    $('#memberForm').submit();
+}
+
+function f_go_mainEn() {
+    $('#lang').val("en");
+    $('#memberForm').attr("action",contextRoot + "/enMain.do");
+    $('#memberForm').attr("method","post");
+    $('#memberForm').submit();
+}
+
+
+const logoutChannel = new BroadcastChannel('logout_channel');
+
+/**
+ * Desc   :  로그아웃 기능
+ * name   : f_샘플_submitlogout
+ */
+function f_logout(){
+	 /**
+    if (loginAuthSe === "ANYID") {
+        anyidAdaptor.ssoLogout(contextRoot+"/logout.do");
+        return false;
+    }
+	 */
+
+    $.ajax({
+        type       : "POST",
+        url        : contextRoot+"/logout.do",
+        data       : "",
+        success    : function(data){
+            logoutChannel.postMessage({ type: 'logout' });
+            $(location).attr('href',contextRoot +'/index.do');
+        },
+        error : function(request, status, error) {
+            // 실패 시 후처리
+            // 글로벌 에러메시지는 자동으로 출력되니 여기서 정의 하지 않아도 됨
+            $(location).attr('href',contextRoot +'/index.do');
+
+        }
+    });
+}
+
+
+function f_nri_faq(hostUrl){
+    window.open(location.protocol+'//'+hostUrl);
+}
+
+
+/**
+ * Desc   :  통합검색 기능
+ * name   : f_unicSrch_view
+ */
+function f_unicSrch_view() {
+    //$("input[name=query]").val();
+    $("#memberForm").attr("action","/contents/retrieveUnicSrchView.do");
+    $("#memberForm").submit();
+}
+</script>
+<script src="/resources/js/mbrs/idIqr.js"></script>
+<script src="/resources/js/mbrs/pswdIqr.js"></script>
+<header class='header'>
+    <form name="memberForm" id="memberForm" method="post" action="#">
+        <input type="hidden" name="mbrId" id="mbrId" value="" />
+        <div class="bar-top">
+            <div class="container-left">
+                <button type="button" class="link-related" data-target=".dropdown-related" rel="noopener noreferrer">IRIS 시스템</button>
+                <div class="dropdown-related">
+                    <ul>
+                        <li><a href="#" onclick="f_nri('nri.iris.go.kr', 'SSO','nri'); return false;" rel="noopener noreferrer" title="새창으로 열림">국가연구자정보시스템(NRI)</a></li>
+                        <li><a href="#" onclick="f_nri('www.iris.go.kr', 'SSO','portalWK'); return false;" rel="noopener noreferrer" title="새창으로 열림">R&D업무포털</a></li>
+                        <li><a href="#" onclick="f_nri_faq('eval.iris.go.kr'); return false;" rel="noopener noreferrer" title="새창으로 열림">전자평가시스템(EVAL)</a></li>
+                        <li><a href="#" onclick="f_nri('sims.iris.go.kr/sims', 'SSO','sims'); return false;" title="새창으로 열림" rel="noopener noreferrer">조사·분석입력시스템(SIMS)</a></li>
+                        <li><a href="#" onclick="f_nri('www.iris.go.kr/note', 'SSO','note'); return false;">전자연구노트</a></li>
+                        <li><a href="/contents/retrieveSinmungoMain.do" rel="noopener noreferrer" target="_blank" title="새창으로 열림">R&D신문고</a></li>
+                    </ul>
+                </div>
+                <img src="/resources/imgs/main_new/divider.svg" alt=""/>
+                <button type="button" class="link-related2" data-target=".dropdown-related2">IRIS 관련사이트</button>
+                <div class="dropdown-related2">
+                    <ul>
+                        <!-- 로그인 되었을때 -->
+                        <!-- 로그인 안되었을때 -->
+                        <li><a href="https://www.gaia.go.kr/" rel="noopener noreferrer" target="_blank" title="새창으로 열림">연구비통합관리시스템(Ezbaro)</a></li>
+                          <li><a href="https://www.rcms.go.kr/" rel="noopener noreferrer" target="_blank" title="새창으로 열림">연구비통합관리시스템(RCMS)</a></li>
+                          <li><a href="https://www.ntis.go.kr/" rel="noopener noreferrer" target="_blank" ttle="새창으로 열림">국가과학기술지식정보서비스(NTIS)</a></li>
+                        <!-- <li><a href="https://cre.nrf.re.kr/" rel="noopener noreferrer" target="_blank" title="새창으로 열림">연구윤리정보센터</a></li> -->
+                    </ul>
+                </div>
+                <img src="/resources/imgs/main_new/divider.svg" alt=""/>
+                <a href="" onclick="f_go_mainEn(); return false;" >English</a>
+            </div>
+            <div class="container-right">
+
+                <!-- anyId 테스트를 위한 임시 처리 추후 테스트 종료 후 제거 및 로그인 관련 부분 AnyId로 대체 필요
+                <button type="button" onclick="anyidAdaptor.ssoLoginPage('','3'); return false;">anyId 로그인</button>
+                
+                -->
+
+                <button type="button" onclick="f_login_form(); return false;">로그인</button>
+                        <button type="button" onclick="f_mbrs_reg_form(); return false;">회원가입</button>
+                <!-- 로그인 되었을때 -->
+                <div class="wrapSearch">
+                    <label for="headerQuery" class="sr-only">통합검색어 입력</label>
+                    <input type="text" name="headerQuery" id="headerQuery" placeholder="통합검색">
+                    <button class="btnSearch" onclick="f_unicSrch_view(); return false;"><span class="sr-only">통합검색</span></button>
+                </div>
+             </div>
+        </div>
+    </form>
+    <div class="wrapHeader">
+        <a class="logo" href="/main.do"><img src="/resources/imgs/main_new/BI.svg" alt="범부처통합연구지원시스템" /></a>
+        <nav id="gnb">
+            <ul class="gnb">
+                <li>
+                    <a href="javascript:void(0);" class="depth1" role="button" tabindex="0">IRIS 소개</a>
+                    <div class="depth2">
+                        <div class="wrapFlex_d2">
+                            <div class="title_sub">
+                                <div class="d2title-card">
+                                    <h2>IRIS 소개</h2>
+                                    <p>복잡한 시스템을 하나로!<br>아이리스를 소개합니다!</p>
+                                </div>
+                                <img src="/resources/imgs/main_new/img_d2title-card1.png" alt="" />
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveProplBasInfoView.do">사업소개</a>
+                                    <a class="submenu_d3" href="/contents/retrieveProplBasInfoView.do">추진배경 및 근거</a>
+                                    <a class="submenu_d3" href="/contents/retrieveProplCnInfoView.do">추진경과 및 내용</a>
+                                    <a class="submenu_d3" href="/contents/retrieveBsnsExpeEfctInfoView.do">기대효과</a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveSysCpstInfoView.do">시스템 구성</a>
+                                </div>
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveBiIntrdInfoView.do">BI 소개</a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveOrgDutyInfoView.do">추진체계</a>
+                                    <a class="submenu_d3" href="/contents/retrieveOrgDutyInfoView.do">조직</a>
+                                    <a class="submenu_d3" href="/contents/retrievePtcpGovdOrgnInfoView.do">참여부처 및 기관</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="depth1" role="button" >사업정보</a>
+                    <div class="depth2">
+                        <div class="wrapFlex_d2">
+                            <div class="title_sub">
+                                <div class="d2title-card">
+                                    <h2>사업정보</h2>
+                                    <p>필요한 사업정보를<br>알아보세요</p>
+                                </div>
+                                <img src="/resources/imgs/main_new/img_d2title-card2.png" alt="" />
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveBsnsGuidListView.do">사업사전안내</a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveAncmPrntcListView.do">공모예고(사업일정)</a>
+                                </div>
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveBsnsAncmBtinSituListView.do">사업공지</a>
+                                    <a class="submenu_d3" href="/contents/retrieveBsnsAncmBtinSituListView.do">사업공고</a>
+                                    <a class="submenu_d3" href="/contents/retrieveBsnsPrgGuidListView.do">사업진행안내</a>
+                                    <a class="submenu_d3" href="/contents/retrieveBsnsDscrListView.do">사업설명회</a>
+                                </div>
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveCntnDataListView.do" style="margin-left:-2.2rem;">사업관련 서식·자료</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="depth1" role="button" >알림·소식</a>
+                    <div class="depth2">
+                        <div class="wrapFlex_d2">
+                            <div class="title_sub">
+                                <div class="d2title-card">
+                                    <h2>알림·소식</h2>
+                                    <p>IRIS의 새로운 소식을<br>확인해보세요.</p>
+                                </div>
+                                <img src="/resources/imgs/main_new/img_d2title-card3.png" alt=""/>
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveNoticeListView.do">공지사항</a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveCardNewsListView.do">카드뉴스</a>
+                                </div>
+                                 </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveOnlHlpInfoView.do">자료실</a>
+                                    <a class="submenu_d3" href="/contents/retrieveOnlHlpInfoView.do">IRIS 사용 매뉴얼</a>
+                                    <a class="submenu_d3" href="https://www.ntis.go.kr/rndtrend/rndlaw/lawList.do" rel="noopener noreferrer" target="_blank" title="새창으로 열림">국가R&D법령·매뉴얼<i class="xi-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="depth1" role="button" >참여소통</a>
+                    <div class="depth2">
+                        <div class="wrapFlex_d2">
+                            <div class="title_sub">
+                                <div class="d2title-card">
+                                    <h2>참여소통</h2>
+                                    <p>연구자와 함께하는 소통의<br>공간입니다.</p>
+                                </div>
+                                <img src="/resources/imgs/main_new/img_d2title-card4.png" alt="" />
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveSinmungoMain.do" rel="noopener noreferrer" target="_blank" title="새창으로 열림">R&D 신문고<i class="xi-external-link"></i></a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveFaqListView.do" rel="noopener noreferrer" target="_blank" title="새창으로 열림">FAQ<i class="xi-external-link"></i></a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveCusGuidView.do">고객센터 안내</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="depth1" role="button" >R&D정보</a>
+                    <div class="depth2">
+                        <div class="wrapFlex_d2">
+                            <div class="title_sub">
+                                <div class="d2title-card">
+                                    <h2>R&D정보</h2>
+                                    <p>R&D 연구개발 관련정보를<br>한자리에!</p>
+                                </div>
+                                <img src="/resources/imgs/main_new/img_d2title-card5.png" alt="" />
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveRndPlcyDataView.do">R&D 통계</a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveRndPlcyRCMSInfoView.do">연구비통합관리시스템<br>(RCMS)</a>
+                                </div>
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveRndPlcyEzBaroInfoView.do">연구비통합관리시스템<br>(Ezbaro)</a>
+                                </div>
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveRndPlcySiteInfoView.do">서비스 바로가기</a>
+                                    <a class="submenu_d3" href="https://www.ntis.go.kr/ThMain.do" target="_blank" title="새창열림" rel="noreferrer noopener">국가과학기술지식정보서비스(NTIS)<i class="xi-external-link"></i></a>
+                                    <a class="submenu_d3" href="https://www.krm.or.kr" target="_blank" title="새창열림" rel="noreferrer noopener">기초학문자료센터(KRM)<i class="xi-external-link"></i></a>
+                                    <a class="submenu_d3" href="https://www.kci.go.kr/kciportal/main.kci" target="_blank" title="새창열림" rel="noreferrer noopener">한국학술지인용색인(KCI)<i class="xi-external-link"></i></a>
+                                    <a class="submenu_d3" href="https://www.ntis.go.kr/rndeval/prog/othbc/intro/bzEvalGuidanceView.do" target="_blank" title="새창열림" rel="noreferrer noopener">국가 R&D 성과평가정보시스템<br>(R&D PEIS)<i class="xi-external-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="vertical-line_d2">
+                                <div class="wrap2depth">
+                                    <a class="submenu_d2" href="/contents/retrieveNriApiReq.do" >국가연구자번호 조회<br>API 신청</a>
+                                </div>
+                            </div>
+
+
+                                <div class="vertical-line_d2">
+                                        <div class="wrap2depth">
+                                            <a class="submenu_d2" href="/contents/retrieveMisTransNoticeListView.do">IRIS-기관 간 협약변경 연계</a>
+                                            <a class="submenu_d3" href="/contents/retrieveMisTransNoticeListView.do">공지사항</a>
+
+                                            <!-- R01066(연계 게시판 관리자), R01067(연계담당자) -->
+                                            <a class="submenu_d3" href="/contents/retrieveMisTransQnaListView.do">전산업무 요청</a>
+                                            <a class="submenu_d3" href="/contents/retrieveMisManagerReq.do">연계 담당자 신청</a>
+
+                                            <!-- R01066(연계 게시판 관리자), R01067(연계담당자) -->
+                                            <!-- <a class="submenu_d3" href="/contents/#.do">연계 현황 조회</a> -->
+                                        </div>
+                                   </div>
+
+                            </div>
+                    </div>
+                </li>
+                </ul>
+        </nav>
+        <button class="btn-hamburger" type="button" aria-label="메뉴"><span></span></button>
+    </div>
+    <nav class="mmenu" aria-label="모바일 전용 메뉴">
+            <div class="mUser-info">
+
+                <!-- anyId 테스트를 위한 임시 처리 추후 테스트 종료 후 제거 및 로그인 관련 부분 AnyId로 대체 필요
+                <button type="button" onclick="anyidAdaptor.ssoLoginPage('','3'); return false;">anyId 로그인</button>
+                
+                -->
+
+                <button type="button" onclick="f_login_form(); return false;">로그인</button>
+                    <button type="button" onclick="f_mbrs_reg_form(); return false;">회원가입</button>
+                </div>
+            <a href="#" role="button" onclick="f_mbrs_dtl_form();" class="mitem" id="mmypage">마이페이지</a>
+        </nav>
+        <div class="nav-dim"></div>
+</header>
+
+<!-- ##########################################################################################################  -->
+
+<div id="layerPopupTimer" class="ex_log_wrap" style="display:none;">
+   <div class="ex_log_layer">
+     <div class="ex_log_cont">
+       <strong class="title">
+         <i class="icon" aria-hidden="true"></i>
+         <small>자동 로그아웃 남은시간</small>
+         <em id="popupTimer">4분 59초</em>
+       </strong>
+       <p class="cont">안전한 사용자 정보 보호를 위해 자동으로 로그아웃이 될 예정입니다.
+         로그인 연장 버튼으로 로그인을 연장해 주시거나 로그아웃 해주세요.</p>
+     </div>
+     <div class="ex_log_foot">
+       <button type="button" class="btn extend" onclick="refreshTimer(); return false;"><span>로그인 연장하기</span></button>
+       <button type="button" class="btn now" onclick="showPostPopup(); return false;"><span>지금 로그아웃</span></button>
+     </div>
+   </div>
+</div>
+
+<!-- 로그아웃 안내 알림 팝업 -->
+<div class="post_popup" id="HeaderPopup" role="dialog" aria-modal="true" aria-labelledby="logutTitle"style="display:none;">
+    <div class="popup_bg"></div>
+    <div class="popup_total">
+        <div class="popup_header">
+            <h1 id="logutTitle" tabindex="-1" >안내</h1>
+            <button class="close_btn" onclick ="hidePostPopup();"><i class="xi-close"></i></button>
+        </div>
+        <div class="popup_contents">
+            <div class="box_title">
+                <div class="title"><i class="xi-lock-o"></i></div>
+            </div>
+            <div class="box_txt">
+                <p style="font-weight:500; font-size: 2.1rem;">로그아웃을 하시면 열려있는 모든 업무포털 팝업창이 닫힙니다.</p>
+                <p style="margin-top: 1.2rem;">로그아웃 하시겠습니까?</p>
+            </div>
+        </div>
+        <div class="popup_btn">
+            <button class="btn_yes" onclick="f_logout(); return false;">예</button>
+            <button class="btn_no" onclick ="hidePostPopup(); return false;">아니요</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- <style>
+    input[type="checkbox"]:disabled + label{pointer-events: none;}
+</style> -->
+
+ <style>
+        .search_detail {
+            display: block !important; /* 기존 display: none 규칙을 덮어쓰도록 합니다. */
+        }
+ </style>
+
+<script>
+$(function () {
+    $.datepicker.setDefaults({
+        monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+        dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+        dateFormat: 'yy/mm/dd',
+        showMonthAfterYear:true,
+        changeYear:true,
+        changeMonth:true,
+        yearRange: "c-100:c+10",
+        showOn: 'both'
+    });
+    $("#rcveDeFrom").datepicker({
+      buttonText: '<i class="xi-calendar-check" title="시작일"></i>'
+    });
+    $("#rcveDeTo").datepicker({
+      buttonText: '<i class="xi-calendar-check" title="종료일"></i>'
+    });
+  });
+
+window.onpageshow = function(event) {
+	if(event.persisted || (window.performance && window.performance.navigation.type == 2)){
+// 		  if((sessionStorage.getItem('blngGovdSeArr') != null && sessionStorage.getItem('blngGovdSeArr') != "") ||
+// 				  (sessionStorage.getItem('bsnsTl') != null && sessionStorage.getItem('bsnsTl') != "") ||
+// 				  (sessionStorage.getItem('sorgnIdArr') != null && sessionStorage.getItem('sorgnIdArr') != "") ||
+// 				  (sessionStorage.getItem('techFildArr') != null && sessionStorage.getItem('techFildArr') != "")){
+		        $("input[name=blngGovdSeArr]").val(sessionStorage.getItem('blngGovdSeArr'));
+		        var pageIdx = parseInt(sessionStorage.getItem('pageIndex'),10);
+		        var vlidPageIdx = isNaN(pageIdx) ? 1 : pageIdx;
+		        $("input[name=pageIndex]").val(vlidPageIdx);
+// 		        if (sessionStorage.getItem('pageIndex') != null && sessionStorage.getItem('pageIndex') != ""){
+// 		        	$("input[name=pageIndex]").val(sessionStorage.getItem('pageIndex'));
+// 		        }
+
+		        $("input[name=bsnsTl]").val(sessionStorage.getItem('bsnsTl'));
+		        $("input[name=sorgnIdArr]").val(sessionStorage.getItem('sorgnIdArr'));
+		        $("input[name=techFildArr]").val(sessionStorage.getItem('techFildArr'));
+		        $("input[name=ancmPrg]").val(sessionStorage.getItem('ancmPrg'));
+
+		        var searchData = $('#bsnsAncmBtinSituListForm').serializeObject();
+		        $.ajax({
+		            type       : "POST",
+		            url        : contextRoot+"/contents/retrieveBsnsAncmBtinSituList.do",
+		            data       : searchData,
+		            dataType   : "json",
+		            success    : function(data){
+		                // 컨텐츠 삭제
+		                $(".dbody").empty();
+
+		                //데이터 바인딩.
+		                // jsrender에 데이터를 주입하고 selector에 html 바인딩.
+		                // jsrender template id가 "sampleTemplate" 인 template에 "data"를 바인딩 하여 "#listForm > div > table > tbody" 태그에 결과를 출력한다.
+		                $(".dbody").html($('#listTemplate').render(data));
+		                $("input[name=pageIndex]").val(data.paginationInfo.currentPageNo);
+		                //페이징처리 (한 화면에 목록이 많은 경우에는 페이지 태그에 id를 부여해서 selector로 지정하도록..)
+		                $('.paginate').empty().html(cf_paging.ui(data));
+		                $('.total_page').html("전체<b>"+data.paginationInfo.totalRecordCount+"</b>건");
+		                $('.current_page').html("현재 페이지 <strong>"+data.paginationInfo.currentPageNo+"</strong>/"+data.paginationInfo.totalPageCount);
+
+		                var ancmSttArr = $("input[name=ancmSttArr]").val().split("|");       // 공고상태
+		                var pbofrTpArr = $("input[name=pbofrTpArr]").val().split("|");       // 공모유형
+		                var blngGovdSeArr = $("input[name=blngGovdSeArr]").val().split("|"); // 정부부처
+		                var sorgnIdArr = $("input[name=sorgnIdArr]").val().split("|");       // 전문기관
+		                var qualCndtArr = $("input[name=qualCndtArr]").val().split("|");     // 자격조건
+		                var techFildArr = $("input[name=techFildArr]").val().split("|");     // 기술분야
+		                if("" != ancmSttArr){
+		                    for(var i=0; i<ancmSttArr.length; i++){
+		                        $("input[name=ancmStt][value='"+ancmSttArr[i]+"'").attr("checked",true)
+		                    }
+		                }
+		                if("" != pbofrTpArr){
+		                    for(var i=0; i<pbofrTpArr.length; i++){
+		                        $("input[name=pbofrTp][value='"+pbofrTpArr[i]+"'").attr("checked",true)
+		                    }
+		                }
+		                if("" != blngGovdSeArr){
+		                    for(var i=0; i<blngGovdSeArr.length; i++){
+		                        $("input[name=blngGovdSe][value='"+blngGovdSeArr[i]+"'").attr("checked",true)
+		                    }
+		                }
+		                if("" != sorgnIdArr){
+		                    for(var i=0; i<sorgnIdArr.length; i++){
+		                        $("input[name=sorgnId][value='"+sorgnIdArr[i]+"'").attr("checked",true)
+		                    }
+		                }
+		                if("" != techFildArr){
+		                    for(var i=0; i<techFildArr.length; i++){
+		                        $("input[name=techFild][value='"+techFildArr[i]+"'").attr("checked",true)
+		                    }
+		                }
+		            }
+		        });
+		    }
+
+		var ancmPrgVal = $("input[name=ancmPrg]").val();
+	    if(ancmPrgVal == 'ancmPre'){
+	        document.title = "접수예정 < 사업공고 < 범부처통합연구지원시스템(IRIS)";
+	    }else if(ancmPrgVal == 'ancmIng'){
+	        document.title = "접수중 < 사업공고 < 범부처통합연구지원시스템(IRIS)";
+	    }else if(ancmPrgVal == 'ancmEnd'){
+	        document.title = "마감 < 사업공고 < 범부처통합연구지원시스템(IRIS)";
+	    }
+// 	}
+}
+</script>
+
+
+<script src="/resources/js/contents/bsnsancm/bsnsAncmBtinSituList.js"></script>
+    <main class="main">
+      
+
+
+
+
+
+
+<script>
+$(document).ready(function () {
+	
+	var currentUrl = window.location.pathname;
+	
+	//상세화면일경우 리스트 메뉴로 보이도록
+	if (currentUrl.includes('View.do') && !currentUrl.includes('ListView.do')) {
+		if(currentUrl == "/contents/retrieveBsnsAncmView.do"){
+	    	currentUrl = '/contents/retrieveBsnsAncmBtinSituListView.do';
+	    }else{
+	    	var chkUrl = currentUrl.replace('View.do', 'ListView.do');
+
+	        if ($('.gnb a[href="' + chkUrl + '"]').length > 0) {
+	            currentUrl = chkUrl;
+	        }
+	        
+	    }
+	}
+	
+	var $current = $('.gnb').find('a[href="' + currentUrl + '"]');
+	var $currDept1 = $current.closest('.gnb > li');
+
+	if ($current.length > 1) {
+	    $current = $current.filter('.submenu_d3');
+	    if ($current.length === 0) {
+	        $current = $current.filter('.submenu_d2');
+	    }
+	}
+
+	// 1) 전체 초기화
+	$('#snb_depth1, #snb_depth2, #snb_depth3').empty();
+
+
+	if ($current.length) {
+		
+		// depth1 Setting
+	  	$('.gnb > li > a.depth1').each(function(){
+			var $menuDep1 = $(this).clone().removeAttr('style');
+			var $subMenu = $(this).closest('li').find('.submenu_d2').filter(function() {
+                return $(this).attr('target') !== '_blank'; // 새창 제외
+            });
+			
+			$menuDep1.attr('href', $subMenu.first().attr('href'));
+	        
+			var $li = $('<li></li>').append($menuDep1.removeClass());
+			if($(this).is($currDept1.find('a.depth1'))){
+	    		$li.addClass('active');
+	    	}
+
+	    	$('#snb_depth1').append($li);
+	    	
+	  	});
+
+	 	// depth2 Setting
+	  	var $depth2All = $currDept1.find('.wrap2depth').find('.submenu_d2');
+	  	$depth2All.each(function(){
+	  		var $menuDep2 = $(this).clone().removeAttr('style');
+	  		var $li = $('<li></li>').append($menuDep2.removeClass());
+	  		
+	  		if($(this).is($current.closest('.wrap2depth').find('.submenu_d2'))){
+	    		$li.addClass('active');
+	    	}
+	  		
+	    	$('#snb_depth2').append($li);
+	  	});
+
+		var $depth3All = $current.closest('.wrap2depth').find('.submenu_d3');
+		$depth3All.each(function(){
+			var $menuDep3 = $(this).clone().removeAttr('style');
+			var $li = $('<li></li>').append($menuDep3.removeClass());
+			
+			if($(this).attr('href') === currentUrl){
+	    		$li.addClass('active');
+	    	}
+			
+			$('#snb_depth3').append($li);
+		});
+		
+	}
+
+});
+
+</script>
+<section id="snb" class="snb">
+	<div class="container">
+		<a href="/" class="home" title="메인화면으로 가기"><i class="xi-home" aria-hidden="false"></i><span class="sr-only">Home</span></a>
+		<h2 class="title">서브 메뉴</h2>
+		<nav class="nav">
+			<ul id="snb_depth1" class="depth1">
+	 		</ul>
+	 		
+			<ul id="snb_depth2" class="depth2">
+			</ul>
+			
+			<ul id="snb_depth3" class="depth3">
+			</ul>
+		</nav>
+		<div class="util">
+			<a href="javascript:window.print();" class="print_btn"><span class="sr-only">프린트하기</span><i class="xi-print"></i></a>
+		</div>
+	</div>
+</section>
+      <div id="contentWrap" class="container">
+
+        <div id="content" class="content">
+         <form id="bsnsAncmBtinSituListForm" name="bsnsAncmBtinSituListForm" method="post" action="#">
+          <h3 class="title_h1">사업공고</h3>
+
+          <nav class="tabs">
+            <ul class="depth4">
+            
+            
+                   <li title="비활성 탭메뉴">
+                 <a href="" onclick="f_bsnsAncmListForm_go('ancmPre'); return false;">접수예정</a>
+              </li>
+              <li class="active" title="선택된 탭메뉴">
+                 <a href="" onclick="f_bsnsAncmListForm_go('ancmIng'); return false;">접수중</a>
+              </li>
+              <li title="비활성 탭메뉴">
+                 <a href="" onclick="f_bsnsAncmListForm_go('ancmEnd'); return false;">마감</a>
+              </li>
+            
+            
+
+            </ul>
+          </nav>
+
+
+          <div class="search_wrap biz_announce">
+              <input type="hidden" name="bizSearch" value="">
+              <fieldset>
+                <legend class="blind">검색</legend>
+                <div class="search_box ready">
+
+                    <div class="form-inline row"><!-- <div class="form-inline mb20 row"> -->
+
+                      <div class="form-group col-md-9">
+                        <label for="bsnsTl" class="title web_width_auto">공고명</label>
+                        <input type="text" class="form-control" name="bsnsTl" id="bsnsTl" placeholder="공고명을 입력하세요" title="검색어를 입력하세요" value="" >
+                      </div>
+                      <div class="btns col-md-3">
+                        <button class="btn type1" onclick="f_bsnsAncmBtinSituListForm_search(1); return false;"><i class="xi-search"></i><span>검색</span></button>
+                        <button class="btn type1" onclick="f_bsnsAncmBtinSituListForm_reset(); return false;" aria-label="초기화"  title="초기화">
+                       <i class="xi-refresh" aria-hidden="true"></i>
+                    </button>
+                      </div>
+                    </div><!--//form-group-->
+
+
+                </div>
+                <!--//search_box-->
+                <div class="search_detail">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="title_group">
+                        <strong class="title">소관부처</strong>
+                        <span class="custom-input">
+                          <input type="checkbox" id="selectAllBlngGovdSe" name="selectAllBlngGovdSe"  value = "all" onclick="f_selectAll_blngGovdSe()" title="소관부처 전체선택"><label for="selectAllBlngGovdSe">전체선택</label>
+                        </span>
+                      </div><!-- //title_group -->
+                      <div class="list">
+                        <ul class="row">
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe1" name="blngGovdSe" value="AR4999" ><label for="blngGovdSe1">범부처</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe2" name="blngGovdSe" value="AR4001" ><label for="blngGovdSe2">과학기술정보통신부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe3" name="blngGovdSe" value="AR4002" ><label for="blngGovdSe3">산업통상부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe4" name="blngGovdSe" value="AR4003" ><label for="blngGovdSe4">중소벤처기업부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe5" name="blngGovdSe" value="AR4004" ><label for="blngGovdSe5">국토교통부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe6" name="blngGovdSe" value="AR4005" ><label for="blngGovdSe6">교육부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe7" name="blngGovdSe" value="AR4006" ><label for="blngGovdSe7">기상청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe8" name="blngGovdSe" value="AR4007" ><label for="blngGovdSe8">농림축산식품부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe9" name="blngGovdSe" value="AR4008" ><label for="blngGovdSe9">농촌진흥청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe10" name="blngGovdSe" value="AR4009" ><label for="blngGovdSe10">국가유산청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe11" name="blngGovdSe" value="AR4010" ><label for="blngGovdSe11">문화체육관광부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe12" name="blngGovdSe" value="AR4011" ><label for="blngGovdSe12">방위사업청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe13" name="blngGovdSe" value="AR4012" ><label for="blngGovdSe13">보건복지부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe14" name="blngGovdSe" value="AR4013" ><label for="blngGovdSe14">산림청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe15" name="blngGovdSe" value="AR4014" ><label for="blngGovdSe15">식품의약품안전처</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe16" name="blngGovdSe" value="AR4015" ><label for="blngGovdSe16">원자력안전위원회</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe17" name="blngGovdSe" value="AR4016" ><label for="blngGovdSe17">해양수산부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe18" name="blngGovdSe" value="AR4017" ><label for="blngGovdSe18">행정안전부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe19" name="blngGovdSe" value="AR4018" ><label for="blngGovdSe19">기후에너지환경부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe20" name="blngGovdSe" value="AR4902" ><label for="blngGovdSe20">법무부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe21" name="blngGovdSe" value="AR4903" ><label for="blngGovdSe21">국방부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe22" name="blngGovdSe" value="AR4904" ><label for="blngGovdSe22">고용노동부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe23" name="blngGovdSe" value="AR4908" ><label for="blngGovdSe23">경찰청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe24" name="blngGovdSe" value="AR4911" ><label for="blngGovdSe24">재정경제부</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe25" name="blngGovdSe" value="AR4915" ><label for="blngGovdSe25">소방청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe26" name="blngGovdSe" value="AR4916" ><label for="blngGovdSe26">해양경찰청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe27" name="blngGovdSe" value="AR4930" ><label for="blngGovdSe27">관세청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe28" name="blngGovdSe" value="AR4932" ><label for="blngGovdSe28">조달청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe29" name="blngGovdSe" value="AR4933" ><label for="blngGovdSe29">질병관리청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe30" name="blngGovdSe" value="AR4981" ><label for="blngGovdSe30">개인정보보호위원회</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe31" name="blngGovdSe" value="AR4986" ><label for="blngGovdSe31">국민안전처</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe32" name="blngGovdSe" value="AR4988" ><label for="blngGovdSe32">대통령경호처</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe33" name="blngGovdSe" value="AR4019" ><label for="blngGovdSe33">우주항공청</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe34" name="blngGovdSe" value="AR4021" ><label for="blngGovdSe34">방송미디어통신위원회</label>
+                               </span>
+                             </li>
+                          
+                             <li class="col-md-6">
+                               <span class="custom-input">
+                                 <input type="checkbox" id="blngGovdSe35" name="blngGovdSe" value="AR4989" ><label for="blngGovdSe35">고준위 방사성폐기물 관리위원회</label>
+                               </span>
+                             </li>
+                          
+                        </ul>
+                      </div><!-- //list -->
+                    </div>
+                    <div class="col-md-4">
+                      <div class="title_group">
+                        <strong class="title">전문기관</strong>
+                        <span class="custom-input">
+                          <input type="checkbox" id="selectAllsorgnId" name="selectAllsorgnId" onclick="f_selectAll_sorgnId()" title="전문기관 전체선택"><label for="selectAllsorgnId">전체선택</label>
+                        </span>
+                      </div><!-- //title_group -->
+                      <div class="list sorgnDiv">
+                        <ul>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId1" name="sorgnId" value="10000" ><label for="sorgnId1">한국과학기술기획평가원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId2" name="sorgnId" value="10001" ><label for="sorgnId2">한국연구재단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId3" name="sorgnId" value="10002" ><label for="sorgnId3">국토교통과학기술진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId4" name="sorgnId" value="10003" ><label for="sorgnId4">중소기업기술정보진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId5" name="sorgnId" value="10004" ><label for="sorgnId5">정보통신기획평가원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId6" name="sorgnId" value="10005" ><label for="sorgnId6">한국산업기술기획평가원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId7" name="sorgnId" value="10006" ><label for="sorgnId7">한국산업기술진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId8" name="sorgnId" value="10007" ><label for="sorgnId8">한국에너지기술평가원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId9" name="sorgnId" value="10008" ><label for="sorgnId9">한국보건산업진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId10" name="sorgnId" value="10009" ><label for="sorgnId10">농촌진흥청</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId11" name="sorgnId" value="10010" ><label for="sorgnId11">해양수산과학기술진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId12" name="sorgnId" value="10011" ><label for="sorgnId12">농림식품기술기획평가원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId13" name="sorgnId" value="10012" ><label for="sorgnId13">한국환경산업기술원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId14" name="sorgnId" value="10013" ><label for="sorgnId14">한국기상산업기술원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId15" name="sorgnId" value="10014" ><label for="sorgnId15">식품의약품안전평가원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId16" name="sorgnId" value="10015" ><label for="sorgnId16">국방기술품질원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId17" name="sorgnId" value="10016" ><label for="sorgnId17">한국콘텐츠진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId18" name="sorgnId" value="10017" ><label for="sorgnId18">국립문화유산연구원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId19" name="sorgnId" value="10018" ><label for="sorgnId19">한국원자력안전재단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId20" name="sorgnId" value="10019" ><label for="sorgnId20">국립재난안전연구원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId21" name="sorgnId" value="10020" ><label for="sorgnId21">한국임업진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId22" name="sorgnId" value="10021" ><label for="sorgnId22">재단법인 범부처의료기기연구개발사업단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId23" name="sorgnId" value="10022" ><label for="sorgnId23">범부처재생의료기술개발사업단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId24" name="sorgnId" value="10023" ><label for="sorgnId24">재단법인 국가신약개발재단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId25" name="sorgnId" value="10024" ><label for="sorgnId25">한국농업기술진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId26" name="sorgnId" value="10025" ><label for="sorgnId26">과학기술사업화진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId27" name="sorgnId" value="10026" ><label for="sorgnId27">한국인터넷진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId28" name="sorgnId" value="10027" ><label for="sorgnId28">과학치안진흥센터</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId29" name="sorgnId" value="10028" ><label for="sorgnId29">한국탄소산업진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId30" name="sorgnId" value="10029" ><label for="sorgnId30">한국여성과학기술인육성재단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId31" name="sorgnId" value="10030" ><label for="sorgnId31">혁신형소형모듈원자로기술개발사업단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId32" name="sorgnId" value="10031" ><label for="sorgnId32">한국원자력연구원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId33" name="sorgnId" value="10032" ><label for="sorgnId33">국립암센터</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId34" name="sorgnId" value="10035" ><label for="sorgnId34">연구개발특구진흥재단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId35" name="sorgnId" value="10036" ><label for="sorgnId35">정보통신산업진흥원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId36" name="sorgnId" value="10043" ><label for="sorgnId36">한국기초과학지원연구원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId37" name="sorgnId" value="10045" ><label for="sorgnId37">나노종합기술원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId38" name="sorgnId" value="10046" ><label for="sorgnId38">우주항공청</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId39" name="sorgnId" value="10047" ><label for="sorgnId39">소형모듈원자로규제연구추진단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId40" name="sorgnId" value="10050" ><label for="sorgnId40">한국조달연구원</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId41" name="sorgnId" value="10051" ><label for="sorgnId41">한국산업안전보건공단</label>
+                               </span>
+                             </li>
+                          
+                             <li>
+                               <span class="custom-input">
+                                 <input type="checkbox" id="sorgnId42" name="sorgnId" value="10052" ><label for="sorgnId42">한국에너지공단</label>
+                               </span>
+                             </li>
+                          
+                        </ul>
+                      </div><!-- //list -->
+                    </div>
+                    <div class="col-md-4">
+                      <div class="title_group">
+                        <strong class="title">기술분야</strong>
+                        <span class="custom-input">
+                          <input type="checkbox" id="selectAllTechFild" name="selectAllTechFild" onclick="f_selectAll_techFild()" title="기술분야 전체선택"><label for="selectAllTechFild">전체선택</label>
+                        </span>
+                      </div><!-- //title_group -->
+                      <div class="list">
+                        <ul>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild1" name="techFild" value="NA" ><label for="techFild1">수학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild2" name="techFild" value="NB" ><label for="techFild2">물리학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild3" name="techFild" value="NC" ><label for="techFild3">화학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild4" name="techFild" value="ND" ><label for="techFild4">지구과학(지구/대기/해양/천문)</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild5" name="techFild" value="LA" ><label for="techFild5">생명과학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild6" name="techFild" value="LB" ><label for="techFild6">농림수산식품</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild7" name="techFild" value="LC" ><label for="techFild7">보건의료</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild8" name="techFild" value="EA" ><label for="techFild8">기계</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild9" name="techFild" value="EB" ><label for="techFild9">재료</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild10" name="techFild" value="EC" ><label for="techFild10">화공</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild11" name="techFild" value="ED" ><label for="techFild11">전기/전자</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild12" name="techFild" value="EE" ><label for="techFild12">정보/통신</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild13" name="techFild" value="EF" ><label for="techFild13">에너지/자원</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild14" name="techFild" value="EG" ><label for="techFild14">원자력</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild15" name="techFild" value="EH" ><label for="techFild15">환경</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild16" name="techFild" value="EI" ><label for="techFild16">건설/교통</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild17" name="techFild" value="OA" ><label for="techFild17">뇌과학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild18" name="techFild" value="OB" ><label for="techFild18">인지/감성과학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild19" name="techFild" value="OC" ><label for="techFild19">과학기술과 인문사회</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild20" name="techFild" value="HH" ><label for="techFild20">문화예술체육학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild21" name="techFild" value="HF" ><label for="techFild21">인문학</label>
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span class="custom-input">
+                                <input type="checkbox" id="techFild22" name="techFild" value="HG" ><label for="techFild22">사회과학</label>
+                              </span>
+                            </li>
+                          
+                        </ul>
+                      </div><!-- //ist -->
+                    </div>
+                  </div><!-- //row -->
+                </div>
+                <!--//search_detail-->
+              </fieldset>
+          </div><!--//search_wrap-->
+
+
+          <div class="board_info">
+
+            <p class="page_info">
+              <span id="totalPage" class="total_page">전체<b>15</b>건 </span>
+              <span class="current_page">현재 페이지 <strong>1</strong>/2</span>
+            </p>
+          </div>
+
+          <div class="tstyle list biz_announce">
+
+          
+          
+            <h4 class="sr-only">접수중</h4>
+          
+          
+
+
+
+            <ul class="dbody">
+               
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 한국연구재단</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024477','ancmIng'); return false;">2026년 한미 이공분야 학생인력교류 프로그램(NSF IRES) 운영지원사업 신규과제 공모</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>과학기술정보통신부 공고 제2026？1007호</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-10-16</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>자유공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">기후에너지환경부 > 한국에너지기술평가원</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024457','ancmIng'); return false;">2026년도 에너지기술 수용성 제고 및 사업화 촉진 사업 신규지원 대상 연구개발과제 공고</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>기후에너지환경부 공고 제2026-933호</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-10-12</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>품목지정공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 한국연구재단</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024437','ancmIng'); return false;">2026년도 한-중(CSTEC) 신진과학자교류사업(파견) 신규과제 공모</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>NR_2026_087</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-10-12</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>자유공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 과학기술사업화진흥원</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024419','ancmIng'); return false;">2026년 연구산업육성사업(투자연계형 연구산업 혁신기술 개발) 본과제 신청 공고</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>CP_2026_009</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-10-12</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>지정공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 한국연구재단</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024337','ancmIng'); return false;">2026년도 퀀텀(양자)플랫폼 KRISS 차세대양자연구거점사업단 양자공동연구실(JQL) 신규과제 공모</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>제2026-0986호</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-10-06</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>분야공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 한국연구재단</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024317','ancmIng'); return false;">2026년도 퀀텀(양자)플랫폼 KIST 양자활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>제2026-0985호</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-10-06</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>분야공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">산업통상부 > 한국산업기술기획평가원</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024237','ancmIng'); return false;">2026년도 소재부품기술개발사업(4차) 신규지원 대상과제 공고</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>산업통상부 공고 제2026-613호</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-09-22</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>품목지정공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 연구개발특구진흥재단</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024199','ancmIng'); return false;">2026년 4극3특 대경권 과학기술혁신지원사업 연구단 모집 공고(연장공고)</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>IN_2026_054</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-09-14</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>자유공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 연구개발특구진흥재단</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024177','ancmIng'); return false;">2026년 4극3특 동남권 과학기술혁신지원사업 연구단 모집 공고(연장)</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>과학기술정보통신부 공고 제2026-0948호</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-09-11</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>자유공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+		              <li>
+		                <span class="inst_title">과학기술정보통신부 > 연구개발특구진흥재단</span>
+		                <div class="form-row">
+		                  <div class="group1">
+		                    <strong class="title"><a href="" onclick="f_bsnsAncmBtinSituListForm_view('024160','ancmIng'); return false;">2026년 4극3특 호남권 과학기술혁신지원사업 연구단 모집 공고(연장공고)</a></strong>
+		                    <div class="etc_info">
+	                         <span><em>공고번호 :</em>과학기술정보통신부 공고 제2026-0948호</span>
+	                         <span class="ancmDe"><em>공고일자 :</em>2026-09-11</span>
+	                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>
+	                           
+	                           공고접수중
+	                           
+	                         </span>
+	                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>자유공모</span>
+	                         
+
+		                    </div>
+		                  </div>
+		                  <div class="group2">
+                             
+                             
+                                <span class="d_day end">접수중</span>
+                             
+                             
+
+                          </div>
+		                </div>
+		              </li>
+	              
+	           
+               
+            </ul>
+          </div>
+
+            <input type="hidden" name="ancmPrg" value="ancmIng""/>
+            <input type="hidden" name="pageIndex" value=""/>
+            <input type="hidden" name="ancmId" value=""/>
+            <input type="hidden" name="ancmNo" value=""/>
+            <input type="hidden" name="ancmTurn" value=""/>
+            <input type="hidden" name="seq" value=""/>
+            <input type="hidden" name="hirkSorgnBsnsCd" value=""/>
+            <input type="hidden" name="bsnsAncmTap" value=""/>
+            <input type="hidden" name="shSorgnYyBsnsCd" value=""/>
+
+            <!-- 검색조건 유지 -->
+            <input type="hidden" name="sorgnIdArr" value=""/>
+            <input type="hidden" name="ancmSttArr" value=""/>
+            <input type="hidden" name="pbofrTpArr" value=""/>
+            <input type="hidden" name="qualCndtArr" value=""/>
+            <input type="hidden" name="blngGovdSeArr" value=""/>
+            <input type="hidden" name="techFildArr" value=""/>
+            <input type="hidden" name="shBsnsYy" value=""/>
+
+            <div class="board_pager">
+                <div class="inner">
+                    <div class="paginate">
+                        <a href="#" class="page_now" title="선택됨"><strong>1</strong></a><a href="#" class="page_none" title="2페이지" onclick="(2); return false;">2</a>
+
+                    </div>
+                </div>
+            </div>
+
+            </form>
+
+        </div>
+        <!--//content-->
+      </div>
+      <!--//contentWrap-->
+
+
+    </main>
+
+<script id="listTemplate" type="text/x-jsrender">
+{{for listBsnsAncmBtinSitu}}
+                  <li>
+                    <span class="inst_title">{{:blngGovdSeNm}} > {{:sorgnNm}}</span>
+                    <div class="form-row">
+                      <div class="group1">
+                        <strong class="title">
+                        {{if rcveStt == '예정'}}
+                            <a href="" onclick="f_bsnsAncmBtinSituListForm_view('{{:ancmId}}','ancmPre'); return false;">{{:ancmTl}}</a>
+                        {{else rcveStt == '진행중'}}
+                            <a href="" onclick="f_bsnsAncmBtinSituListForm_view('{{:ancmId}}','ancmIng'); return false;">{{:ancmTl}}</a>
+                        {{else rcveStt == '완료'}}
+                            <a href="" onclick="f_bsnsAncmBtinSituListForm_view('{{:ancmId}}','ancmEnd'); return false;">{{:ancmTl}}</a>
+                        {{/if}}
+                        </strong>
+                        <div class="etc_info">
+                         <span><em>공고번호 :</em>{{:ancmNo}}</span>
+                         <span class="ancmDe"><em>공고일자 :</em>{{:ancmDe}}</span>
+                         <span class="rcveSttSeNmLst"><em>공고상태 :</em>{{:rcveSttSeNmLst}}</span>
+                         <span class="pbofrTpSeNmLst"><em>공모유형 :</em>{{:pbofrTpSeNmLst}}</span>
+                        </div>
+                      </div>
+                    <div class="group2">
+                         {{if rcveStt == '예정' && ancmId != '002291'}}
+                            <span class="d_day end">접수예정</span>
+                         {{/if}}
+                         {{if rcveStt == '진행중' || ancmId == '002291'}}
+                            <span class="d_day end">접수중</span>
+                         {{/if}}
+                         {{if rcveStt == '완료'}}
+                         <span class="d_day end">종료
+                         {{/if}}
+                        </span>
+                      </div>
+                    </div>
+                  </li>
+{{else}}
+                 <li>
+                   <div class="form-row" style="text-align: center;">
+                     <div class="group">
+                       <span class="title">데이터가 존재하지 않습니다.</span>
+                     </div>
+                   </div>
+                 </li>
+{{/for}}
+</script>
+
+<script>
+function f_nri_portal(hostUrl){
+    window.open(location.protocol+'//'+hostUrl,'_blank');
+}
+
+
+
+function f_chat_bot(){
+    var lgin_id = "";
+    var url = "";
+    if(lgin_id == ""){
+        url = "https://chatbot.iris.go.kr/kistep";
+    }else{
+        url = "https://chatbot.iris.go.kr/kistep?loginId="+lgin_id;
+    }
+    window.open(url, '_blank', 'toolbar=no,menubar=no,scrollbars=yes,resizable=yes,top=100,left=100,width=560,height=840');
+}
+
+function f_open_url(){
+    var url = $("select[name=relate01]").val()
+    if(url != ""){
+        window.open(url, '_blank', 'noopener');
+    }
+
+}
+
+function f_open_url2(){
+    var url = $("select[name=relate02]").val()
+    if(url != ""){
+        window.open(url, '_blank', 'noopener');
+    }
+}
+</script>
+
+<footer class="footer">
+    <div class="footer-wrap">
+    	<div class="quick_nav">
+        	<button class="openChatBot" onclick="f_chat_bot()">상담챗봇</button>
+            <dl class="list">
+                <dd><a href="/contents/retrieveOnlHlpListView.do" class="link" style="padding:0.8rem 0;">온라인 매뉴얼</a></dd>
+                <dd>
+                    <button type="button" class="link" title="새창으로 열림" onclick="f_nri_portal('eval.iris.go.kr'); return false;">전자평가시스템<br />(EVAL)</button>
+                </dd>
+                <dd>
+                    <button type="button" class="link" title="새창으로 열림" onclick="f_nri('www.iris.go.kr/note', 'SSO','note'); return false;"  style="padding:0.8rem 0;">전자연구노트</button>
+                </dd>
+                <dd>
+                    <button type="button" class="link" title="새창으로 열림" onclick="f_nri('sims.iris.go.kr/sims', 'SSO','sims'); return false;">조사·분석 입력<br/>시스템(SIMS)</button>
+                </dd>
+		        <dd class="mnv">
+                    <a href="/contents/retrieveCusGuidView.do" class="link">
+                        <img class="imgCallCenter" src="/resources/imgs/main_new/img_callcenter.png" alt="" /><br />
+                        <strong>1877-2041<br>042-862-1500</strong><br/>고객센터
+                    </a>
+                </dd>
+                <dd class="mnv">
+                    <a href="#" class="link" onclick="f_chat_bot()" title="새창열림">
+                        <img class="imgChatBot" src="/resources/imgs/main_new/img_chatbot.png" alt="고객상담 챗봇입니다. 본 서비스는 스크린리더 사용이 원활하지 않을 수 있으므로, '알림·소식' 및 'R&D 신문고' 게시판 이용을 권장합니다." /><span>고객상담챗봇</span>
+                    </a>
+                </dd>
+            </dl>
+            <button class="openQuickLink">QUICK</button>
+
+            <a href="#" class="go_top"><span class="sr-only">TOP</span></a>
+        </div>
+        <img src="/resources/imgs/main_new/logoKISTEP.svg" alt="한국과학기술기획평가원"/>
+        <div class="wrapKISTEP">
+
+            <div class="address">
+                <div>충청북도 음성군 맹동면 원중로 1339 한국과학기술기획평가원</div>
+                <div><strong><span>부가통화</span> 1877-2041</strong>(평일 09시~18시)</div>
+                <div><strong>일반번호 042-862-1500</strong>(평일 09시~18시)</div>
+            </div>
+
+            <div class="wrapSelect">
+                <div class="certWrap">
+	                <div id = "tooltipImage" class="tooltipImage" tabindex="0">
+	                  <img src = "/resources/imgs/main/isms_p_logo.png" alt="ISMS-P인증마크">
+	                  <div id="tooltipContent" class="tooltipContent">
+	                   <p>[인증범위] 범부처 통합연구지원시스템(IRIS) 운영</p>
+	                   <p>[유효기간] 2023.12.20. ~ 2026.12.19.</p>
+	                  </div>
+	                </div>
+	                <div class="wa_mark">
+	                  <a title="새창으로 열림" href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank">
+	                    <img class="wa" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" src="/resources/imgs/main/wa_mark2026.png" title="[유효기간] 2026.02.11 ~ 2027.02.10" style="height: 70px; width: auto;">
+	                    <!-- [유효기간] 2026. 02. 11 ~ 2027. 02. 10 -->
+	                  </a>
+	                </div>
+	            </div>
+	            <div class="selectRow">
+	                <label for="relate01" class="sr-only">관련부처 홈페이지 선택</label>
+	                <select id="relate01" name="relate01">
+	                    <option value="">관련부처</option>
+	                    <option value="https://www.moe.go.kr/main.do?s=moe">교육부</option>
+	                    <option value="https://www.cha.go.kr/main.html" >국가유산청</option>
+	                    <option value="http://www.molit.go.kr/portal.do">국토교통부</option>
+	                    <option value="https://www.msit.go.kr/index.do" >과학기술정보통신부</option>
+	                    <option value="https://www.kma.go.kr/kma/">기상청</option>
+	                    <option value="https://www.mafra.go.kr/">농림축산식품부</option>
+	                    <option value="http://www.rda.go.kr/main/mainPage.do">농촌진흥청</option>
+	                    <option value="https://www.mcst.go.kr/kor/main.jsp">문화체육관광부</option>
+	                    <option value="http://www.dapa.go.kr/dapa/main.do">방위사업청</option>
+	                    <option value="http://www.mohw.go.kr/react/index.jsp">보건복지부</option>
+	                    <option value="https://www.forest.go.kr/kfsweb/kfs/idx/Index.do">산림청</option>
+	                    <option value="https://www.motir.go.kr/">산업통상부</option>
+	                    <option value="https://www.mfds.go.kr/index.do">식품의약품안전처</option>
+	                    <option value="https://www.kasa.go.kr/">우주항공청</option>
+	                    <option value="https://www.nssc.go.kr/">원자력안전위원회</option>
+	                    <option value="https://www.mss.go.kr/site/smba/main.do">중소벤처기업부</option>
+	                    <option value="https://www.mof.go.kr/index.do">해양수산부</option>
+	                    <option value="https://www.mois.go.kr/index.jsp">행정안전부</option>
+	                    <option value="https://mcee.go.kr/home/web/main.do">기후에너지환경부</option>
+	                </select>
+	                <button type="button" class="btnMove" aria-label="선택한 관련부처 홈페이지로  새창 이동" onclick="f_open_url()">이동</button>
+
+	                <label for="relate02" class="sr-only">전문기관 홈페이지 선택</label>
+	                <select id="relate02" name="relate02" >
+	                    <option value="">전문기관</option>
+	                    <option value="https://www.nrf.re.kr/index">한국연구재단</option>
+	                    <option value="https://www.tipa.or.kr/">중소기업기술정보진흥원</option>
+	                    <option value="https://www.keit.re.kr/">한국산업기술기획평가원</option>
+                        <option value="https://www.khidi.or.kr/kps">한국보건산업진흥원</option>
+                        <option value="https://www.iitp.kr/web/index.do">정보통신기획평가원</option>
+                        <option value="https://www.kiat.or.kr/">한국산업기술진흥원</option>
+                        <option value="http://www.rda.go.kr/main/mainPage.do">농촌진흥청</option>
+                        <option value="https://www.ketep.re.kr/">한국에너지기술평가원</option>
+                        <option value="https://www.kaia.re.kr/portal/main.do">국토교통과학기술진흥원</option>
+                        <option value="https://www.innopolis.or.kr/mps">연구개발특구진흥재단</option>
+                        <option value="https://www.compa.re.kr/">과학기술사업화진흥원</option>
+                        <option value="http://www.ipet.re.kr/index.asp">농림식품기술기획평가원</option>
+                        <option value="http://www.keiti.re.kr/">한국환경산업기술원</option>
+                        <option value="https://www.kimst.re.kr/">해양수산과학기술진흥원</option>
+                        <option value="https://kddf.org/ko">재단법인 국가신약개발재단</option>
+                        <option value="https://www.nfec.go.kr/nfec.do">한국기초과학지원연구원(국가연구시설장비진흥센터)</option>
+                        <option value="https://www.kmdf.org/">재단법인 범부처의료기기연구개발사업단</option>
+                        <option value="https://www.kasa.go.kr/">우주항공청</option>
+                        <option value="https://www.kofons.or.kr">한국원자력안전재단</option>
+                        <option value="http://www.kocca.kr">한국콘텐츠진흥원</option>
+                        <option value="http://www.kfrm.org/doc/html/main/main.asp">범부처재생의료기술개발사업단</option>
+                        <option value="https://www.kofpi.or.kr/">한국임업진흥원</option>
+                        <option value="https://www.koat.or.kr/main2.do">한국농업기술진흥원</option>
+                        <option value="https://www.ncc.re.kr/index">국립암센터</option>
+                        <option value="https://www.kmiti.or.kr/">한국기상산업기술원</option>
+                        <option value="https://kipot.or.kr/">과학치안진흥센터</option>
+                        <option value="https://www.kcarbon.or.kr/">한국탄소산업진흥원</option>
+                        <option value="https://www.rmas.or.kr/">소형모듈원자로규제연구추진단</option>
+	                    <option value="https://www.ndmi.go.kr/">국립재난안전연구원</option>
+                        <option value="https://www.nnfc.re.kr/">나노종합기술원</option>
+	                    <option value="https://www.nrich.go.kr/">국립문화유산연구원</option>
+                        <option value="https://ismr.or.kr/">혁신형소형모듈원자로기술개발사업단</option>
+	                    <option value="https://www.nifds.go.kr/index.do">식품의약품안전평가원</option>
+	                    <option value="https://www.kip.re.kr/">한국조달연구원</option>
+                        <option value="https://www.kaeri.re.kr/">한국원자력연구원</option>
+                        <option value="https://www.kisa.or.kr/">한국인터넷진흥원</option>
+                        <option value="https://www.dtaq.re.kr/">국방기술품질원</option>
+                        <option value="https://www.nipa.kr/">정보통신산업진흥원</option>
+                        <option value="https://kosha.or.kr/index">한국산업안전보건공단</option>
+	                </select>
+	                <button type="button" class="btnMove" aria-label="선택한 전문기관 홈페이지로 새창 이동" onclick="f_open_url2()">이동</button>
+	            </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="/contents/retrievePrvcHdlg.do">개인정보처리방침</a>
+            <a href="/contents/retrieveNoticeListView.do">공지사항</a>
+            <a href="/contents/retrieveCusGuidView.do">고객센터</a>
+            <a href="/contents/retrieveUseGuid.do">이용안내</a>
+            <p></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
