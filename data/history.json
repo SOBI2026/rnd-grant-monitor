@@ -17,9 +17,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약",
    "바이오"
@@ -30,7 +27,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "relevant": true,
+  "score": 65,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-022014",
@@ -50,9 +54,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약",
    "바이오"
@@ -63,7 +64,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "relevant": true,
+  "score": 65,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-018115",
@@ -96,7 +104,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "score": 65,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-018095",
@@ -129,7 +141,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "score": 65,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-019316",
@@ -162,7 +178,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "score": 65,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-017847",
@@ -195,7 +215,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "score": 65,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-017699",
@@ -229,7 +253,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "score": 65,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "공고번호(기관 미표기)"
  },
  {
   "id": "iris-015894",
@@ -262,7 +290,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 65
+  "score": 65,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-016474",
@@ -294,7 +326,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 60
+  "score": 60,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고"
  },
  {
   "id": "iris-023057",
@@ -314,9 +350,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "바이오"
   ],
@@ -325,7 +358,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-022378",
@@ -345,9 +385,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "바이오"
   ],
@@ -356,7 +393,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-022254",
@@ -376,9 +420,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "바이오"
   ],
@@ -387,7 +428,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "공고번호(기관 미표기)",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021495",
@@ -407,9 +455,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "바이오"
   ],
@@ -418,7 +463,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "공고번호(기관 미표기)",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021356",
@@ -438,9 +490,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약"
   ],
@@ -449,7 +498,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021294",
@@ -469,9 +525,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "바이오"
   ],
@@ -480,7 +533,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021274",
@@ -500,9 +560,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약"
   ],
@@ -511,7 +568,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-019015",
@@ -531,9 +595,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약"
   ],
@@ -542,7 +603,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-018954",
@@ -562,9 +630,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약"
   ],
@@ -573,7 +638,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-018401",
@@ -604,7 +676,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "score": 50,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-017435",
@@ -624,9 +700,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약"
   ],
@@ -635,7 +708,14 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "relevant": true,
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-017314",
@@ -666,7 +746,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 50
+  "score": 50,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-018734",
@@ -695,7 +779,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 45
+  "score": 45,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "IRIS 접수코드"
  },
  {
   "id": "iris-017054",
@@ -724,7 +812,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 45
+  "score": 45,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고"
  },
  {
   "id": "iris-017194",
@@ -753,7 +845,11 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 45
+  "score": 45,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "IRIS 접수코드"
  },
  {
   "id": "iris-021754",
@@ -773,14 +869,18 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "relevant": true,
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021936",
@@ -800,14 +900,18 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "relevant": true,
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021355",
@@ -827,14 +931,18 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "relevant": true,
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-021234",
@@ -854,14 +962,18 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "relevant": true,
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-020534",
@@ -888,7 +1000,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고"
  },
  {
   "id": "iris-020135",
@@ -915,7 +1031,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-019194",
@@ -942,7 +1062,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-018694",
@@ -969,7 +1093,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고"
  },
  {
   "id": "iris-018474",
@@ -996,7 +1124,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고"
  },
  {
   "id": "iris-018075",
@@ -1023,7 +1155,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-017703",
@@ -1050,7 +1186,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고"
  },
  {
   "id": "iris-017436",
@@ -1077,7 +1217,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "공고번호(기관 미표기)"
  },
  {
   "id": "iris-017154",
@@ -1104,7 +1248,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고"
  },
  {
   "id": "iris-017414",
@@ -1131,7 +1279,11 @@
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "score": 35,
+  "relevant": true,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "사업단 공고"
  },
  {
   "id": "iris-017434",
@@ -1151,14 +1303,18 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "relevant": true,
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "공고번호(기관 미표기)",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-017417",
@@ -1178,13 +1334,17 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35
+  "relevant": true,
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "공고번호(기관 미표기)",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  }
 ]
