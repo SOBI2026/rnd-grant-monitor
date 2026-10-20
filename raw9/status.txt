@@ -1,0 +1,5 @@
+ht_bbs_view.html 200 99202 https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10830
+ht_pban_get.html 200 2189 https://www.htdream.kr/mypage/selectBsnsPbanViewAjax.do?pbanId=8906
+ht_pban_page.html 200 94384 https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&pbanId=8906
+iris_detail.html 200 76388 https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024477&ancmPrg=ancmIng
+ntis_view.html 200 56916 https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263312
