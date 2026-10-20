@@ -1,6 +1,0 @@
-khidi_biz.html 200 127473 https://www.khidi.or.kr/board?menuId=MENU01108
-khidi_biz_q.html 200 124225 https://www.khidi.or.kr/board?menuId=MENU01108&schType=0&schText=%ED%98%81%EC%8B%A0%ED%98%95
-khidi_notice_q.html 200 117810 https://www.khidi.or.kr/board?menuId=MENU00099&schType=0&schText=%ED%98%81%EC%8B%A0%ED%98%95
-nipa_biz2.html 200 112096 https://www.nipa.kr/home/2-2?curPage=2
-nipa_biz_q.html 200 112518 https://www.nipa.kr/home/2-2?srchKey=title&srchText=%ED%97%AC%EC%8A%A4
-mohw_q.html 200 116216 https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=list&keyField=TITLE&keyWord=%ED%98%81%EC%8B%A0%ED%98%95

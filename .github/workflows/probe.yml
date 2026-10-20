@@ -13,17 +13,14 @@ jobs:
         run: |
           set +e
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-          mkdir -p raw6; cd raw6
+          mkdir -p raw7; cd raw7
           g() { curl -sS -L --max-time 40 -A "$UA" -o "$1" -w "$1 %{http_code} %{size_download} %{url_effective}\n" "$2" >> status.txt 2>&1; sleep 2; }
-          g khidi_biz.html "https://www.khidi.or.kr/board?menuId=MENU01108"
-          g khidi_biz_q.html "https://www.khidi.or.kr/board?menuId=MENU01108&schType=0&schText=%ED%98%81%EC%8B%A0%ED%98%95"
-          g khidi_notice_q.html "https://www.khidi.or.kr/board?menuId=MENU00099&schType=0&schText=%ED%98%81%EC%8B%A0%ED%98%95"
-          g nipa_biz2.html "https://www.nipa.kr/home/2-2?curPage=2"
-          g nipa_biz_q.html "https://www.nipa.kr/home/2-2?srchKey=title&srchText=%ED%97%AC%EC%8A%A4"
-          g mohw_q.html "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=list&keyField=TITLE&keyWord=%ED%98%81%EC%8B%A0%ED%98%95"
+          g ntis_rndgate.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do"
+          g ntis_rndgate2.html "https://www.ntis.go.kr/rndgate/eg/un/ra/mng.do?pageIndex=1&searchKeyword=%EB%B0%94%EC%9D%B4%EC%98%A4"
+          g ntis_api_main.html "https://www.ntis.go.kr/rndopen/api/mng/apiMain.do"
           cat status.txt
       - name: Save
         if: always()
         run: |
           git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
-          git add -A raw6; git commit -m "raw6 [skip ci]"; git push
+          git add -A raw7; git commit -m "raw7 [skip ci]"; git push
