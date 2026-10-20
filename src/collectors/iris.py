@@ -24,7 +24,8 @@ RECENT_END_DAYS = 30      # 공고 목록에 남길 최근 마감 공고
 HISTORY_DAYS = 400        # 예측용 과거 공고 (관심 부처만)
 PRE_LOOKBACK_DAYS = 120   # 접수예정은 오래된 미정리 글이 많아 최근 게시분만
 PAGE_CAP = 15             # 한 목록당 하루 최대 페이지
-BACKFILL_PAGES = 10       # 과거 공고 백필: 부처당 하루 추가 페이지
+BACKFILL_PAGES = 10       # 과거 공고 백필: 조회당 하루 추가 페이지
+ALL_BACKFILL_PAGES = 40   # 전 부처 조회 백필: 하루 추가 페이지(약 400건)
 FORECAST_WEEKDAY = 0      # 사업예고 전체 갱신 요일(월)
 # 관심 부처 코드 (IRIS 검색조건 blngGovdSe)
 FOCUS_GOVD = {"AR4012": "보건복지부", "AR4014": "식품의약품안전처",
@@ -135,7 +136,10 @@ def fetch_history(ctx):
     cutoff = _cut(HISTORY_DAYS)
     queries = ([(c, {"blngGovdSeArr": c}) for c in FOCUS_GOVD]
                + [(f"sorgn:{c}", {"sorgnIdArr": c}) for c in FOCUS_SORGN]
-               + [(f"kw:{k}", {"bsnsTl": k}) for k in HISTORY_KEYWORDS])
+               + [(f"kw:{k}", {"bsnsTl": k}) for k in HISTORY_KEYWORDS]
+               # 전 부처 마감 공고: 과기부·산업부 등 바이오 사업을 빠짐없이 잡기 위함.
+               # 양이 많아 하루 ALL_BACKFILL_PAGES씩 나눠 채움. 분야 필터는 run.py에서.
+               + [("all", {})])
     for code, q in queries:
         params = {"ancmPrg": "ancmEnd", **q}
         st = state.get(code)
@@ -153,8 +157,9 @@ def fetch_history(ctx):
             out.update(new)
         st = state.setdefault(code, {"next_page": 1, "done": False})
         if not st["done"]:
-            got, last, done = _crawl(s, params, "history", cutoff=cutoff,
-                                     start=st["next_page"], cap=BACKFILL_PAGES)
+            got, last, done = _crawl(
+                s, params, "history", cutoff=cutoff, start=st["next_page"],
+                cap=ALL_BACKFILL_PAGES if code == "all" else BACKFILL_PAGES)
             out.update(got)
             st.update(next_page=last + 1, done=done)
     # 보관 기간 지난 항목 정리
