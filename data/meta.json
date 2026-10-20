@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T22:35:05+09:00",
+ "updated_at": "2026-10-20T22:42:33+09:00",
  "jobs": [
   {
    "job": "NTIS 통합공고",
@@ -14,7 +14,7 @@
   {
    "job": "IRIS 과거공고(관심부처)",
    "ok": true,
-   "count": 584
+   "count": 326
   },
   {
    "job": "IRIS 사업예고",
@@ -55,24 +55,13 @@
  ],
  "errors": [],
  "counts": {
-  "notice": 19,
-  "notice_other": 602,
-  "history": 115,
+  "notice": 18,
+  "notice_other": 344,
+  "history": 116,
   "forecast": 37,
   "signal": 20
  },
- "new_today": [
-  "ntis-1279968",
-  "ntis-1279831",
-  "ntis-1279523",
-  "ntis-1278997",
-  "ntis-1278996",
-  "ntis-1278995",
-  "ntis-1278994",
-  "ntis-1263312",
-  "ntis-1279833",
-  "ntis-1279830"
- ],
+ "new_today": [],
  "merged_duplicates": [
   {
    "kept": "ntis-1279523",
@@ -93,7 +82,7 @@
    "title": "2026년도 한의약혁신기술개발사업 사업단장 공모안내"
   },
   {
-   "kept": "ntis-1279968,ntis-1279831",
+   "kept": "ntis-1279831",
    "dropped": "khidi-pban-8926",
    "reason": "출처 간 동일 공고",
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내"
@@ -141,7 +130,7 @@
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제"
   },
   {
-   "kept": "ntis-1279968,ntis-1279831",
+   "kept": "ntis-1279968",
    "dropped": "iris-024397",
    "reason": "출처 간 동일 공고",
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)"

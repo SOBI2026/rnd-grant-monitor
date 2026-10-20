@@ -574,9 +574,6 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [
    "제약"
   ],
@@ -586,13 +583,16 @@
   ],
   "focus_org": true,
   "health": true,
-  "score": 60,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "khidiweb-48948364",
@@ -3417,20 +3417,20 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "기관 자체번호",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-017154",
@@ -3483,20 +3483,20 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "사업단 공고",
-  "topics": [],
-  "category": "R&D"
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-017434",
@@ -3560,6 +3560,43 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-017220",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "'산림분야 그린바이오 미래형 가치사슬 기술개발(R&D)' 사업 2026년도 신규과제 선정계획 공고",
+  "notice_no": "산림청 공고 제2025-426호",
+  "type": "품목지정공모",
+  "ministry": "산림청",
+  "agency": "한국임업진흥원",
+  "status": "마감",
+  "posted": "2025-12-23",
+  "open_date": "2025-12-23",
+  "close_date": "2026-01-22",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017220",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
