@@ -118,8 +118,10 @@ def fetch_mohw(ctx=None, pages=3):
         for cat, href, lid, title, date in MOHW_ROW.findall(html):
             if clean(cat) != "공고":
                 continue
-            it = _board_item("MOHW", lid, _txt(title),
+            title = re.sub(r"^\s*새글\s*", "", _txt(title))
+            it = _board_item("MOHW", lid, title,
                              MOHW + unescape(href).split("&tag")[0],
-                             norm_date(date), "보건복지부", "보건복지부")
+                             norm_date(date), "보건복지부", "보건복지부",
+                             {"strict": True})
             out[it["id"]] = it
     return list(out.values())

@@ -41,7 +41,9 @@ def classify(it, profile):
     # 보건의료 관련성 게이트: 보건 기관이 아니면 보건 용어가 있어야 점수 인정
     health = bool(_hits(text, profile.get("health_terms", [])))
     strong = bool(_hits(text, profile.get("strong_terms", [])))
-    if it["extra"].get("terms_only"):  # 비R&D 게시판: 부처만으로는 관련 판단 안 함
+    if it["extra"].get("strict"):  # 복지부 공지: 산업·R&D 관련만
+        relevant = bool(_hits(it["title"], profile.get("industry_terms", [])))
+    elif it["extra"].get("terms_only"):  # 비R&D 게시판: 부처만으로는 관련 판단 안 함
         relevant = health or strong
     else:
         relevant = focus_org or health or strong

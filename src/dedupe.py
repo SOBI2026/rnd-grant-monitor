@@ -16,6 +16,10 @@ def core(title):
     return re.sub(r"[\s·,.\-_~]", "", t).lower()
 
 
+def core_noyear(title):
+    return re.sub(r"^\d{4}년도?", "", core(title))
+
+
 def no_key(no):
     no = re.sub(r"\s", "", no or "")
     return no if re.search(r"제\d{4}-?\d+호", no) else ""
@@ -86,15 +90,23 @@ def dedupe(items):
     for g in list(by_t.values()):
         absorb(g, "같은 제목·접수기간")
 
-    # 3) 출처 간 병합: 다른 출처 항목의 핵심 제목이 IRIS 제목과 같거나 포함
-    others = [x for x in alive.values() if x["source"] != "IRIS"]
+    # 3) 출처 간 병합: 핵심 제목(연도 제외)이 같거나 한쪽이 다른 쪽을 포함
+    #    우선순위 IRIS > KHIDI(htdream) > KHIDIWEB > MOHW > 기타 쪽으로 흡수
+    pri = {"IRIS": 0, "KHIDI": 1, "KHIDIWEB": 2, "MOHW": 3}
+    others = sorted([x for x in alive.values() if x["source"] != "IRIS"],
+                    key=lambda x: -pri.get(x["source"], 9))
     for o in others:
-        oc = core(o["title"])
+        if o["id"] not in alive:
+            continue
+        oc = core_noyear(o["title"])
         if len(oc) < 10:
             continue
         hits = [x for x in alive.values()
-                if x["source"] == "IRIS" and _overlap(o, x)
-                and (core(x["title"]).startswith(oc) or oc.startswith(core(x["title"])))]
+                if x["source"] != o["source"]
+                and pri.get(x["source"], 9) < pri.get(o["source"], 9)
+                and _overlap(o, x)
+                and (core_noyear(x["title"]).startswith(oc)
+                     or oc.startswith(core_noyear(x["title"])))]
         for h in hits:
             _merge(h, o)
         if hits:
