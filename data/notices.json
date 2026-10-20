@@ -525,7 +525,9 @@
    "deadline_from": "제목 추정",
    "pinned": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -563,7 +565,9 @@
    "deadline_from": "제목 추정",
    "pinned": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -601,7 +605,9 @@
    "deadline_from": "제목 추정",
    "pinned": false
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -662,7 +668,9 @@
     "khidi-pban-8906"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -697,7 +705,9 @@
    "deadline_from": "제목 추정",
    "pinned": false
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -747,7 +757,9 @@
     "mohw-1491975"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,

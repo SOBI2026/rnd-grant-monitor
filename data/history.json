@@ -1600,10 +1600,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 연합학습 기반 신약개발 가속화 프로젝트 사업신규지원 대상과제 공고",
-  "notice_no": "KM-2026-01",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "보건복지부",
-  "agency": "한국보건산업진흥원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-04-14",
   "open_date": "2026-04-14",
@@ -1611,22 +1611,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264971",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "보건",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020676"
-   },
-   "co_agencies": [
-    "한국보건산업진흥원"
-   ],
-   "co_ministries": [
-    "과학기술정보통신부"
-   ],
-   "merged_ids": [
-    "iris-020676"
-   ]
+   "search_kw": "보건"
   },
   "domains": [
    "제약"
@@ -1641,10 +1626,14 @@
   "topics": [],
   "category": "R&D",
   "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "기관 자체번호",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -3097,10 +3086,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(AI기반후보물질탐색) 시행계획 공고_(2026)AI기반후보물질탐색",
-  "notice_no": "중소벤처기업부 공고 제2026-219호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "중소벤처기업부",
-  "agency": "중소기업기술정보진흥원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-04-08",
   "open_date": "2026-04-08",
@@ -3108,19 +3097,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260577",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "제약",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020003"
-   },
-   "co_agencies": [
-    "중소기업기술정보진흥원"
-   ],
-   "merged_ids": [
-    "iris-020003"
-   ]
+   "search_kw": "제약"
   },
   "domains": [
    "바이오",
@@ -3136,10 +3113,14 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -3148,10 +3129,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(신약파이프라인공동개발) 시행계획 공고_(2026)신약파이프라인공동개발",
-  "notice_no": "중소벤처기업부 공고 제2026-219호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "중소벤처기업부",
-  "agency": "중소기업기술정보진흥원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-04-08",
   "open_date": "2026-04-08",
@@ -3159,19 +3140,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260576",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "제약",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020003"
-   },
-   "co_agencies": [
-    "중소기업기술정보진흥원"
-   ],
-   "merged_ids": [
-    "iris-020003"
-   ]
+   "search_kw": "제약"
   },
   "domains": [
    "제약",
@@ -3187,10 +3156,14 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -3281,10 +3254,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 혁신신약 연구개발 가속화플랫폼 구축(RD) 신규사업 공고",
-  "notice_no": "산업통상부 공고 제2026-191호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "산업통상부",
-  "agency": "한국산업기술진흥원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-03-20",
   "open_date": "2026-03-20",
@@ -3292,19 +3265,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261628",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "신약",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020154"
-   },
-   "co_agencies": [
-    "한국산업기술진흥원"
-   ],
-   "merged_ids": [
-    "iris-020154"
-   ]
+   "search_kw": "신약"
   },
   "domains": [
    "제약",
@@ -3320,10 +3281,14 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -3659,10 +3624,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 AI-네이티브 첨단바이오 자율실험실 사업 신규과제 재공모",
-  "notice_no": "과학기술정보통신부 공고 제2026- 0151호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-02-11",
   "open_date": "2026-02-11",
@@ -3670,19 +3635,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256174",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018952"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-018952"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [
    "바이오",
@@ -3698,10 +3651,14 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -4249,10 +4206,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 AI-네이티브 첨단바이오 자율실험실 사업 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 -0026호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-09",
   "open_date": "2026-01-09",
@@ -4260,19 +4217,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253336",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017754"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-017754"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [
    "바이오",
@@ -4288,10 +4233,14 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -4300,10 +4249,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년 AI-네이티브 첨단바이오 자율실험실사업 신규과제 공모_(2026)2026년 AI-네이티브 첨단바이오 자율실험실사업 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 -0026호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-09",
   "open_date": "2026-01-09",
@@ -4311,19 +4260,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253313",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017754"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-017754"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [
    "바이오",
@@ -4339,10 +4276,14 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -5788,7 +5729,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -5827,7 +5770,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -5916,7 +5861,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -5967,7 +5914,9 @@
     "iris-020534"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -6014,7 +5963,9 @@
     "iris-018734"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "암"
   ],
@@ -6049,7 +6000,9 @@
    "posted_from": "접수일",
    "search_kw": "의사과학자"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -6088,7 +6041,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -6139,7 +6094,9 @@
     "iris-017054"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -6188,7 +6145,9 @@
     "국립암센터"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "암"
   ],
@@ -6235,7 +6194,9 @@
     "iris-017194"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "암"
   ],
@@ -6270,7 +6231,9 @@
    "posted_from": "접수일",
    "search_kw": "의사과학자"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "글로벌"
   ],
@@ -6311,7 +6274,9 @@
    "deadline_from": "제목 추정",
    "pinned": false
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6349,7 +6314,9 @@
    "deadline_from": "제목 추정",
    "pinned": false
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6387,7 +6354,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6428,7 +6397,9 @@
    "deadline_from": "제목 추정",
    "pinned": false
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6525,7 +6496,9 @@
     "iris-021754"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6668,7 +6641,9 @@
     "iris-021936"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6713,7 +6688,9 @@
     "iris-021355"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6746,7 +6723,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6785,7 +6764,9 @@
    "deadline_from": "",
    "pinned": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -6809,10 +6790,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 바이오·의료기술개발 사업 신규과제 제4차 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026-0540호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-04-29",
   "open_date": "2026-04-29",
@@ -6820,19 +6801,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264383",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021254"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-021254"
-   ]
+   "search_kw": "의료"
   },
   "domains": [
    "바이오"
@@ -6846,10 +6815,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -6858,10 +6831,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 바이오·의료기술개발 사업 제1차 신규과제 3차 재공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0536호",
-  "type": "분야공모,품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-04-28",
   "open_date": "2026-04-28",
@@ -6869,19 +6842,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264111",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021338"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-021338"
-   ]
+   "search_kw": "의료"
   },
   "domains": [
    "바이오"
@@ -6895,10 +6856,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -6932,7 +6897,9 @@
     "iris-021234"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7047,7 +7014,9 @@
    "posted_from": "접수일",
    "search_kw": "의사과학자"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7096,7 +7065,9 @@
     "iris-020534"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7141,7 +7112,9 @@
     "iris-020534"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7174,7 +7147,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7198,10 +7173,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 제1차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
-  "notice_no": "산업통상부 공고 제2026-190호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "산업통상부",
-  "agency": "한국산업기술기획평가원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-03-30",
   "open_date": "2026-03-30",
@@ -7209,19 +7184,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258705",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "헬스",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019937"
-   },
-   "co_agencies": [
-    "한국산업기술기획평가원"
-   ],
-   "merged_ids": [
-    "iris-019937"
-   ]
+   "search_kw": "헬스"
   },
   "domains": [
    "바이오"
@@ -7235,10 +7198,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -7247,10 +7214,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 바이오·의료기술개발 사업 신규과제 제3차 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0359호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-03-23",
   "open_date": "2026-03-23",
@@ -7258,19 +7225,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1259138",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020215"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-020215"
-   ]
+   "search_kw": "의료"
   },
   "domains": [
    "바이오"
@@ -7284,10 +7239,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -7309,7 +7268,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7386,7 +7347,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7423,7 +7386,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7456,7 +7421,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7493,7 +7460,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7681,10 +7650,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년 바이오의료기술개발 사업 제1차 신규과제 2차 재공고",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0230호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-02-27",
   "open_date": "2026-02-27",
@@ -7692,19 +7661,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257449",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019574"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-019574"
-   ]
+   "search_kw": "의료"
   },
   "domains": [
    "바이오"
@@ -7718,10 +7675,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -7730,10 +7691,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 바이오·의료기술개발 사업 신규과제 제2차 재공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 211호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-02-25",
   "open_date": "2026-02-25",
@@ -7741,19 +7702,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257201",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019414"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-019414"
-   ]
+   "search_kw": "의료"
   },
   "domains": [
    "바이오"
@@ -7767,10 +7716,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -7779,10 +7732,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 바이오 유래 고분자 시장 활성화를 위한 원료 생산 및 제품 고부가화 기술개발사업 신규지원 대상과제 공고_(2026)2026년도 바이오유래고분자시장활성화를위한원료생산및제품고부가화 기술개발사업 신규지원 대상과제 공고",
-  "notice_no": "산업통상부 공고 제2026-125호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "산업통상부",
-  "agency": "한국산업기술기획평가원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-02-24",
   "open_date": "2026-02-24",
@@ -7790,19 +7743,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256407",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019134"
-   },
-   "co_agencies": [
-    "한국산업기술기획평가원"
-   ],
-   "merged_ids": [
-    "iris-019134"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [
    "바이오"
@@ -7816,10 +7757,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -7853,7 +7798,9 @@
     "iris-019194"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7898,7 +7845,9 @@
     "iris-019194"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -7943,7 +7892,9 @@
     "iris-019194"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8004,10 +7955,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 재공모",
-  "notice_no": "과학기술정보통신부 공고 제2026-- 0150호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-02-11",
   "open_date": "2026-02-11",
@@ -8015,19 +7966,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256167",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018947"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-018947"
-   ]
+   "search_kw": "의료"
   },
   "domains": [
    "바이오"
@@ -8041,10 +7980,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -8078,7 +8021,9 @@
     "iris-017703"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8123,7 +8068,9 @@
     "iris-018694"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8168,7 +8115,9 @@
     "iris-018694"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8254,7 +8203,9 @@
     "iris-018694"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8274,10 +8225,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년 표준공정 기반 공정최적화 기술개발사업 사전연구 및 제조현장진단 전문연구기관 모집 공고",
-  "notice_no": "중소벤처기업부 공고 제2026-55호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "중소벤처기업부",
-  "agency": "중소기업기술정보진흥원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-02-05",
   "open_date": "2026-02-05",
@@ -8285,19 +8236,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256221",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "진단",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018201"
-   },
-   "co_agencies": [
-    "중소기업기술정보진흥원"
-   ],
-   "merged_ids": [
-    "iris-018201"
-   ]
+   "search_kw": "진단"
   },
   "domains": [
    "의료기기"
@@ -8311,10 +8250,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -8389,7 +8332,9 @@
     "iris-018474"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8422,7 +8367,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8520,7 +8467,9 @@
     "iris-018075"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8589,10 +8538,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 바이오·의료기술개발 사업 신규과제 제2차 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0078호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-23",
   "open_date": "2026-01-23",
@@ -8600,19 +8549,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254356",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018013"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-018013"
-   ]
+   "search_kw": "의료"
   },
   "domains": [
    "바이오"
@@ -8626,10 +8563,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -8679,10 +8620,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 토양기반기후회복력진단및강화기술개발 사업 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0068호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-23",
   "open_date": "2026-01-23",
@@ -8690,19 +8631,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254322",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "진단",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018238"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-018238"
-   ]
+   "search_kw": "진단"
   },
   "domains": [
    "의료기기"
@@ -8716,10 +8645,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -8782,7 +8715,9 @@
    "posted_from": "접수일",
    "search_kw": "한의약"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8819,7 +8754,9 @@
    "posted_from": "접수일",
    "search_kw": "한의약"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8863,7 +8800,9 @@
     "ntis-1253394"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -8887,10 +8826,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026-0027호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-09",
   "open_date": "2026-01-09",
@@ -8898,19 +8837,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253337",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017709"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-017709"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [
    "바이오"
@@ -8924,10 +8851,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -8985,10 +8916,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모_(2026)2026년 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026-0027호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-09",
   "open_date": "2026-01-09",
@@ -8996,19 +8927,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253309",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017709"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-017709"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [
    "바이오"
@@ -9022,10 +8941,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -9085,10 +9008,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년 첨단신약 타겟발굴·검증 및 기반기술개발 신규과제 1차 공고_(2026)2026년 첨단신약 타겟발굴검증 및 기반 기술개발 신규과제 1차 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026-0025호",
-  "type": "분야공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-09",
   "open_date": "2026-01-09",
@@ -9097,20 +9020,13 @@
   "extra": {
    "posted_from": "접수일",
    "search_kw": "신약",
-   "also_listed": [
-    "IRIS"
-   ],
+   "also_listed": [],
    "links": {
-    "NTIS": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253299",
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017627"
+    "NTIS": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253299"
    },
    "merged_ids": [
     "ntis-1253299",
-    "ntis-1253298",
-    "iris-017627"
-   ],
-   "co_agencies": [
-    "한국연구재단"
+    "ntis-1253298"
    ]
   },
   "domains": [
@@ -9125,10 +9041,14 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -9150,7 +9070,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9187,7 +9109,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9224,7 +9148,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9261,7 +9187,9 @@
    "posted_from": "접수일",
    "search_kw": "의사과학자"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9298,7 +9226,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9335,7 +9265,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9372,7 +9304,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9418,7 +9352,9 @@
     "ntis-1253187"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9455,7 +9391,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9504,7 +9442,9 @@
     "iris-017154"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9549,7 +9489,9 @@
     "iris-017417"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9594,7 +9536,9 @@
     "iris-017436"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9639,7 +9583,9 @@
     "iris-017414"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9754,7 +9700,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9791,7 +9739,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9828,7 +9778,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9865,7 +9817,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9902,7 +9856,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -9939,7 +9895,9 @@
    "posted_from": "접수일",
    "search_kw": "의약"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10018,7 +9976,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10059,7 +10019,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10100,7 +10062,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10141,7 +10105,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10182,7 +10148,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10223,7 +10191,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10264,7 +10234,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10305,7 +10277,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10353,7 +10327,9 @@
     "iris-021656"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [
    "기술사업화"
   ],
@@ -10388,7 +10364,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10408,10 +10386,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 치매의료기술연구개발사업 1차 신규과제 재공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0524호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-04-28",
   "open_date": "2026-04-28",
@@ -10419,21 +10397,11 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264112",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021335"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-021335"
-   ]
+   "search_kw": "의료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10441,10 +10409,14 @@
   "topics": [],
   "category": "R&D",
   "score": 20,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -10466,7 +10438,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10499,7 +10473,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10532,7 +10508,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10565,7 +10543,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10598,7 +10578,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10618,10 +10600,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 치매의료기술연구개발사업 1차 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0085호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-27",
   "open_date": "2026-01-27",
@@ -10629,21 +10611,11 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254521",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "의료",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018294"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-018294"
-   ]
+   "search_kw": "의료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10651,10 +10623,14 @@
   "topics": [],
   "category": "R&D",
   "score": 20,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -10684,7 +10660,9 @@
     "ntis-1253121"
    ]
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10708,10 +10686,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 반려동물난치성질환극복기술개발사업 시행계획 공고",
-  "notice_no": "농림축산식품부 공고 제2026-23호",
-  "type": "분야공모,지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "농림축산식품부",
-  "agency": "농림식품기술기획평가원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-12",
   "open_date": "2026-01-12",
@@ -10719,21 +10697,11 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253120",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "질환",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017683"
-   },
-   "co_agencies": [
-    "농림식품기술기획평가원"
-   ],
-   "merged_ids": [
-    "iris-017683"
-   ]
+   "search_kw": "질환"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10741,10 +10709,14 @@
   "topics": [],
   "category": "R&D",
   "score": 20,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -10753,10 +10725,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년 공공기관 임무중심 감염병연구 다부처협력사업 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 024호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-09",
   "open_date": "2026-01-09",
@@ -10764,21 +10736,11 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253339",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "감염",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017677"
-   },
-   "co_agencies": [
-    "한국연구재단"
-   ],
-   "merged_ids": [
-    "iris-017677"
-   ]
+   "search_kw": "감염"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10786,10 +10748,14 @@
   "topics": [],
   "category": "R&D",
   "score": 20,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -10811,7 +10777,9 @@
    "posted_from": "접수일",
    "search_kw": "감염"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10848,7 +10816,9 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": false,
   "health": true,
@@ -10922,7 +10892,9 @@
    "posted_from": "접수일",
    "search_kw": "의약"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10959,7 +10931,9 @@
    "posted_from": "접수일",
    "search_kw": "의약"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -10996,7 +10970,9 @@
    "posted_from": "접수일",
    "search_kw": "보건"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -11033,7 +11009,9 @@
    "posted_from": "접수일",
    "search_kw": "의약"
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,

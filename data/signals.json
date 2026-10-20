@@ -338,7 +338,9 @@
    "deadline_from": "",
    "strict": true
   },
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -367,7 +369,9 @@
   "close_date": null,
   "url": "https://www.kmdf.org/notice/view/id/4456",
   "extra": {},
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,
@@ -396,7 +400,9 @@
   "close_date": null,
   "url": "https://www.kmdf.org/notice/view/id/4011",
   "extra": {},
-  "domains": [],
+  "domains": [
+   "보건의료"
+  ],
   "matched": [],
   "focus_org": true,
   "health": true,

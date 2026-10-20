@@ -3142,49 +3142,14 @@
   "last_seen": "2026-10-20"
  },
  {
-  "id": "iris-019435",
-  "source": "IRIS",
-  "kind": "history",
-  "title": "2026년도 해양생물 유래 바이오소재를 활용한 노화 극복 기술 개발 사업 신규과제 선정계획 공고",
-  "notice_no": "해양수산부 공고 제2026-456호",
-  "type": "지정공모",
-  "ministry": "해양수산부",
-  "agency": "해양수산과학기술진흥원",
-  "status": "마감",
-  "posted": "2026-02-24",
-  "open_date": "2026-02-24",
-  "close_date": "2026-03-03",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019435",
-  "extra": {
-   "raw_status": "공고마감",
-   "raw_phase": "완료"
-  },
-  "domains": [],
-  "matched": [
-   "바이오"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 15,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
   "id": "ntis-1256546",
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 첨단바이오기술기반수요연계형그린바이오소재산업화기술개발사업 시행계획 재공고",
-  "notice_no": "농림축산식품부 공고 제2026-110호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "농림축산식품부",
-  "agency": "농림식품기술기획평가원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-02-13",
   "open_date": "2026-02-13",
@@ -3192,19 +3157,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256546",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019170"
-   },
-   "co_agencies": [
-    "농림식품기술기획평가원"
-   ],
-   "merged_ids": [
-    "iris-019170"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [],
   "matched": [
@@ -3216,9 +3169,9 @@
   "topics": [],
   "category": "R&D",
   "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -3440,10 +3393,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 해양생물 유래 바이오소재를 활용한 노화극복 기술 개발 사업 신규과제 선정계획 공고",
-  "notice_no": "해양수산부 공고 제2026-11호",
-  "type": "지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "해양수산부",
-  "agency": "해양수산과학기술진흥원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-19",
   "open_date": "2026-01-19",
@@ -3451,19 +3404,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253138",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017680"
-   },
-   "co_agencies": [
-    "해양수산과학기술진흥원"
-   ],
-   "merged_ids": [
-    "iris-017680"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [],
   "matched": [
@@ -3475,9 +3416,9 @@
   "topics": [],
   "category": "R&D",
   "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -3554,10 +3495,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 첨단바이오기술기반수요연계형그린바이오소재산업화기술개발사업 시행계획 공고",
-  "notice_no": "농림축산식품부 공고 제2026-13호",
-  "type": "분야공모,지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "농림축산식품부",
-  "agency": "농림식품기술기획평가원",
+  "agency": "",
   "status": "마감",
   "posted": "2026-01-12",
   "open_date": "2026-01-12",
@@ -3565,19 +3506,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252856",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017598"
-   },
-   "co_agencies": [
-    "농림식품기술기획평가원"
-   ],
-   "merged_ids": [
-    "iris-017598"
-   ]
+   "search_kw": "바이오"
   },
   "domains": [],
   "matched": [
@@ -3589,9 +3518,9 @@
   "topics": [],
   "category": "R&D",
   "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
@@ -3815,10 +3744,10 @@
   "source": "NTIS",
   "kind": "history",
   "title": "'산림분야 그린바이오 미래형 가치사슬 기술개발(RD)' 사업 2026년도 신규과제 선정계획 공고_(2026)'산림분야 그린바이오 미래형 가치사슬 기술개발(RD)' 2026년도 신규과제 선정계획 공고",
-  "notice_no": "산림청 공고 제2025-426호",
-  "type": "품목지정공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "산림청",
-  "agency": "한국임업진흥원",
+  "agency": "",
   "status": "마감",
   "posted": "2025-12-23",
   "open_date": "2025-12-23",
@@ -3827,19 +3756,12 @@
   "extra": {
    "posted_from": "접수일",
    "search_kw": "바이오",
-   "also_listed": [
-    "IRIS"
-   ],
+   "also_listed": [],
    "links": {
-    "NTIS": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252325",
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017220"
+    "NTIS": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252325"
    },
    "merged_ids": [
-    "ntis-1252325",
-    "iris-017220"
-   ],
-   "co_agencies": [
-    "한국임업진흥원"
+    "ntis-1252325"
    ]
   },
   "domains": [],
@@ -3852,9 +3774,9 @@
   "topics": [],
   "category": "R&D",
   "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
