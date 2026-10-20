@@ -481,6 +481,44 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-020676",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 연합학습 기반 신약개발 가속화 프로젝트 사업신규지원 대상과제 공고",
+  "notice_no": "KM-2026-01",
+  "type": "품목지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-04-14",
+  "open_date": "2026-04-14",
+  "close_date": "2026-05-14",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020676",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "기관 자체번호",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-016254",
   "source": "IRIS",
   "kind": "history",
@@ -1019,6 +1057,123 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-020003",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(신약파이프라인공동개발) 시행계획 공고",
+  "notice_no": "중소벤처기업부 공고 제2026-219호",
+  "type": "품목지정공모",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "마감",
+  "posted": "2026-03-25",
+  "open_date": "2026-04-08",
+  "close_date": "2026-05-07",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020003",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "바이오",
+   "신약"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-020002",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(AI기반후보물질탐색) 시행계획 공고",
+  "notice_no": "중소벤처기업부 공고 제2026-219호",
+  "type": "자유공모",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "마감",
+  "posted": "2026-03-25",
+  "open_date": "2026-04-08",
+  "close_date": "2026-05-07",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020002",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오",
+   "디지털헬스"
+  ],
+  "matched": [
+   "AI",
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-020154",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 혁신신약 연구개발 가속화플랫폼 구축(R&D) 신규사업 공고",
+  "notice_no": "산업통상부 공고 제2026-191호",
+  "type": "지정공모",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술진흥원",
+  "status": "마감",
+  "posted": "2026-03-20",
+  "open_date": "2026-03-20",
+  "close_date": "2026-04-20",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020154",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "제약",
+   "디지털헬스"
+  ],
+  "matched": [
+   "신약",
+   "플랫폼"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-019936",
   "source": "IRIS",
   "kind": "history",
@@ -1051,6 +1206,45 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-019799",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 농생명자원기반국가필수의약품원료공급망대응기술개발사업 시행계획 재공고",
+  "notice_no": "농림축산식품부 공고 제2026-166호",
+  "type": "분야공모",
+  "ministry": "농림축산식품부",
+  "agency": "농림식품기술기획평가원",
+  "status": "마감",
+  "posted": "2026-03-06",
+  "open_date": "2026-03-06",
+  "close_date": "2026-03-19",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019799",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "제약",
+   "바이오"
+  ],
+  "matched": [
+   "생명",
+   "의약품"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
@@ -1540,6 +1734,44 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-022614",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 중소기업기술혁신개발사업 글로벌선도기술개발(수출지향형) 바이오헬스 추천기업 대상 연구개발계획서 제출 안내",
+  "notice_no": "TI_2026_005",
+  "type": "자유공모",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "마감",
+  "posted": "2026-06-22",
+  "open_date": "2026-07-08",
+  "close_date": "2026-07-22",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022614",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "글로벌",
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "IRIS 접수코드",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-018734",
   "source": "IRIS",
   "kind": "history",
@@ -1800,6 +2032,43 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-022457",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "바이오·의료기술개발 사업 신규과제 제5차 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0690호",
+  "type": "분야공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-06-12",
+  "open_date": "2026-06-12",
+  "close_date": "2026-07-13",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022457",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-021754",
   "source": "IRIS",
   "kind": "history",
@@ -1820,6 +2089,80 @@
   "domains": [],
   "matched": [],
   "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-022094",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 바이오·의료기술개발 사업 제4차 신규과제 재공모",
+  "notice_no": "과학기술정보통신부 공고 제2026-0658호",
+  "type": "지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-06-01",
+  "open_date": "2026-06-01",
+  "close_date": "2026-06-10",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022094",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-021975",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제2차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
+  "notice_no": "산업통상부 공고 제2026-388호",
+  "type": "품목지정공모",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술기획평가원",
+  "status": "마감",
+  "posted": "2026-05-28",
+  "open_date": "2026-06-08",
+  "close_date": "2026-06-29",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021975",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
   "health": true,
   "relevant": true,
   "topics": [],
@@ -1938,6 +2281,80 @@
   "last_seen": "2026-10-20"
  },
  {
+  "id": "iris-021254",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 바이오·의료기술개발 사업 신규과제 제4차 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026-0540호",
+  "type": "지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-04-29",
+  "open_date": "2026-04-29",
+  "close_date": "2026-05-29",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021254",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-021338",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 바이오·의료기술개발 사업 제1차 신규과제 3차 재공모",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0536호",
+  "type": "분야공모,품목지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-04-28",
+  "open_date": "2026-04-28",
+  "close_date": "2026-05-28",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021338",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "id": "iris-021234",
   "source": "IRIS",
   "kind": "history",
@@ -1988,20 +2405,57 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-020215",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 바이오·의료기술개발 사업 신규과제 제3차 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0359호",
+  "type": "품목지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-03-23",
+  "open_date": "2026-03-23",
+  "close_date": "2026-04-23",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020215",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
   "topics": [],
-  "category": "R&D"
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-020135",
@@ -2021,20 +2475,94 @@
    "raw_status": "공고마감",
    "raw_phase": "완료"
   },
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20",
   "domains": [],
   "matched": [],
   "focus_org": true,
   "health": true,
-  "score": 35,
   "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "사업단 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-019937",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 제1차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
+  "notice_no": "산업통상부 공고 제2026-190호",
+  "type": "품목지정공모",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술기획평가원",
+  "status": "마감",
+  "posted": "2026-03-16",
+  "open_date": "2026-03-30",
+  "close_date": "2026-04-20",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019937",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
   "topics": [],
-  "category": "R&D"
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-019574",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년 바이오의료기술개발 사업 제1차 신규과제 2차 재공고",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0230호",
+  "type": "지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-02-27",
+  "open_date": "2026-02-27",
+  "close_date": "2026-03-11",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019574",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
  },
  {
   "id": "iris-019194",
@@ -2761,6 +3289,239 @@
    "open_date",
    "close_date"
   ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-021719",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 민관공동기술사업화(R&D)'구매연계(혁신형도전)' 하반기 시행계획 공고",
+  "notice_no": "중소벤처기업부 공고 제2026-354호",
+  "type": "지정공모",
+  "ministry": "중소벤처기업부",
+  "agency": "중소기업기술정보진흥원",
+  "status": "마감",
+  "posted": "2026-05-26",
+  "open_date": "2026-06-15",
+  "close_date": "2026-06-29",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [
+   "기술사업화"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 30,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-023640",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-캐나다 양자과학기술 공동연구사업 신규과제 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026-0899호",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-08-31",
+  "open_date": "2026-08-31",
+  "close_date": "2026-10-07",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 20,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-021335",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 치매의료기술연구개발사업 1차 신규과제 재공모",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0524호",
+  "type": "지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-04-28",
+  "open_date": "2026-04-28",
+  "close_date": "2026-05-28",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021335",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 20,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-020937",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 기술경영촉진(TLO 혁신형) 신규과제 공고",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0489호",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "과학기술사업화진흥원",
+  "status": "마감",
+  "posted": "2026-04-21",
+  "open_date": "2026-05-07",
+  "close_date": "2026-05-22",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020937",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 20,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-020714",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년도 치매의료기술연구개발사업 하반기 신규과제 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0434호",
+  "type": "지정공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-04-10",
+  "open_date": "2026-04-10",
+  "close_date": "2026-05-12",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020714",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 20,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-020637",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년 중견중소기업상생형혁신도약사업[탐색연구] 신규지원 2차 공고",
+  "notice_no": "산업통상부 공고 제 2026-274호",
+  "type": "자유공모",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술진흥원",
+  "status": "마감",
+  "posted": "2026-04-08",
+  "open_date": "2026-04-08",
+  "close_date": "2026-05-08",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020637",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 20,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "id": "iris-020175",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-룩셈부르크 양자기술 공동연구사업 신규과제 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026-0349호",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "한국연구재단",
+  "status": "마감",
+  "posted": "2026-03-19",
+  "open_date": "2026-03-19",
+  "close_date": "2026-05-12",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020175",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 20,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "missing": [],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  }
