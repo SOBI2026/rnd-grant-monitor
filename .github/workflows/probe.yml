@@ -1,0 +1,33 @@
+name: source-probe
+on:
+  push:
+    branches: [probe]
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe sources from GitHub runner
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
+          probe() {
+            name="$1"; url="$2"
+            out=$(curl -sS -L -A "$UA" --max-time 25 -o body.tmp -w "%{http_code}|%{content_type}|%{size_download}|%{url_effective}" "$url" 2>&1) || out="ERR|$out"
+            echo "=== $name"
+            echo "    $out"
+            head -c 400 body.tmp 2>/dev/null | tr '\n\r\t' '   ' | sed 's/  */ /g'; echo
+            grep -o -i -E 'rss|application/rss|\.xml|openapi|api' body.tmp 2>/dev/null | sort | uniq -c | head -5
+          }
+          probe IRIS_main        "https://www.iris.go.kr/main.do"
+          probe IRIS_ancm_list   "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do"
+          probe KHIDI_htdream    "https://www.htdream.kr/"
+          probe KHIDI_main       "https://www.khidi.or.kr/"
+          probe KDDF             "https://www.kddf.org/"
+          probe KMDF             "https://www.kmdf.org/"
+          probe NTIS_main        "https://www.ntis.go.kr/"
+          probe NTIS_openapi     "https://www.ntis.go.kr/rndopen/api/mng/apiMain.do"
+          probe BIZINFO_list     "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/list.do"
+          probe BIZINFO_api_nokey "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do?dataType=json&searchCnt=1"
+          probe MOHW_main        "https://www.mohw.go.kr/"
+          probe DATA_GO_KR       "https://www.data.go.kr/"
+          probe OPENFISCAL       "https://www.openfiscaldata.go.kr/"
