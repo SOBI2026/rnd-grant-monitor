@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>R&amp;D 과제 레이더</title>
+<script>
+  // 휴대폰 화면이면 앱 화면(app.html)으로. PC 화면을 원하면 ?desktop=1
+  try { if (matchMedia("(max-width: 760px)").matches && !/desktop=1/.test(location.search)) location.replace("app.html"); } catch (e) {}
+</script>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="icon-192.png">
@@ -147,7 +151,7 @@ td a{color:var(--ink);text-decoration-color:var(--gold);text-underline-offset:2p
   <header>
     <h1><small>제약 · 바이오 · 디지털헬스 · 의료기기</small>R&amp;D 과제 레이더</h1>
     <div class="meta">
-      <div>마지막 수집 <b id="updated">불러오는 중…</b></div>
+      <div>마지막 수집 <b id="updated">불러오는 중…</b> · <a href="app.html">모바일 화면</a></div>
       <div class="srcs" id="srcs"></div>
     </div>
   </header>
