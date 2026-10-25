@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-20T23:46:00+09:00",
+ "updated_at": "2026-10-26T08:48:47+09:00",
  "jobs": [
   {
    "job": "NTIS 통합공고",
    "ok": true,
-   "count": 62
+   "count": 60
   },
   {
    "job": "IRIS 사업공고",
    "ok": true,
-   "count": 24
+   "count": 26
   },
   {
    "job": "NTIS 과거공고(13개월)",
    "ok": true,
-   "count": 259
+   "count": 260
   },
   {
    "job": "IRIS 과거공고(관심부처)",
@@ -24,13 +24,12 @@
   {
    "job": "IRIS 사업예고",
    "ok": true,
-   "count": 0,
-   "skipped": "주 1회(월요일) 갱신"
+   "count": 228
   },
   {
    "job": "KHIDI 사업공고",
    "ok": true,
-   "count": 2
+   "count": 3
   },
   {
    "job": "KHIDI 공지",
@@ -45,7 +44,7 @@
   {
    "job": "KHIDI 비R&D 사업공고",
    "ok": true,
-   "count": 27
+   "count": 34
   },
   {
    "job": "NIPA 사업공고",
@@ -55,19 +54,58 @@
   {
    "job": "보건복지부 공고",
    "ok": true,
-   "count": 34
+   "count": 59
   }
  ],
  "errors": [],
  "counts": {
-  "notice": 18,
-  "notice_other": 262,
-  "history": 249,
-  "forecast": 37,
-  "signal": 20
+  "notice": 20,
+  "notice_other": 291,
+  "history": 253,
+  "forecast": 41,
+  "signal": 18
  },
- "new_today": [],
+ "new_today": [
+  "khidi-pban-8946",
+  "mohw-1492031",
+  "mohw-1491807",
+  "iris-prntc-546",
+  "iris-prntc-543",
+  "iris-prntc-541",
+  "iris-prntc-540",
+  "iris-prntc-456",
+  "iris-prntc-383",
+  "iris-prntc-382",
+  "iris-prntc-381",
+  "iris-prntc-370",
+  "iris-prntc-369",
+  "iris-prntc-368"
+ ],
  "merged_duplicates": [
+  {
+   "kept": "iris-019508",
+   "dropped": "iris-019614",
+   "reason": "같은 공고번호",
+   "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)"
+  },
+  {
+   "kept": "mohw-1492249",
+   "dropped": "mohw-1491988",
+   "reason": "같은 제목·접수기간",
+   "title": "[2026-17호] 민간자격 등록폐지 공고"
+  },
+  {
+   "kept": "mohw-1492158",
+   "dropped": "mohw-1491945",
+   "reason": "같은 제목·접수기간",
+   "title": "체납 과징금 독촉 고지 공시송달"
+  },
+  {
+   "kept": "mohw-1491964",
+   "dropped": "mohw-1491623",
+   "reason": "같은 제목·접수기간",
+   "title": "보건복지부 요양보험운영과 파견근무자 모집 안내"
+  },
   {
    "kept": "ntis-1279523",
    "dropped": "mohw-1492137",
@@ -79,6 +117,12 @@
    "dropped": "mohw-1491975",
    "reason": "출처 간 동일 공고",
    "title": "[2026-727호] 2026년도 혁신형 제약기업 및 제약산업 발전 유공자 포상 공고"
+  },
+  {
+   "kept": "khidi-pban-8946",
+   "dropped": "khidiweb-48951045",
+   "reason": "출처 간 동일 공고",
+   "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고('26.11.18.(수), 15시 제출 마감)"
   },
   {
    "kept": "ntis-1279523",
@@ -93,6 +137,12 @@
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내"
   },
   {
+   "kept": "ntis-1279968",
+   "dropped": "iris-024397",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)"
+  },
+  {
    "kept": "ntis-1279602",
    "dropped": "iris-024337",
    "reason": "출처 간 동일 공고",
@@ -105,10 +155,10 @@
    "title": "2026년도 퀀텀(양자)플랫폼 KIST 양자활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모"
   },
   {
-   "kept": "ntis-1278791",
-   "dropped": "iris-024237",
+   "kept": "ntis-1280136",
+   "dropped": "iris-024177",
    "reason": "출처 간 동일 공고",
-   "title": "2026년도 소재부품기술개발사업(4차) 신규지원 대상과제 공고"
+   "title": "2026년 4극3특 동남권 과학기술혁신지원사업 연구단 모집 공고(연장)"
   },
   {
    "kept": "ntis-1277072",
@@ -133,25 +183,13 @@
    "dropped": "iris-024420",
    "reason": "출처 간 동일 공고",
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제"
-  },
-  {
-   "kept": "ntis-1279968",
-   "dropped": "iris-024397",
-   "reason": "출처 간 동일 공고",
-   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)"
-  },
-  {
-   "kept": "ntis-1279597",
-   "dropped": "iris-024277",
-   "reason": "출처 간 동일 공고",
-   "title": "2026년 3차 전력정보화 및 정책지원사업(재생에너지분야) 신규지원 대상과제 공고"
   }
  ],
  "missing_required": {
-  "notice_no": 154,
-  "open_date": 35,
-  "close_date": 20,
-  "type": 118,
-  "agency": 120
+  "notice_no": 164,
+  "open_date": 38,
+  "close_date": 22,
+  "type": 125,
+  "agency": 127
  }
 }

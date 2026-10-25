@@ -1,5 +1,77 @@
 [
  {
+  "id": "nipa-16976",
+  "source": "NIPA",
+  "kind": "notice",
+  "title": "2026년「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공모 안내 (산학연 지원)",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "과학기술정보통신부",
+  "agency": "정보통신산업진흥원",
+  "status": "접수중",
+  "posted": "2026-10-23",
+  "open_date": "2026-10-23",
+  "close_date": "2026-10-28",
+  "url": "https://www.nipa.kr/home/2-2/16976",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "신청기간",
+   "business": "AI컴퓨팅자원 활용기반 강화사업 (첨단 GPU 활용 지원)"
+  },
+  "domains": [],
+  "matched": [
+   "AI"
+  ],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "NIPA",
+  "origin_label": "NIPA 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1492316",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "「중증근육성희귀질환 전문요양병원 건강보험 시범사업」참여기관 공모 공고",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-10-23",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492316",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [
+   "희귀질환"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
   "id": "mohw-1492280",
   "source": "MOHW",
   "kind": "notice",
@@ -31,7 +103,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492272",
@@ -65,7 +137,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492271",
@@ -99,7 +171,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492264",
@@ -133,7 +205,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492262",
@@ -167,7 +239,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492257",
@@ -201,7 +273,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492255",
@@ -235,7 +307,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492249",
@@ -255,7 +327,14 @@
    "category": "비R&D",
    "terms_only": true,
    "deadline_from": "",
-   "strict": true
+   "strict": true,
+   "also_listed": [],
+   "links": {
+    "MOHW": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491988"
+   },
+   "merged_ids": [
+    "mohw-1491988"
+   ]
   },
   "domains": [],
   "matched": [],
@@ -269,7 +348,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "번호만",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024439",
@@ -284,7 +363,7 @@
   "posted": "2026-10-15",
   "open_date": "2026-11-03",
   "close_date": "2026-11-16",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024439",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024439&ancmPrg=ancmPre",
   "extra": {
    "raw_status": "공고예고",
    "raw_phase": "예정"
@@ -303,7 +382,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492239",
@@ -339,7 +418,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492205",
@@ -373,18 +452,18 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1279968",
   "source": "NTIS",
   "kind": "notice",
   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX RD)",
-  "notice_no": "보건복지부 공고 제2026-779호",
+  "notice_no": "과학기술정보통신부 공고 제2026-1000호",
   "type": "본공고",
   "ministry": "과학기술정보통신부",
   "agency": "정보통신산업진흥원",
-  "status": "접수예정",
+  "status": "접수중",
   "posted": "2026-10-08",
   "open_date": "2026-10-26",
   "close_date": "2026-11-09",
@@ -406,15 +485,15 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024438"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024397&ancmPrg=ancmIng"
    },
    "co_ministries": [
     "다부처"
    ],
    "merged_ids": [
+    "iris-024397",
     "iris-024438",
-    "iris-024420",
-    "iris-024397"
+    "iris-024420"
    ]
   },
   "domains": [],
@@ -431,7 +510,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492173",
@@ -465,7 +544,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492171",
@@ -499,7 +578,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1279603",
@@ -543,7 +622,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1279602",
@@ -576,7 +655,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024337"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024337&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-024337"
@@ -596,7 +675,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1279599",
@@ -640,7 +719,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1279596",
@@ -673,7 +752,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024317"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024317&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-024317"
@@ -693,7 +772,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492158",
@@ -713,7 +792,14 @@
    "category": "비R&D",
    "terms_only": true,
    "deadline_from": "",
-   "strict": true
+   "strict": true,
+   "also_listed": [],
+   "links": {
+    "MOHW": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491945"
+   },
+   "merged_ids": [
+    "mohw-1491945"
+   ]
   },
   "domains": [],
   "matched": [],
@@ -727,7 +813,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492141",
@@ -761,7 +847,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16952",
@@ -797,7 +883,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492123",
@@ -831,44 +917,25 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
-  "id": "ntis-1279597",
-  "source": "NTIS",
+  "id": "iris-024277",
+  "source": "IRIS",
   "kind": "notice",
   "title": "2026년 3차 전력정보화 및 정책지원사업(재생에너지분야) 신규지원 대상과제 공고",
   "notice_no": "기후에너지환경부 공고 제2026-909호",
-  "type": "본공고",
+  "type": "지정공모",
   "ministry": "기후에너지환경부",
   "agency": "한국에너지공단",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-09-29",
   "open_date": "2026-09-29",
   "close_date": "2026-10-20",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279597",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024277&ancmPrg=ancmEnd",
   "extra": {
-   "business": "전력정보화및정책지원(전력기금)(R&D)",
-   "amount": "1.85 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "기후에너지환경부",
-   "d_agency": "한국에너지공단",
-   "d_posted": "2026-09-29",
-   "d_type": "본공고",
-   "d_form": "통합공고",
-   "d_business": "전력정보화및정책지원(전력기금)(R&D)",
-   "d_amount": "1.85 억원",
-   "d_notice_no": "기후에너지환경부 공고 제2026-909호",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024277"
-   },
-   "merged_ids": [
-    "iris-024277"
-   ]
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
   },
   "domains": [],
   "matched": [
@@ -880,11 +947,11 @@
   "topics": [],
   "category": "R&D",
   "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16953",
@@ -921,25 +988,73 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
-  "id": "iris-024277",
-  "source": "IRIS",
+  "id": "mohw-1492069",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2026년 상반기 기관생명윤리위원회 평가 인증(신규) 결과 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-29",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492069",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [
+   "생명"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1279597",
+  "source": "NTIS",
   "kind": "history",
   "title": "2026년 3차 전력정보화 및 정책지원사업(재생에너지분야) 신규지원 대상과제 공고",
   "notice_no": "기후에너지환경부 공고 제2026-909호",
   "type": "지정공모",
   "ministry": "기후에너지환경부",
   "agency": "한국에너지공단",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-09-29",
   "open_date": "2026-09-29",
   "close_date": "2026-10-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024277",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279597",
   "extra": {
-   "raw_status": "공고마감",
-   "raw_phase": "완료"
+   "posted_from": "접수일",
+   "search_kw": "재생",
+   "also_listed": [
+    "IRIS"
+   ],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024277&ancmPrg=ancmEnd"
+   },
+   "co_agencies": [
+    "한국에너지공단"
+   ],
+   "merged_ids": [
+    "iris-024277"
+   ]
   },
   "domains": [],
   "matched": [
@@ -951,11 +1066,222 @@
   "topics": [],
   "category": "R&D",
   "score": 15,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "origin": "NTIS + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1492042",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "「공소청법」 및 「 중대범죄수사청법」 제정에 따른 보건복지부 및 소속기관 9개 행정..",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-22",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492042",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1492037",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "오송보건의료행정타운 중앙후생관 구내식당 수탁업체 선정 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-22",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492037",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1492005",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "장애인보조견 전문훈련기관 지정 및 지원사업 보조사업자 재공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-18",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492005",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491987",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "「3차 유니트케어 시범사업」 참여기관 추가 공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-16",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491987",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491964",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "보건복지부 요양보험운영과 파견근무자 모집 안내",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-14",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491964",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true,
+   "also_listed": [],
+   "links": {
+    "MOHW": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491623"
+   },
+   "merged_ids": [
+    "mohw-1491623"
+   ]
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491963",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "진료지원업무 교육과정 이수 지원사업 보조사업자 공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-14",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491963",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024198",
@@ -970,7 +1296,7 @@
   "posted": "2026-09-14",
   "open_date": "2026-10-01",
   "close_date": "2026-10-14",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024198",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024198&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -989,7 +1315,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48949849",
@@ -1004,7 +1330,7 @@
   "posted": "2026-09-10",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=920&linkId=48949849&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=921&linkId=48949849&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -1023,7 +1349,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48949841",
@@ -1038,7 +1364,7 @@
   "posted": "2026-09-10",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=919&linkId=48949841&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=920&linkId=48949841&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -1059,7 +1385,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023897",
@@ -1074,7 +1400,7 @@
   "posted": "2026-09-09",
   "open_date": "2026-09-14",
   "close_date": "2026-10-08",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023897",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023897&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -1093,7 +1419,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1277080",
@@ -1127,12 +1453,182 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491817",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "「제3차 노숙인 등의 복지 및 자립지원 종합계획(안)」 전자공청회 안내",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-07",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491817",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491812",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "제2026-683호 의료법 위반자에 대한 간호조무사 자격정지 처분 사전통지 및 의견제출 ..",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-07",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491812",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491811",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "호남권 중독분석실 구축·운영기관 공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-07",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491811",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491806",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "지역사회 일차의료 혁신 시범사업 참여기관 공모 결과 안내",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-04",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491806",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491785",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "「상급종합병원의 지정 및 평가 규정」일부개정고시안 행정예고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-03",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491785",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16921",
   "source": "NIPA",
-  "kind": "notice",
+  "kind": "history",
   "title": "2026년 아태 AI 특화지구(AHAP) 조성 사업 공고",
   "notice_no": "",
   "type": "비R&D 사업",
@@ -1163,7 +1659,109 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491771",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2026년 드림스타트 사업 유공자 포상 추천 공고",
+  "notice_no": "",
+  "type": "포상 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-02",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491771",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491769",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "[2026-16호] 민간자격 등록폐지 공고",
+  "notice_no": "2026-16호",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-01",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491769",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "번호만",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491759",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2026년도 전문약사 수련 교육기관 지정계획 및 신청 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-09-01",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491759",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023978",
@@ -1178,7 +1776,7 @@
   "posted": "2026-09-01",
   "open_date": "2026-09-08",
   "close_date": "2026-10-01",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023978",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023978&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -1197,7 +1795,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1277072",
@@ -1230,7 +1828,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023857"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023857&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-023857"
@@ -1250,7 +1848,41 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491752",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "약제 상한금액 재평가 계획 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-08-31",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491752",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023937",
@@ -1265,7 +1897,7 @@
   "posted": "2026-08-31",
   "open_date": "2026-09-16",
   "close_date": "2026-09-30",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023937",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023937&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -1284,7 +1916,109 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491720",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2026년 제2차 사전연명의료의향서 등록기관 지정 결과",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-08-28",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491720",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491674",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "보건복지부 소관 민간자격 금지분야 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2026-08-26",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491674",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "mohw-1491648",
+  "source": "MOHW",
+  "kind": "history",
+  "title": "「국립중앙의료원 신축이전 및 중앙감염병병원, 중앙외상센터 건립사업」 보상계획 및..",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "마감(추정)",
+  "posted": "2026-08-24",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1491648",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023597",
@@ -1299,7 +2033,7 @@
   "posted": "2026-08-19",
   "open_date": "2026-08-25",
   "close_date": "2026-09-18",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023597",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023597&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -1318,7 +2052,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023617",
@@ -1333,7 +2067,7 @@
   "posted": "2026-08-13",
   "open_date": "2026-08-31",
   "close_date": "2026-09-18",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023617",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023617&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -1352,7 +2086,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16899",
@@ -1388,7 +2122,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16897",
@@ -1425,7 +2159,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023398",
@@ -1440,7 +2174,7 @@
   "posted": "2026-08-04",
   "open_date": "2026-08-11",
   "close_date": "2026-09-03",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023398",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023398&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -1459,7 +2193,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48948191",
@@ -1474,7 +2208,7 @@
   "posted": "2026-08-03",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=911&linkId=48948191&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=912&linkId=48948191&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -1495,7 +2229,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16883",
@@ -1531,7 +2265,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16882",
@@ -1567,7 +2301,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16874",
@@ -1603,7 +2337,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16846",
@@ -1639,7 +2373,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16866",
@@ -1675,7 +2409,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023097",
@@ -1690,7 +2424,7 @@
   "posted": "2026-07-15",
   "open_date": "2026-07-15",
   "close_date": "2026-07-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023097",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023097&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -1709,7 +2443,113 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "khidiweb-48947533",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년 핵심인재 글로벌 브릿지 연수 프로그램(중개연구 사업화 트랙) 사전공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감(추정)",
+  "posted": "2026-07-15",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=908&linkId=48947533&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [
+   "글로벌"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "khidiweb-48947470",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026 세계폐암학회(WCLC) 참가 지원 사업 공고 (기한연장, ~8/6(목) 16:00)",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-07-14",
+  "open_date": null,
+  "close_date": "2026-08-06",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=907&linkId=48947470&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [
+   "암"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "khidiweb-48947418",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년도 제3차 보건신기술(NET) 인증기술 신청 및 연장신청 접수 공고",
+  "notice_no": "",
+  "type": "인증 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감(추정)",
+  "posted": "2026-07-14",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=906&linkId=48947418&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16852",
@@ -1745,7 +2585,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276952",
@@ -1778,7 +2618,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -1798,7 +2638,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276951",
@@ -1831,7 +2671,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -1851,7 +2691,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276950",
@@ -1884,7 +2724,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -1904,7 +2744,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276949",
@@ -1937,7 +2777,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -1957,7 +2797,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276948",
@@ -1990,7 +2830,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -2010,7 +2850,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263322",
@@ -2043,7 +2883,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -2063,7 +2903,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263321",
@@ -2096,7 +2936,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -2116,7 +2956,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263317",
@@ -2149,7 +2989,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -2169,7 +3009,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022957",
@@ -2184,7 +3024,7 @@
   "posted": "2026-07-10",
   "open_date": "2026-08-03",
   "close_date": "2026-08-31",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022957",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022957&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2203,7 +3043,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48947046",
@@ -2218,7 +3058,7 @@
   "posted": "2026-07-06",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999993&linkId=48947046&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999995&linkId=48947046&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -2237,7 +3077,77 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "khidiweb-48947057",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026 ESMO(유럽종양학회) 사절단 참여기업 모집 안내(~7.31.)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감",
+  "posted": "2026-07-06",
+  "open_date": null,
+  "close_date": "2026-07-31",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=904&linkId=48947057&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "khidiweb-48947041",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "2026년 핵심인재 글로벌 브릿지 연수 프로그램 수행기관 모집 공고",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감(추정)",
+  "posted": "2026-07-06",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=903&linkId=48947041&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [
+   "글로벌"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022757",
@@ -2252,7 +3162,7 @@
   "posted": "2026-07-03",
   "open_date": "2026-07-16",
   "close_date": "2026-08-04",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022757",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022757&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2271,7 +3181,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023377",
@@ -2286,7 +3196,7 @@
   "posted": "2026-06-26",
   "open_date": "2026-08-04",
   "close_date": "2026-08-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023377",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023377&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2306,7 +3216,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022696",
@@ -2321,7 +3231,7 @@
   "posted": "2026-06-26",
   "open_date": "2026-07-17",
   "close_date": "2026-07-28",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022696",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022696&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2341,7 +3251,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022694",
@@ -2356,7 +3266,7 @@
   "posted": "2026-06-26",
   "open_date": "2026-07-17",
   "close_date": "2026-07-28",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022694",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022694&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2376,7 +3286,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16817",
@@ -2412,7 +3322,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1270451",
@@ -2446,7 +3356,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022474",
@@ -2461,7 +3371,7 @@
   "posted": "2026-06-15",
   "open_date": "2026-06-15",
   "close_date": "2026-07-14",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022474",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022474&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2480,7 +3390,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021994",
@@ -2495,7 +3405,7 @@
   "posted": "2026-06-15",
   "open_date": "2026-06-15",
   "close_date": "2026-07-14",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021994",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021994&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2514,7 +3424,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022377",
@@ -2529,7 +3439,7 @@
   "posted": "2026-06-11",
   "open_date": "2026-06-11",
   "close_date": "2026-07-14",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022377",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022377&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2548,7 +3458,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022194",
@@ -2563,7 +3473,7 @@
   "posted": "2026-06-11",
   "open_date": "2026-06-18",
   "close_date": "2026-07-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022194",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022194&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2582,7 +3492,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1269831",
@@ -2616,7 +3526,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022274",
@@ -2631,7 +3541,7 @@
   "posted": "2026-06-09",
   "open_date": "2026-06-09",
   "close_date": "2026-07-09",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022274",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022274&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2650,7 +3560,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022214",
@@ -2665,7 +3575,7 @@
   "posted": "2026-06-05",
   "open_date": "2026-06-05",
   "close_date": "2026-07-02",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022214",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022214&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2684,7 +3594,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021974",
@@ -2699,7 +3609,7 @@
   "posted": "2026-06-02",
   "open_date": "2026-06-15",
   "close_date": "2026-07-02",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021974",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021974&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2718,7 +3628,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021943",
@@ -2733,7 +3643,7 @@
   "posted": "2026-05-29",
   "open_date": "2026-06-15",
   "close_date": "2026-06-30",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021943",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021943&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2752,7 +3662,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021935",
@@ -2767,7 +3677,7 @@
   "posted": "2026-05-28",
   "open_date": "2026-06-15",
   "close_date": "2026-07-02",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021935",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021935&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2786,7 +3696,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16795",
@@ -2822,7 +3732,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021939",
@@ -2837,7 +3747,7 @@
   "posted": "2026-05-27",
   "open_date": "2026-06-08",
   "close_date": "2026-06-25",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021939",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021939&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2856,7 +3766,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021874",
@@ -2871,7 +3781,7 @@
   "posted": "2026-05-22",
   "open_date": "2026-05-29",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021874",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021874&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2890,7 +3800,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021674",
@@ -2905,7 +3815,7 @@
   "posted": "2026-05-18",
   "open_date": "2026-05-26",
   "close_date": "2026-06-17",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021674",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021674&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2924,7 +3834,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16764",
@@ -2960,7 +3870,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16756",
@@ -2997,7 +3907,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16752",
@@ -3033,7 +3943,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16731",
@@ -3069,43 +3979,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "nipa-16730",
-  "source": "NIPA",
-  "kind": "history",
-  "title": "2026년도 「AI 청년창업기업 동반성장 바우처」 지원사업 공급기업 후보군(POOL) 모집 수정공고",
-  "notice_no": "",
-  "type": "비R&D 사업",
-  "ministry": "과학기술정보통신부",
-  "agency": "정보통신산업진흥원",
-  "status": "마감",
-  "posted": "2026-04-20",
-  "open_date": "2026-04-20",
-  "close_date": "2026-04-30",
-  "url": "https://www.nipa.kr/home/2-2/16730",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "신청기간",
-   "business": "AI 청년창업기업 동반성장 바우처"
-  },
-  "domains": [],
-  "matched": [
-   "AI"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "NIPA",
-  "origin_label": "NIPA 사업공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1261061",
@@ -3139,7 +4013,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256546",
@@ -3173,7 +4047,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256544",
@@ -3207,7 +4081,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255372",
@@ -3241,7 +4115,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254355",
@@ -3276,7 +4150,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254297",
@@ -3311,7 +4185,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257112",
@@ -3345,7 +4219,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253233",
@@ -3386,7 +4260,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253138",
@@ -3420,7 +4294,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252939",
@@ -3454,7 +4328,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252889",
@@ -3488,7 +4362,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252856",
@@ -3522,7 +4396,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253434",
@@ -3558,7 +4432,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253420",
@@ -3594,7 +4468,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252587",
@@ -3628,7 +4502,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252495",
@@ -3662,7 +4536,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252617",
@@ -3696,7 +4570,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252616",
@@ -3737,7 +4611,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252332",
@@ -3778,7 +4652,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252213",
@@ -3812,7 +4686,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252212",
@@ -3846,7 +4720,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252207",
@@ -3880,7 +4754,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252214",
@@ -3915,7 +4789,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492265",
@@ -3949,7 +4823,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16969",
@@ -3985,7 +4859,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492157",
@@ -4019,51 +4893,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "ntis-1277645",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년도 우주기술혁신인재양성(RD)사업[우주항공 글로벌 인력양성 및 활용] 2차 추가공고",
-  "notice_no": "우주항공청 공고 제2026-0104호",
-  "type": "본공고",
-  "ministry": "우주항공청",
-  "agency": "우주항공청",
-  "status": "접수중",
-  "posted": "2026-09-09",
-  "open_date": "2026-09-09",
-  "close_date": "2026-10-20",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277645",
-  "extra": {
-   "business": "우주기술혁신인재양성(R&D)",
-   "amount": "50 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "우주항공청",
-   "d_agency": "우주항공청",
-   "d_posted": "2026-09-09",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "우주기술혁신인재양성(R&D)",
-   "d_amount": "50 억원",
-   "d_notice_no": "우주항공청 공고 제2026-0104호"
-  },
-  "domains": [],
-  "matched": [
-   "글로벌"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 10,
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "notice_no_kind": "부처 공고",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024137",
@@ -4074,11 +4904,11 @@
   "type": "지정공모",
   "ministry": "우주항공청",
   "agency": "우주항공청",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-09-09",
   "open_date": "2026-09-09",
   "close_date": "2026-10-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024137",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024137&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4097,7 +4927,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16922",
@@ -4134,7 +4964,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022634",
@@ -4149,7 +4979,7 @@
   "posted": "2026-06-22",
   "open_date": "2026-07-08",
   "close_date": "2026-07-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022634",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022634&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4168,7 +4998,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022615",
@@ -4183,7 +5013,7 @@
   "posted": "2026-06-22",
   "open_date": "2026-07-08",
   "close_date": "2026-07-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022615",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022615&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4202,7 +5032,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022374",
@@ -4217,7 +5047,7 @@
   "posted": "2026-06-10",
   "open_date": "2026-06-10",
   "close_date": "2026-07-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022374",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022374&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4236,7 +5066,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021717",
@@ -4251,7 +5081,7 @@
   "posted": "2026-05-26",
   "open_date": "2026-06-15",
   "close_date": "2026-06-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021717",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021717&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4270,7 +5100,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021776",
@@ -4285,7 +5115,7 @@
   "posted": "2026-05-19",
   "open_date": "2026-05-26",
   "close_date": "2026-06-09",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021776",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021776&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4304,7 +5134,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021658",
@@ -4319,17 +5149,10 @@
   "posted": "2026-05-15",
   "open_date": "2026-06-01",
   "close_date": "2026-06-15",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021658",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021658&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
-   "raw_phase": "완료",
-   "also_listed": [],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021657"
-   },
-   "merged_ids": [
-    "iris-021657"
-   ]
+   "raw_phase": "완료"
   },
   "domains": [],
   "matched": [
@@ -4345,7 +5168,103 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "iris-024597",
+  "source": "IRIS",
+  "kind": "notice",
+  "title": "2027년도 전문기술인 활용 재난재해 대응기술 현장화 지원 사업 신규과제 공모",
+  "notice_no": "NR_2026_089",
+  "type": "미등록",
+  "ministry": "",
+  "agency": "한국연구재단",
+  "status": "미게시",
+  "posted": "2026-10-26",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024597&ancmPrg=ancmPre",
+  "extra": {
+   "raw_status": "미게시",
+   "raw_phase": "예정"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "R&D",
+  "score": 0,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "IRIS 접수코드",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "iris-024577",
+  "source": "IRIS",
+  "kind": "notice",
+  "title": "2026년도 소재부품기술개발사업(4차) 신규지원 대상과제 공고(연장)",
+  "notice_no": "산업통상부 공고 제2026-613호",
+  "type": "품목지정공모",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술기획평가원",
+  "status": "접수예정",
+  "posted": "2026-10-26",
+  "open_date": "2026-10-27",
+  "close_date": "2026-10-30",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024577&ancmPrg=ancmPre",
+  "extra": {
+   "raw_status": "공고예고",
+   "raw_phase": "예정"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "R&D",
+  "score": 0,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "iris-024578",
+  "source": "IRIS",
+  "kind": "notice",
+  "title": "2026년도 제3차 기계장비산업기술개발사업 신규지원 대상과제 공고",
+  "notice_no": "산업통상부 공고 제2026-661호",
+  "type": "품목지정공모",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술기획평가원",
+  "status": "접수예정",
+  "posted": "2026-10-22",
+  "open_date": "2026-10-29",
+  "close_date": "2026-11-20",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024578&ancmPrg=ancmPre",
+  "extra": {
+   "raw_status": "공고예고",
+   "raw_phase": "예정"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "R&D",
+  "score": 0,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024477",
@@ -4360,7 +5279,7 @@
   "posted": "2026-10-16",
   "open_date": "2026-10-16",
   "close_date": "2026-11-17",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024477",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024477&ancmPrg=ancmIng",
   "extra": {
    "raw_status": "공고접수중",
    "raw_phase": "진행중"
@@ -4377,7 +5296,39 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "iris-024138",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년 4극3특 강원특별자치도 과학기술혁신지원사업 연구단 모집공고(연장공고)",
+  "notice_no": "과학기술정보통신부 공고 제2026 - 0948호",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "연구개발특구진흥재단",
+  "status": "접수중",
+  "posted": "2026-10-13",
+  "open_date": "2026-09-11",
+  "close_date": "2026-11-01",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024138&ancmPrg=ancmIng",
+  "extra": {
+   "raw_status": "공고마감,공고접수중",
+   "raw_phase": "진행중"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "R&D",
+  "score": 0,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024037",
@@ -4388,11 +5339,11 @@
   "type": "분야공모",
   "ministry": "과학기술정보통신부",
   "agency": "한국연구재단",
-  "status": "접수예정",
+  "status": "접수중",
   "posted": "2026-10-13",
   "open_date": "2026-10-26",
   "close_date": "2026-11-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024037",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024037&ancmPrg=ancmPre",
   "extra": {
    "raw_status": "공고예고",
    "raw_phase": "예정"
@@ -4409,39 +5360,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "iris-024138",
-  "source": "IRIS",
-  "kind": "history",
-  "title": "2026년 4극3특 강원특별자치도 과학기술혁신지원사업 연구단 모집공고(연장공고)",
-  "notice_no": "과학기술정보통신부 공고 제2026 - 0948호",
-  "type": "자유공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "연구개발특구진흥재단",
-  "status": "마감",
-  "posted": "2026-10-13",
-  "open_date": "2026-09-11",
-  "close_date": "2026-10-19",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024138",
-  "extra": {
-   "raw_status": "공고마감",
-   "raw_phase": "완료"
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024457",
@@ -4456,7 +5375,7 @@
   "posted": "2026-10-12",
   "open_date": "2026-10-19",
   "close_date": "2026-11-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024457",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024457&ancmPrg=ancmIng",
   "extra": {
    "raw_status": "공고접수중",
    "raw_phase": "진행중"
@@ -4473,7 +5392,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024437",
@@ -4488,7 +5407,7 @@
   "posted": "2026-10-12",
   "open_date": "2026-10-12",
   "close_date": "2026-11-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024437",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024437&ancmPrg=ancmIng",
   "extra": {
    "raw_status": "공고접수중",
    "raw_phase": "진행중"
@@ -4505,25 +5424,25 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024419",
   "source": "IRIS",
-  "kind": "notice",
+  "kind": "history",
   "title": "2026년 연구산업육성사업(투자연계형 연구산업 혁신기술 개발) 본과제 신청 공고",
   "notice_no": "CP_2026_009",
   "type": "지정공모",
   "ministry": "과학기술정보통신부",
   "agency": "과학기술사업화진흥원",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-10-12",
   "open_date": "2026-10-12",
   "close_date": "2026-10-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024419",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024419&ancmPrg=ancmEnd",
   "extra": {
-   "raw_status": "공고접수중",
-   "raw_phase": "진행중"
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
   },
   "domains": [],
   "matched": [],
@@ -4537,7 +5456,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16967",
@@ -4548,7 +5467,7 @@
   "type": "비R&D 사업",
   "ministry": "과학기술정보통신부",
   "agency": "정보통신산업진흥원",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-10-08",
   "open_date": "2026-10-08",
   "close_date": "2026-10-22",
@@ -4571,7 +5490,91 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1279833",
+  "source": "NTIS",
+  "kind": "signal",
+  "title": "2027년도 제품안전관리기술개발및실증사업 기술수요조사 공고",
+  "notice_no": "",
+  "type": "수요조사",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술기획평가원",
+  "status": "접수중",
+  "posted": "2026-10-08",
+  "open_date": "2026-10-08",
+  "close_date": "2026-11-06",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279833",
+  "extra": {
+   "business": "관련정보없음",
+   "amount": "0 억원",
+   "form": "통합공고",
+   "detail_ok": true,
+   "d_ministry": "산업통상부",
+   "d_agency": "한국산업기술기획평가원",
+   "d_posted": "2026-10-08",
+   "d_type": "수요조사",
+   "d_form": "통합공고",
+   "d_business": "관련정보없음",
+   "d_amount": "0 억원",
+   "d_notice_no": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "R&D",
+  "score": 0,
+  "signal_type": "수요조사",
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1279830",
+  "source": "NTIS",
+  "kind": "signal",
+  "title": "2027년도 제조공급망강화표준물질개발사업 기술수요조사 공고",
+  "notice_no": "",
+  "type": "수요조사",
+  "ministry": "산업통상부",
+  "agency": "한국산업기술기획평가원",
+  "status": "접수중",
+  "posted": "2026-10-08",
+  "open_date": "2026-10-19",
+  "close_date": "2026-11-06",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279830",
+  "extra": {
+   "business": "관련정보없음",
+   "amount": "0 억원",
+   "form": "통합공고",
+   "detail_ok": true,
+   "d_ministry": "산업통상부",
+   "d_agency": "한국산업기술기획평가원",
+   "d_posted": "2026-10-08",
+   "d_type": "수요조사",
+   "d_form": "통합공고",
+   "d_business": "관련정보없음",
+   "d_amount": "0 억원",
+   "d_notice_no": ""
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "R&D",
+  "score": 0,
+  "signal_type": "수요조사",
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024357",
@@ -4582,11 +5585,11 @@
   "type": "지정공모",
   "ministry": "행정안전부",
   "agency": "한국산업기술기획평가원",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-10-06",
   "open_date": "2026-10-06",
   "close_date": "2026-10-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024357",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024357&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4603,7 +5606,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024339",
@@ -4618,7 +5621,7 @@
   "posted": "2026-10-01",
   "open_date": "2026-10-01",
   "close_date": "2026-10-14",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024339",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024339&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4635,7 +5638,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024258",
@@ -4650,13 +5653,13 @@
   "posted": "2026-09-23",
   "open_date": "2026-09-23",
   "close_date": "2026-09-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024258",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024258&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료",
    "also_listed": [],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023817"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023817&ancmPrg=ancmEnd"
    },
    "merged_ids": [
     "iris-023817"
@@ -4674,44 +5677,25 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
-  "id": "ntis-1278791",
-  "source": "NTIS",
-  "kind": "notice",
+  "id": "iris-024237",
+  "source": "IRIS",
+  "kind": "history",
   "title": "2026년도 소재부품기술개발사업(4차) 신규지원 대상과제 공고",
   "notice_no": "산업통상부 공고 제2026-613호",
-  "type": "본공고",
+  "type": "품목지정공모",
   "ministry": "산업통상부",
   "agency": "한국산업기술기획평가원",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-09-22",
   "open_date": "2026-09-22",
   "close_date": "2026-10-21",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278791",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024237&ancmPrg=ancmEnd",
   "extra": {
-   "business": "소재부품기술개발(R&D)",
-   "amount": "250 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "산업통상부",
-   "d_agency": "한국산업기술기획평가원",
-   "d_posted": "2026-09-22",
-   "d_type": "본공고",
-   "d_form": "통합공고",
-   "d_business": "소재부품기술개발(R&D)",
-   "d_amount": "250 억원",
-   "d_notice_no": "",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024237"
-   },
-   "merged_ids": [
-    "iris-024237"
-   ]
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
   },
   "domains": [],
   "matched": [],
@@ -4721,11 +5705,11 @@
   "topics": [],
   "category": "R&D",
   "score": 0,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024217",
@@ -4740,13 +5724,13 @@
   "posted": "2026-09-17",
   "open_date": "2026-09-17",
   "close_date": "2026-09-30",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024217",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024217&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료",
    "also_listed": [],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024297"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024297&ancmPrg=ancmEnd"
    },
    "merged_ids": [
     "iris-024297"
@@ -4764,7 +5748,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024199",
@@ -4779,7 +5763,7 @@
   "posted": "2026-09-14",
   "open_date": "2026-09-14",
   "close_date": "2026-10-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024199",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024199&ancmPrg=ancmIng",
   "extra": {
    "raw_status": "공고마감,공고접수중",
    "raw_phase": "진행중"
@@ -4796,25 +5780,44 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
-  "id": "iris-024177",
-  "source": "IRIS",
-  "kind": "history",
+  "id": "ntis-1280136",
+  "source": "NTIS",
+  "kind": "notice",
   "title": "2026년 4극3특 동남권 과학기술혁신지원사업 연구단 모집 공고(연장)",
   "notice_no": "과학기술정보통신부 공고 제2026-0948호",
-  "type": "자유공모",
+  "type": "본공고",
   "ministry": "과학기술정보통신부",
   "agency": "연구개발특구진흥재단",
   "status": "접수중",
   "posted": "2026-09-11",
-  "open_date": "2026-09-11",
+  "open_date": "2026-10-12",
   "close_date": "2026-10-26",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024177",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1280136",
   "extra": {
-   "raw_status": "공고마감,공고접수중",
-   "raw_phase": "진행중"
+   "business": "지역연구개발혁신지원(R&D)",
+   "amount": "123.3 억원",
+   "form": "통합공고",
+   "detail_ok": true,
+   "d_ministry": "과학기술정보통신부",
+   "d_agency": "연구개발특구진흥재단",
+   "d_posted": "2026-09-11",
+   "d_type": "본공고",
+   "d_form": "통합공고",
+   "d_business": "지역연구개발혁신지원(R&D)",
+   "d_amount": "123.3 억원",
+   "d_notice_no": "",
+   "also_listed": [
+    "IRIS"
+   ],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024177&ancmPrg=ancmIng"
+   },
+   "merged_ids": [
+    "iris-024177"
+   ]
   },
   "domains": [],
   "matched": [],
@@ -4824,11 +5827,11 @@
   "topics": [],
   "category": "R&D",
   "score": 0,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "origin": "NTIS + IRIS",
+  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024160",
@@ -4843,7 +5846,7 @@
   "posted": "2026-09-11",
   "open_date": "2026-09-11",
   "close_date": "2026-10-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024160",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024160&ancmPrg=ancmIng",
   "extra": {
    "raw_status": "공고마감,공고접수중",
    "raw_phase": "진행중"
@@ -4860,7 +5863,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024158",
@@ -4875,7 +5878,7 @@
   "posted": "2026-09-11",
   "open_date": "2026-09-11",
   "close_date": "2026-10-26",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024158",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024158&ancmPrg=ancmIng",
   "extra": {
    "raw_status": "공고마감,공고접수중",
    "raw_phase": "진행중"
@@ -4892,7 +5895,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024139",
@@ -4907,7 +5910,7 @@
   "posted": "2026-09-11",
   "open_date": "2026-09-11",
   "close_date": "2026-10-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024139",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024139&ancmPrg=ancmIng",
   "extra": {
    "raw_status": "공고마감,공고접수중",
    "raw_phase": "진행중"
@@ -4924,7 +5927,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16931",
@@ -4958,7 +5961,39 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "iris-024177",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "2026년 4극3특 동남권 과학기술혁신지원사업 연구단 모집 공고(연장)",
+  "notice_no": "과학기술정보통신부 공고 제2026-0948호",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "연구개발특구진흥재단",
+  "status": "접수중",
+  "posted": "2026-09-11",
+  "open_date": "2026-09-11",
+  "close_date": "2026-10-26",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024177&ancmPrg=ancmIng",
+  "extra": {
+   "raw_status": "공고마감,공고접수중",
+   "raw_phase": "진행중"
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "R&D",
+  "score": 0,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024159",
@@ -4973,7 +6008,7 @@
   "posted": "2026-09-11",
   "open_date": "2026-09-11",
   "close_date": "2026-10-12",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024159",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024159&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -4990,7 +6025,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024017",
@@ -5005,7 +6040,7 @@
   "posted": "2026-09-11",
   "open_date": "2026-09-21",
   "close_date": "2026-10-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024017",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024017&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5022,7 +6057,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024117",
@@ -5037,7 +6072,7 @@
   "posted": "2026-09-08",
   "open_date": "2026-09-09",
   "close_date": "2026-09-18",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024117",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024117&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5054,7 +6089,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-024097",
@@ -5069,7 +6104,7 @@
   "posted": "2026-09-08",
   "open_date": "2026-09-23",
   "close_date": "2026-10-08",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024097",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024097&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5086,7 +6121,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023977",
@@ -5101,7 +6136,7 @@
   "posted": "2026-09-07",
   "open_date": "2026-09-07",
   "close_date": "2026-10-07",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023977",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023977&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5118,7 +6153,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023757",
@@ -5133,7 +6168,7 @@
   "posted": "2026-08-26",
   "open_date": "2026-09-02",
   "close_date": "2026-09-09",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023757",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023757&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5150,7 +6185,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023777",
@@ -5165,7 +6200,7 @@
   "posted": "2026-08-24",
   "open_date": "2026-08-31",
   "close_date": "2026-09-23",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023777",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023777&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5182,7 +6217,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16900",
@@ -5216,7 +6251,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023577",
@@ -5231,7 +6266,7 @@
   "posted": "2026-08-13",
   "open_date": "2026-08-21",
   "close_date": "2026-09-11",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023577",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023577&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5248,7 +6283,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1275821",
@@ -5290,7 +6325,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "소속기관 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023557",
@@ -5305,7 +6340,7 @@
   "posted": "2026-08-11",
   "open_date": "2026-08-19",
   "close_date": "2026-09-16",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023557",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023557&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5322,7 +6357,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023537",
@@ -5337,7 +6372,7 @@
   "posted": "2026-08-10",
   "open_date": "2026-08-19",
   "close_date": "2026-09-09",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023537",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023537&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5354,7 +6389,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023457",
@@ -5369,7 +6404,7 @@
   "posted": "2026-08-07",
   "open_date": "2026-08-07",
   "close_date": "2026-09-07",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023457",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023457&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5386,7 +6421,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023437",
@@ -5401,7 +6436,7 @@
   "posted": "2026-08-07",
   "open_date": "2026-08-21",
   "close_date": "2026-09-07",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023437",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023437&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5418,7 +6453,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023418",
@@ -5433,7 +6468,7 @@
   "posted": "2026-08-07",
   "open_date": "2026-08-24",
   "close_date": "2026-09-07",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023418",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023418&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5450,7 +6485,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023337",
@@ -5465,7 +6500,7 @@
   "posted": "2026-08-03",
   "open_date": "2026-08-03",
   "close_date": "2026-08-14",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023337",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023337&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5482,7 +6517,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16887",
@@ -5516,7 +6551,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023077",
@@ -5531,7 +6566,7 @@
   "posted": "2026-07-30",
   "open_date": "2026-08-10",
   "close_date": "2026-08-28",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023077",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023077&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5548,7 +6583,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023137",
@@ -5563,7 +6598,7 @@
   "posted": "2026-07-29",
   "open_date": "2026-07-29",
   "close_date": "2026-08-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023137",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023137&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5580,7 +6615,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16872",
@@ -5614,7 +6649,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023319",
@@ -5629,7 +6664,7 @@
   "posted": "2026-07-26",
   "open_date": "2026-08-17",
   "close_date": "2026-09-01",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023319",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023319&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5646,7 +6681,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023197",
@@ -5661,7 +6696,7 @@
   "posted": "2026-07-24",
   "open_date": "2026-07-28",
   "close_date": "2026-08-24",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023197",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023197&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5678,7 +6713,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023178",
@@ -5693,7 +6728,7 @@
   "posted": "2026-07-24",
   "open_date": "2026-07-24",
   "close_date": "2026-08-06",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023178",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023178&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5710,7 +6745,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023157",
@@ -5725,7 +6760,7 @@
   "posted": "2026-07-24",
   "open_date": "2026-07-31",
   "close_date": "2026-08-26",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023157",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023157&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5742,7 +6777,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023697",
@@ -5757,7 +6792,7 @@
   "posted": "2026-07-17",
   "open_date": "2026-08-20",
   "close_date": "2026-08-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023697",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023697&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5774,7 +6809,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022877",
@@ -5789,7 +6824,7 @@
   "posted": "2026-07-16",
   "open_date": "2026-08-10",
   "close_date": "2026-08-18",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022877",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022877&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5806,7 +6841,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023358",
@@ -5821,7 +6856,7 @@
   "posted": "2026-07-14",
   "open_date": "2026-08-03",
   "close_date": "2026-08-14",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023358",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023358&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5838,7 +6873,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023037",
@@ -5853,7 +6888,7 @@
   "posted": "2026-07-13",
   "open_date": "2026-07-13",
   "close_date": "2026-07-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023037",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023037&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -5870,7 +6905,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1278998",
@@ -5903,7 +6938,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -5921,7 +6956,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276961",
@@ -5954,7 +6989,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -5972,7 +7007,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276960",
@@ -6005,7 +7040,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6023,7 +7058,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276959",
@@ -6056,7 +7091,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6074,7 +7109,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276958",
@@ -6107,7 +7142,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6125,7 +7160,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276957",
@@ -6158,7 +7193,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6176,7 +7211,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276956",
@@ -6209,7 +7244,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6227,7 +7262,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276955",
@@ -6260,7 +7295,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6278,7 +7313,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276954",
@@ -6311,7 +7346,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6329,7 +7364,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276953",
@@ -6362,7 +7397,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6380,7 +7415,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276947",
@@ -6413,7 +7448,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6431,7 +7466,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276946",
@@ -6464,7 +7499,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6482,7 +7517,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276945",
@@ -6515,7 +7550,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6533,7 +7568,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276944",
@@ -6566,7 +7601,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6584,7 +7619,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276943",
@@ -6617,7 +7652,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6635,7 +7670,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276942",
@@ -6668,7 +7703,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6686,7 +7721,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276941",
@@ -6719,7 +7754,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6737,7 +7772,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276939",
@@ -6770,7 +7805,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6788,7 +7823,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276938",
@@ -6821,7 +7856,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6839,7 +7874,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276936",
@@ -6872,7 +7907,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6890,7 +7925,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276935",
@@ -6923,7 +7958,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6941,7 +7976,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276934",
@@ -6974,7 +8009,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -6992,7 +8027,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276933",
@@ -7025,7 +8060,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7043,7 +8078,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276932",
@@ -7076,7 +8111,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7094,7 +8129,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1276931",
@@ -7127,7 +8162,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7145,7 +8180,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263331",
@@ -7178,7 +8213,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7196,7 +8231,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263329",
@@ -7229,7 +8264,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7247,7 +8282,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263328",
@@ -7280,7 +8315,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7298,7 +8333,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263326",
@@ -7331,7 +8366,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7349,7 +8384,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263324",
@@ -7382,7 +8417,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7400,7 +8435,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263315",
@@ -7433,7 +8468,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7451,7 +8486,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263308",
@@ -7484,7 +8519,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7502,7 +8537,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263307",
@@ -7535,7 +8570,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "merged_ids": [
     "iris-019508"
@@ -7553,7 +8588,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023017",
@@ -7568,7 +8603,7 @@
   "posted": "2026-07-10",
   "open_date": "2026-07-10",
   "close_date": "2026-07-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023017",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023017&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7585,7 +8620,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022997",
@@ -7600,7 +8635,7 @@
   "posted": "2026-07-10",
   "open_date": "2026-07-10",
   "close_date": "2026-08-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022997",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022997&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7617,7 +8652,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022857",
@@ -7632,7 +8667,7 @@
   "posted": "2026-07-10",
   "open_date": "2026-07-28",
   "close_date": "2026-08-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022857",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022857&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7649,7 +8684,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022717",
@@ -7664,7 +8699,7 @@
   "posted": "2026-07-10",
   "open_date": "2026-07-27",
   "close_date": "2026-08-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022717",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022717&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7681,7 +8716,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023018",
@@ -7696,7 +8731,7 @@
   "posted": "2026-07-08",
   "open_date": "2026-07-08",
   "close_date": "2026-08-31",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023018",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023018&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7713,7 +8748,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022977",
@@ -7728,7 +8763,7 @@
   "posted": "2026-07-08",
   "open_date": "2026-07-08",
   "close_date": "2026-07-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022977",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022977&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7745,7 +8780,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-020774",
@@ -7760,7 +8795,7 @@
   "posted": "2026-07-06",
   "open_date": "2026-05-13",
   "close_date": "2026-07-16",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020774",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020774&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7777,7 +8812,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022837",
@@ -7792,7 +8827,7 @@
   "posted": "2026-07-02",
   "open_date": "2026-07-02",
   "close_date": "2026-07-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022837",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022837&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7809,7 +8844,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022737",
@@ -7824,7 +8859,7 @@
   "posted": "2026-06-30",
   "open_date": "2026-06-30",
   "close_date": "2026-07-31",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022737",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022737&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7841,7 +8876,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022697",
@@ -7856,7 +8891,7 @@
   "posted": "2026-06-30",
   "open_date": "2026-06-30",
   "close_date": "2026-07-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022697",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022697&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7873,7 +8908,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022695",
@@ -7888,7 +8923,7 @@
   "posted": "2026-06-30",
   "open_date": "2026-06-30",
   "close_date": "2026-08-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022695",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022695&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7905,7 +8940,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022456",
@@ -7920,7 +8955,7 @@
   "posted": "2026-06-29",
   "open_date": "2026-07-01",
   "close_date": "2026-08-11",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022456",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022456&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7937,7 +8972,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16827",
@@ -7971,7 +9006,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022515",
@@ -7986,7 +9021,7 @@
   "posted": "2026-06-22",
   "open_date": "2026-06-22",
   "close_date": "2026-08-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022515",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022515&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8003,7 +9038,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16820",
@@ -8037,7 +9072,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022514",
@@ -8052,7 +9087,7 @@
   "posted": "2026-06-17",
   "open_date": "2026-06-17",
   "close_date": "2026-07-30",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022514",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022514&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8069,7 +9104,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022574",
@@ -8084,7 +9119,7 @@
   "posted": "2026-06-16",
   "open_date": "2026-06-16",
   "close_date": "2026-07-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022574",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022574&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8101,7 +9136,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022294",
@@ -8116,7 +9151,7 @@
   "posted": "2026-06-15",
   "open_date": "2026-06-19",
   "close_date": "2026-07-21",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022294",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022294&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8133,7 +9168,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022235",
@@ -8148,7 +9183,7 @@
   "posted": "2026-06-15",
   "open_date": "2026-06-19",
   "close_date": "2026-07-21",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022235",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022235&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8165,7 +9200,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16815",
@@ -8199,7 +9234,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022434",
@@ -8214,7 +9249,7 @@
   "posted": "2026-06-12",
   "open_date": "2026-06-12",
   "close_date": "2026-07-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022434",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022434&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8231,7 +9266,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022395",
@@ -8246,7 +9281,7 @@
   "posted": "2026-06-12",
   "open_date": "2026-06-19",
   "close_date": "2026-07-13",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022395",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022395&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8263,7 +9298,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022394",
@@ -8278,7 +9313,7 @@
   "posted": "2026-06-12",
   "open_date": "2026-06-12",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022394",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022394&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8295,7 +9330,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022575",
@@ -8310,7 +9345,7 @@
   "posted": "2026-06-11",
   "open_date": "2026-06-23",
   "close_date": "2026-07-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022575",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022575&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8327,7 +9362,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022455",
@@ -8342,7 +9377,7 @@
   "posted": "2026-06-11",
   "open_date": "2026-06-23",
   "close_date": "2026-07-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022455",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022455&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8359,7 +9394,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022454",
@@ -8374,7 +9409,7 @@
   "posted": "2026-06-11",
   "open_date": "2026-06-11",
   "close_date": "2026-06-19",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022454",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022454&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8391,7 +9426,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022416",
@@ -8406,7 +9441,7 @@
   "posted": "2026-06-11",
   "open_date": "2026-06-11",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022416",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022416&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8423,7 +9458,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022415",
@@ -8438,7 +9473,7 @@
   "posted": "2026-06-11",
   "open_date": "2026-06-11",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022415",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022415&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8455,7 +9490,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022534",
@@ -8470,7 +9505,7 @@
   "posted": "2026-06-10",
   "open_date": "2026-07-10",
   "close_date": "2026-09-04",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022534",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022534&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8487,7 +9522,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022376",
@@ -8502,7 +9537,7 @@
   "posted": "2026-06-10",
   "open_date": "2026-06-24",
   "close_date": "2026-07-10",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022376",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022376&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8519,7 +9554,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022354",
@@ -8534,7 +9569,7 @@
   "posted": "2026-06-09",
   "open_date": "2026-06-09",
   "close_date": "2026-06-09",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022354",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022354&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8551,7 +9586,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022234",
@@ -8566,7 +9601,7 @@
   "posted": "2026-06-08",
   "open_date": "2026-06-08",
   "close_date": "2026-07-07",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022234",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022234&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8583,7 +9618,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021942",
@@ -8598,7 +9633,7 @@
   "posted": "2026-06-08",
   "open_date": "2026-06-24",
   "close_date": "2026-07-08",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021942",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021942&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8615,7 +9650,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022076",
@@ -8630,7 +9665,7 @@
   "posted": "2026-05-29",
   "open_date": "2026-05-29",
   "close_date": "2026-06-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022076",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022076&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8647,7 +9682,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022075",
@@ -8662,7 +9697,7 @@
   "posted": "2026-05-29",
   "open_date": "2026-05-29",
   "close_date": "2026-06-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022075",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022075&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8679,7 +9714,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022056",
@@ -8694,7 +9729,7 @@
   "posted": "2026-05-29",
   "open_date": "2026-05-29",
   "close_date": "2026-06-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022056",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022056&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8711,7 +9746,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022055",
@@ -8726,7 +9761,7 @@
   "posted": "2026-05-29",
   "open_date": "2026-06-09",
   "close_date": "2026-06-30",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022055",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022055&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8743,7 +9778,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021894",
@@ -8758,7 +9793,7 @@
   "posted": "2026-05-29",
   "open_date": "2026-05-29",
   "close_date": "2026-06-30",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021894",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021894&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8775,7 +9810,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "소속기관 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16797",
@@ -8809,7 +9844,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-022034",
@@ -8824,7 +9859,7 @@
   "posted": "2026-05-28",
   "open_date": "2026-06-15",
   "close_date": "2026-06-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022034",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022034&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8841,7 +9876,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021937",
@@ -8856,7 +9891,7 @@
   "posted": "2026-05-28",
   "open_date": "2026-06-05",
   "close_date": "2026-06-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021937",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021937&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8873,7 +9908,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021938",
@@ -8888,7 +9923,7 @@
   "posted": "2026-05-27",
   "open_date": "2026-06-08",
   "close_date": "2026-06-25",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021938",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021938&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8905,7 +9940,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021895",
@@ -8920,7 +9955,7 @@
   "posted": "2026-05-27",
   "open_date": "2026-05-29",
   "close_date": "2026-06-26",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021895",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021895&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8937,7 +9972,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021854",
@@ -8952,7 +9987,7 @@
   "posted": "2026-05-26",
   "open_date": "2026-05-26",
   "close_date": "2026-06-25",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021854",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021854&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -8969,7 +10004,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021796",
@@ -8984,7 +10019,7 @@
   "posted": "2026-05-26",
   "open_date": "2026-06-02",
   "close_date": "2026-06-26",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021796",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021796&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9001,7 +10036,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021654",
@@ -9016,7 +10051,7 @@
   "posted": "2026-05-26",
   "open_date": "2026-05-26",
   "close_date": "2026-06-09",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021654",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021654&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9033,7 +10068,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021878",
@@ -9048,7 +10083,7 @@
   "posted": "2026-05-22",
   "open_date": "2026-05-22",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021878",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021878&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9065,7 +10100,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021877",
@@ -9080,7 +10115,7 @@
   "posted": "2026-05-22",
   "open_date": "2026-06-02",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021877",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021877&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9097,7 +10132,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021876",
@@ -9112,7 +10147,7 @@
   "posted": "2026-05-22",
   "open_date": "2026-05-22",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021876",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021876&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9129,7 +10164,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021718",
@@ -9144,7 +10179,7 @@
   "posted": "2026-05-22",
   "open_date": "2026-05-22",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021718",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021718&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9161,7 +10196,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021655",
@@ -9176,7 +10211,7 @@
   "posted": "2026-05-22",
   "open_date": "2026-05-22",
   "close_date": "2026-06-22",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021655",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021655&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9193,7 +10228,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021875",
@@ -9208,7 +10243,7 @@
   "posted": "2026-05-21",
   "open_date": "2026-06-10",
   "close_date": "2026-06-24",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021875",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021875&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9225,7 +10260,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021794",
@@ -9240,7 +10275,7 @@
   "posted": "2026-05-20",
   "open_date": "2026-05-20",
   "close_date": "2026-06-01",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021794",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021794&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9257,7 +10292,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021775",
@@ -9272,7 +10307,7 @@
   "posted": "2026-05-20",
   "open_date": "2026-06-05",
   "close_date": "2026-06-19",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021775",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021775&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9289,7 +10324,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021834",
@@ -9304,7 +10339,7 @@
   "posted": "2026-05-19",
   "open_date": "2026-05-19",
   "close_date": "2026-05-28",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021834",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021834&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9321,7 +10356,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "nipa-16774",
@@ -9355,7 +10390,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021735",
@@ -9370,7 +10405,7 @@
   "posted": "2026-05-15",
   "open_date": "2026-05-15",
   "close_date": "2026-05-21",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021735",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021735&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9387,7 +10422,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021734",
@@ -9402,7 +10437,7 @@
   "posted": "2026-05-15",
   "open_date": "2026-05-15",
   "close_date": "2026-05-26",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021734",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021734&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9419,7 +10454,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021659",
@@ -9434,7 +10469,7 @@
   "posted": "2026-05-15",
   "open_date": "2026-06-01",
   "close_date": "2026-06-15",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021659",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021659&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9451,39 +10486,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "iris-021660",
-  "source": "IRIS",
-  "kind": "history",
-  "title": "2026년도 나노소재기술개발사업 신규과제 3차 재공모",
-  "notice_no": "과학기술정보통신부 공고 제2026-0601호",
-  "type": "지정공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
-  "status": "마감",
-  "posted": "2026-05-13",
-  "open_date": "2026-05-13",
-  "close_date": "2026-05-26",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021660",
-  "extra": {
-   "raw_status": "공고마감",
-   "raw_phase": "완료"
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1261311",
@@ -9515,7 +10518,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258320",
@@ -9547,7 +10550,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-019598",
@@ -9562,7 +10565,7 @@
   "posted": "2026-03-03",
   "open_date": "2026-03-03",
   "close_date": "2026-03-11",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019598",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019598&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9579,7 +10582,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-018214",
@@ -9594,7 +10597,7 @@
   "posted": "2026-01-28",
   "open_date": "2026-01-28",
   "close_date": "2026-02-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018214",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018214&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -9611,7 +10614,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253341",
@@ -9653,7 +10656,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1205127",
@@ -9695,6 +10698,6 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  }
 ]

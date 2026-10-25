@@ -41,7 +41,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1278131",
@@ -64,7 +64,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024077"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024077&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -92,7 +92,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1278130",
@@ -115,7 +115,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024077"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024077&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -143,7 +143,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1270088",
@@ -166,7 +166,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022014"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022014&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -194,7 +194,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257420",
@@ -217,7 +217,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018115"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018115&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -246,7 +246,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257419",
@@ -269,7 +269,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018115"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018115&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -298,7 +298,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256790",
@@ -321,7 +321,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019316"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019316&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -349,7 +349,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255952",
@@ -372,7 +372,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -401,7 +401,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255950",
@@ -424,7 +424,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -453,7 +453,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256171",
@@ -476,7 +476,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018095"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018095&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -504,7 +504,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256170",
@@ -527,7 +527,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018095"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018095&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -555,7 +555,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253602",
@@ -578,7 +578,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017847"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017847&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -606,7 +606,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253283",
@@ -629,7 +629,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017699"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017699&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "국립암센터"
@@ -658,7 +658,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253185",
@@ -702,7 +702,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253184",
@@ -746,7 +746,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253201",
@@ -789,7 +789,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253198",
@@ -832,7 +832,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253031",
@@ -855,7 +855,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -883,7 +883,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253029",
@@ -906,7 +906,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -934,7 +934,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1248813",
@@ -957,7 +957,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=015894"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=015894&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -985,7 +985,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1248812",
@@ -1008,7 +1008,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=015894"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=015894&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -1036,7 +1036,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1248804",
@@ -1080,7 +1080,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48948775",
@@ -1095,7 +1095,7 @@
   "posted": "2026-08-18",
   "open_date": null,
   "close_date": "2026-08-24",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=916&linkId=48948775&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=917&linkId=48948775&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -1123,7 +1123,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48947899",
@@ -1138,7 +1138,7 @@
   "posted": "2026-07-27",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=910&linkId=48947899&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=911&linkId=48947899&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -1167,7 +1167,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48947856",
@@ -1182,7 +1182,7 @@
   "posted": "2026-07-24",
   "open_date": null,
   "close_date": "2026-08-14",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=909&linkId=48947856&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=910&linkId=48947856&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -1210,7 +1210,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1274347",
@@ -1252,158 +1252,93 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
-  "id": "ntis-1268724",
-  "source": "NTIS",
+  "id": "khidiweb-48947006",
+  "source": "KHIDIWEB",
   "kind": "history",
-  "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
-  "notice_no": "KDDF_2026_02",
-  "type": "자유공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "재단법인 국가신약개발재단",
+  "title": "2026년도 의료기기 글로벌 교육훈련 지원 사업 (해외 의학회 연계 KOL 확산) 수행기관 모집 연장공고 (7.8(수), 18시까지)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
   "status": "마감",
-  "posted": "2026-06-18",
-  "open_date": "2026-06-18",
-  "close_date": "2026-07-01",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268724",
+  "posted": "2026-07-02",
+  "open_date": null,
+  "close_date": "2026-07-08",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=902&linkId=48947006&menuId=MENU01108",
   "extra": {
-   "posted_from": "접수일",
-   "search_kw": "임상",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022054"
-   },
-   "co_agencies": [
-    "재단법인 국가신약개발재단"
-   ],
-   "merged_ids": [
-    "iris-022054"
-   ]
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
   },
   "domains": [
-   "제약"
+   "의료기기"
   ],
   "matched": [
-   "신약",
-   "신약개발",
-   "임상"
+   "글로벌",
+   "의료기기"
   ],
   "focus_org": true,
   "health": true,
   "relevant": true,
   "topics": [],
-  "category": "R&D",
+  "category": "비R&D",
   "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "번호만",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
-  "id": "ntis-1268723",
-  "source": "NTIS",
+  "id": "khidiweb-48946883",
+  "source": "KHIDIWEB",
   "kind": "history",
-  "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 RD 생태계 구축 연구",
-  "notice_no": "KDDF_2026_02",
-  "type": "자유공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "재단법인 국가신약개발재단",
+  "title": "2026년 의료기기 글로벌 진출 현지 전문가 밀착 컨설팅 참여기업 모집 연장공고(~7.6(월) 16:00)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
   "status": "마감",
-  "posted": "2026-06-18",
-  "open_date": "2026-06-18",
-  "close_date": "2026-07-01",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268723",
+  "posted": "2026-07-01",
+  "open_date": null,
+  "close_date": "2026-07-06",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=901&linkId=48946883&menuId=MENU01108",
   "extra": {
-   "posted_from": "접수일",
-   "search_kw": "신약",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022054"
-   },
-   "co_agencies": [
-    "재단법인 국가신약개발재단"
-   ],
-   "merged_ids": [
-    "iris-022054"
-   ]
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
   },
   "domains": [
-   "제약"
+   "의료기기"
   ],
   "matched": [
-   "신약",
-   "신약개발"
+   "글로벌",
+   "의료기기"
   ],
   "focus_org": true,
   "health": true,
   "relevant": true,
   "topics": [],
-  "category": "R&D",
+  "category": "비R&D",
   "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "번호만",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "ntis-1268722",
-  "source": "NTIS",
-  "kind": "history",
-  "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 기반 확충 연구",
-  "notice_no": "KDDF_2026_02",
-  "type": "자유공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "재단법인 국가신약개발재단",
-  "status": "마감",
-  "posted": "2026-06-18",
-  "open_date": "2026-06-18",
-  "close_date": "2026-07-01",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268722",
-  "extra": {
-   "posted_from": "접수일",
-   "search_kw": "신약",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022054"
-   },
-   "co_agencies": [
-    "재단법인 국가신약개발재단"
-   ],
-   "merged_ids": [
-    "iris-022054"
-   ]
-  },
-  "domains": [
-   "제약"
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
   ],
-  "matched": [
-   "신약",
-   "신약개발"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "번호만",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1268725",
@@ -1426,7 +1361,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021934"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021934&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -1456,17 +1391,17 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1269306",
   "source": "NTIS",
   "kind": "history",
   "title": "2026년도 제2차 국가신약개발사업 신규지원 대상과제 통합공고",
-  "notice_no": "KDDF_2026_02",
-  "type": "자유공모",
+  "notice_no": "",
+  "type": "",
   "ministry": "보건복지부",
-  "agency": "재단법인 국가신약개발재단",
+  "agency": "",
   "status": "마감",
   "posted": "2026-06-04",
   "open_date": "2026-06-04",
@@ -1474,22 +1409,7 @@
   "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269306",
   "extra": {
    "posted_from": "접수일",
-   "search_kw": "보건",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022054"
-   },
-   "co_agencies": [
-    "재단법인 국가신약개발재단"
-   ],
-   "co_ministries": [
-    "과학기술정보통신부"
-   ],
-   "merged_ids": [
-    "iris-022054"
-   ]
+   "search_kw": "보건"
   },
   "domains": [
    "제약"
@@ -1504,12 +1424,54 @@
   "topics": [],
   "category": "R&D",
   "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "iris-022054",
+  "source": "IRIS",
+  "kind": "history",
+  "title": "[2026년 제2차] 국가신약개발사업 신규지원 대상과제 통합공고",
+  "notice_no": "KDDF_2026_02",
+  "type": "자유공모",
+  "ministry": "과학기술정보통신부",
+  "agency": "재단법인 국가신약개발재단",
+  "status": "마감",
+  "posted": "2026-06-01",
+  "open_date": "2026-06-18",
+  "close_date": "2026-07-01",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022054&ancmPrg=ancmEnd",
+  "extra": {
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
   "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1266208",
@@ -1551,7 +1513,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264711",
@@ -1593,7 +1555,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264971",
@@ -1635,7 +1597,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255669",
@@ -1658,7 +1620,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -1688,7 +1650,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255951",
@@ -1711,7 +1673,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -1739,7 +1701,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255949",
@@ -1762,7 +1724,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019015&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -1790,7 +1752,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253030",
@@ -1813,7 +1775,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -1840,7 +1802,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253027",
@@ -1863,7 +1825,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -1890,88 +1852,25 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
-  "id": "ntis-1251982",
-  "source": "NTIS",
+  "id": "iris-016254",
+  "source": "IRIS",
   "kind": "history",
-  "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
+  "title": "[2026년 제1차] 국가신약개발사업 신규지원 대상과제 통합공고",
   "notice_no": "KDDF_2026_01",
   "type": "자유공모",
   "ministry": "과학기술정보통신부",
   "agency": "재단법인 국가신약개발재단",
   "status": "마감",
-  "posted": "2026-01-02",
+  "posted": "2025-12-15",
   "open_date": "2026-01-02",
   "close_date": "2026-01-14",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251982",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016254&ancmPrg=ancmEnd",
   "extra": {
-   "posted_from": "접수일",
-   "search_kw": "임상",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016254"
-   },
-   "co_agencies": [
-    "재단법인 국가신약개발재단"
-   ],
-   "merged_ids": [
-    "iris-016254"
-   ]
-  },
-  "domains": [
-   "제약"
-  ],
-  "matched": [
-   "신약",
-   "신약개발",
-   "임상"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "번호만",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "ntis-1251981",
-  "source": "NTIS",
-  "kind": "history",
-  "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 RD 생태계 구축 연구",
-  "notice_no": "KDDF_2026_01",
-  "type": "자유공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "재단법인 국가신약개발재단",
-  "status": "마감",
-  "posted": "2026-01-02",
-  "open_date": "2026-01-02",
-  "close_date": "2026-01-14",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251981",
-  "extra": {
-   "posted_from": "접수일",
-   "search_kw": "신약",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016254"
-   },
-   "co_agencies": [
-    "재단법인 국가신약개발재단"
-   ],
-   "merged_ids": [
-    "iris-016254"
-   ]
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
   },
   "domains": [
    "제약"
@@ -1986,62 +1885,12 @@
   "topics": [],
   "category": "R&D",
   "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "번호만",
   "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "ntis-1251980",
-  "source": "NTIS",
-  "kind": "history",
-  "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 기반 확충 연구",
-  "notice_no": "KDDF_2026_01",
-  "type": "자유공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "재단법인 국가신약개발재단",
-  "status": "마감",
-  "posted": "2026-01-02",
-  "open_date": "2026-01-02",
-  "close_date": "2026-01-14",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251980",
-  "extra": {
-   "posted_from": "접수일",
-   "search_kw": "신약",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016254"
-   },
-   "co_agencies": [
-    "재단법인 국가신약개발재단"
-   ],
-   "merged_ids": [
-    "iris-016254"
-   ]
-  },
-  "domains": [
-   "제약"
-  ],
-  "matched": [
-   "신약",
-   "신약개발"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 60,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "번호만",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1250309",
@@ -2064,7 +1913,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016474"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016474&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2091,7 +1940,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263311",
@@ -2114,7 +1963,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
    },
    "co_agencies": [
     "중소기업기술정보진흥원"
@@ -2142,7 +1991,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48948364",
@@ -2157,7 +2006,7 @@
   "posted": "2026-08-10",
   "open_date": null,
   "close_date": "2026-08-17",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=913&linkId=48948364&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=914&linkId=48948364&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -2186,7 +2035,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48948205",
@@ -2201,7 +2050,7 @@
   "posted": "2026-08-05",
   "open_date": null,
   "close_date": "2026-08-25",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=912&linkId=48948205&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=913&linkId=48948205&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -2228,7 +2077,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48947846",
@@ -2243,7 +2092,7 @@
   "posted": "2026-07-24",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=908&linkId=48947846&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=909&linkId=48947846&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -2271,7 +2120,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1273371",
@@ -2294,7 +2143,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023057"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023057&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2320,7 +2169,50 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "khidiweb-48947353",
+  "source": "KHIDIWEB",
+  "kind": "history",
+  "title": "바이오유럽(BIO-Europe) 2026 참가지원 사업 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "마감(추정)",
+  "posted": "2026-07-10",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=905&linkId=48947353&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "pinned": false
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1272698",
@@ -2343,7 +2235,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022777"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022777&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -2372,7 +2264,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1272999",
@@ -2395,7 +2287,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022777"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022777&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -2424,7 +2316,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1270087",
@@ -2447,7 +2339,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022378"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022378&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2473,7 +2365,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1269892",
@@ -2496,7 +2388,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021934"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021934&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -2525,7 +2417,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1269891",
@@ -2548,7 +2440,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021934"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021934&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -2577,7 +2469,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1269671",
@@ -2600,7 +2492,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022254"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022254&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2626,7 +2518,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1268601",
@@ -2667,7 +2559,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021495",
@@ -2682,7 +2574,7 @@
   "posted": "2026-05-06",
   "open_date": "2026-05-13",
   "close_date": "2026-06-04",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021495",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021495&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -2704,7 +2596,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1265967",
@@ -2727,7 +2619,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021234"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021234&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2753,7 +2645,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264885",
@@ -2776,7 +2668,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021274"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021274&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2802,7 +2694,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264717",
@@ -2825,7 +2717,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021356"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021356&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2854,7 +2746,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263843",
@@ -2877,7 +2769,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021294"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021294&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -2903,7 +2795,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263608",
@@ -2944,7 +2836,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263318",
@@ -2987,7 +2879,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263309",
@@ -3030,7 +2922,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1261643",
@@ -3053,7 +2945,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -3079,7 +2971,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1260577",
@@ -3122,7 +3014,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1260576",
@@ -3165,7 +3057,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1260357",
@@ -3206,7 +3098,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257762",
@@ -3247,7 +3139,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1261628",
@@ -3290,7 +3182,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258483",
@@ -3313,7 +3205,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019936"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019936&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -3342,7 +3234,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257753",
@@ -3383,7 +3275,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-019799",
@@ -3422,7 +3314,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256662",
@@ -3445,7 +3337,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -3474,7 +3366,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255783",
@@ -3497,7 +3389,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -3526,7 +3418,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255782",
@@ -3549,7 +3441,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018597&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "재단법인 범부처의료기기연구개발사업단"
@@ -3578,7 +3470,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-019169",
@@ -3617,7 +3509,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256174",
@@ -3660,7 +3552,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256228",
@@ -3701,7 +3593,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256104",
@@ -3742,7 +3634,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255928",
@@ -3765,7 +3657,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -3791,7 +3683,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256183",
@@ -3814,7 +3706,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -3840,7 +3732,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255929",
@@ -3863,7 +3755,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -3889,7 +3781,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256505",
@@ -3930,7 +3822,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255893",
@@ -3973,7 +3865,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254817",
@@ -3996,7 +3888,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018412"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018412&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -4025,7 +3917,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254699",
@@ -4048,7 +3940,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018401"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018401&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -4074,7 +3966,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254684",
@@ -4117,7 +4009,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253896",
@@ -4158,7 +4050,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253519",
@@ -4199,7 +4091,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253336",
@@ -4242,7 +4134,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253313",
@@ -4285,7 +4177,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253211",
@@ -4326,7 +4218,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253215",
@@ -4349,7 +4241,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017434"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017434&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -4378,7 +4270,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253214",
@@ -4401,7 +4293,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017434"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017434&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -4430,7 +4322,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253199",
@@ -4471,7 +4363,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253197",
@@ -4512,7 +4404,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253195",
@@ -4553,7 +4445,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253194",
@@ -4594,7 +4486,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253193",
@@ -4635,7 +4527,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253192",
@@ -4676,7 +4568,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253186",
@@ -4717,7 +4609,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253183",
@@ -4758,7 +4650,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253180",
@@ -4799,7 +4691,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253179",
@@ -4840,7 +4732,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253178",
@@ -4881,7 +4773,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253212",
@@ -4904,7 +4796,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017434"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017434&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -4933,7 +4825,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253026",
@@ -4956,7 +4848,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -4982,7 +4874,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253025",
@@ -5005,7 +4897,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -5031,7 +4923,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253033",
@@ -5054,7 +4946,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017435&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -5083,7 +4975,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252905",
@@ -5124,7 +5016,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252896",
@@ -5165,7 +5057,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252895",
@@ -5206,7 +5098,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252892",
@@ -5247,7 +5139,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-017578",
@@ -5286,7 +5178,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252492",
@@ -5309,7 +5201,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017314"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017314&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -5335,7 +5227,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252491",
@@ -5358,7 +5250,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017314"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017314&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -5384,7 +5276,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252018",
@@ -5408,7 +5300,7 @@
    ],
    "links": {
     "NTIS": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252017",
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016994"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016994&ancmPrg=ancmEnd"
    },
    "merged_ids": [
     "ntis-1252017",
@@ -5441,7 +5333,7 @@
   "notice_no_kind": "번호만",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1250189",
@@ -5484,7 +5376,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1487048",
@@ -5529,7 +5421,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-377075",
@@ -5574,7 +5466,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-369123",
@@ -5619,7 +5511,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-367967",
@@ -5664,7 +5556,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-366238",
@@ -5709,7 +5601,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1277712",
@@ -5750,7 +5642,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1275440",
@@ -5791,7 +5683,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1273071",
@@ -5814,7 +5706,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022614"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022614&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "중소기업기술정보진흥원"
@@ -5841,7 +5733,7 @@
   "notice_no_kind": "IRIS 접수코드",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1272995",
@@ -5882,7 +5774,134 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1268724",
+  "source": "NTIS",
+  "kind": "history",
+  "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
+  "notice_no": "",
+  "type": "",
+  "ministry": "과학기술정보통신부",
+  "agency": "",
+  "status": "마감",
+  "posted": "2026-06-18",
+  "open_date": "2026-06-18",
+  "close_date": "2026-07-01",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268724",
+  "extra": {
+   "posted_from": "접수일",
+   "search_kw": "임상"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발",
+   "임상"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1268723",
+  "source": "NTIS",
+  "kind": "history",
+  "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 RD 생태계 구축 연구",
+  "notice_no": "",
+  "type": "",
+  "ministry": "과학기술정보통신부",
+  "agency": "",
+  "status": "마감",
+  "posted": "2026-06-18",
+  "open_date": "2026-06-18",
+  "close_date": "2026-07-01",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268723",
+  "extra": {
+   "posted_from": "접수일",
+   "search_kw": "신약"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1268722",
+  "source": "NTIS",
+  "kind": "history",
+  "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 기반 확충 연구",
+  "notice_no": "",
+  "type": "",
+  "ministry": "과학기술정보통신부",
+  "agency": "",
+  "status": "마감",
+  "posted": "2026-06-18",
+  "open_date": "2026-06-18",
+  "close_date": "2026-07-01",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268722",
+  "extra": {
+   "posted_from": "접수일",
+   "search_kw": "신약"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1261648",
@@ -5905,7 +5924,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -5931,7 +5950,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255216",
@@ -5954,7 +5973,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018734"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018734&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "국립암센터"
@@ -5980,7 +5999,7 @@
   "notice_no_kind": "IRIS 접수코드",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253615",
@@ -6021,7 +6040,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253182",
@@ -6062,7 +6081,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253893",
@@ -6085,7 +6104,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017054"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017054&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -6111,7 +6130,134 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1251982",
+  "source": "NTIS",
+  "kind": "history",
+  "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
+  "notice_no": "",
+  "type": "",
+  "ministry": "과학기술정보통신부",
+  "agency": "",
+  "status": "마감",
+  "posted": "2026-01-02",
+  "open_date": "2026-01-02",
+  "close_date": "2026-01-14",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251982",
+  "extra": {
+   "posted_from": "접수일",
+   "search_kw": "임상"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발",
+   "임상"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1251981",
+  "source": "NTIS",
+  "kind": "history",
+  "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 RD 생태계 구축 연구",
+  "notice_no": "",
+  "type": "",
+  "ministry": "과학기술정보통신부",
+  "agency": "",
+  "status": "마감",
+  "posted": "2026-01-02",
+  "open_date": "2026-01-02",
+  "close_date": "2026-01-14",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251981",
+  "extra": {
+   "posted_from": "접수일",
+   "search_kw": "신약"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "id": "ntis-1251980",
+  "source": "NTIS",
+  "kind": "history",
+  "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 기반 확충 연구",
+  "notice_no": "",
+  "type": "",
+  "ministry": "과학기술정보통신부",
+  "agency": "",
+  "status": "마감",
+  "posted": "2026-01-02",
+  "open_date": "2026-01-02",
+  "close_date": "2026-01-14",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251980",
+  "extra": {
+   "posted_from": "접수일",
+   "search_kw": "신약"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "신약",
+   "신약개발"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 45,
+  "origin": "NTIS",
+  "origin_label": "NTIS 국가R&D통합공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "type",
+   "agency"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252789",
@@ -6135,7 +6281,7 @@
    ],
    "links": {
     "NTIS": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252788",
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017194"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017194&ancmPrg=ancmEnd"
    },
    "merged_ids": [
     "ntis-1252788",
@@ -6162,7 +6308,7 @@
   "notice_no_kind": "IRIS 접수코드",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252787",
@@ -6185,7 +6331,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017194"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017194&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "국립암센터"
@@ -6211,7 +6357,7 @@
   "notice_no_kind": "IRIS 접수코드",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1250308",
@@ -6252,7 +6398,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48949928",
@@ -6267,7 +6413,7 @@
   "posted": "2026-09-11",
   "open_date": null,
   "close_date": "2026-09-18",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=922&linkId=48949928&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=923&linkId=48949928&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -6292,7 +6438,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48949455",
@@ -6307,7 +6453,7 @@
   "posted": "2026-09-03",
   "open_date": null,
   "close_date": "2026-09-16",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=917&linkId=48949455&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=918&linkId=48949455&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -6332,7 +6478,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1491615",
@@ -6375,7 +6521,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48948725",
@@ -6390,7 +6536,7 @@
   "posted": "2026-08-13",
   "open_date": null,
   "close_date": "2026-08-28",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=915&linkId=48948725&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=916&linkId=48948725&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -6415,7 +6561,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1270450",
@@ -6438,7 +6584,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022457"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022457&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국연구재단"
@@ -6464,7 +6610,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1268856",
@@ -6487,7 +6633,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021754"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021754&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -6511,7 +6657,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1269599",
@@ -6534,7 +6680,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021975"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021975&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국산업기술기획평가원"
@@ -6560,7 +6706,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1268854",
@@ -6583,7 +6729,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022094"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022094&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국연구재단"
@@ -6609,7 +6755,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1268332",
@@ -6632,7 +6778,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021936"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021936&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -6656,7 +6802,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1265428",
@@ -6679,7 +6825,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021355"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021355&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -6703,7 +6849,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264712",
@@ -6742,48 +6888,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "khidiweb-48943715",
-  "source": "KHIDIWEB",
-  "kind": "history",
-  "title": "2026년 한국의료 나눔문화 확산사업(나눔의료) 상시모집 공고",
-  "notice_no": "",
-  "type": "참여기업 모집 (추정)",
-  "ministry": "보건복지부",
-  "agency": "한국보건산업진흥원",
-  "status": "마감(추정)",
-  "posted": "2026-04-30",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999992&linkId=48943715&menuId=MENU01108",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "",
-   "pinned": true
-  },
-  "domains": [
-   "보건의료"
-  ],
-  "matched": [],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "비R&D",
-  "score": 35,
-  "origin": "KHIDIWEB",
-  "origin_label": "KHIDI 대표사이트 사업공고",
-  "notice_no_kind": "없음",
-  "missing": [
-   "notice_no",
-   "open_date",
-   "close_date"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264383",
@@ -6824,7 +6929,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264111",
@@ -6865,7 +6970,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263605",
@@ -6888,7 +6993,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021234"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021234&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -6912,7 +7017,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263319",
@@ -6953,7 +7058,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1263310",
@@ -6994,7 +7099,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253202",
@@ -7033,7 +7138,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1261626",
@@ -7056,7 +7161,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -7080,7 +7185,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1260385",
@@ -7103,7 +7208,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020534&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -7127,7 +7232,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1259822",
@@ -7166,7 +7271,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258705",
@@ -7207,7 +7312,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1259138",
@@ -7248,7 +7353,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258321",
@@ -7287,7 +7392,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258693",
@@ -7327,7 +7432,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257754",
@@ -7366,7 +7471,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-020135",
@@ -7381,7 +7486,7 @@
   "posted": "2026-03-18",
   "open_date": "2026-03-18",
   "close_date": "2026-03-27",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020135",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020135&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -7401,7 +7506,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257755",
@@ -7440,7 +7545,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257752",
@@ -7479,7 +7584,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258411",
@@ -7520,7 +7625,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258228",
@@ -7561,7 +7666,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1258230",
@@ -7602,7 +7707,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257641",
@@ -7643,7 +7748,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257449",
@@ -7684,7 +7789,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257201",
@@ -7725,7 +7830,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256407",
@@ -7766,7 +7871,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257315",
@@ -7789,7 +7894,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019194"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019194&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -7813,7 +7918,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257313",
@@ -7836,7 +7941,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019194"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019194&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -7860,7 +7965,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256577",
@@ -7883,7 +7988,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019194"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019194&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -7907,7 +8012,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256300",
@@ -7948,7 +8053,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256167",
@@ -7989,7 +8094,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253577",
@@ -8012,7 +8117,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017703"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017703&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -8036,7 +8141,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256211",
@@ -8059,7 +8164,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -8083,7 +8188,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255931",
@@ -8106,7 +8211,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -8130,7 +8235,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255942",
@@ -8171,7 +8276,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1255845",
@@ -8194,7 +8299,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018694&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -8218,7 +8323,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1256221",
@@ -8259,7 +8364,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254906",
@@ -8300,7 +8405,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254968",
@@ -8323,7 +8428,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018474"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018474&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -8347,7 +8452,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254291",
@@ -8386,7 +8491,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254811",
@@ -8409,7 +8514,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017714"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017714&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "해양수산과학기술진흥원"
@@ -8435,7 +8540,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254419",
@@ -8458,7 +8563,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018075"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018075&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -8482,7 +8587,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253538",
@@ -8505,7 +8610,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017714"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017714&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "해양수산과학기술진흥원"
@@ -8531,7 +8636,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254356",
@@ -8572,7 +8677,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254295",
@@ -8613,7 +8718,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254322",
@@ -8654,7 +8759,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254329",
@@ -8695,7 +8800,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253520",
@@ -8734,7 +8839,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253518",
@@ -8773,7 +8878,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253395",
@@ -8819,7 +8924,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253337",
@@ -8860,7 +8965,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253335",
@@ -8883,7 +8988,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017755"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017755&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국연구재단"
@@ -8909,7 +9014,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253309",
@@ -8950,7 +9055,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253308",
@@ -9001,7 +9106,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253300",
@@ -9050,7 +9155,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253616",
@@ -9089,7 +9194,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253210",
@@ -9128,7 +9233,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253208",
@@ -9167,7 +9272,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253204",
@@ -9206,7 +9311,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253200",
@@ -9245,7 +9350,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253196",
@@ -9284,7 +9389,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253191",
@@ -9323,7 +9428,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253190",
@@ -9371,7 +9476,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253119",
@@ -9410,7 +9515,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252731",
@@ -9433,7 +9538,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017154"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017154&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -9457,7 +9562,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252668",
@@ -9480,7 +9585,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017417"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017417&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -9504,7 +9609,7 @@
   "notice_no_kind": "소속기관 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253023",
@@ -9527,7 +9632,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017436"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017436&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -9551,7 +9656,7 @@
   "notice_no_kind": "기관 자체번호",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252662",
@@ -9574,7 +9679,7 @@
     "IRIS"
    ],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017414"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017414&ancmPrg=ancmEnd"
    },
    "co_agencies": [
     "한국보건산업진흥원"
@@ -9598,7 +9703,7 @@
   "notice_no_kind": "사업단 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252584",
@@ -9639,7 +9744,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252582",
@@ -9680,7 +9785,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252580",
@@ -9719,7 +9824,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252579",
@@ -9758,7 +9863,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252578",
@@ -9797,7 +9902,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1252577",
@@ -9836,7 +9941,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253401",
@@ -9875,7 +9980,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1251534",
@@ -9914,7 +10019,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1250766",
@@ -9954,7 +10059,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1487527",
@@ -9997,7 +10102,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1482860",
@@ -10040,7 +10145,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1482813",
@@ -10083,7 +10188,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-378696",
@@ -10126,7 +10231,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-378492",
@@ -10169,7 +10274,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-373259",
@@ -10212,7 +10317,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-373157",
@@ -10255,7 +10360,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-368076",
@@ -10298,7 +10403,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-021719",
@@ -10313,13 +10418,13 @@
   "posted": "2026-05-26",
   "open_date": "2026-06-15",
   "close_date": "2026-06-29",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료",
    "also_listed": [],
    "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021715"
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021715&ancmPrg=ancmEnd"
    },
    "merged_ids": [
     "iris-021715",
@@ -10344,7 +10449,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-023640",
@@ -10359,7 +10464,7 @@
   "posted": "2026-08-31",
   "open_date": "2026-08-31",
   "close_date": "2026-10-07",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640&ancmPrg=ancmEnd",
   "extra": {
    "raw_status": "공고마감",
    "raw_phase": "완료"
@@ -10379,7 +10484,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1264112",
@@ -10418,7 +10523,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-020937",
@@ -10453,7 +10558,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-020714",
@@ -10488,7 +10593,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-020637",
@@ -10523,7 +10628,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-020175",
@@ -10558,7 +10663,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-018274",
@@ -10593,7 +10698,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1254521",
@@ -10632,7 +10737,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253123",
@@ -10679,7 +10784,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253120",
@@ -10718,7 +10823,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253339",
@@ -10757,7 +10862,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253297",
@@ -10796,7 +10901,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "iris-017678",
@@ -10831,7 +10936,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1267089",
@@ -10872,7 +10977,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1260145",
@@ -10911,7 +11016,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1257633",
@@ -10950,7 +11055,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1253689",
@@ -10989,7 +11094,7 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "ntis-1251290",
@@ -11028,6 +11133,6 @@
    "agency"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  }
 ]

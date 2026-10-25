@@ -12,7 +12,7 @@
   "posted": "2026-10-12",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.htdream.kr/",
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10829",
   "extra": {
    "seq": 10829
   },
@@ -33,7 +33,7 @@
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidi-10830",
@@ -48,7 +48,7 @@
   "posted": "2026-10-15",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.htdream.kr/",
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10830",
   "extra": {
    "seq": 10830
   },
@@ -68,7 +68,7 @@
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidi-10828",
@@ -83,7 +83,7 @@
   "posted": "2026-10-07",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.htdream.kr/",
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10828",
   "extra": {
    "seq": 10828
   },
@@ -104,7 +104,7 @@
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48950399",
@@ -119,12 +119,12 @@
   "posted": "2026-09-29",
   "open_date": null,
   "close_date": "2026-10-23",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999995&linkId=48950399&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=925&linkId=48950399&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
    "deadline_from": "제목 추정",
-   "pinned": true
+   "pinned": false
   },
   "domains": [
    "의료기기"
@@ -142,7 +142,7 @@
   "origin": "KHIDIWEB",
   "origin_label": "KHIDI 대표사이트 사업공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidi-10816",
@@ -157,7 +157,7 @@
   "posted": "2026-09-27",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.htdream.kr/",
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10816",
   "extra": {
    "seq": 10816
   },
@@ -177,7 +177,7 @@
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidi-10815",
@@ -192,7 +192,7 @@
   "posted": "2026-09-27",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.htdream.kr/",
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10815",
   "extra": {
    "seq": 10815
   },
@@ -212,7 +212,7 @@
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4413",
@@ -245,7 +245,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "khidiweb-48948562",
@@ -260,7 +260,7 @@
   "posted": "2026-08-11",
   "open_date": null,
   "close_date": "2026-09-11",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=914&linkId=48948562&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=915&linkId=48948562&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -283,7 +283,7 @@
   "origin": "KHIDIWEB",
   "origin_label": "KHIDI 대표사이트 사업공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4370",
@@ -316,7 +316,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "mohw-1492134",
@@ -352,7 +352,7 @@
   "origin": "MOHW",
   "origin_label": "보건복지부 공지",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4456",
@@ -383,7 +383,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4011",
@@ -414,7 +414,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4468",
@@ -449,7 +449,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4465",
@@ -482,7 +482,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4459",
@@ -517,7 +517,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4455",
@@ -551,7 +551,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4403",
@@ -584,7 +584,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  },
  {
   "id": "kmdf-4371",
@@ -619,90 +619,6 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "ntis-1279833",
-  "source": "NTIS",
-  "kind": "signal",
-  "title": "2027년도 제품안전관리기술개발및실증사업 기술수요조사 공고",
-  "notice_no": "",
-  "type": "수요조사",
-  "ministry": "산업통상부",
-  "agency": "한국산업기술기획평가원",
-  "status": "접수중",
-  "posted": "2026-10-08",
-  "open_date": "2026-10-08",
-  "close_date": "2026-11-06",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279833",
-  "extra": {
-   "business": "관련정보없음",
-   "amount": "0 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "산업통상부",
-   "d_agency": "한국산업기술기획평가원",
-   "d_posted": "2026-10-08",
-   "d_type": "수요조사",
-   "d_form": "통합공고",
-   "d_business": "관련정보없음",
-   "d_amount": "0 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "signal_type": "수요조사",
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
-  "id": "ntis-1279830",
-  "source": "NTIS",
-  "kind": "signal",
-  "title": "2027년도 제조공급망강화표준물질개발사업 기술수요조사 공고",
-  "notice_no": "",
-  "type": "수요조사",
-  "ministry": "산업통상부",
-  "agency": "한국산업기술기획평가원",
-  "status": "접수중",
-  "posted": "2026-10-08",
-  "open_date": "2026-10-19",
-  "close_date": "2026-11-06",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279830",
-  "extra": {
-   "business": "관련정보없음",
-   "amount": "0 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "산업통상부",
-   "d_agency": "한국산업기술기획평가원",
-   "d_posted": "2026-10-08",
-   "d_type": "수요조사",
-   "d_form": "통합공고",
-   "d_business": "관련정보없음",
-   "d_amount": "0 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "signal_type": "수요조사",
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-26"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-26",
  "series": [
   {
    "key": "바이오접합체기술선도형플랫폼구축",
@@ -28,16 +28,7 @@
      ]
     }
    ],
-   "predictions": [
-    {
-     "start": "2026-10-24",
-     "end": "2026-11-24",
-     "confidence": "하",
-     "basis": [
-      "2025년 10월 공고 반복"
-     ]
-    }
-   ],
+   "predictions": [],
    "forecast_refs": []
   },
   {
@@ -98,6 +89,18 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 AI-네이티브 첨단바이오 자율실험실 사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253336",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년 AI-네이티브 첨단바이오 자율실험실사업 신규과제 공모_(2026)2026년 AI-네이티브 첨단바이오 자율실험실사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253313",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -106,6 +109,13 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 AI-네이티브 첨단바이오 자율실험실 사업 신규과제 재공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256174",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -260,6 +270,18 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253335",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모_(2026)2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253308",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -268,6 +290,18 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 제1차 신규과제 재공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256300",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 재공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256167",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -276,6 +310,13 @@
      "confidence": "중",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 신규과제 제3차 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1259138",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -284,6 +325,13 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 신규과제 제4차 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264383",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -292,6 +340,18 @@
      "confidence": "중",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 제4차 신규과제 재공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268854",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "바이오·의료기술개발 사업 신규과제 제5차 공모_(2026)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270450",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -339,6 +399,18 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253337",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모_(2026)2026년 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253309",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -377,6 +449,13 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 첨단신약 타겟발굴·검증 및 기반기술개발 신규과제 1차 공고_(2026)2026년 첨단신약 타겟발굴검증 및 기반 기술개발 신규과제 1차 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253300",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -424,6 +503,18 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 공공기관 임무중심 감염병연구 다부처협력사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253339",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년 공공기관임무중심감염병연구다부처협력사업 신규과제 공모_(2026)2026년 공공기관임무중심감염병연구다부처협력사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253297",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -471,6 +562,18 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 토양기반기후회복력진단및강화기술개발 사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254322",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 토양기반기후회복력진단및강화기술개발 사업 신규과제 공모_(2026)2026년도 토양기반기후회복력진단및강화기술개발 사업 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254329",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -524,6 +627,13 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 치매의료기술연구개발사업 1차 신규과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254521",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -532,6 +642,13 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 치매의료기술연구개발사업 1차 신규과제 재공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264112",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -571,6 +688,13 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도「범부처 첨단 의료기기 연구개발사업」 과제제안요구서(RFP) 사전공시 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254684",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -610,6 +734,13 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[기타] 오송첨단의료산업진흥재단 2026년도 바이오 혁신기술 규제지원 플랫폼 구축 사업 신규과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255893",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -663,6 +794,13 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 KISTEP 기본사업 위탁연구과제 공모(국가RD 성과의 주요국 우수·실패사례 분석과 국민체감 진단도구 개발)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255942",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -671,6 +809,13 @@
      "confidence": "중",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[재공고] 2026년 KISTEP 기본사업 위탁연구과제 공모(국가RD 성과의 주요국 우수․실패사례 분석과 국민체감 진단도구 개발)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258411",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -724,6 +869,13 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 바이오의료기술개발 사업 제1차 신규과제 2차 재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257449",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -732,6 +884,13 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 바이오·의료기술개발 사업 제1차 신규과제 3차 재공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264111",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -770,6 +929,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 바이오의료기술개발사업(바이오혁신기반조성) 정책지정과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258230",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -808,6 +974,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 바이오안전성평가관리사업 위탁연구과제 공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258228",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -848,6 +1021,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-룩셈부르크 양자기술 공동연구사업 신규과제 공모",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020175",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -888,6 +1068,13 @@
      "confidence": "하",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 치매의료기술연구개발사업 하반기 신규과제 공모",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020714",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -928,6 +1115,13 @@
      "confidence": "하",
      "basis": [
       "2026년 5월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 기술경영촉진(TLO 혁신형) 신규과제 공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020937",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -952,7 +1146,7 @@
       {
        "id": "iris-023640",
        "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-캐나다 양자과학기술 공동연구사업 신규과제 공모",
-       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640&ancmPrg=ancmEnd",
        "open_date": "2026-08-31",
        "close_date": "2026-10-07",
        "notice_no": "과학기술정보통신부 공고 제2026-0899호",
@@ -968,6 +1162,13 @@
      "confidence": "하",
      "basis": [
       "2026년 8월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-캐나다 양자과학기술 공동연구사업 신규과제 공모",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640&ancmPrg=ancmEnd",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -1016,6 +1217,18 @@
      "basis": [
       "2026년 1월 공고 반복",
       "IRIS 사업예고 등재"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 반려동물난치성질환극복기술개발사업 시행계획 공고_(2026)2026년도 반려동물난치성질환극복기술개발사업 시행계획 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253123",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 반려동물난치성질환극복기술개발사업 시행계획 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253120",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -1088,6 +1301,13 @@
      "basis": [
       "2026년 1월 공고 반복",
       "IRIS 사업예고 등재"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 농생명자원기반국가필수의약품원료공급망대응기술개발사업 시행계획 공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017578",
+       "source": "IRIS"
+      }
      ]
     },
     {
@@ -1097,6 +1317,18 @@
      "basis": [
       "2026년 2월 공고 반복",
       "IRIS 사업예고 등재"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 농생명자원기반국가필수의약품원료공급망대응기술개발사업 시행계획 재공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019169",
+       "source": "IRIS"
+      },
+      {
+       "title": "2026년도 농생명자원기반국가필수의약품원료공급망대응기술개발사업 시행계획 재공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019799",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -1150,6 +1382,18 @@
      "confidence": "하",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 농업연구개발사업 3차공모_(2026)곤충단백질특수의료용도식품소재화(자유공모)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252584",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년 농업연구개발사업 3차공모_(2026)곤충단백질특수의료용도식품소재화",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252582",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -1177,8 +1421,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251982",
        "open_date": "2026-01-02",
        "close_date": "2026-01-14",
-       "notice_no": "KDDF_2026_01",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1251981",
@@ -1186,8 +1430,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251981",
        "open_date": "2026-01-02",
        "close_date": "2026-01-14",
-       "notice_no": "KDDF_2026_01",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1251980",
@@ -1195,8 +1439,17 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251980",
        "open_date": "2026-01-02",
        "close_date": "2026-01-14",
+       "notice_no": "",
+       "source": "NTIS"
+      },
+      {
+       "id": "iris-016254",
+       "title": "[2026년 제1차] 국가신약개발사업 신규지원 대상과제 통합공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=016254&ancmPrg=ancmEnd",
+       "open_date": "2026-01-02",
+       "close_date": "2026-01-14",
        "notice_no": "KDDF_2026_01",
-       "source": "NTIS + IRIS"
+       "source": "IRIS"
       }
      ]
     },
@@ -1210,8 +1463,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269306",
        "open_date": "2026-06-04",
        "close_date": "2026-07-01",
-       "notice_no": "KDDF_2026_02",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1268724",
@@ -1219,8 +1472,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268724",
        "open_date": "2026-06-18",
        "close_date": "2026-07-01",
-       "notice_no": "KDDF_2026_02",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1268723",
@@ -1228,8 +1481,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268723",
        "open_date": "2026-06-18",
        "close_date": "2026-07-01",
-       "notice_no": "KDDF_2026_02",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1268722",
@@ -1237,8 +1490,17 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268722",
        "open_date": "2026-06-18",
        "close_date": "2026-07-01",
+       "notice_no": "",
+       "source": "NTIS"
+      },
+      {
+       "id": "iris-022054",
+       "title": "[2026년 제2차] 국가신약개발사업 신규지원 대상과제 통합공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022054&ancmPrg=ancmEnd",
+       "open_date": "2026-06-18",
+       "close_date": "2026-07-01",
        "notice_no": "KDDF_2026_02",
-       "source": "NTIS + IRIS"
+       "source": "IRIS"
       }
      ]
     }
@@ -1250,6 +1512,18 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251982",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 RD 생태계 구축 연구",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251981",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -1258,6 +1532,18 @@
      "confidence": "중",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 국가신약개발사업 신규지원 대상과제 통합공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269306",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268724",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -1397,6 +1683,18 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1405,6 +1703,13 @@
      "confidence": "중",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258483",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1413,6 +1718,18 @@
      "confidence": "중",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268725",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[3내역] 의료현장 진입 역량 강화",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269892",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1421,6 +1738,18 @@
      "confidence": "중",
      "basis": [
       "2026년 7월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272999",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272698",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -1582,6 +1911,18 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253033",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253031",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1590,6 +1931,18 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)중독자데이터기반마약중독재활기술개발연구(RD)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255952",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255950",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1598,6 +1951,18 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고_(2026)글로벌규제과학리더양성사업(RD)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264711",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 제2차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264717",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -1759,6 +2124,18 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)2. [심화형] 첨단재생의료 임상연구 고도화 지원",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256171",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)1. [일반형] 첨단재생의료 임상연구 지원",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256170",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1767,6 +2144,13 @@
      "confidence": "중",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제3차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270088",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1775,6 +2159,18 @@
      "confidence": "중",
      "basis": [
       "2026년 9월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_2. [심화형] 첨단재생의료 임상연구 고도화 지원",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278131",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278130",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -1825,6 +2221,18 @@
      "confidence": "하",
      "basis": [
       "2025년 11월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2025년도 글로벌 의사과학자 양성사업 (임상현장 의사과학자 연구 멘토링사업) 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1250309",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2025년도 글로벌 의사과학자 양성사업(의사과학자 양성 사무국 운영) 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1250308",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -1865,6 +2273,13 @@
      "confidence": "하",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고_(2026)2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252018",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -1930,6 +2345,18 @@
      "basis": [
       "2025년 12월 공고 반복",
       "IRIS 사업예고 등재"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(품목지정공모)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252789",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(자유공모)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252787",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -1939,6 +2366,13 @@
      "basis": [
       "2026년 2월 공고 반복",
       "IRIS 사업예고 등재"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 암정복추진연구개발사업 신규과제 재공모",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255216",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -2021,6 +2455,18 @@
      "confidence": "하",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252662",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고_(2026)의료기술 근거생성 가이드라인 연구",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252580",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -2059,6 +2505,13 @@
      "confidence": "하",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 질병관리청 국립보건연구원 연구개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253401",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -2466,6 +2919,18 @@
      "confidence": "중",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252731",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)구조기반AI신약개발지원",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253181",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -2474,6 +2939,18 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 제1차 보건의료기술 연구개발사업 신규지원 대상 과제 통합 재공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255845",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합 재공고_(2026)(14-1) 첨단바이오 융합인재 양성(RD)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255928",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -2482,6 +2959,18 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260385",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)(3-1) 지역의료혁신연구개발사업",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261626",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -2576,6 +3065,18 @@
      "confidence": "중",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(1. 필수/2-1. 미래)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252492",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(2-2. 미래)2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252491",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -2584,6 +3085,13 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 재공고_(2026)(2-2. 미래)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254699",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -2592,6 +3100,13 @@
      "confidence": "중",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270087",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -2600,6 +3115,13 @@
      "confidence": "중",
      "basis": [
       "2026년 7월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273371",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -2649,6 +3171,18 @@
      "confidence": "하",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253023",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고_(2026)2026년도 치매극복연구개발사업",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253395",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -2705,6 +3239,13 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고_(2026)2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253893",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -2713,6 +3254,13 @@
      "confidence": "중",
      "basis": [
       "2026년 7월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 글로벌연구협력지원사업(첨단바이오 전략거점센터) 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1274347",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -2755,6 +3303,13 @@
      "basis": [
       "2026년 1월 공고 반복",
       "IRIS 사업예고 등재"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 면역세포유전자치료제전주기기술개발사업 연구지원과제 공고 _(2026)면역세포유전자치료제전주기기술개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253283",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -2817,6 +3372,13 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고_(2026)2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253602",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -2825,6 +3387,13 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256790",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -2899,6 +3468,18 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_한의의료기술 최적화 임상연구",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253519",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_한의중개개인연구",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253520",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -2907,6 +3488,13 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253577",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -2945,6 +3533,13 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253689",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -2994,6 +3589,18 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254419",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고_(2026)규제대응 평가기술 지원",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254291",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3034,6 +3641,13 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 연구중심병원 도약지원사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254968",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -3072,6 +3686,13 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[기타] 한국보건산업진흥원 첨단바이오 융합인재 양성(RD) 사업 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256505",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3110,6 +3731,13 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 첨단바이오 융합인재 양성(RD) 사업 재공고(~2.26(목) 14:00마감)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256104",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3167,7 +3795,7 @@
       {
        "id": "iris-020135",
        "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 재공고",
-       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020135",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020135&ancmPrg=ancmEnd",
        "open_date": "2026-03-18",
        "close_date": "2026-03-27",
        "notice_no": "보조기기실용화연구개발사업단공고 제2026-2호",
@@ -3183,6 +3811,18 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)지역기반 보조기기 RSD",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257315",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)자가운전 접근성 및 편의성 향상을 위한 커넥티드 서비스 시스템 기술개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257313",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -3191,6 +3831,13 @@
      "confidence": "중",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 재공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020135&ancmPrg=ancmEnd",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -3229,6 +3876,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[중개-3] 보행 환경 변화에 실시간 대처가 가능한 AI기반 Assisted-as-Needed 기능을 가진 하지재활로봇 중개연구",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257753",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3267,6 +3921,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[중개-2] 부분 체중지지 및 하지보조가 가능한 케이블 구동형 보행재활로봇 시스템 중개연구 및 인허가",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257752",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3305,6 +3966,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[중개-8] 상지 또는 체간 재활을 위한 지능형 전기자극 및 로봇 연동이 가능한 멀티 모달 중재시스템 중개연구 및 인허가",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257755",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3343,6 +4011,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[중개-4] 실내 재활을 위한 이동식(Portable) 발목재활로봇시스템 중개연구 및 인허가",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257754",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3381,6 +4056,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[중개-6] LLM 및 VR/XR 기반 지능형 상지재활 로봇 기술 중개연구",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258321",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3419,6 +4101,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[중개-7] 뇌졸중으로 인한 장애인의 자발적 재활을 위한 센서 기반 운동 학습 평가 및 AI회복 예측 기술의 실사용 환경에서의 중개연구 및 인증",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257762",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3457,6 +4146,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 투·융자 연계 기술개발사업 정책지정형 시행계획 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1259822",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3495,6 +4191,13 @@
      "confidence": "하",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 「혁신 프리미어 1000」 바이오헬스분야 모집 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260357",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3533,6 +4236,13 @@
      "confidence": "하",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 연합학습 기반 신약개발 가속화 프로젝트 사업신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264971",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3607,6 +4317,18 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 개별공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263605",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 개별공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265967",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -3615,6 +4337,18 @@
      "confidence": "중",
      "basis": [
       "2026년 5월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268332",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 재공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268601",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3664,6 +4398,18 @@
      "confidence": "하",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263608",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 제2차 RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264885",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -3704,6 +4450,13 @@
      "confidence": "하",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 첨단바이오 융합인재 양성사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263843",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -3753,6 +4506,18 @@
      "confidence": "하",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 연구중심병원(한미혁신성과창출RD, 협력지원 RD) 신규지원 대상과제 통합공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264712",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 연구중심병원(한미혁신성과창출RD 협력지원 RD) 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265428",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -3791,6 +4556,13 @@
      "confidence": "하",
      "basis": [
       "2026년 5월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 바이오헬스 글로벌 석학 멘토십 프로그램 수행기관 모집 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1266208",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3829,6 +4601,13 @@
      "confidence": "하",
      "basis": [
       "2026년 5월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "AI 융합형 돌봄로봇 및 서비스 중개연구 RD 기획 용역 재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1267089",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3869,6 +4648,13 @@
      "confidence": "하",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268856",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -3922,6 +4708,13 @@
      "confidence": "중",
      "basis": [
       "2026년 7월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 핵심인재 글로벌 브릿지 연수 프로그램 수행기관 모집 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272995",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -3930,6 +4723,13 @@
      "confidence": "중",
      "basis": [
       "2026년 9월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "「2026년 핵심인재 글로벌 브릿지 연수 프로그램 수행기관 모집」 2차 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277712",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -3968,6 +4768,13 @@
      "confidence": "하",
      "basis": [
       "2026년 8월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 핵심인재 글로벌 브릿지 연수 프로그램 (중개연구 사업화 트랙) 연수생 모집 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1275440",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4008,6 +4815,13 @@
      "confidence": "하",
      "basis": [
       "2026년 10월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 한의약혁신기술개발사업 사업단장 공모안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279523",
+       "source": "NTIS + MOHW + KHIDI"
+      }
      ]
     }
    ],
@@ -4049,21 +4863,75 @@
      "basis": [
       "2026년 10월 공고 반복",
       "IRIS 사업예고 등재"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279831",
+       "source": "NTIS + KHIDI + IRIS"
+      }
      ]
     }
    ],
    "forecast_refs": [
     {
-     "title": "지역거점AX혁신기술개발(R&D)",
+     "title": "지역거점AX혁신기술개발(R&D)_(내역1)표준모델 AX R&D_NIPA",
      "year": "2026",
      "expected": "10월"
     },
     {
-     "title": "지역거점AX혁신기술개발(R&D)_(내역1)표준모델 AX R&D_NIPA",
+     "title": "지역거점AX혁신기술개발(R&D)",
      "year": "2026",
      "expected": "10월"
     }
    ]
+  },
+  {
+   "key": "융합형의사과학자양성사업",
+   "name": "융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
+   "ministry": "보건복지부",
+   "agencies": [
+    "한국보건산업진흥원"
+   ],
+   "domains": [
+    "보건의료"
+   ],
+   "rounds_per_year": 1,
+   "rounds": [
+    {
+     "start": "2026-10-22",
+     "end": "2026-11-18",
+     "items": [
+      {
+       "id": "khidi-pban-8946",
+       "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
+       "url": "https://www.htdream.kr/",
+       "open_date": "2026-10-22",
+       "close_date": "2026-11-18",
+       "notice_no": "한국보건산업진흥원 공고 제 2026-295호",
+       "source": "KHIDI + KHIDIWEB"
+      }
+     ]
+    }
+   ],
+   "predictions": [
+    {
+     "start": "2027-10-22",
+     "end": "2027-11-18",
+     "confidence": "하",
+     "basis": [
+      "2026년 10월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
+       "url": "https://www.htdream.kr/",
+       "source": "KHIDI + KHIDIWEB"
+      }
+     ]
+    }
+   ],
+   "forecast_refs": []
   },
   {
    "key": "중견중소기업상생형혁신도약사업지원",
@@ -4115,6 +4983,13 @@
      "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 중견중소기업상생형혁신도약사업 신규지원 공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018274",
+       "source": "IRIS"
+      }
      ]
     },
     {
@@ -4123,6 +4998,13 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 중견중소기업상생형혁신도약사업[탐색연구] 신규지원 2차 공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020637",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -4161,6 +5043,13 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 바이오 유래 고분자 시장 활성화를 위한 원료 생산 및 제품 고부가화 기술개발사업 신규지원 대상과제 공고_(2026)2026년도 바이오유래고분자시장활성화를위한원료생산및제품고부가화 기술개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256407",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4200,6 +5089,13 @@
      "confidence": "하",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 혁신신약 연구개발 가속화플랫폼 구축(RD) 신규사업 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261628",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4255,6 +5151,13 @@
      "confidence": "중",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258705",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -4263,6 +5166,13 @@
      "confidence": "중",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제2차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269599",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -4331,6 +5241,13 @@
      "confidence": "중",
      "basis": [
       "2025년 11월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 제1차 용역연구개발과제 주관연구기관 공모 재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251290",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -4339,6 +5256,13 @@
      "confidence": "중",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 제2차 용역연구개발과제 주관연구기관 공모 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257633",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -4347,6 +5271,13 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 제2차 용역연구개발과제 주관연구기관 공모 재공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260145",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4385,6 +5316,13 @@
      "confidence": "하",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2025년 12월 현안연구개발과제 주관연구기관 공모 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251534",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4423,6 +5361,13 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고 안내서(재공고)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256228",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4470,6 +5415,18 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 표준공정 기반 공정최적화 기술개발사업 사전연구 및 제조현장진단 전문연구기관 모집 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256221",
+       "source": "NTIS"
+      },
+      {
+       "title": "『2026년도 표준공정 기반 공정최적화 기술개발(RD)사업』 사전연구 및 제조현장진단 전문연구기관 모집공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254906",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4510,6 +5467,13 @@
      "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017678",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -4660,6 +5624,13 @@
      "confidence": "중",
      "basis": [
       "2026년 3월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2025-DCP-23_첨단바이오)딥테크 챌린지 프로젝트(DCP*))",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257641",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -4668,6 +5639,18 @@
      "confidence": "중",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2026-DCP-07_생명·신약_딥테크 챌린지 프로젝트(DCP*))",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263318",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2026-DCP-06_생명·신약_딥테크 챌린지 프로젝트(DCP*))",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263309",
+       "source": "NTIS"
+      }
      ]
     },
     {
@@ -4676,6 +5659,13 @@
      "confidence": "중",
      "basis": [
       "2026년 8월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-09_생명·신약(전략투자로드맵 기반)_딥테크 챌린지 프로젝트(DCP*))",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263311",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -4684,6 +5674,18 @@
      "confidence": "중",
      "basis": [
       "2026년 9월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-40_생명/신약_딥테크 챌린지 프로젝트(DCP))",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278997",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2026-DCP-39_생명/신약_딥테크 챌린지 프로젝트(DCP))",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278996",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -4733,6 +5735,18 @@
      "confidence": "하",
      "basis": [
       "2026년 4월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(AI기반후보물질탐색) 시행계획 공고_(2026)AI기반후보물질탐색",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260577",
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(신약파이프라인공동개발) 시행계획 공고_(2026)신약파이프라인공동개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260576",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4757,7 +5771,7 @@
       {
        "id": "iris-021719",
        "title": "2026년도 민관공동기술사업화(R&D)'구매연계(혁신형도전)' 하반기 시행계획 공고",
-       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719&ancmPrg=ancmEnd",
        "open_date": "2026-06-15",
        "close_date": "2026-06-29",
        "notice_no": "중소벤처기업부 공고 제2026-354호",
@@ -4773,6 +5787,13 @@
      "confidence": "하",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 민관공동기술사업화(R&D)'구매연계(혁신형도전)' 하반기 시행계획 공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719&ancmPrg=ancmEnd",
+       "source": "IRIS"
+      }
      ]
     }
    ],
@@ -4813,6 +5834,13 @@
      "confidence": "하",
      "basis": [
       "2026년 7월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 중소기업기술혁신개발사업 글로벌선도기술개발(수출지향형) 바이오헬스 추천기업 대상 연구개발계획서 제출 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273071",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -4853,6 +5881,13 @@
      "confidence": "하",
      "basis": [
       "2025년 12월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252668",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -4900,6 +5935,18 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[조달청 사전규격공개] (RFP1-1-1) 감염병 임상시험 활성화를 위한 감염병 임상시험 컨소시엄 및 지원체계 운영",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252892",
+       "source": "NTIS"
+      },
+      {
+       "title": "[조달청 본공고] [RFP1-1-1]감염병 임상시험 활성화를 위한 감염병 임상시험 컨소시엄 및 지원체계 운영",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253896",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -4956,6 +6003,18 @@
      "confidence": "하",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "[조달청 사전규격공개] (RFP1-1-2) 국내 연구자주도 감염병 임상시험 기획 및 네트워크 구축 (③우선순위 바이러스 감염병 치료전략 마련 등)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252905",
+       "source": "NTIS"
+      },
+      {
+       "title": "[조달청 사전규격공개] (RFP1-1-2) 국내 연구자주도 감염병 임상시험 기획 및 네트워크 구축 (②항생제 내성균 치료 관련)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252896",
+       "source": "NTIS"
+      }
      ]
     }
    ],
@@ -5030,6 +6089,18 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(1-1) 우선순위 감염병 대유행 대비 신속개발기술 구축 지원사업(한타 바이러스 백신 개발)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253215",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253214",
+       "source": "NTIS + IRIS"
+      }
      ]
     },
     {
@@ -5038,6 +6109,13 @@
      "confidence": "중",
      "basis": [
       "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 재공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254817",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -5062,7 +6140,7 @@
       {
        "id": "iris-021495",
        "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
-       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021495",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021495&ancmPrg=ancmEnd",
        "open_date": "2026-05-13",
        "close_date": "2026-06-04",
        "notice_no": "질병관리청 국립보건연구원 공고 제2026-253호",
@@ -5093,6 +6171,13 @@
      "confidence": "중",
      "basis": [
       "2026년 5월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
+       "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021495&ancmPrg=ancmEnd",
+       "source": "IRIS"
+      }
      ]
     },
     {
@@ -5101,6 +6186,13 @@
      "confidence": "중",
      "basis": [
       "2026년 6월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269671",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
@@ -5148,38 +6240,28 @@
     {
      "start": "2027-01-26",
      "end": "2027-02-19",
-     "confidence": "중",
+     "confidence": "하",
      "basis": [
-      "2026년 1월 공고 반복",
-      "IRIS 사업예고 등재"
+      "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_(2026)2026년도 양식어류 신규 고효능 백신 개발 및 백신 접종 프로그램을 통한 내병종자 보급 신규과제 선정계획 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254811",
+       "source": "NTIS + IRIS"
+      },
+      {
+       "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_2026년도 양식생물 주요질병 신속·다중 진단고도화 기술개발 신규과제 선정계획 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253538",
+       "source": "NTIS + IRIS"
+      }
      ]
     }
    ],
-   "forecast_refs": [
-    {
-     "title": "양식생물생물보안체계구축을위한기술개발(R&D)",
-     "year": "2026",
-     "expected": "1월"
-    }
-   ]
+   "forecast_refs": []
   }
  ],
  "upcoming": [
-  {
-   "name": "바이오접합체 기술선도형 플랫폼 구축 신규과제 공모",
-   "ministry": "과학기술정보통신부",
-   "domains": [
-    "디지털헬스",
-    "바이오"
-   ],
-   "agencies": [],
-   "start": "2026-10-24",
-   "end": "2026-11-24",
-   "confidence": "하",
-   "basis": [
-    "2025년 10월 공고 반복"
-   ]
-  },
   {
    "name": "글로벌 의사과학자 양성사업(의사과학자 양성 사무국 운영) 신규지원 대상과제 공고",
    "ministry": "보건복지부",
@@ -5195,6 +6277,18 @@
    "confidence": "하",
    "basis": [
     "2025년 11월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2025년도 글로벌 의사과학자 양성사업 (임상현장 의사과학자 연구 멘토링사업) 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1250309",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2025년도 글로벌 의사과학자 양성사업(의사과학자 양성 사무국 운영) 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1250308",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5209,6 +6303,13 @@
    "confidence": "중",
    "basis": [
     "2025년 11월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 제1차 용역연구개발과제 주관연구기관 공모 재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251290",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5223,6 +6324,13 @@
    "confidence": "하",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2025년 12월 현안연구개발과제 주관연구기관 공모 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251534",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5239,6 +6347,13 @@
    "confidence": "하",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고_(2026)2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252018",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5256,6 +6371,18 @@
    "basis": [
     "2025년 12월 공고 반복",
     "IRIS 사업예고 등재"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(품목지정공모)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252789",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(자유공모)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252787",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5270,6 +6397,18 @@
    "confidence": "하",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 농업연구개발사업 3차공모_(2026)곤충단백질특수의료용도식품소재화(자유공모)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252584",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년 농업연구개발사업 3차공모_(2026)곤충단백질특수의료용도식품소재화",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252582",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5286,6 +6425,18 @@
    "confidence": "하",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252662",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고_(2026)의료기술 근거생성 가이드라인 연구",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252580",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5300,6 +6451,13 @@
    "confidence": "하",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 질병관리청 국립보건연구원 연구개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253401",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5320,6 +6478,18 @@
    "confidence": "중",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252731",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)구조기반AI신약개발지원",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253181",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5336,6 +6506,18 @@
    "confidence": "중",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(1. 필수/2-1. 미래)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252492",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(2-2. 미래)2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252491",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5352,6 +6534,18 @@
    "confidence": "하",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253023",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고_(2026)2026년도 치매극복연구개발사업",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253395",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5368,6 +6562,13 @@
    "confidence": "하",
    "basis": [
     "2025년 12월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252668",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5384,6 +6585,18 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251982",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 제1차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 RD 생태계 구축 연구",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1251981",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5398,6 +6611,18 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[조달청 사전규격공개] (RFP1-1-1) 감염병 임상시험 활성화를 위한 감염병 임상시험 컨소시엄 및 지원체계 운영",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252892",
+     "source": "NTIS"
+    },
+    {
+     "title": "[조달청 본공고] [RFP1-1-1]감염병 임상시험 활성화를 위한 감염병 임상시험 컨소시엄 및 지원체계 운영",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253896",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5412,6 +6637,18 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[조달청 사전규격공개] (RFP1-1-2) 국내 연구자주도 감염병 임상시험 기획 및 네트워크 구축 (③우선순위 바이러스 감염병 치료전략 마련 등)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252905",
+     "source": "NTIS"
+    },
+    {
+     "title": "[조달청 사전규격공개] (RFP1-1-2) 국내 연구자주도 감염병 임상시험 기획 및 네트워크 구축 (②항생제 내성균 치료 관련)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252896",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5429,6 +6666,18 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253033",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253031",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5446,6 +6695,13 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고_(2026)2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253893",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5463,6 +6719,18 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(1-1) 우선순위 감염병 대유행 대비 신속개발기술 구축 지원사업(한타 바이러스 백신 개발)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253215",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253214",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5478,6 +6746,18 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 AI-네이티브 첨단바이오 자율실험실 사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253336",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년 AI-네이티브 첨단바이오 자율실험실사업 신규과제 공모_(2026)2026년 AI-네이티브 첨단바이오 자율실험실사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253313",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5494,6 +6774,18 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253335",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모_(2026)2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253308",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5508,6 +6800,18 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253337",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모_(2026)2026년 AIx바이오 혁신연구거점 조성 시범사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253309",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5522,6 +6826,13 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 첨단신약 타겟발굴·검증 및 기반기술개발 신규과제 1차 공고_(2026)2026년 첨단신약 타겟발굴검증 및 기반 기술개발 신규과제 1차 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253300",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5536,6 +6847,18 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 공공기관 임무중심 감염병연구 다부처협력사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253339",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년 공공기관임무중심감염병연구다부처협력사업 신규과제 공모_(2026)2026년 공공기관임무중심감염병연구다부처협력사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253297",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5554,6 +6877,13 @@
    "basis": [
     "2026년 1월 공고 반복",
     "IRIS 사업예고 등재"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 면역세포유전자치료제전주기기술개발사업 연구지원과제 공고 _(2026)면역세포유전자치료제전주기기술개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253283",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5569,6 +6899,18 @@
    "basis": [
     "2026년 1월 공고 반복",
     "IRIS 사업예고 등재"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 반려동물난치성질환극복기술개발사업 시행계획 공고_(2026)2026년도 반려동물난치성질환극복기술개발사업 시행계획 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253123",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 반려동물난치성질환극복기술개발사업 시행계획 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253120",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5587,6 +6929,13 @@
    "basis": [
     "2026년 1월 공고 반복",
     "IRIS 사업예고 등재"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 농생명자원기반국가필수의약품원료공급망대응기술개발사업 시행계획 공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017578",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -5604,6 +6953,13 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고_(2026)2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253602",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5621,6 +6977,18 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_한의의료기술 최적화 임상연구",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253519",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고_한의중개개인연구",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253520",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5635,6 +7003,13 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253689",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5649,6 +7024,18 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 토양기반기후회복력진단및강화기술개발 사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254322",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 토양기반기후회복력진단및강화기술개발 사업 신규과제 공모_(2026)2026년도 토양기반기후회복력진단및강화기술개발 사업 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254329",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5665,6 +7052,18 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254419",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고_(2026)규제대응 평가기술 지원",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254291",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5679,10 +7078,21 @@
    ],
    "start": "2027-01-26",
    "end": "2027-02-19",
-   "confidence": "중",
+   "confidence": "하",
    "basis": [
-    "2026년 1월 공고 반복",
-    "IRIS 사업예고 등재"
+    "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_(2026)2026년도 양식어류 신규 고효능 백신 개발 및 백신 접종 프로그램을 통한 내병종자 보급 신규과제 선정계획 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254811",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_2026년도 양식생물 주요질병 신속·다중 진단고도화 기술개발 신규과제 선정계획 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253538",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5697,6 +7107,13 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 치매의료기술연구개발사업 1차 신규과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254521",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5712,6 +7129,13 @@
    "confidence": "하",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도「범부처 첨단 의료기기 연구개발사업」 과제제안요구서(RFP) 사전공시 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254684",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5728,6 +7152,13 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 재공고_(2026)(2-2. 미래)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254699",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5745,6 +7176,13 @@
    "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 재공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254817",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5760,6 +7198,13 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[기타] 오송첨단의료산업진흥재단 2026년도 바이오 혁신기술 규제지원 플랫폼 구축 사업 신규과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255893",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5776,6 +7221,13 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 연구중심병원 도약지원사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254968",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5793,6 +7245,13 @@
    "basis": [
     "2026년 2월 공고 반복",
     "IRIS 사업예고 등재"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 암정복추진연구개발사업 신규과제 재공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255216",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5809,6 +7268,13 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 중견중소기업상생형혁신도약사업 신규지원 공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=018274",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -5823,6 +7289,18 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 표준공정 기반 공정최적화 기술개발사업 사전연구 및 제조현장진단 전문연구기관 모집 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256221",
+     "source": "NTIS"
+    },
+    {
+     "title": "『2026년도 표준공정 기반 공정최적화 기술개발(RD)사업』 사전연구 및 제조현장진단 전문연구기관 모집공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254906",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5843,6 +7321,18 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 제1차 보건의료기술 연구개발사업 신규지원 대상 과제 통합 재공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255845",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합 재공고_(2026)(14-1) 첨단바이오 융합인재 양성(RD)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255928",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5857,6 +7347,13 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[기타] 한국보건산업진흥원 첨단바이오 융합인재 양성(RD) 사업 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256505",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5871,6 +7368,13 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 KISTEP 기본사업 위탁연구과제 공모(국가RD 성과의 주요국 우수·실패사례 분석과 국민체감 진단도구 개발)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255942",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5888,6 +7392,18 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)중독자데이터기반마약중독재활기술개발연구(RD)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255952",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255950",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5905,6 +7421,18 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)2. [심화형] 첨단재생의료 임상연구 고도화 지원",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256171",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)1. [일반형] 첨단재생의료 임상연구 지원",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256170",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5919,6 +7447,13 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 첨단바이오 융합인재 양성(RD) 사업 재공고(~2.26(목) 14:00마감)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256104",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5934,6 +7469,13 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 AI-네이티브 첨단바이오 자율실험실 사업 신규과제 재공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256174",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5950,6 +7492,18 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 제1차 신규과제 재공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256300",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 재공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256167",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5967,6 +7521,13 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253577",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -5981,6 +7542,13 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고 안내서(재공고)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256228",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -5999,6 +7567,18 @@
    "basis": [
     "2026년 2월 공고 반복",
     "IRIS 사업예고 등재"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 농생명자원기반국가필수의약품원료공급망대응기술개발사업 시행계획 재공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019169",
+     "source": "IRIS"
+    },
+    {
+     "title": "2026년도 농생명자원기반국가필수의약품원료공급망대응기술개발사업 시행계획 재공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019799",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6015,6 +7595,18 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)지역기반 보조기기 RSD",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257315",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)자가운전 접근성 및 편의성 향상을 위한 커넥티드 서비스 시스템 기술개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257313",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6031,6 +7623,18 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6048,6 +7652,13 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256790",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6064,6 +7675,13 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017678",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6078,6 +7696,13 @@
    "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 바이오 유래 고분자 시장 활성화를 위한 원료 생산 및 제품 고부가화 기술개발사업 신규지원 대상과제 공고_(2026)2026년도 바이오유래고분자시장활성화를위한원료생산및제품고부가화 기술개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256407",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6092,6 +7717,13 @@
    "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 바이오의료기술개발 사업 제1차 신규과제 2차 재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257449",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6106,6 +7738,13 @@
    "confidence": "중",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 제2차 용역연구개발과제 주관연구기관 공모 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257633",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6124,6 +7763,13 @@
    "confidence": "중",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2025-DCP-23_첨단바이오)딥테크 챌린지 프로젝트(DCP*))",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257641",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6138,6 +7784,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 바이오의료기술개발사업(바이오혁신기반조성) 정책지정과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258230",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6152,6 +7805,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 바이오안전성평가관리사업 위탁연구과제 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258228",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6166,6 +7826,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[중개-3] 보행 환경 변화에 실시간 대처가 가능한 AI기반 Assisted-as-Needed 기능을 가진 하지재활로봇 중개연구",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257753",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6180,6 +7847,13 @@
    "confidence": "중",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[재공고] 2026년 KISTEP 기본사업 위탁연구과제 공모(국가RD 성과의 주요국 우수․실패사례 분석과 국민체감 진단도구 개발)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258411",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6196,6 +7870,13 @@
    "confidence": "중",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258483",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6210,6 +7891,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[중개-2] 부분 체중지지 및 하지보조가 가능한 케이블 구동형 보행재활로봇 시스템 중개연구 및 인허가",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257752",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6224,6 +7912,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[중개-8] 상지 또는 체간 재활을 위한 지능형 전기자극 및 로봇 연동이 가능한 멀티 모달 중재시스템 중개연구 및 인허가",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257755",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6240,6 +7935,13 @@
    "confidence": "중",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 재공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020135&ancmPrg=ancmEnd",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6254,6 +7956,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[중개-4] 실내 재활을 위한 이동식(Portable) 발목재활로봇시스템 중개연구 및 인허가",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257754",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6270,6 +7979,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-룩셈부르크 양자기술 공동연구사업 신규과제 공모",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020175",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6285,6 +8001,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 혁신신약 연구개발 가속화플랫폼 구축(RD) 신규사업 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261628",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6301,6 +8024,13 @@
    "confidence": "중",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 신규과제 제3차 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1259138",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6315,6 +8045,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[중개-6] LLM 및 VR/XR 기반 지능형 상지재활 로봇 기술 중개연구",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258321",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6329,6 +8066,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "[중개-7] 뇌졸중으로 인한 장애인의 자발적 재활을 위한 센서 기반 운동 학습 평가 및 AI회복 예측 기술의 실사용 환경에서의 중개연구 및 인증",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257762",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6345,6 +8089,13 @@
    "confidence": "중",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제1차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258705",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6359,6 +8110,13 @@
    "confidence": "하",
    "basis": [
     "2026년 3월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 투·융자 연계 기술개발사업 정책지정형 시행계획 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1259822",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6373,6 +8131,13 @@
    "confidence": "하",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 「혁신 프리미어 1000」 바이오헬스분야 모집 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260357",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6387,6 +8152,13 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 제2차 용역연구개발과제 주관연구기관 공모 재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260145",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6407,6 +8179,18 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260385",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)(3-1) 지역의료혁신연구개발사업",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261626",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6423,6 +8207,13 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 중견중소기업상생형혁신도약사업[탐색연구] 신규지원 2차 공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020637",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6439,6 +8230,18 @@
    "confidence": "하",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(AI기반후보물질탐색) 시행계획 공고_(2026)AI기반후보물질탐색",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260577",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 제약바이오벤처 협업기반 기술개발사업(신약파이프라인공동개발) 시행계획 공고_(2026)신약파이프라인공동개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260576",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6455,6 +8258,13 @@
    "confidence": "하",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 치매의료기술연구개발사업 하반기 신규과제 공모",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020714",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6469,6 +8279,13 @@
    "confidence": "하",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 연합학습 기반 신약개발 가속화 프로젝트 사업신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264971",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6487,6 +8304,18 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2026-DCP-07_생명·신약_딥테크 챌린지 프로젝트(DCP*))",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263318",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2026-DCP-06_생명·신약_딥테크 챌린지 프로젝트(DCP*))",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263309",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6504,6 +8333,18 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 개별공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263605",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 개별공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265967",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6520,6 +8361,18 @@
    "confidence": "하",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263608",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 제2차 RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264885",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6536,6 +8389,13 @@
    "confidence": "하",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 첨단바이오 융합인재 양성사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263843",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6550,6 +8410,13 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 치매의료기술연구개발사업 1차 신규과제 재공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264112",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6564,6 +8431,13 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 제1차 신규과제 3차 재공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264111",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6580,6 +8454,13 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 신규과제 제4차 공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264383",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6597,6 +8478,18 @@
    "confidence": "중",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고_(2026)글로벌규제과학리더양성사업(RD)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264711",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 제2차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264717",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6613,6 +8506,18 @@
    "confidence": "하",
    "basis": [
     "2026년 4월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 연구중심병원(한미혁신성과창출RD, 협력지원 RD) 신규지원 대상과제 통합공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264712",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 연구중심병원(한미혁신성과창출RD 협력지원 RD) 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265428",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6629,6 +8534,13 @@
    "confidence": "하",
    "basis": [
     "2026년 5월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 기술경영촉진(TLO 혁신형) 신규과제 공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=020937",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6643,6 +8555,13 @@
    "confidence": "하",
    "basis": [
     "2026년 5월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 바이오헬스 글로벌 석학 멘토십 프로그램 수행기관 모집 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1266208",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6659,6 +8578,13 @@
    "confidence": "중",
    "basis": [
     "2026년 5월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021495&ancmPrg=ancmEnd",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6673,6 +8599,13 @@
    "confidence": "하",
    "basis": [
     "2026년 5월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "AI 융합형 돌봄로봇 및 서비스 중개연구 RD 기획 용역 재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1267089",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6690,6 +8623,18 @@
    "confidence": "중",
    "basis": [
     "2026년 5월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268332",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 재공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268601",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6706,6 +8651,18 @@
    "confidence": "중",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 바이오·의료기술개발 사업 제4차 신규과제 재공모",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268854",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "바이오·의료기술개발 사업 신규과제 제5차 공모_(2026)",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270450",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6722,6 +8679,18 @@
    "confidence": "중",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 국가신약개발사업 신규지원 대상과제 통합공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269306",
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년 제2차 국가신약개발사업 신규지원 대상과제 통합공고_(2026)신약 임상개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268724",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6738,6 +8707,13 @@
    "confidence": "중",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269599",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6754,6 +8730,13 @@
    "confidence": "중",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269671",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6770,6 +8753,18 @@
    "confidence": "중",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268725",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[3내역] 의료현장 진입 역량 강화",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269892",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6787,6 +8782,13 @@
    "confidence": "중",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제3차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270088",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6803,6 +8805,13 @@
    "confidence": "하",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268856",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6819,6 +8828,13 @@
    "confidence": "중",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270087",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6835,6 +8851,13 @@
    "confidence": "하",
    "basis": [
     "2026년 6월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 민관공동기술사업화(R&D)'구매연계(혁신형도전)' 하반기 시행계획 공고",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719&ancmPrg=ancmEnd",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6851,6 +8874,18 @@
    "confidence": "중",
    "basis": [
     "2026년 7월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272999",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272698",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6865,6 +8900,13 @@
    "confidence": "중",
    "basis": [
     "2026년 7월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 핵심인재 글로벌 브릿지 연수 프로그램 수행기관 모집 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272995",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6882,6 +8924,13 @@
    "confidence": "중",
    "basis": [
     "2026년 7월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 글로벌연구협력지원사업(첨단바이오 전략거점센터) 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1274347",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6898,6 +8947,13 @@
    "confidence": "하",
    "basis": [
     "2026년 7월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 중소기업기술혁신개발사업 글로벌선도기술개발(수출지향형) 바이오헬스 추천기업 대상 연구개발계획서 제출 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273071",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6914,6 +8970,13 @@
    "confidence": "중",
    "basis": [
     "2026년 7월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 재공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273371",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6928,6 +8991,13 @@
    "confidence": "하",
    "basis": [
     "2026년 8월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 핵심인재 글로벌 브릿지 연수 프로그램 (중개연구 사업화 트랙) 연수생 모집 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1275440",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6946,6 +9016,13 @@
    "confidence": "중",
    "basis": [
     "2026년 8월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-09_생명·신약(전략투자로드맵 기반)_딥테크 챌린지 프로젝트(DCP*))",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263311",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -6962,6 +9039,13 @@
    "confidence": "하",
    "basis": [
     "2026년 8월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-캐나다 양자과학기술 공동연구사업 신규과제 공모",
+     "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640&ancmPrg=ancmEnd",
+     "source": "IRIS"
+    }
    ]
   },
   {
@@ -6976,6 +9060,13 @@
    "confidence": "중",
    "basis": [
     "2026년 9월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "「2026년 핵심인재 글로벌 브릿지 연수 프로그램 수행기관 모집」 2차 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277712",
+     "source": "NTIS"
+    }
    ]
   },
   {
@@ -6993,6 +9084,18 @@
    "confidence": "중",
    "basis": [
     "2026년 9월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_2. [심화형] 첨단재생의료 임상연구 고도화 지원",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278131",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278130",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -7011,6 +9114,18 @@
    "confidence": "중",
    "basis": [
     "2026년 9월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-40_생명/신약_딥테크 챌린지 프로젝트(DCP))",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278997",
+     "source": "NTIS + IRIS"
+    },
+    {
+     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026)(2026-DCP-39_생명/신약_딥테크 챌린지 프로젝트(DCP))",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278996",
+     "source": "NTIS + IRIS"
+    }
    ]
   },
   {
@@ -7027,6 +9142,13 @@
    "confidence": "하",
    "basis": [
     "2026년 10월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 한의약혁신기술개발사업 사업단장 공모안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279523",
+     "source": "NTIS + MOHW + KHIDI"
+    }
    ]
   },
   {
@@ -7044,6 +9166,36 @@
    "basis": [
     "2026년 10월 공고 반복",
     "IRIS 사업예고 등재"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279831",
+     "source": "NTIS + KHIDI + IRIS"
+    }
+   ]
+  },
+  {
+   "name": "융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
+   "ministry": "보건복지부",
+   "domains": [
+    "보건의료"
+   ],
+   "agencies": [
+    "한국보건산업진흥원"
+   ],
+   "start": "2027-10-22",
+   "end": "2027-11-18",
+   "confidence": "하",
+   "basis": [
+    "2026년 10월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
+     "url": "https://www.htdream.kr/",
+     "source": "KHIDI + KHIDIWEB"
+    }
    ]
   }
  ],
