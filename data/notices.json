@@ -8,16 +8,16 @@
   "type": "포상 (추정)",
   "ministry": "보건복지부",
   "agency": "한국보건산업진흥원",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-09-23",
   "open_date": null,
   "close_date": "2026-10-30",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999996&linkId=48950356&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=925&linkId=48950356&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
    "deadline_from": "제목 추정",
-   "pinned": true
+   "pinned": false
   },
   "domains": [
    "디지털헬스"
@@ -40,7 +40,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "mohw-1492031",
@@ -84,7 +84,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48949906",
@@ -99,7 +99,7 @@
   "posted": "2026-09-11",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=922&linkId=48949906&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=922&linkId=48949906&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -128,7 +128,92 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
+ },
+ {
+  "id": "mohw-1492389",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "첨단재생의료실시기관 지정 현황 알림('26.10월 기준)",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-10-30",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492389",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "재생"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date",
+   "close_date"
+  ],
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
+ },
+ {
+  "id": "khidiweb-48951946",
+  "source": "KHIDIWEB",
+  "kind": "notice",
+  "title": "광역형 국산의료기기 교육·훈련 지원센터 구축 및 운영 컨소시엄 모집 공고(~11/30)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "접수중",
+  "posted": "2026-10-29",
+  "open_date": null,
+  "close_date": "2026-11-30",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999998&linkId=48951946&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": true
+  },
+  "domains": [
+   "의료기기"
+  ],
+  "matched": [
+   "의료기기"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "비R&D",
+  "score": 50,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no",
+   "open_date"
+  ],
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48951083",
@@ -143,12 +228,12 @@
   "posted": "2026-10-20",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999998&linkId=48951083&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=932&linkId=48951083&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
    "deadline_from": "",
-   "pinned": true
+   "pinned": false
   },
   "domains": [
    "디지털헬스"
@@ -174,14 +259,14 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "ntis-1279831",
   "source": "NTIS",
   "kind": "notice",
   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내",
-  "notice_no": "보건복지부 공고 제2026-779호",
+  "notice_no": "",
   "type": "본공고",
   "ministry": "보건복지부",
   "agency": "한국보건산업진흥원",
@@ -204,24 +289,16 @@
    "d_amount": "781.67 억원",
    "d_notice_no": "",
    "also_listed": [
-    "KHIDI",
-    "IRIS"
+    "KHIDI"
    ],
    "links": {
-    "KHIDI": "https://www.htdream.kr/",
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024438&ancmPrg=ancmPre"
+    "KHIDI": "https://www.htdream.kr/"
    },
    "co_ministries": [
-    "과학기술정보통신부·보건복지부",
-    "다부처"
+    "과학기술정보통신부·보건복지부"
    ],
    "merged_ids": [
-    "khidi-pban-8926",
-    "iris-024438",
-    "iris-024420"
-   ],
-   "co_agencies": [
-    "정보통신산업진흥원"
+    "khidi-pban-8926"
    ]
   },
   "domains": [
@@ -236,12 +313,14 @@
   "topics": [],
   "category": "R&D",
   "score": 50,
-  "origin": "NTIS + KHIDI + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / KHIDI 보건의료R&D포털(htdream) / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
+  "origin": "NTIS + KHIDI",
+  "origin_label": "NTIS 국가R&D통합공고 / KHIDI 보건의료R&D포털(htdream)",
+  "notice_no_kind": "없음",
+  "missing": [
+   "notice_no"
+  ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48950673",
@@ -256,7 +335,7 @@
   "posted": "2026-10-06",
   "open_date": null,
   "close_date": "2026-10-13",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=928&linkId=48950673&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=929&linkId=48950673&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -286,7 +365,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48950492",
@@ -301,7 +380,7 @@
   "posted": "2026-09-30",
   "open_date": null,
   "close_date": "2026-10-16",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=926&linkId=48950492&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=927&linkId=48950492&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -328,52 +407,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
- },
- {
-  "id": "khidiweb-48949614",
-  "source": "KHIDIWEB",
-  "kind": "notice",
-  "title": "[공고] 「HLTH USA 2026」 디지털헬스케어 한국관 참가기관 모집 공고(~9.30.(수)) 15시까지",
-  "notice_no": "",
-  "type": "참여기업 모집 (추정)",
-  "ministry": "보건복지부",
-  "agency": "한국보건산업진흥원",
-  "status": "마감",
-  "posted": "2026-09-08",
-  "open_date": null,
-  "close_date": "2026-09-30",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=919&linkId=48949614&menuId=MENU01108",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "제목 추정",
-   "pinned": false
-  },
-  "domains": [
-   "디지털헬스"
-  ],
-  "matched": [
-   "디지털",
-   "헬스케어"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [
-   "디지털헬스"
-  ],
-  "category": "비R&D",
-  "score": 50,
-  "origin": "KHIDIWEB",
-  "origin_label": "KHIDI 대표사이트 사업공고",
-  "notice_no_kind": "없음",
-  "missing": [
-   "notice_no",
-   "open_date"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "mohw-1491807",
@@ -416,7 +450,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "ntis-1278997",
@@ -474,7 +508,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "ntis-1278996",
@@ -532,91 +566,46 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
-  "id": "ntis-1263312",
+  "id": "ntis-1281125",
   "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-10_생명·신약(전략투자로드맵 기반)_딥테크 챌린지 프로젝트(DCP*))",
-  "notice_no": "중소벤처기업부 공고 제2026-446호",
-  "type": "본공고",
-  "ministry": "중소벤처기업부",
-  "agency": "중소기업기술정보진흥원",
-  "status": "접수중",
-  "posted": "2026-07-10",
-  "open_date": "2026-09-30",
-  "close_date": "2026-10-30",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263312",
-  "extra": {
-   "business": "투·융자연계기술개발(R&D)",
-   "amount": "50 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "중소벤처기업부",
-   "d_agency": "중소기업기술정보진흥원",
-   "d_posted": "2026-07-10",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "투·융자연계기술개발(R&D)",
-   "d_amount": "50 억원",
-   "d_notice_no": "",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=019508&ancmPrg=ancmIng"
-   },
-   "merged_ids": [
-    "iris-019508"
-   ]
-  },
-  "domains": [
-   "제약",
-   "바이오"
-  ],
-  "matched": [
-   "생명",
-   "신약"
-  ],
-  "focus_org": false,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "missing": [],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
- },
- {
-  "id": "khidi-pban-8946",
-  "source": "KHIDI",
   "kind": "notice",
   "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
   "notice_no": "한국보건산업진흥원 공고 제 2026-295호",
-  "type": "비R&D 사업",
+  "type": "본공고",
   "ministry": "보건복지부",
   "agency": "한국보건산업진흥원",
   "status": "접수중",
   "posted": "2026-10-22",
   "open_date": "2026-10-22",
   "close_date": "2026-11-18",
-  "url": "https://www.htdream.kr/",
+  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281125",
   "extra": {
-   "phase": "접수중",
-   "pbanId": "8946",
+   "business": "융합형 의사과학자 양성사업(민간경상보조)",
+   "amount": "0.1 억원",
+   "form": "통합공고",
+   "detail_ok": true,
+   "d_ministry": "보건복지부",
+   "d_agency": "한국보건산업진흥원",
+   "d_posted": "2026-10-22",
+   "d_type": "본공고",
+   "d_form": "통합공고",
+   "d_business": "융합형 의사과학자 양성사업(민간경상보조)",
+   "d_amount": "0.1 억원",
+   "d_notice_no": "한국보건산업진흥원 공고 제 2026-295호",
    "also_listed": [
-    "KHIDIWEB"
+    "KHIDIWEB",
+    "KHIDI"
    ],
    "links": {
-    "KHIDIWEB": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999997&linkId=48951045&menuId=MENU01108"
+    "KHIDIWEB": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=9999999997&linkId=48951045&menuId=MENU01108",
+    "KHIDI": "https://www.htdream.kr/"
    },
    "merged_ids": [
-    "khidiweb-48951045"
+    "khidiweb-48951045",
+    "khidi-pban-8946"
    ]
   },
   "domains": [
@@ -629,12 +618,12 @@
   "topics": [],
   "category": "R&D",
   "score": 35,
-  "origin": "KHIDI + KHIDIWEB",
-  "origin_label": "KHIDI 보건의료R&D포털(htdream) / KHIDI 대표사이트 사업공고",
+  "origin": "NTIS + KHIDIWEB + KHIDI",
+  "origin_label": "NTIS 국가R&D통합공고 / KHIDI 대표사이트 사업공고 / KHIDI 보건의료R&D포털(htdream)",
   "notice_no_kind": "소속기관 공고",
   "missing": [],
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-10-26"
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48950887",
@@ -649,7 +638,7 @@
   "posted": "2026-10-13",
   "open_date": null,
   "close_date": "2026-10-23",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=930&linkId=48950887&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=931&linkId=48950887&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -674,7 +663,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48950846",
@@ -689,7 +678,7 @@
   "posted": "2026-10-08",
   "open_date": null,
   "close_date": "2026-11-30",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=929&linkId=48950846&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=930&linkId=48950846&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -714,7 +703,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "ntis-1279523",
@@ -774,7 +763,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48950575",
@@ -789,7 +778,7 @@
   "posted": "2026-10-01",
   "open_date": null,
   "close_date": "2026-11-30",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=927&linkId=48950575&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=928&linkId=48950575&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -814,7 +803,7 @@
    "open_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "khidiweb-48950142",
@@ -868,7 +857,7 @@
    "close_date"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "ntis-1278995",
@@ -924,7 +913,7 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  },
  {
   "id": "ntis-1278994",
@@ -980,6 +969,6 @@
   "notice_no_kind": "부처 공고",
   "missing": [],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-02"
  }
 ]

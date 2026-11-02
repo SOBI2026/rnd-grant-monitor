@@ -1,25 +1,25 @@
 {
- "updated_at": "2026-10-26T08:48:47+09:00",
+ "updated_at": "2026-11-02T10:17:11+09:00",
  "jobs": [
   {
    "job": "NTIS 통합공고",
    "ok": true,
-   "count": 60
+   "count": 33
   },
   {
    "job": "IRIS 사업공고",
    "ok": true,
-   "count": 26
+   "count": 24
   },
   {
    "job": "NTIS 과거공고(13개월)",
    "ok": true,
-   "count": 260
+   "count": 258
   },
   {
    "job": "IRIS 과거공고(관심부처)",
-   "ok": true,
-   "count": 198
+   "ok": false,
+   "count": 0
   },
   {
    "job": "IRIS 사업예고",
@@ -44,7 +44,7 @@
   {
    "job": "KHIDI 비R&D 사업공고",
    "ok": true,
-   "count": 34
+   "count": 33
   },
   {
    "job": "NIPA 사업공고",
@@ -54,32 +54,39 @@
   {
    "job": "보건복지부 공고",
    "ok": true,
-   "count": 59
+   "count": 66
   }
  ],
- "errors": [],
+ "errors": [
+  {
+   "job": "IRIS 과거공고(관심부처)",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.iris.go.kr', port=443): Max retries exceeded with url: /contents/retrieveBsnsAncmBtinSituList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.iris.go.kr', port=443) at 0x7f1025e70530>, 'Connection to www.iris.go.kr timed out. (connect timeout=30)'))"
+  }
+ ],
  "counts": {
   "notice": 20,
-  "notice_other": 291,
-  "history": 253,
-  "forecast": 41,
+  "notice_other": 149,
+  "history": 250,
+  "forecast": 42,
   "signal": 18
  },
  "new_today": [
-  "khidi-pban-8946",
-  "mohw-1492031",
-  "mohw-1491807",
-  "iris-prntc-546",
-  "iris-prntc-543",
-  "iris-prntc-541",
-  "iris-prntc-540",
-  "iris-prntc-456",
-  "iris-prntc-383",
-  "iris-prntc-382",
-  "iris-prntc-381",
-  "iris-prntc-370",
-  "iris-prntc-369",
-  "iris-prntc-368"
+  "ntis-1281125",
+  "khidiweb-48951946",
+  "mohw-1492389",
+  "iris-prntc-425",
+  "iris-prntc-414",
+  "iris-prntc-413",
+  "iris-prntc-407",
+  "iris-prntc-406",
+  "iris-prntc-402",
+  "iris-prntc-401",
+  "iris-prntc-395",
+  "iris-prntc-380",
+  "iris-prntc-379",
+  "khidi-10868",
+  "kmdf-4479",
+  "kmdf-4478"
  ],
  "merged_duplicates": [
   {
@@ -101,12 +108,6 @@
    "title": "체납 과징금 독촉 고지 공시송달"
   },
   {
-   "kept": "mohw-1491964",
-   "dropped": "mohw-1491623",
-   "reason": "같은 제목·접수기간",
-   "title": "보건복지부 요양보험운영과 파견근무자 모집 안내"
-  },
-  {
    "kept": "ntis-1279523",
    "dropped": "mohw-1492137",
    "reason": "출처 간 동일 공고",
@@ -119,7 +120,7 @@
    "title": "[2026-727호] 2026년도 혁신형 제약기업 및 제약산업 발전 유공자 포상 공고"
   },
   {
-   "kept": "khidi-pban-8946",
+   "kept": "ntis-1281125",
    "dropped": "khidiweb-48951045",
    "reason": "출처 간 동일 공고",
    "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고('26.11.18.(수), 15시 제출 마감)"
@@ -131,10 +132,58 @@
    "title": "2026년도 한의약혁신기술개발사업 사업단장 공모안내"
   },
   {
+   "kept": "ntis-1281125",
+   "dropped": "khidi-pban-8946",
+   "reason": "출처 간 동일 공고",
+   "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내"
+  },
+  {
    "kept": "ntis-1279831",
    "dropped": "khidi-pban-8926",
    "reason": "출처 간 동일 공고",
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내"
+  },
+  {
+   "kept": "ntis-1281132",
+   "dropped": "iris-024578",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년도 제3차 기계장비산업기술개발사업 신규지원 대상과제 공고"
+  },
+  {
+   "kept": "ntis-1280632",
+   "dropped": "iris-024477",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년 한미 이공분야 학생인력교류 프로그램(NSF IRES) 운영지원사업 신규과제 공모"
+  },
+  {
+   "kept": "ntis-1280378",
+   "dropped": "iris-024438",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제"
+  },
+  {
+   "kept": "ntis-1280259",
+   "dropped": "iris-024420",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제"
+  },
+  {
+   "kept": "ntis-1281281",
+   "dropped": "iris-024037",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년도 미래개척융합과학기술개발사업(한계돌파 R&D) 신규과제 공모"
+  },
+  {
+   "kept": "ntis-1280631",
+   "dropped": "iris-024457",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년도 에너지기술 수용성 제고 및 사업화 촉진 사업 신규지원 대상 연구개발과제 공고"
+  },
+  {
+   "kept": "ntis-1280834",
+   "dropped": "iris-024437",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년도 한-중(CSTEC) 신진과학자교류사업(파견) 신규과제 공모"
   },
   {
    "kept": "ntis-1279968",
@@ -155,41 +204,23 @@
    "title": "2026년도 퀀텀(양자)플랫폼 KIST 양자활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모"
   },
   {
-   "kept": "ntis-1280136",
-   "dropped": "iris-024177",
-   "reason": "출처 간 동일 공고",
-   "title": "2026년 4극3특 동남권 과학기술혁신지원사업 연구단 모집 공고(연장)"
-  },
-  {
-   "kept": "ntis-1277072",
-   "dropped": "iris-023857",
-   "reason": "출처 간 동일 공고",
-   "title": "중소제조 특화 Multi AI Agent 개발(R&D) 점프업 Track 시행계획 공고"
-  },
-  {
-   "kept": "ntis-1278998,ntis-1278997,ntis-1278996,ntis-1278995,ntis-1278994,ntis-1276961,ntis-1276960,ntis-1276959,ntis-1276958,ntis-1276957,ntis-1276956,ntis-1276955,ntis-1276954,ntis-1276953,ntis-1276952,ntis-1276951,ntis-1276950,ntis-1276949,ntis-1276948,ntis-1276947,ntis-1276946,ntis-1276945,ntis-1276944,ntis-1276943,ntis-1276942,ntis-1276941,ntis-1276939,ntis-1276938,ntis-1276936,ntis-1276935,ntis-1276934,ntis-1276933,ntis-1276932,ntis-1276931,ntis-1263331,ntis-1263329,ntis-1263328,ntis-1263326,ntis-1263324,ntis-1263322,ntis-1263321,ntis-1263317,ntis-1263315,ntis-1263312,ntis-1263308,ntis-1263307",
+   "kept": "ntis-1281272,ntis-1278998,ntis-1278997,ntis-1278996,ntis-1278995,ntis-1278994",
    "dropped": "iris-019508",
    "reason": "출처 간 동일 공고",
    "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)"
   },
   {
-   "kept": "ntis-1279968,ntis-1279831",
-   "dropped": "iris-024438",
+   "kept": "ntis-1280523",
+   "dropped": "iris-024439",
    "reason": "출처 간 동일 공고",
-   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제"
-  },
-  {
-   "kept": "ntis-1279968,ntis-1279831",
-   "dropped": "iris-024420",
-   "reason": "출처 간 동일 공고",
-   "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(공정·응용 솔루션 AX R&D, 응용 제"
+   "title": "2026년도 AI 기반 주파수 간섭분석 및 전파예측기술 개발사업 신규지원 대상과제 공고"
   }
  ],
  "missing_required": {
-  "notice_no": 164,
+  "notice_no": 248,
   "open_date": 38,
-  "close_date": 22,
-  "type": 125,
-  "agency": 127
+  "close_date": 23,
+  "type": 208,
+  "agency": 210
  }
 }
