@@ -1,6 +1,6 @@
 [
  {
-  "id": "iris-prntc-402",
+  "id": "iris-prntc-427",
   "source": "IRIS",
   "kind": "forecast",
   "title": "면역세포유전자치료제전주기기술개발사업",
@@ -46,8 +46,8 @@
   "score": 85,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-540",
@@ -94,10 +94,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-534",
+  "id": "iris-prntc-536",
   "source": "IRIS",
   "kind": "forecast",
   "title": "mRNA 백신 임상지원",
@@ -140,8 +140,8 @@
   "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-454",
@@ -184,7 +184,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-453",
@@ -229,7 +229,49 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
+ },
+ {
+  "id": "iris-prntc-595",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "암정복추진연구개발사업",
+  "notice_no": "",
+  "type": "",
+  "ministry": "보건복지부",
+  "agency": "국립암센터",
+  "status": "1월",
+  "posted": "2026-11-05",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2027",
+   "content": "1. 암관리 근거 창출 연구\n- 암 예방·관리연구 분야\n\n2. 공익적 암 임상연구\n- 암 임상연구 네트워크 지원\n- 다기관 암 임상연구\n\n※ 자세한 사항은 붙임 파일 참조",
+   "purpose": "국가 암관리 정책·사업 및 암 예방·진료 기술 개선을 위한 근거 창출",
+   "field": "ㅇ 「국가연구개발혁신법」 제2조제3호와 「국가연구개발혁신법 시행령」 제2조제1항에서 정하는 기관 및 단체\nㅇ 「보건의료기술 진흥법」 제5조제2항과 「보건의료기술 진흥법 시행령」 제3조에서 정하는 연구기관 또는 단체(의료법 제3조제2항제3호의 병원급 의료기관 포함*)\n* 중소기업에 해당하는 병원 제외",
+   "budget_min": 100000000,
+   "budget_max": 1000000000,
+   "period": "중기",
+   "expected": "1월"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "암",
+   "임상"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-542",
@@ -282,10 +324,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-552",
+  "id": "iris-prntc-583",
   "source": "IRIS",
   "kind": "forecast",
   "title": "산림분야그린바이오미래형가치사슬기술개발(R&D)",
@@ -325,11 +367,11 @@
   "score": 60,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-401",
+  "id": "iris-prntc-403",
   "source": "IRIS",
   "kind": "forecast",
   "title": "암정복추진연구개발사업",
@@ -367,8 +409,8 @@
   "score": 60,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-543",
@@ -414,7 +456,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-541",
@@ -460,7 +502,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-390",
@@ -503,7 +545,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-384",
@@ -547,7 +589,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-379",
@@ -590,7 +632,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-488",
@@ -634,55 +676,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
- },
- {
-  "id": "iris-prntc-414",
-  "source": "IRIS",
-  "kind": "forecast",
-  "title": "해양생물 나노머신 기반 재조합의약품 생산 고도화 플랫폼 개발",
-  "notice_no": "",
-  "type": "",
-  "ministry": "해양수산부",
-  "agency": "해양수산과학기술진흥원",
-  "status": "1월",
-  "posted": "2026-01-05",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
-  "extra": {
-   "year": "2026",
-   "content": " □ 해양생물 나노머신 대량 발굴 및 단백질 생산 기반 연구\n □ 해양생물 나노머신 기반 재조합의약품 생산용 세포플랫폼 개발\n □ 해양생물 나노머신 적용 세포플랫폼 기반 재조합의약품 생산성 평가\n □ 해양생물 나노머신 적용 재조합 의약품 개발",
-   "purpose": "해양생물 나노머신 기반의 재조합의약품 생산 고도화 세포 플랫폼 구축 및 적용 기술 개발을 통한 국가 바이오의약품 경쟁력 강화",
-   "field": "- 해양수산생명-해양수산생명 현상규명-유전체 기술(MBT0201)\n- 해양수산생명-해양수산신소재개발-의약소재 개발기술(MBT0302)",
-   "budget_min": 2400000000,
-   "budget_max": 19000000000,
-   "period": "중기",
-   "expected": "1월"
-  },
-  "domains": [
-   "제약",
-   "바이오",
-   "디지털헬스"
-  ],
-  "matched": [
-   "단백질",
-   "바이오",
-   "생명",
-   "세포",
-   "의약품",
-   "플랫폼"
-  ],
-  "focus_org": false,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-370",
@@ -726,7 +720,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-369",
@@ -774,7 +768,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-451",
@@ -815,7 +809,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-417",
@@ -856,10 +850,92 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-585",
+  "id": "iris-prntc-405",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "의약품 등 기준시험을 위한 둥물대체기술 개발 연구",
+  "notice_no": "",
+  "type": "",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "1월",
+  "posted": "2025-12-30",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2026",
+   "content": "-",
+   "purpose": "-",
+   "field": "-",
+   "budget_min": 1565000000,
+   "budget_max": 2087000000,
+   "period": "단기",
+   "expected": "1월"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "의약품"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
+ },
+ {
+  "id": "iris-prntc-397",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "필수의약품 혁신 평가기술 지원 연구",
+  "notice_no": "",
+  "type": "",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "1월",
+  "posted": "2025-12-30",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2026",
+   "content": "-",
+   "purpose": "-",
+   "field": "-",
+   "budget_min": 935000000,
+   "budget_max": 935000000,
+   "period": "단기",
+   "expected": "1월"
+  },
+  "domains": [
+   "제약"
+  ],
+  "matched": [
+   "의약품"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
+ },
+ {
+  "id": "iris-prntc-570",
   "source": "IRIS",
   "kind": "forecast",
   "title": "AI기반작물모니터링및진단플랫폼개발(R&D)",
@@ -900,11 +976,54 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-579",
+  "id": "iris-prntc-587",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "지역맞춤형오존관리기술개발사업(R&D)",
+  "notice_no": "",
+  "type": "",
+  "ministry": "기후에너지환경부",
+  "agency": "한국환경산업기술원",
+  "status": "전년도 12월",
+  "posted": "2025-12-11",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2026",
+   "content": "- 현장조사 및 스모그챔버를 활용한 오존생성 역학관계 분석기술 개발\n- 고반응성 VOCs 및 라디칼 분석 기반 오존 생성 평가기술 개발\n- 고농도 오존 hot-spot 관리를 위한 시공간 배출-농도 추정 및 진단모델 개발",
+   "purpose": "대기 중 고농도 오존의 과학적 문제해결을 위한 오존 생성 원인 규명, 예측 및 대응 기술개발을 통한 관리체계 구축",
+   "field": "- (고농도 오존 생성 원인 규명 고도화) 고농도 오존 발생 메커니즘 규명, 원인물질 배출량 추정 및 시공간 분포 특성 파악 기술개발을 통한 오존 생성 원인 규명 고도화\n- (오존 hot-spot 맞춤형 관리) 오존 hot-spot 지역별 원인물질 배출특성과 오염물질의 수송, 발생을 고려한 고농도 오존 관리기술 개발\n- (오존 hot-spot 평가 및 효과분석) 고농도 지역의 오존 진단 및 저감(관리) 시나리오별 효과분석 기술개발 및 고농도 오존 대응을 위한 통합 플랫폼 개발",
+   "budget_min": 900000000,
+   "budget_max": 1700000000,
+   "period": "중기",
+   "expected": "전년도 12월"
+  },
+  "domains": [
+   "디지털헬스",
+   "의료기기"
+  ],
+  "matched": [
+   "진단",
+   "플랫폼"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
+ },
+ {
+  "id": "iris-prntc-564",
   "source": "IRIS",
   "kind": "forecast",
   "title": "환경보건빅데이터구축및AI활용고도화기술개발사업(R&D)",
@@ -947,11 +1066,11 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-578",
+  "id": "iris-prntc-563",
   "source": "IRIS",
   "kind": "forecast",
   "title": "블록체인기반살생물제정보지능형공정관리기술개발(R&D)",
@@ -990,51 +1109,8 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
- },
- {
-  "id": "iris-prntc-556",
-  "source": "IRIS",
-  "kind": "forecast",
-  "title": "지역맞춤형오존관리기술개발사업(R&D)",
-  "notice_no": "",
-  "type": "",
-  "ministry": "기후에너지환경부",
-  "agency": "한국환경산업기술원",
-  "status": "전년도 12월",
-  "posted": "2025-12-11",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
-  "extra": {
-   "year": "2026",
-   "content": "- 현장조사 및 스모그챔버를 활용한 오존생성 역학관계 분석기술 개발\n- 고반응성 VOCs 및 라디칼 분석 기반 오존 생성 평가기술 개발\n- 고농도 오존 hot-spot 관리를 위한 시공간 배출-농도 추정 및 진단모델 개발",
-   "purpose": "대기 중 고농도 오존의 과학적 문제해결을 위한 오존 생성 원인 규명, 예측 및 대응 기술개발을 통한 관리체계 구축",
-   "field": "- (고농도 오존 생성 원인 규명 고도화) 고농도 오존 발생 메커니즘 규명, 원인물질 배출량 추정 및 시공간 분포 특성 파악 기술개발을 통한 오존 생성 원인 규명 고도화\n- (오존 hot-spot 맞춤형 관리) 오존 hot-spot 지역별 원인물질 배출특성과 오염물질의 수송, 발생을 고려한 고농도 오존 관리기술 개발\n- (오존 hot-spot 평가 및 효과분석) 고농도 지역의 오존 진단 및 저감(관리) 시나리오별 효과분석 기술개발 및 고농도 오존 대응을 위한 통합 플랫폼 개발",
-   "budget_min": 900000000,
-   "budget_max": 1700000000,
-   "period": "중기",
-   "expected": "전년도 12월"
-  },
-  "domains": [
-   "디지털헬스",
-   "의료기기"
-  ],
-  "matched": [
-   "진단",
-   "플랫폼"
-  ],
-  "focus_org": false,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-467",
@@ -1077,7 +1153,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-447",
@@ -1124,7 +1200,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-446",
@@ -1167,97 +1243,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
- },
- {
-  "id": "iris-prntc-407",
-  "source": "IRIS",
-  "kind": "forecast",
-  "title": "환경보건빅데이터구축및AI활용고도화기술개발사업(R&D)",
-  "notice_no": "",
-  "type": "",
-  "ministry": "기후에너지환경부",
-  "agency": "한국환경산업기술원",
-  "status": "1월",
-  "posted": "2025-12-11",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
-  "extra": {
-   "year": "2026",
-   "content": "- 환경유해인자 노출생체지표(Bio-marker) 고효율 분석 기반 데이터 대량 생산 및 분석 자동화 기술 개발\n- 환경유해인자 노출 생체빅데이터 통합분석 및 개인 맞춤형 건강영향 예측·진단 기술 개발\n- 저전력의 장기 착용형 생체신호 측정 기기 고도화 및 분석·예방 플랫폼 개발\n- AIoT기반 환경유해인자·건강영향 데이터 수집·알고리즘 개발 및 맞춤형 환경 자율 제어 기술 개발\n- 신규 개발사업의 환경유해인자 노출에 대한 AI 기반 건강영향평가 수행 자동화 기술 개발\n- GeoAI(공간정보 인공지능)을 활용한 환경보건 감시 및 평가·관리 기술 개발\n- 디지털스레드 기술 기반 환경보건 연구성과물 통합 관리 및 시나리오별 예측·활용 모델 개발",
-   "purpose": "빅데이터 및 AI를 기반으로 환경유해인자로 인한 건강영향을 조기 감지·예측하여 건강피해를 선제적으로 예방·관리",
-   "field": "- (생체시료 동시·자동 분석) 환경유해인자의 인체 내 축적과 그에 따른 건강영향을 신속하게 파악하기 위해 생체시료 동시·자동 분석 기술 고도화\n- (AI 기반 개인 환경보건평가) 개인 건강상태를 실시간으로 확인하고 환경정보와 연계하여 개인의 특성을 고려한 환경보건평가 기술개발\n- (빅데이터 및 AI 기반 지역 환경보건평가) 지역단위 환경보건 빅데이터 및 AI를 기반으로 환경보건 우려지역 평가 기술개발",
-   "budget_min": 900000000,
-   "budget_max": 1000000000,
-   "period": "중기",
-   "expected": "1월"
-  },
-  "domains": [
-   "디지털헬스",
-   "의료기기"
-  ],
-  "matched": [
-   "AI",
-   "데이터",
-   "디지털",
-   "인공지능",
-   "진단",
-   "플랫폼"
-  ],
-  "focus_org": false,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
- },
- {
-  "id": "iris-prntc-406",
-  "source": "IRIS",
-  "kind": "forecast",
-  "title": "블록체인기반살생물제정보지능형공정관리기술개발(R&D)",
-  "notice_no": "",
-  "type": "",
-  "ministry": "기후에너지환경부",
-  "agency": "한국환경산업기술원",
-  "status": "1월",
-  "posted": "2025-12-11",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
-  "extra": {
-   "year": "2026",
-   "content": "블록체인 기반 살생물제 정보 지능형 공정 관리기술 개발",
-   "purpose": "블록체인 및 AI기술 기반 원·부자재 공급망 내 살생물제(화학물질)의 정보 공정 관리기술을 확보함으로써 중소기업 및 소상공인의 화학규제 이행력 제고 및 화학제품 소비자 안전사고 선제적 예방",
-   "field": "(블록체인 기반 살생물제 정보 지능형 공정 관리) 공급망 내 살생물제 정보 자동 추출·이력관리, AI 기반 사업장 입·출고 제어 및 유해성 평가 및 표시？광고 자동 생성？검증, 국내？외 규제 자동 업데이트？진단 관리？진화 기술개발",
-   "budget_min": 7000000000,
-   "budget_max": 7000000000,
-   "period": "중기",
-   "expected": "1월"
-  },
-  "domains": [
-   "디지털헬스",
-   "의료기기"
-  ],
-  "matched": [
-   "AI",
-   "진단"
-  ],
-  "focus_org": false,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-546",
@@ -1302,49 +1288,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
- },
- {
-  "id": "iris-prntc-413",
-  "source": "IRIS",
-  "kind": "forecast",
-  "title": "해양 글라이칸 활용 맞춤형 케어소재 산업화",
-  "notice_no": "",
-  "type": "",
-  "ministry": "해양수산부",
-  "agency": "해양수산과학기술진흥원",
-  "status": "1월",
-  "posted": "2026-01-05",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
-  "extra": {
-   "year": "2026",
-   "content": " □ 해양 글라이칸 표준화 및 대량 생산기술 확보\n □ 해양 글라이칸의 안전성/유효성 검증을 통한 글로벌 인증 획득\n □ 해양글라이칸을 활용한 맞춤형 케어소재 산업화 ",
-   "purpose": "해양 글라이칸의 맞춤 케어소재(화장품, 건강기능식품, 메디푸드, 의약외품 등)의 산업화를 추진하고 글로벌 인증을 통한 산업 주도권 확보",
-   "field": "해양수산생명 MBT(ND10)- 해양수산생물자원(해양생물자원)-해양수산생물자원 생산기술 (MBT0103), 기능성 소재 개발기술 (MBT0301)",
-   "budget_min": 2100000000,
-   "budget_max": 12800000000,
-   "period": "중기",
-   "expected": "1월"
-  },
-  "domains": [
-   "바이오"
-  ],
-  "matched": [
-   "글로벌",
-   "생명"
-  ],
-  "focus_org": false,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 45,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-368",
@@ -1386,7 +1330,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-385",
@@ -1429,48 +1373,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
- },
- {
-  "id": "iris-prntc-425",
-  "source": "IRIS",
-  "kind": "forecast",
-  "title": "연안하구 인간-자연시스템 환경관리 기술개발",
-  "notice_no": "",
-  "type": "",
-  "ministry": "해양수산부",
-  "agency": "해양수산과학기술진흥원",
-  "status": "1월",
-  "posted": "2026-01-05",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
-  "extra": {
-   "year": "2026",
-   "content": " □ 연안하구 환경변화 프로세스 규명\n  □ 해양환경 관측장비·분석 신기술 개발 및 활용\n □ 레질리언스 기반의 연안하구 관리방안 마련",
-   "purpose": " □ 기후변화 및 연안개발에 취약한 연안하구 시스템의 변화 프로세스 규명\n\n  ㅇ 방조제 건설과 주변 지역 개발로 인한 지형 변화, 철새와 염생식물 서식지 감소, 산업폐수 유입 등 연안하구 환경 기능 저하에 대한 대응 전략 필요",
-   "field": "？ 해양환경-해양환경보전-해양환경변화 관측 및 평가기술(MEV0201)\n？ 해양환경-해양환경보전-해양환경변화 예측 및 관리기술(MEV0202)\n？ 해양환경-해양생태계관리-해양생태계 진단？평가기술(MEV0401)",
-   "budget_min": 190000000,
-   "budget_max": 15000000000,
-   "period": "중기",
-   "expected": "1월"
-  },
-  "domains": [
-   "의료기기"
-  ],
-  "matched": [
-   "진단"
-  ],
-  "focus_org": false,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 35,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-380",
@@ -1511,7 +1414,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-452",
@@ -1550,7 +1453,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-416",
@@ -1589,7 +1492,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-456",
@@ -1630,13 +1533,13 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-395",
+  "id": "iris-prntc-411",
   "source": "IRIS",
   "kind": "forecast",
-  "title": "혁신연구장비핵심기술개발및상용화",
+  "title": "국산 연구장비 기술경쟁력 강화",
   "notice_no": "",
   "type": "",
   "ministry": "과학기술정보통신부",
@@ -1648,19 +1551,20 @@
   "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
   "extra": {
    "year": "2026",
-   "content": "(연구장비핵심원천기술개발) 연구자-기업 간 협력체계 확보를 통해 국가전략기술 적용 가능성이 높은 연구장비(부품 및 모듈 포함) 성능 고도화 및 최적화 기술개발 지원\n(첨단연구장비상용화) 정부 R&D 지원을 통해 창출된 연구성과 보유 기업ㆍ기관ㆍ연구자를 대상으로 상용화 지원",
-   "purpose": " 미래산업분야 활용성이 높은 혁신연구장비의 최적화 기술 개발 및 상용화를 통한 첨단산업 경쟁력 확보 및 기술주권 확보",
-   "field": "반도체, 디스플레이, 이차전지, 첨단바이오 등 첨단 연구장비 분야",
-   "budget_min": 1375000000,
-   "budget_max": 2531250000,
+   "content": "(국산연구장비혁신기술개발) 연구자, 연구장비기업 협력체계 확보를 통한 신뢰성확보, 기술축적 지원 \n(수요대응형전략연구장비개발) 연구장비 기술이 산업용 진단, 검사 장비로 활용될 수 있도록 브릿지기술 개발을 통한 스케일업 지원",
+   "purpose": " 연구·산업 수요 기반 국산 연구장비 스케일업 지원 및 생태계 구축을 통한 연구장비산업 지속성장 기반 마련",
+   "field": "광학영상장비(A), 화합물전처리분석장비(B),물리적측정장비(F) 분야 등",
+   "budget_min": 455000000,
+   "budget_max": 1210000000,
    "period": "단기",
    "expected": "1월"
   },
   "domains": [
-   "바이오"
+   "의료기기"
   ],
   "matched": [
-   "바이오"
+   "영상",
+   "진단"
   ],
   "focus_org": false,
   "health": true,
@@ -1670,11 +1574,11 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-589",
+  "id": "iris-prntc-574",
   "source": "IRIS",
   "kind": "forecast",
   "title": "대체단백특화시장맞춤형원료화(R&D)",
@@ -1712,11 +1616,11 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-586",
+  "id": "iris-prntc-571",
   "source": "IRIS",
   "kind": "forecast",
   "title": "AI기반생체·정서반응형농업활동서비스플랫폼개발(R&D)",
@@ -1755,11 +1659,11 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
-  "id": "iris-prntc-557",
+  "id": "iris-prntc-588",
   "source": "IRIS",
   "kind": "forecast",
   "title": "환경성질환 예방관리 핵심 기술개발사업(R&D)",
@@ -1796,8 +1700,49 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
+ },
+ {
+  "id": "iris-prntc-396",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "환경성질환 예방관리 핵심 기술개발사업(R&D)",
+  "notice_no": "",
+  "type": "",
+  "ministry": "기후에너지환경부",
+  "agency": "한국환경산업기술원",
+  "status": "1월",
+  "posted": "2025-12-11",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2026",
+   "content": "환경보건 서비스 제공을 위한 디지털 기반 노출계수 산정 방법론 및 조사시스템 개발",
+   "purpose": "다양한 환경유해인자로 인한 환경성질환 피해가 지속 증가함에 따라, 인자-질환 상관성 규명, 예측·평가 기술을 확보함으로써 환경성질환 사전예방관리 강화를 통한 국민건강 위해 최소화",
+   "field": "- (환경성질환 상관성 규명) 관리 대상 인자-질환 범위를 확대하기 위해 다양한 환경유해인자의 노출 영향을 보다 신속하고 정확하게 분석할 수 있는 기술개발\n- (환경성질환 예측·평가) 환경성질환 발생 위험을 사전예방하기 위한 예측 기술과 과거 노출영향 규명 등 환경피해조사를 과학적으로 뒷받침하고 환경보건 정보 서비스를 확대하기 위한 기술개발",
+   "budget_min": 466000000,
+   "budget_max": 466000000,
+   "period": "중기",
+   "expected": "1월"
+  },
+  "domains": [
+   "디지털헬스"
+  ],
+  "matched": [
+   "디지털"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
  },
  {
   "id": "iris-prntc-490",
@@ -1836,6 +1781,6 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-09"
  }
 ]

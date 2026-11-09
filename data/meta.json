@@ -1,35 +1,35 @@
 {
- "updated_at": "2026-11-02T10:17:11+09:00",
+ "updated_at": "2026-11-09T10:28:28+09:00",
  "jobs": [
   {
    "job": "NTIS 통합공고",
    "ok": true,
-   "count": 33
+   "count": 43
   },
   {
    "job": "IRIS 사업공고",
    "ok": true,
-   "count": 24
+   "count": 32
   },
   {
    "job": "NTIS 과거공고(13개월)",
    "ok": true,
-   "count": 258
+   "count": 259
   },
   {
    "job": "IRIS 과거공고(관심부처)",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 197
   },
   {
    "job": "IRIS 사업예고",
    "ok": true,
-   "count": 228
+   "count": 229
   },
   {
    "job": "KHIDI 사업공고",
    "ok": true,
-   "count": 3
+   "count": 4
   },
   {
    "job": "KHIDI 공지",
@@ -44,7 +44,7 @@
   {
    "job": "KHIDI 비R&D 사업공고",
    "ok": true,
-   "count": 33
+   "count": 36
   },
   {
    "job": "NIPA 사업공고",
@@ -54,46 +54,112 @@
   {
    "job": "보건복지부 공고",
    "ok": true,
-   "count": 66
+   "count": 67
   }
  ],
- "errors": [
-  {
-   "job": "IRIS 과거공고(관심부처)",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.iris.go.kr', port=443): Max retries exceeded with url: /contents/retrieveBsnsAncmBtinSituList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.iris.go.kr', port=443) at 0x7f1025e70530>, 'Connection to www.iris.go.kr timed out. (connect timeout=30)'))"
-  }
- ],
+ "errors": [],
  "counts": {
-  "notice": 20,
-  "notice_other": 149,
-  "history": 250,
-  "forecast": 42,
+  "notice": 29,
+  "notice_other": 272,
+  "history": 251,
+  "forecast": 41,
   "signal": 18
  },
  "new_today": [
-  "ntis-1281125",
-  "khidiweb-48951946",
-  "mohw-1492389",
-  "iris-prntc-425",
-  "iris-prntc-414",
-  "iris-prntc-413",
-  "iris-prntc-407",
-  "iris-prntc-406",
-  "iris-prntc-402",
-  "iris-prntc-401",
-  "iris-prntc-395",
-  "iris-prntc-380",
-  "iris-prntc-379",
-  "khidi-10868",
-  "kmdf-4479",
-  "kmdf-4478"
+  "ntis-1282393",
+  "ntis-1282282",
+  "ntis-1282036",
+  "ntis-1281944",
+  "ntis-1281949",
+  "ntis-1281946",
+  "ntis-1281945",
+  "ntis-1281943",
+  "khidiweb-48952461",
+  "khidiweb-48952024",
+  "iris-prntc-595",
+  "iris-prntc-588",
+  "iris-prntc-587",
+  "iris-prntc-583",
+  "iris-prntc-574",
+  "iris-prntc-571",
+  "iris-prntc-570",
+  "iris-prntc-564",
+  "iris-prntc-563",
+  "iris-prntc-536",
+  "iris-prntc-427",
+  "iris-prntc-411",
+  "iris-prntc-405",
+  "iris-prntc-403",
+  "iris-prntc-397",
+  "iris-prntc-396",
+  "kmdf-4489",
+  "kmdf-4370",
+  "kmdf-4331",
+  "kmdf-4324",
+  "kmdf-4295",
+  "kmdf-4294",
+  "kmdf-4292"
  ],
  "merged_duplicates": [
   {
-   "kept": "iris-019508",
-   "dropped": "iris-019614",
+   "kept": "iris-024762",
+   "dropped": "iris-024761",
    "reason": "같은 공고번호",
-   "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)"
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024760",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024759",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024758",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024757",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024743",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024742",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024741",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024739",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
+  },
+  {
+   "kept": "iris-024762",
+   "dropped": "iris-024738",
+   "reason": "같은 공고번호",
+   "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모"
   },
   {
    "kept": "mohw-1492249",
@@ -102,16 +168,10 @@
    "title": "[2026-17호] 민간자격 등록폐지 공고"
   },
   {
-   "kept": "mohw-1492158",
-   "dropped": "mohw-1491945",
-   "reason": "같은 제목·접수기간",
-   "title": "체납 과징금 독촉 고지 공시송달"
-  },
-  {
-   "kept": "ntis-1279523",
-   "dropped": "mohw-1492137",
+   "kept": "ntis-1282036",
+   "dropped": "mohw-1492412",
    "reason": "출처 간 동일 공고",
-   "title": "한의약혁신기술개발사업 사업단장 공모"
+   "title": "『한의약혁신기술개발사업』사업단장 재공모"
   },
   {
    "kept": "khidiweb-48950142",
@@ -120,16 +180,22 @@
    "title": "[2026-727호] 2026년도 혁신형 제약기업 및 제약산업 발전 유공자 포상 공고"
   },
   {
+   "kept": "ntis-1282393",
+   "dropped": "khidiweb-48952446",
+   "reason": "출처 간 동일 공고",
+   "title": "바이오헬스 핵심인재 글로벌 브릿지 연수 프로그램(KHIDI-Stanford Biodesign) 연수생 모집 "
+  },
+  {
    "kept": "ntis-1281125",
    "dropped": "khidiweb-48951045",
    "reason": "출처 간 동일 공고",
    "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고('26.11.18.(수), 15시 제출 마감)"
   },
   {
-   "kept": "ntis-1279523",
-   "dropped": "khidi-pban-8906",
+   "kept": "ntis-1282036",
+   "dropped": "khidi-pban-8966",
    "reason": "출처 간 동일 공고",
-   "title": "2026년도 한의약혁신기술개발사업 사업단장 공모안내"
+   "title": "2026년도 한의약혁신기술개발사업 사업단장 재공모 안내"
   },
   {
    "kept": "ntis-1281125",
@@ -138,10 +204,28 @@
    "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내"
   },
   {
+   "kept": "ntis-1282393",
+   "dropped": "khidi-pban-8967",
+   "reason": "출처 간 동일 공고",
+   "title": "「바이오헬스 핵심인재 글로벌 브릿지 연수 프로그램 (KHIDI-Stanford Biodesign) 연수생 모"
+  },
+  {
    "kept": "ntis-1279831",
    "dropped": "khidi-pban-8926",
    "reason": "출처 간 동일 공고",
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고 안내"
+  },
+  {
+   "kept": "ntis-1281948,ntis-1281947",
+   "dropped": "iris-024717",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년 「AX실증밸리조성(R&D)」 사업 신규지원대상 과제 통합 재공고"
+  },
+  {
+   "kept": "ntis-1281711",
+   "dropped": "iris-024697",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년도 국제공동연구 신속지원사업 신규과제 공모(수정)"
   },
   {
    "kept": "ntis-1281132",
@@ -154,6 +238,12 @@
    "dropped": "iris-024477",
    "reason": "출처 간 동일 공고",
    "title": "2026년 한미 이공분야 학생인력교류 프로그램(NSF IRES) 운영지원사업 신규과제 공모"
+  },
+  {
+   "kept": "ntis-1280523",
+   "dropped": "iris-024439",
+   "reason": "출처 간 동일 공고",
+   "title": "2026년도 AI 기반 주파수 간섭분석 및 전파예측기술 개발사업 신규지원 대상과제 공고"
   },
   {
    "kept": "ntis-1280378",
@@ -192,35 +282,17 @@
    "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)"
   },
   {
-   "kept": "ntis-1279602",
-   "dropped": "iris-024337",
-   "reason": "출처 간 동일 공고",
-   "title": "2026년도 퀀텀(양자)플랫폼 KRISS 차세대양자연구거점사업단 양자공동연구실(JQL) 신규과제 공모"
-  },
-  {
-   "kept": "ntis-1279596",
-   "dropped": "iris-024317",
-   "reason": "출처 간 동일 공고",
-   "title": "2026년도 퀀텀(양자)플랫폼 KIST 양자활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모"
-  },
-  {
-   "kept": "ntis-1281272,ntis-1278998,ntis-1278997,ntis-1278996,ntis-1278995,ntis-1278994",
+   "kept": "ntis-1278998,ntis-1278997,ntis-1278996,ntis-1278995,ntis-1278994",
    "dropped": "iris-019508",
    "reason": "출처 간 동일 공고",
    "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)"
-  },
-  {
-   "kept": "ntis-1280523",
-   "dropped": "iris-024439",
-   "reason": "출처 간 동일 공고",
-   "title": "2026년도 AI 기반 주파수 간섭분석 및 전파예측기술 개발사업 신규지원 대상과제 공고"
   }
  ],
  "missing_required": {
-  "notice_no": 248,
-  "open_date": 38,
+  "notice_no": 173,
+  "open_date": 40,
   "close_date": 23,
-  "type": 208,
-  "agency": 210
+  "type": 125,
+  "agency": 127
  }
 }
