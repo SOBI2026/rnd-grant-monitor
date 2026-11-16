@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-16",
  "series": [
   {
    "key": "바이오접합체기술선도형플랫폼구축",
@@ -125,9 +125,7 @@
    "key": "바이오의료기술개발사업",
    "name": "바이오·의료기술개발 사업 신규과제 공모",
    "ministry": "과학기술정보통신부",
-   "agencies": [
-    "한국연구재단"
-   ],
+   "agencies": [],
    "domains": [
     "바이오"
    ],
@@ -143,8 +141,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253335",
        "open_date": "2026-01-09",
        "close_date": "2026-02-09",
-       "notice_no": "과학기술정보통신부 공고 제2026-0028호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253308",
@@ -248,8 +246,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268854",
        "open_date": "2026-06-01",
        "close_date": "2026-06-10",
-       "notice_no": "과학기술정보통신부 공고 제2026-0658호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1270450",
@@ -257,8 +255,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270450",
        "open_date": "2026-06-12",
        "close_date": "2026-07-13",
-       "notice_no": "과학기술정보통신부 공고 제2026 - 0690호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -275,7 +273,7 @@
       {
        "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253335",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모_(2026)2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
@@ -345,12 +343,12 @@
       {
        "title": "2026년도 바이오·의료기술개발 사업 제4차 신규과제 재공모",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268854",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "바이오·의료기술개발 사업 신규과제 제5차 공모_(2026)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270450",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -1175,6 +1173,54 @@
    "forecast_refs": []
   },
   {
+   "key": "신약개발AIready학습과벤치마크데이터구축사업기획연구정책연구과제",
+   "name": "「신약개발 AI-ready 학습과 벤치마크 데이터 구축사업 기획 연구」 정책연구과제 공고",
+   "ministry": "과학기술정보통신부",
+   "agencies": [
+    "국가과학기술연구회"
+   ],
+   "domains": [
+    "디지털헬스",
+    "제약"
+   ],
+   "rounds_per_year": 1,
+   "rounds": [
+    {
+     "start": "2026-11-13",
+     "end": "2026-11-23",
+     "items": [
+      {
+       "id": "ntis-1282957",
+       "title": "「신약개발 AI-ready 학습과 벤치마크 데이터 구축사업 기획 연구」 정책연구과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282957",
+       "open_date": "2026-11-13",
+       "close_date": "2026-11-23",
+       "notice_no": "",
+       "source": "NTIS"
+      }
+     ]
+    }
+   ],
+   "predictions": [
+    {
+     "start": "2027-11-13",
+     "end": "2027-11-23",
+     "confidence": "하",
+     "basis": [
+      "2026년 11월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "「신약개발 AI-ready 학습과 벤치마크 데이터 구축사업 기획 연구」 정책연구과제 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282957",
+       "source": "NTIS"
+      }
+     ]
+    }
+   ],
+   "forecast_refs": []
+  },
+  {
    "key": "반려동물난치성질환극복기술개발사업",
    "name": "반려동물난치성질환극복기술개발사업 시행계획 공고",
    "ministry": "농림축산식품부",
@@ -1553,9 +1599,7 @@
    "key": "범부처첨단의료기기연구개발사업",
    "name": "범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고",
    "ministry": "다부처(보건복지부·산업통상부)",
-   "agencies": [
-    "재단법인 범부처의료기기연구개발사업단"
-   ],
+   "agencies": [],
    "domains": [
     "의료기기"
    ],
@@ -1566,22 +1610,22 @@
      "end": "2026-03-10",
      "items": [
       {
-       "id": "ntis-1256662",
-       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
-       "open_date": "2026-02-19",
-       "close_date": "2026-03-10",
-       "notice_no": "제2026-01호",
-       "source": "NTIS + IRIS"
-      },
-      {
        "id": "ntis-1255669",
        "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
        "open_date": "2026-02-19",
        "close_date": "2026-03-10",
-       "notice_no": "제2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
+      },
+      {
+       "id": "ntis-1256662",
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+       "open_date": "2026-02-19",
+       "close_date": "2026-03-10",
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255783",
@@ -1589,8 +1633,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255783",
        "open_date": "2026-02-19",
        "close_date": "2026-03-10",
-       "notice_no": "제2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255782",
@@ -1598,8 +1642,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255782",
        "open_date": "2026-02-19",
        "close_date": "2026-03-10",
-       "notice_no": "제2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -1613,8 +1657,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258483",
        "open_date": "2026-03-13",
        "close_date": "2026-03-24",
-       "notice_no": "제2026-02호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -1628,8 +1672,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268725",
        "open_date": "2026-06-09",
        "close_date": "2026-06-30",
-       "notice_no": "제2026-03호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1269892",
@@ -1637,8 +1681,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269892",
        "open_date": "2026-06-09",
        "close_date": "2026-06-30",
-       "notice_no": "제2026-03호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1269891",
@@ -1646,8 +1690,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269891",
        "open_date": "2026-06-09",
        "close_date": "2026-06-30",
-       "notice_no": "제2026-03호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -1661,8 +1705,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272999",
        "open_date": "2026-07-01",
        "close_date": "2026-07-09",
-       "notice_no": "제2026-04호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1272698",
@@ -1670,8 +1714,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272698",
        "open_date": "2026-07-03",
        "close_date": "2026-07-10",
-       "notice_no": "제2026-04호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -1686,14 +1730,14 @@
      ],
      "last_refs": [
       {
-       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
-       "source": "NTIS + IRIS"
-      },
-      {
        "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
+      },
+      {
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+       "source": "NTIS"
       }
      ]
     },
@@ -1708,7 +1752,7 @@
       {
        "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258483",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -1723,12 +1767,12 @@
       {
        "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268725",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[3내역] 의료현장 진입 역량 강화",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269892",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -1743,12 +1787,12 @@
       {
        "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272999",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272698",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -1759,9 +1803,7 @@
    "key": "식품의약품안전처출연연구개발사업",
    "name": "식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고",
    "ministry": "다부처(보건복지부·식품의약품안전처)",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "디지털헬스",
     "제약"
@@ -1778,8 +1820,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253033",
        "open_date": "2026-01-06",
        "close_date": "2026-02-06",
-       "notice_no": "식품의약품안전처 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253031",
@@ -1787,8 +1829,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253031",
        "open_date": "2026-01-07",
        "close_date": "2026-02-06",
-       "notice_no": "식품의약품안전처 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253029",
@@ -1796,8 +1838,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253029",
        "open_date": "2026-01-07",
        "close_date": "2026-02-06",
-       "notice_no": "식품의약품안전처 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253030",
@@ -1805,8 +1847,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253030",
        "open_date": "2026-01-07",
        "close_date": "2026-02-06",
-       "notice_no": "식품의약품안전처 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253027",
@@ -1814,8 +1856,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253027",
        "open_date": "2026-01-07",
        "close_date": "2026-02-06",
-       "notice_no": "식품의약품안전처 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253026",
@@ -1823,8 +1865,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253026",
        "open_date": "2026-01-07",
        "close_date": "2026-02-06",
-       "notice_no": "식품의약품안전처 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253025",
@@ -1832,8 +1874,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253025",
        "open_date": "2026-01-07",
        "close_date": "2026-02-06",
-       "notice_no": "식품의약품안전처 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -1847,8 +1889,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255952",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "식품의약품안전처 공고 제2026-075호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255950",
@@ -1856,8 +1898,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255950",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "식품의약품안전처 공고 제2026-075호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255951",
@@ -1865,8 +1907,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255951",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "식품의약품안전처 공고 제2026-075호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255949",
@@ -1874,8 +1916,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255949",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "식품의약품안전처 공고 제2026-075호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -1898,8 +1940,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264717",
        "open_date": "2026-04-30",
        "close_date": "2026-05-14",
-       "notice_no": "식품의약품안전처 공고 제2026-210호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -1916,12 +1958,12 @@
       {
        "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253033",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253031",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -1936,12 +1978,12 @@
       {
        "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)중독자데이터기반마약중독재활기술개발연구(RD)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255952",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255950",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -1961,7 +2003,7 @@
       {
        "title": "2026년도 제2차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264717",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -1972,9 +2014,7 @@
    "key": "글로벌의사과학자양성사업",
    "name": "글로벌 의사과학자 양성사업(의사과학자 양성 사무국 운영) 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료",
     "제약"
@@ -1991,8 +2031,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1250309",
        "open_date": "2025-11-03",
        "close_date": "2025-12-03",
-       "notice_no": "보건복지부 공고 제2025-765호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1250308",
@@ -2013,9 +2053,7 @@
    "key": "범부처재생의료기술개발사업",
    "name": "범부처재생의료기술개발사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "범부처재생의료기술개발사업단"
-   ],
+   "agencies": [],
    "domains": [
     "바이오"
    ],
@@ -2031,8 +2069,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252018",
        "open_date": "2025-12-29",
        "close_date": "2026-01-14",
-       "notice_no": "제2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -2049,7 +2087,7 @@
       {
        "title": "2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고_(2026)2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252018",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -2060,9 +2098,7 @@
    "key": "암정복추진연구개발사업",
    "name": "암정복추진연구개발사업 신규과제 공모",
    "ministry": "보건복지부",
-   "agencies": [
-    "국립암센터"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -2078,8 +2114,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252789",
        "open_date": "2025-12-29",
        "close_date": "2026-01-27",
-       "notice_no": "CC_2025_004",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1252787",
@@ -2087,8 +2123,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252787",
        "open_date": "2025-12-29",
        "close_date": "2026-01-27",
-       "notice_no": "CC_2025_004",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -2102,8 +2138,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255216",
        "open_date": "2026-02-03",
        "close_date": "2026-02-12",
-       "notice_no": "CC_2026_001",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -2121,12 +2157,12 @@
       {
        "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(품목지정공모)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252789",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(자유공모)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252787",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -2142,7 +2178,7 @@
       {
        "title": "2026년도 암정복추진연구개발사업 신규과제 재공모",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255216",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -2164,9 +2200,7 @@
    "key": "환자중심의료기술최적화연구사업",
    "name": "환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -2182,8 +2216,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252662",
        "open_date": "2025-12-30",
        "close_date": "2026-01-30",
-       "notice_no": "환자중심연구사업단 공고 제2025-04호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1252580",
@@ -2236,7 +2270,7 @@
       {
        "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252662",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고_(2026)의료기술 근거생성 가이드라인 연구",
@@ -2297,9 +2331,7 @@
    "key": "보건의료기술연구개발사업",
    "name": "보건의료기술 연구개발사업 신규지원 대상과제 통합공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "디지털헬스",
     "바이오",
@@ -2319,8 +2351,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252731",
        "open_date": "2025-12-31",
        "close_date": "2026-01-30",
-       "notice_no": "보건복지부공고 제2025-961호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253181",
@@ -2586,8 +2618,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255845",
        "open_date": "2026-02-09",
        "close_date": "2026-02-19",
-       "notice_no": "보건복지부공고 제2025-961호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255928",
@@ -2595,8 +2627,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255928",
        "open_date": "2026-02-10",
        "close_date": "2026-02-26",
-       "notice_no": "보건복지부공고 제2025-961호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1256183",
@@ -2604,8 +2636,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256183",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "보건복지부공고 제2025-961호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255929",
@@ -2613,8 +2645,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255929",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "보건복지부공고 제2025-961호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1256211",
@@ -2622,8 +2654,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256211",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "보건복지부공고 제2025-961호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1255931",
@@ -2631,8 +2663,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255931",
        "open_date": "2026-02-10",
        "close_date": "2026-02-19",
-       "notice_no": "보건복지부공고 제2025-961호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -2646,8 +2678,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260385",
        "open_date": "2026-04-07",
        "close_date": "2026-05-19",
-       "notice_no": "보건복지부공고 제2026-313호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1261626",
@@ -2655,8 +2687,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261626",
        "open_date": "2026-04-11",
        "close_date": "2026-05-19",
-       "notice_no": "보건복지부공고 제2026-313호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253202",
@@ -2673,8 +2705,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261643",
        "open_date": "2026-04-14",
        "close_date": "2026-05-07",
-       "notice_no": "보건복지부공고 제2026-313호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1261648",
@@ -2682,8 +2714,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261648",
        "open_date": "2026-04-14",
        "close_date": "2026-05-07",
-       "notice_no": "보건복지부공고 제2026-313호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -2700,7 +2732,7 @@
       {
        "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252731",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)구조기반AI신약개발지원",
@@ -2720,12 +2752,12 @@
       {
        "title": "2026년 제1차 보건의료기술 연구개발사업 신규지원 대상 과제 통합 재공고 안내",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255845",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합 재공고_(2026)(14-1) 첨단바이오 융합인재 양성(RD)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255928",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -2740,12 +2772,12 @@
       {
        "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고 안내",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260385",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)(3-1) 지역의료혁신연구개발사업",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261626",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -2756,9 +2788,7 @@
    "key": "백신실용화기술개발사업단",
    "name": "백신실용화기술개발사업단 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오"
    ],
@@ -2774,8 +2804,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252492",
        "open_date": "2025-12-31",
        "close_date": "2026-01-29",
-       "notice_no": "백신실용화기술개발사업단 공고 제2026-001호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1252491",
@@ -2783,8 +2813,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252491",
        "open_date": "2025-12-31",
        "close_date": "2026-01-29",
-       "notice_no": "백신실용화기술개발사업단 공고 제2026-001호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -2798,8 +2828,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254699",
        "open_date": "2026-01-30",
        "close_date": "2026-02-09",
-       "notice_no": "백신실용화기술개발사업단 공고 제2026-002호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -2813,8 +2843,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270087",
        "open_date": "2026-06-11",
        "close_date": "2026-07-10",
-       "notice_no": "백신실용화기술개발사업단 공고 제2026-003호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -2828,8 +2858,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273371",
        "open_date": "2026-07-10",
        "close_date": "2026-07-20",
-       "notice_no": "백신실용화기술개발사업단 공고 제2026-004호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -2846,12 +2876,12 @@
       {
        "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(1. 필수/2-1. 미래)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252492",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(2-2. 미래)2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252491",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -2866,7 +2896,7 @@
       {
        "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 재공고_(2026)(2-2. 미래)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254699",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -2881,7 +2911,7 @@
       {
        "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270087",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -2896,7 +2926,7 @@
       {
        "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 재공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273371",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -2907,9 +2937,7 @@
    "key": "치매극복연구개발사업",
    "name": "치매극복연구개발사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -2925,8 +2953,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253023",
        "open_date": "2025-12-31",
        "close_date": "2026-02-02",
-       "notice_no": "KDRC-2025-001",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253395",
@@ -2952,7 +2980,7 @@
       {
        "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253023",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고_(2026)2026년도 치매극복연구개발사업",
@@ -2968,9 +2996,7 @@
    "key": "글로벌연구협력지원사업",
    "name": "글로벌연구협력지원사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오",
     "보건의료"
@@ -2987,8 +3013,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253893",
        "open_date": "2026-01-07",
        "close_date": "2026-03-25",
-       "notice_no": "보건복지부공고 제2026-21호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -3020,7 +3046,7 @@
       {
        "title": "2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고_(2026)2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253893",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -3046,9 +3072,7 @@
    "key": "면역세포유전자치료제전주기기술개발사업연구지원과제",
    "name": "면역세포유전자치료제전주기기술개발사업 연구지원과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "국립암센터"
-   ],
+   "agencies": [],
    "domains": [
     "바이오",
     "제약"
@@ -3065,8 +3089,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253283",
        "open_date": "2026-01-09",
        "close_date": "2026-02-09",
-       "notice_no": "국립암센터 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -3084,7 +3108,7 @@
       {
        "title": "2026년도 면역세포유전자치료제전주기기술개발사업 연구지원과제 공고 _(2026)면역세포유전자치료제전주기기술개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253283",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -3101,9 +3125,7 @@
    "key": "세포기반인공혈액제조및실증플랫폼기술개발사업",
    "name": "세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "디지털헬스",
     "바이오"
@@ -3120,8 +3142,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253602",
        "open_date": "2026-01-13",
        "close_date": "2026-02-12",
-       "notice_no": "세포기반인공혈액기술개발사업단 2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -3135,8 +3157,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256790",
        "open_date": "2026-02-20",
        "close_date": "2026-03-02",
-       "notice_no": "세포기반인공혈액기술개발사업단 2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -3153,7 +3175,7 @@
       {
        "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고_(2026)2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253602",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -3168,7 +3190,7 @@
       {
        "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합재공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256790",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -3179,9 +3201,7 @@
    "key": "한의약혁신기술개발사업",
    "name": "한의약혁신기술개발사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료",
     "제약"
@@ -3231,8 +3251,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253577",
        "open_date": "2026-02-11",
        "close_date": "2026-02-11",
-       "notice_no": "보건복지부 공고 제2026-47호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -3269,7 +3289,7 @@
       {
        "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253577",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -3325,9 +3345,7 @@
    "key": "혁신성장피부건강기반기술개발사업",
    "name": "혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -3343,8 +3361,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254419",
        "open_date": "2026-01-26",
        "close_date": "2026-02-23",
-       "notice_no": "피부 기반기술 개발 사업단 공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1254291",
@@ -3370,7 +3388,7 @@
       {
        "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254419",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고_(2026)규제대응 평가기술 지원",
@@ -3386,9 +3404,7 @@
    "key": "연구중심병원도약지원사업",
    "name": "연구중심병원 도약지원사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -3404,8 +3420,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254968",
        "open_date": "2026-02-02",
        "close_date": "2026-03-03",
-       "notice_no": "보건복지부공고 제2026-98호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -3422,7 +3438,7 @@
       {
        "title": "2026년도 연구중심병원 도약지원사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254968",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -3478,9 +3494,7 @@
    "key": "첨단재생의료임상연구활성화지원사업",
    "name": "첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오",
     "제약"
@@ -3497,8 +3511,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256171",
        "open_date": "2026-02-10",
        "close_date": "2026-03-11",
-       "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1256170",
@@ -3506,8 +3520,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256170",
        "open_date": "2026-02-10",
        "close_date": "2026-03-11",
-       "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-01호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1257420",
@@ -3515,8 +3529,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257420",
        "open_date": "2026-02-27",
        "close_date": "2026-03-30",
-       "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-02호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1257419",
@@ -3524,8 +3538,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257419",
        "open_date": "2026-02-27",
        "close_date": "2026-03-30",
-       "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-02호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -3539,8 +3553,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270088",
        "open_date": "2026-06-10",
        "close_date": "2026-07-10",
-       "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-03호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -3554,8 +3568,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278131",
        "open_date": "2026-09-15",
        "close_date": "2026-10-14",
-       "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-04호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1278130",
@@ -3563,8 +3577,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278130",
        "open_date": "2026-09-15",
        "close_date": "2026-10-14",
-       "notice_no": "첨단재생의료임상연구활성화지원사업단 공고 제2026-04호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -3581,12 +3595,12 @@
       {
        "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)2. [심화형] 첨단재생의료 임상연구 고도화 지원",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256171",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)1. [일반형] 첨단재생의료 임상연구 지원",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256170",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -3601,7 +3615,7 @@
       {
        "title": "2026년도 제3차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270088",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -3616,12 +3630,12 @@
       {
        "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_2. [심화형] 첨단재생의료 임상연구 고도화 지원",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278131",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278130",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -3695,8 +3709,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257315",
        "open_date": "2026-02-13",
        "close_date": "2026-03-17",
-       "notice_no": "보조기기실용화연구개발사업단공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1257313",
@@ -3704,8 +3718,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257313",
        "open_date": "2026-02-13",
        "close_date": "2026-03-17",
-       "notice_no": "보조기기실용화연구개발사업단공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1256577",
@@ -3713,8 +3727,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256577",
        "open_date": "2026-02-13",
        "close_date": "2026-03-16",
-       "notice_no": "보조기기실용화연구개발사업단공고 제2026-1호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -3746,12 +3760,12 @@
       {
        "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)지역기반 보조기기 RSD",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257315",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)자가운전 접근성 및 편의성 향상을 위한 커넥티드 서비스 시스템 기술개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257313",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -4182,9 +4196,7 @@
    "key": "감염병예방치료기술개발사업",
    "name": "감염병 예방·치료기술개발사업 신규지원 대상과제 재공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료",
     "제약"
@@ -4201,8 +4213,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263605",
        "open_date": "2026-04-24",
        "close_date": "2026-05-26",
-       "notice_no": "보건복지부공고 제2026-362호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1265967",
@@ -4210,8 +4222,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265967",
        "open_date": "2026-05-04",
        "close_date": "2026-05-26",
-       "notice_no": "보건복지부공고 제2026-362호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -4225,8 +4237,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268332",
        "open_date": "2026-05-27",
        "close_date": "2026-06-08",
-       "notice_no": "보건복지부공고 제2026-437호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1268601",
@@ -4252,12 +4264,12 @@
       {
        "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 개별공고 안내",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263605",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 개별공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265967",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -4272,7 +4284,7 @@
       {
        "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 재공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268332",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 재공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
@@ -4288,9 +4300,7 @@
    "key": "RNA바이러스감염병대비항바이러스치료제개발사업",
    "name": "RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "제약"
    ],
@@ -4315,8 +4325,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264885",
        "open_date": "2026-05-04",
        "close_date": "2026-05-26",
-       "notice_no": "보건복지부공고 제2026-363호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -4338,7 +4348,7 @@
       {
        "title": "2026년도 제2차 RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264885",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -4349,9 +4359,7 @@
    "key": "첨단바이오융합인재양성사업",
    "name": "첨단바이오 융합인재 양성사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오"
    ],
@@ -4367,8 +4375,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263843",
        "open_date": "2026-04-27",
        "close_date": "2026-05-27",
-       "notice_no": "보건복지부 공고 제2026-361호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -4385,7 +4393,7 @@
       {
        "title": "2026년도 첨단바이오 융합인재 양성사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263843",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -4396,9 +4404,7 @@
    "key": "연구중심병원",
    "name": "연구중심병원(한미혁신성과창출RD 협력지원 RD) 신규지원 대상과제 공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -4423,8 +4429,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265428",
        "open_date": "2026-05-07",
        "close_date": "2026-05-29",
-       "notice_no": "보건복지부 공고 제2026-373호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -4446,7 +4452,7 @@
       {
        "title": "2026년도 연구중심병원(한미혁신성과창출RD 협력지원 RD) 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265428",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -4547,9 +4553,7 @@
    "key": "한국형ARPAH프로젝트",
    "name": "한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -4565,8 +4569,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268856",
        "open_date": "2026-06-10",
        "close_date": "2026-07-01",
-       "notice_no": "보건복지부공고 제2026-451호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -4583,7 +4587,7 @@
       {
        "title": "2026년도 한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268856",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -4714,9 +4718,7 @@
    "key": "한의약혁신기술개발사업사업단장",
    "name": "한의약혁신기술개발사업 사업단장 공모안내",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -4747,8 +4749,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282036",
        "open_date": "2026-11-03",
        "close_date": "2026-11-13",
-       "notice_no": "보건복지부 공고 제2026-839호",
-       "source": "NTIS + MOHW + KHIDI"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -4780,7 +4782,7 @@
       {
        "title": "2026년도 한의약혁신기술개발사업 사업단장 재공모 안내",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282036",
-       "source": "NTIS + MOHW + KHIDI"
+       "source": "NTIS"
       }
      ]
     }
@@ -5112,9 +5114,7 @@
    "key": "바이오헬스분야연구개발사업",
    "name": "바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
    "ministry": "산업통상부",
-   "agencies": [
-    "한국산업기술기획평가원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오"
    ],
@@ -5145,8 +5145,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269599",
        "open_date": "2026-06-08",
        "close_date": "2026-06-29",
-       "notice_no": "산업통상부 공고 제2026-388호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -5178,7 +5178,7 @@
       {
        "title": "2026년도 제2차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269599",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -5244,14 +5244,23 @@
     },
     {
      "start": "2026-11-06",
-     "end": "2026-12-07",
+     "end": "2026-12-10",
      "items": [
       {
        "id": "ntis-1282282",
-       "title": "2027년 제1차 용역연구개발과제 주관연구기관 공모 공고",
+       "title": "2027년 제1차 용역연구개발과제 주관연구기관 공모 공고(정정)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282282",
        "open_date": "2026-11-06",
        "close_date": "2026-12-07",
+       "notice_no": "",
+       "source": "NTIS"
+      },
+      {
+       "id": "ntis-1282732",
+       "title": "2027년 제2차 용역연구개발과제 주관연구기관 공모 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282732",
+       "open_date": "2026-11-10",
+       "close_date": "2026-12-10",
        "notice_no": "",
        "source": "NTIS"
       }
@@ -5291,15 +5300,20 @@
     },
     {
      "start": "2027-11-06",
-     "end": "2027-12-07",
+     "end": "2027-12-10",
      "confidence": "중",
      "basis": [
       "2026년 11월 공고 반복"
      ],
      "last_refs": [
       {
-       "title": "2027년 제1차 용역연구개발과제 주관연구기관 공모 공고",
+       "title": "2027년 제1차 용역연구개발과제 주관연구기관 공모 공고(정정)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282282",
+       "source": "NTIS"
+      },
+      {
+       "title": "2027년 제2차 용역연구개발과제 주관연구기관 공모 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282732",
        "source": "NTIS"
       }
      ]
@@ -5466,7 +5480,7 @@
    "domains": [
     "보건의료"
    ],
-   "rounds_per_year": 1,
+   "rounds_per_year": 2,
    "rounds": [
     {
      "start": "2026-02-20",
@@ -5482,13 +5496,28 @@
        "source": "IRIS"
       }
      ]
+    },
+    {
+     "start": "2026-11-11",
+     "end": "2026-11-17",
+     "items": [
+      {
+       "id": "ntis-1282802",
+       "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282802",
+       "open_date": "2026-11-11",
+       "close_date": "2026-11-17",
+       "notice_no": "중소벤처기업부 공고 제 2026-12호",
+       "source": "NTIS + IRIS"
+      }
+     ]
     }
    ],
    "predictions": [
     {
      "start": "2027-02-20",
      "end": "2027-04-07",
-     "confidence": "하",
+     "confidence": "중",
      "basis": [
       "2026년 2월 공고 반복"
      ],
@@ -5497,6 +5526,21 @@
        "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
        "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017678",
        "source": "IRIS"
+      }
+     ]
+    },
+    {
+     "start": "2027-11-11",
+     "end": "2027-11-17",
+     "confidence": "중",
+     "basis": [
+      "2026년 11월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282802",
+       "source": "NTIS + IRIS"
       }
      ]
     }
@@ -5584,8 +5628,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263311",
        "open_date": "2026-08-28",
        "close_date": "2026-09-28",
-       "notice_no": "중소벤처기업부 공고 제2026-446호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -5635,8 +5679,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263312",
        "open_date": "2026-09-30",
        "close_date": "2026-10-30",
-       "notice_no": "중소벤처기업부 공고 제2026-446호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -5688,7 +5732,7 @@
       {
        "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-09_생명·신약(전략투자로드맵 기반)_딥테크 챌린지 프로젝트(DCP*))",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263311",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -5827,9 +5871,7 @@
    "key": "중소기업기술혁신개발사업글로벌선도기술개발바이오헬스추천기업대상연구개발계획서제출",
    "name": "중소기업기술혁신개발사업 글로벌선도기술개발(수출지향형) 바이오헬스 추천기업 대상 연구개발계획서 제출 안내",
    "ministry": "중소벤처기업부",
-   "agencies": [
-    "중소기업기술정보진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오"
    ],
@@ -5845,8 +5887,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273071",
        "open_date": "2026-07-08",
        "close_date": "2026-07-22",
-       "notice_no": "TI_2026_005",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -5863,7 +5905,7 @@
       {
        "title": "2026년도 중소기업기술혁신개발사업 글로벌선도기술개발(수출지향형) 바이오헬스 추천기업 대상 연구개발계획서 제출 안내",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273071",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -5874,9 +5916,7 @@
    "key": "의료현장감염대응역량고도화기술개발사업",
    "name": "의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고",
    "ministry": "질병관리청",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -5892,8 +5932,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252668",
        "open_date": "2025-12-31",
        "close_date": "2026-01-30",
-       "notice_no": "범부처방역연계감염병연구개발재단공고 제2025-007호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -5910,7 +5950,7 @@
       {
        "title": "2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252668",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -6094,9 +6134,7 @@
    "key": "질병관리청연구개발사업",
    "name": "질병관리청 연구개발사업 신규지원 대상과제 공고",
    "ministry": "질병관리청",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오",
     "제약"
@@ -6113,8 +6151,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253215",
        "open_date": "2026-01-08",
        "close_date": "2026-01-29",
-       "notice_no": "질병관리청 국립보건연구원 공고 제2025-624호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253214",
@@ -6122,8 +6160,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253214",
        "open_date": "2026-01-08",
        "close_date": "2026-01-29",
-       "notice_no": "질병관리청 국립보건연구원 공고 제2025-624호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253212",
@@ -6131,8 +6169,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253212",
        "open_date": "2026-01-08",
        "close_date": "2026-01-29",
-       "notice_no": "질병관리청 국립보건연구원 공고 제2025-624호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     },
@@ -6146,8 +6184,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254817",
        "open_date": "2026-01-30",
        "close_date": "2026-02-09",
-       "notice_no": "질병관리청 국립보건연구원 공고 제2025-624호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -6164,12 +6202,12 @@
       {
        "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(1-1) 우선순위 감염병 대유행 대비 신속개발기술 구축 지원사업(한타 바이러스 백신 개발)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253215",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253214",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     },
@@ -6184,7 +6222,7 @@
       {
        "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 재공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254817",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -6228,8 +6266,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269671",
        "open_date": "2026-06-08",
        "close_date": "2026-06-17",
-       "notice_no": "질병관리청 국립보건연구원 공고 제2026-310호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -6261,7 +6299,7 @@
       {
        "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269671",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -6413,9 +6451,7 @@
    "key": "양식생물생물보안체계구축을위한기술개발사업선정계획",
    "name": "양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고",
    "ministry": "해양수산부",
-   "agencies": [
-    "해양수산과학기술진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "바이오",
     "의료기기"
@@ -6432,8 +6468,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254811",
        "open_date": "2026-01-26",
        "close_date": "2026-02-19",
-       "notice_no": "해양수산부 공고 제2026-46호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       },
       {
        "id": "ntis-1253538",
@@ -6441,8 +6477,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253538",
        "open_date": "2026-01-26",
        "close_date": "2026-02-19",
-       "notice_no": "해양수산부 공고 제2026-46호",
-       "source": "NTIS + IRIS"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -6460,12 +6496,12 @@
       {
        "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_(2026)2026년도 양식어류 신규 고효능 백신 개발 및 백신 접종 프로그램을 통한 내병종자 보급 신규과제 선정계획 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254811",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       },
       {
        "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_2026년도 양식생물 주요질병 신속·다중 진단고도화 기술개발 신규과제 선정계획 공고",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253538",
-       "source": "NTIS + IRIS"
+       "source": "NTIS"
       }
      ]
     }
@@ -6507,9 +6543,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "범부처재생의료기술개발사업단"
-   ],
+   "agencies": [],
    "start": "2026-12-29",
    "end": "2027-01-14",
    "confidence": "하",
@@ -6520,7 +6554,7 @@
     {
      "title": "2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고_(2026)2026년도 범부처재생의료기술개발사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252018",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -6530,9 +6564,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "국립암센터"
-   ],
+   "agencies": [],
    "start": "2026-12-29",
    "end": "2027-01-27",
    "confidence": "상",
@@ -6544,12 +6576,12 @@
     {
      "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(품목지정공모)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252789",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 암정복추진연구개발사업 신규과제 공모_(2026)2026년도 암정복추진연구개발사업 신규과제 공모(자유공모)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252787",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -6585,9 +6617,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2026-12-30",
    "end": "2027-01-30",
    "confidence": "하",
@@ -6598,7 +6628,7 @@
     {
      "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252662",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 환자중심 의료기술 최적화 연구사업 신규지원 대상과제 공고_(2026)의료기술 근거생성 가이드라인 연구",
@@ -6638,9 +6668,7 @@
     "의료기기",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2026-12-31",
    "end": "2027-03-26",
    "confidence": "중",
@@ -6651,7 +6679,7 @@
     {
      "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252731",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)구조기반AI신약개발지원",
@@ -6666,9 +6694,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2026-12-31",
    "end": "2027-01-29",
    "confidence": "중",
@@ -6679,12 +6705,12 @@
     {
      "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(1. 필수/2-1. 미래)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252492",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고_(2026)(2-2. 미래)2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252491",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -6694,9 +6720,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2026-12-31",
    "end": "2027-02-02",
    "confidence": "하",
@@ -6707,7 +6731,7 @@
     {
      "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253023",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 치매극복연구개발사업 신규지원 대상과제 공고_(2026)2026년도 치매극복연구개발사업",
@@ -6722,9 +6746,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2026-12-31",
    "end": "2027-01-30",
    "confidence": "하",
@@ -6735,7 +6757,7 @@
     {
      "title": "2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고_(2026)2026년도 제1차 의료현장감염대응역량고도화기술개발사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1252668",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -6828,9 +6850,7 @@
     "디지털헬스",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-06",
    "end": "2027-02-06",
    "confidence": "중",
@@ -6841,12 +6861,12 @@
     {
      "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253033",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253031",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -6857,9 +6877,7 @@
     "바이오",
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-07",
    "end": "2027-03-25",
    "confidence": "중",
@@ -6870,7 +6888,7 @@
     {
      "title": "2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고_(2026)2026년도 제1차 글로벌연구협력지원사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253893",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -6881,9 +6899,7 @@
     "바이오",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-08",
    "end": "2027-01-29",
    "confidence": "중",
@@ -6894,12 +6910,12 @@
     {
      "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(1-1) 우선순위 감염병 대유행 대비 신속개발기술 구축 지원사업(한타 바이러스 백신 개발)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253215",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253214",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -6936,9 +6952,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국연구재단"
-   ],
+   "agencies": [],
    "start": "2027-01-09",
    "end": "2027-02-24",
    "confidence": "중",
@@ -6949,7 +6963,7 @@
     {
      "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253335",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모_(2026)2026년도 바이오·의료기술개발 사업 신규과제 제1차 공모",
@@ -7038,9 +7052,7 @@
     "바이오",
     "제약"
    ],
-   "agencies": [
-    "국립암센터"
-   ],
+   "agencies": [],
    "start": "2027-01-09",
    "end": "2027-02-09",
    "confidence": "중",
@@ -7052,7 +7064,7 @@
     {
      "title": "2026년도 면역세포유전자치료제전주기기술개발사업 연구지원과제 공고 _(2026)면역세포유전자치료제전주기기술개발",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253283",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7115,9 +7127,7 @@
     "디지털헬스",
     "바이오"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-13",
    "end": "2027-02-12",
    "confidence": "중",
@@ -7128,7 +7138,7 @@
     {
      "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고_(2026)2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253602",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7139,9 +7149,7 @@
     "보건의료",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-13",
    "end": "2027-02-11",
    "confidence": "중",
@@ -7214,9 +7222,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-26",
    "end": "2027-02-23",
    "confidence": "하",
@@ -7227,7 +7233,7 @@
     {
      "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254419",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고_(2026)규제대응 평가기술 지원",
@@ -7243,9 +7249,7 @@
     "바이오",
     "의료기기"
    ],
-   "agencies": [
-    "해양수산과학기술진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-26",
    "end": "2027-02-19",
    "confidence": "중",
@@ -7257,12 +7261,12 @@
     {
      "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_(2026)2026년도 양식어류 신규 고효능 백신 개발 및 백신 접종 프로그램을 통한 내병종자 보급 신규과제 선정계획 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254811",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 양식생물 생물보안 체계 구축을 위한 기술개발 사업 신규과제 선정계획 공고_2026년도 양식생물 주요질병 신속·다중 진단고도화 기술개발 신규과제 선정계획 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253538",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7315,9 +7319,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-30",
    "end": "2027-02-09",
    "confidence": "중",
@@ -7328,7 +7330,7 @@
     {
      "title": "2026년도 제1차 백신실용화기술개발사업단 신규지원 대상과제 재공고_(2026)(2-2. 미래)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254699",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7339,9 +7341,7 @@
     "바이오",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-01-30",
    "end": "2027-02-09",
    "confidence": "중",
@@ -7352,7 +7352,7 @@
     {
      "title": "2026년도 제1차 질병관리청 연구개발사업 신규지원 대상과제 재공고_(2026)(2-1) 백신개발 연구협력(국가 통합 백신 라이브러리 및 신속 대응 시스템 구축)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254817",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7384,9 +7384,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-02-02",
    "end": "2027-03-03",
    "confidence": "하",
@@ -7397,7 +7395,7 @@
     {
      "title": "2026년도 연구중심병원 도약지원사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1254968",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7407,9 +7405,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "국립암센터"
-   ],
+   "agencies": [],
    "start": "2027-02-03",
    "end": "2027-02-12",
    "confidence": "상",
@@ -7421,7 +7417,7 @@
     {
      "title": "2026년도 암정복추진연구개발사업 신규과제 재공모",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255216",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7484,9 +7480,7 @@
     "의료기기",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-02-09",
    "end": "2027-02-26",
    "confidence": "중",
@@ -7497,12 +7491,12 @@
     {
      "title": "2026년 제1차 보건의료기술 연구개발사업 신규지원 대상 과제 통합 재공고 안내",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255845",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 보건의료기술 연구개발사업 신규지원 대상과제 통합 재공고_(2026)(14-1) 첨단바이오 융합인재 양성(RD)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255928",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7555,9 +7549,7 @@
     "디지털헬스",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-02-10",
    "end": "2027-02-19",
    "confidence": "중",
@@ -7568,12 +7560,12 @@
     {
      "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)중독자데이터기반마약중독재활기술개발연구(RD)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255952",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 통합 재공고(RFP 5-1,5-2 관련 FAQ 반영)_(2026)AI기반독성예측평가기술개발연구(RD)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255950",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7584,9 +7576,7 @@
     "바이오",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-02-10",
    "end": "2027-03-30",
    "confidence": "중",
@@ -7597,12 +7587,12 @@
     {
      "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)2. [심화형] 첨단재생의료 임상연구 고도화 지원",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256171",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제1차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)1. [일반형] 첨단재생의료 임상연구 지원",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256170",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7655,9 +7645,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국연구재단"
-   ],
+   "agencies": [],
    "start": "2027-02-11",
    "end": "2027-03-06",
    "confidence": "중",
@@ -7684,9 +7672,7 @@
     "보건의료",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-02-11",
    "end": "2027-02-11",
    "confidence": "중",
@@ -7697,7 +7683,7 @@
     {
      "title": "2026년도 제1차 한의약혁신기술개발사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253577",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7771,12 +7757,12 @@
     {
      "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)지역기반 보조기기 RSD",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257315",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 장애인·노인 자립생활을 위한 보조기기 실용화 연구개발사업 신규지원 대상과제 통합공고_(2026)자가운전 접근성 및 편의성 향상을 위한 커넥티드 서비스 시스템 기술개발",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1257313",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7786,9 +7772,7 @@
    "domains": [
     "의료기기"
    ],
-   "agencies": [
-    "재단법인 범부처의료기기연구개발사업단"
-   ],
+   "agencies": [],
    "start": "2027-02-19",
    "end": "2027-03-10",
    "confidence": "중",
@@ -7797,14 +7781,14 @@
    ],
    "last_refs": [
     {
-     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
-     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
-     "source": "NTIS + IRIS"
-    },
-    {
      "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
+    },
+    {
+     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+     "source": "NTIS"
     }
    ]
   },
@@ -7815,9 +7799,7 @@
     "디지털헬스",
     "바이오"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-02-20",
    "end": "2027-03-02",
    "confidence": "중",
@@ -7828,7 +7810,7 @@
     {
      "title": "2026년도 제1차 세포기반인공혈액(적혈구 및 혈소판) 제조 및 실증 플랫폼 기술개발사업 신규과제 통합재공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256790",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -7843,7 +7825,7 @@
    ],
    "start": "2027-02-20",
    "end": "2027-04-07",
-   "confidence": "하",
+   "confidence": "중",
    "basis": [
     "2026년 2월 공고 반복"
    ],
@@ -8035,9 +8017,7 @@
    "domains": [
     "의료기기"
    ],
-   "agencies": [
-    "재단법인 범부처의료기기연구개발사업단"
-   ],
+   "agencies": [],
    "start": "2027-03-13",
    "end": "2027-03-24",
    "confidence": "중",
@@ -8048,7 +8028,7 @@
     {
      "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1258483",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8189,9 +8169,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국연구재단"
-   ],
+   "agencies": [],
    "start": "2027-03-23",
    "end": "2027-04-23",
    "confidence": "중",
@@ -8254,9 +8232,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국산업기술기획평가원"
-   ],
+   "agencies": [],
    "start": "2027-03-30",
    "end": "2027-04-20",
    "confidence": "중",
@@ -8346,9 +8322,7 @@
     "의료기기",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-04-07",
    "end": "2027-05-19",
    "confidence": "중",
@@ -8359,12 +8333,12 @@
     {
      "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고 안내",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1260385",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제2차 보건의료기술 연구개발사업 신규지원 대상과제 통합공고_(2026)(3-1) 지역의료혁신연구개발사업",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1261626",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8500,9 +8474,7 @@
     "보건의료",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-04-24",
    "end": "2027-05-26",
    "confidence": "중",
@@ -8513,12 +8485,12 @@
     {
      "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 개별공고 안내",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263605",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 개별공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265967",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8528,9 +8500,7 @@
    "domains": [
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-04-24",
    "end": "2027-05-26",
    "confidence": "하",
@@ -8546,7 +8516,7 @@
     {
      "title": "2026년도 제2차 RNA바이러스 감염병(Disease X) 대비 항바이러스 치료제 개발사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264885",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8556,9 +8526,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-04-27",
    "end": "2027-05-27",
    "confidence": "하",
@@ -8569,7 +8537,7 @@
     {
      "title": "2026년도 첨단바이오 융합인재 양성사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263843",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8621,9 +8589,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국연구재단"
-   ],
+   "agencies": [],
    "start": "2027-04-29",
    "end": "2027-05-29",
    "confidence": "중",
@@ -8645,9 +8611,7 @@
     "디지털헬스",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-04-30",
    "end": "2027-05-14",
    "confidence": "중",
@@ -8663,7 +8627,7 @@
     {
      "title": "2026년도 제2차 식품의약품안전처 출연연구개발사업 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1264717",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8673,9 +8637,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-04-30",
    "end": "2027-05-29",
    "confidence": "하",
@@ -8691,7 +8653,7 @@
     {
      "title": "2026년도 연구중심병원(한미혁신성과창출RD 협력지원 RD) 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265428",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8790,9 +8752,7 @@
     "보건의료",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-05-27",
    "end": "2027-06-08",
    "confidence": "중",
@@ -8803,7 +8763,7 @@
     {
      "title": "2026년도 제2차 감염병 예방·치료 기술개발사업 신규지원 대상과제 재공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268332",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제2차 감염병 예방·치료기술개발사업 신규지원 대상과제 재공고_(2026)(RFP 1) 미해결 치료제 도전 기술개발",
@@ -8818,9 +8778,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국연구재단"
-   ],
+   "agencies": [],
    "start": "2027-06-01",
    "end": "2027-07-13",
    "confidence": "중",
@@ -8831,12 +8789,12 @@
     {
      "title": "2026년도 바이오·의료기술개발 사업 제4차 신규과제 재공모",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268854",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "바이오·의료기술개발 사업 신규과제 제5차 공모_(2026)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270450",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8874,9 +8832,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국산업기술기획평가원"
-   ],
+   "agencies": [],
    "start": "2027-06-08",
    "end": "2027-06-29",
    "confidence": "중",
@@ -8887,7 +8843,7 @@
     {
      "title": "2026년도 제2차 바이오헬스분야 연구개발사업 신규지원 대상과제 통합 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269599",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8910,7 +8866,7 @@
     {
      "title": "팬데믹 대비 mRNA 백신 개발 지원사업 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269671",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8920,9 +8876,7 @@
    "domains": [
     "의료기기"
    ],
-   "agencies": [
-    "재단법인 범부처의료기기연구개발사업단"
-   ],
+   "agencies": [],
    "start": "2027-06-09",
    "end": "2027-06-30",
    "confidence": "중",
@@ -8933,12 +8887,12 @@
     {
      "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268725",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[3내역] 의료현장 진입 역량 강화",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269892",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8949,9 +8903,7 @@
     "바이오",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-06-10",
    "end": "2027-07-10",
    "confidence": "중",
@@ -8962,7 +8914,7 @@
     {
      "title": "2026년도 제3차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270088",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8972,9 +8924,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-06-10",
    "end": "2027-07-01",
    "confidence": "하",
@@ -8985,7 +8935,7 @@
     {
      "title": "2026년도 한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268856",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -8995,9 +8945,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-06-11",
    "end": "2027-07-10",
    "confidence": "중",
@@ -9008,7 +8956,7 @@
     {
      "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1270087",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -9041,9 +8989,7 @@
    "domains": [
     "의료기기"
    ],
-   "agencies": [
-    "재단법인 범부처의료기기연구개발사업단"
-   ],
+   "agencies": [],
    "start": "2027-07-01",
    "end": "2027-07-10",
    "confidence": "중",
@@ -9054,12 +9000,12 @@
     {
      "title": "2026년도 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272999",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년 제2차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 재공고_(2026)[2내역] 의료기기 코어기술 및 제품 개발",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1272698",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -9091,9 +9037,7 @@
     "바이오",
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-07-08",
    "end": "2027-07-27",
    "confidence": "중",
@@ -9114,9 +9058,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "중소기업기술정보진흥원"
-   ],
+   "agencies": [],
    "start": "2027-07-08",
    "end": "2027-07-22",
    "confidence": "하",
@@ -9127,7 +9069,7 @@
     {
      "title": "2026년도 중소기업기술혁신개발사업 글로벌선도기술개발(수출지향형) 바이오헬스 추천기업 대상 연구개발계획서 제출 안내",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273071",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -9137,9 +9079,7 @@
    "domains": [
     "바이오"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-07-10",
    "end": "2027-07-20",
    "confidence": "중",
@@ -9150,7 +9090,7 @@
     {
      "title": "2026년도 제2차 백신실용화기술개발사업단 신규지원 대상과제 재공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1273371",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -9196,7 +9136,7 @@
     {
      "title": "2026년도 투·융자 연계 기술개발사업 지원계획 수정 공고(딥테크 챌린지 프로젝트_기술도전형)_(2026-DCP-09_생명·신약(전략투자로드맵 기반)_딥테크 챌린지 프로젝트(DCP*))",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1263311",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -9251,9 +9191,7 @@
     "바이오",
     "제약"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-09-15",
    "end": "2027-10-14",
    "confidence": "중",
@@ -9264,12 +9202,12 @@
     {
      "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_2. [심화형] 첨단재생의료 임상연구 고도화 지원",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278131",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     },
     {
      "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278130",
-     "source": "NTIS + IRIS"
+     "source": "NTIS"
     }
    ]
   },
@@ -9309,9 +9247,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-10-02",
    "end": "2027-11-02",
    "confidence": "중",
@@ -9476,9 +9412,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-11-03",
    "end": "2027-11-13",
    "confidence": "중",
@@ -9489,7 +9423,7 @@
     {
      "title": "2026년도 한의약혁신기술개발사업 사업단장 재공모 안내",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282036",
-     "source": "NTIS + MOHW + KHIDI"
+     "source": "NTIS"
     }
    ]
   },
@@ -9526,15 +9460,67 @@
     "식품의약품안전처"
    ],
    "start": "2027-11-06",
-   "end": "2027-12-07",
+   "end": "2027-12-10",
    "confidence": "중",
    "basis": [
     "2026년 11월 공고 반복"
    ],
    "last_refs": [
     {
-     "title": "2027년 제1차 용역연구개발과제 주관연구기관 공모 공고",
+     "title": "2027년 제1차 용역연구개발과제 주관연구기관 공모 공고(정정)",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282282",
+     "source": "NTIS"
+    },
+    {
+     "title": "2027년 제2차 용역연구개발과제 주관연구기관 공모 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282732",
+     "source": "NTIS"
+    }
+   ]
+  },
+  {
+   "name": "딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
+   "ministry": "중소벤처기업부",
+   "domains": [
+    "보건의료"
+   ],
+   "agencies": [
+    "중소기업기술정보진흥원"
+   ],
+   "start": "2027-11-11",
+   "end": "2027-11-17",
+   "confidence": "중",
+   "basis": [
+    "2026년 11월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282802",
+     "source": "NTIS + IRIS"
+    }
+   ]
+  },
+  {
+   "name": "「신약개발 AI-ready 학습과 벤치마크 데이터 구축사업 기획 연구」 정책연구과제 공고",
+   "ministry": "과학기술정보통신부",
+   "domains": [
+    "디지털헬스",
+    "제약"
+   ],
+   "agencies": [
+    "국가과학기술연구회"
+   ],
+   "start": "2027-11-13",
+   "end": "2027-11-23",
+   "confidence": "하",
+   "basis": [
+    "2026년 11월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "「신약개발 AI-ready 학습과 벤치마크 데이터 구축사업 기획 연구」 정책연구과제 공고",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282957",
      "source": "NTIS"
     }
    ]

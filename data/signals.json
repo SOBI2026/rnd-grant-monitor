@@ -32,43 +32,77 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
-  "id": "khidi-10829",
+  "id": "khidi-10889",
   "source": "KHIDI",
   "kind": "signal",
-  "title": "2026년도 제2차 국가신약개발사업 신규지원 대상과제 선정 공고문",
+  "title": "「한의디지털융합기술개발사업」 후속사업 기획을 위한 기술수요조사 안내",
   "notice_no": "",
   "type": "",
   "ministry": "보건복지부",
   "agency": "한국보건산업진흥원",
   "status": "일반공지",
-  "posted": "2026-10-12",
+  "posted": "2026-11-10",
   "open_date": null,
   "close_date": null,
-  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10829",
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10889",
   "extra": {
-   "seq": 10829
+   "seq": 10889
   },
   "domains": [
-   "제약"
+   "디지털헬스"
   ],
   "matched": [
-   "신약",
-   "신약개발"
+   "디지털"
   ],
   "focus_org": true,
   "health": true,
   "relevant": true,
   "topics": [],
   "category": "R&D",
-  "score": 60,
-  "signal_type": "선정결과",
+  "score": 50,
+  "signal_type": "수요조사",
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16"
+ },
+ {
+  "id": "khidi-10888",
+  "source": "KHIDI",
+  "kind": "signal",
+  "title": "​ 2027년도 바이오분야 국내 우수인재 유치사업 제안요청서(RFP) 사전공시 안내문",
+  "notice_no": "",
+  "type": "",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "일반공지",
+  "posted": "2026-11-09",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10888",
+  "extra": {
+   "seq": 10888
+  },
+  "domains": [
+   "바이오"
+  ],
+  "matched": [
+   "바이오"
+  ],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "signal_type": "사전공고",
+  "origin": "KHIDI",
+  "origin_label": "KHIDI 보건의료R&D포털(htdream)",
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4489",
@@ -101,7 +135,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "khidi-10830",
@@ -136,43 +170,7 @@
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
- },
- {
-  "id": "khidi-10828",
-  "source": "KHIDI",
-  "kind": "signal",
-  "title": "(재) 대구디지털혁신 진흥원 부설기관 지역거점AX혁신기술개발사업단장 공개모집 공고 안내",
-  "notice_no": "",
-  "type": "",
-  "ministry": "보건복지부",
-  "agency": "한국보건산업진흥원",
-  "status": "일반공지",
-  "posted": "2026-10-07",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10828",
-  "extra": {
-   "seq": 10828
-  },
-  "domains": [
-   "디지털헬스"
-  ],
-  "matched": [
-   "AX",
-   "디지털"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "signal_type": "일반공지",
-  "origin": "KHIDI",
-  "origin_label": "KHIDI 보건의료R&D포털(htdream)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "khidiweb-48950399",
@@ -187,7 +185,7 @@
   "posted": "2026-09-29",
   "open_date": null,
   "close_date": "2026-10-23",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=926&linkId=48950399&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=927&linkId=48950399&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -210,42 +208,7 @@
   "origin": "KHIDIWEB",
   "origin_label": "KHIDI 대표사이트 사업공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
- },
- {
-  "id": "khidi-10816",
-  "source": "KHIDI",
-  "kind": "signal",
-  "title": "(기간 연장) 「범부처 첨단 의료기기 연구개발사업」 2027년도 신규과제 기획을 위한 기술수요조사 공고(제1차 필수의료기기)",
-  "notice_no": "",
-  "type": "",
-  "ministry": "보건복지부",
-  "agency": "한국보건산업진흥원",
-  "status": "일반공지",
-  "posted": "2026-09-27",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10816",
-  "extra": {
-   "seq": 10816
-  },
-  "domains": [
-   "의료기기"
-  ],
-  "matched": [
-   "의료기기"
-  ],
-  "focus_org": true,
-  "health": true,
-  "relevant": true,
-  "topics": [],
-  "category": "R&D",
-  "score": 50,
-  "signal_type": "수요조사",
-  "origin": "KHIDI",
-  "origin_label": "KHIDI 보건의료R&D포털(htdream)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4413",
@@ -278,7 +241,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "khidiweb-48948562",
@@ -293,7 +256,7 @@
   "posted": "2026-08-11",
   "open_date": null,
   "close_date": "2026-09-11",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=915&linkId=48948562&menuId=MENU01108",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=2&rowCnt=10&no1=916&linkId=48948562&menuId=MENU01108",
   "extra": {
    "category": "비R&D",
    "terms_only": true,
@@ -316,7 +279,7 @@
   "origin": "KHIDIWEB",
   "origin_label": "KHIDI 대표사이트 사업공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4370",
@@ -349,7 +312,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4324",
@@ -382,7 +345,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4294",
@@ -415,7 +378,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4292",
@@ -448,7 +411,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "khidi-10868",
@@ -483,7 +446,40 @@
   "origin": "KHIDI",
   "origin_label": "KHIDI 보건의료R&D포털(htdream)",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
+ },
+ {
+  "id": "khidi-10890",
+  "source": "KHIDI",
+  "kind": "signal",
+  "title": "'2026년 환자-의사가 함께하는 의사결정 모형개발 및 실증연구사업 성과교류회 개최'",
+  "notice_no": "",
+  "type": "",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "일반공지",
+  "posted": "2026-11-10",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.htdream.kr/businessParticipateNotice/addBusinessParticipateNoticeView.do?actionMode=view&invvNoticeSeqno=10890",
+  "extra": {
+   "seq": 10890
+  },
+  "domains": [
+   "보건의료"
+  ],
+  "matched": [],
+  "focus_org": true,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 35,
+  "signal_type": "일반공지",
+  "origin": "KHIDI",
+  "origin_label": "KHIDI 보건의료R&D포털(htdream)",
+  "first_seen": "2026-11-16",
+  "last_seen": "2026-11-16"
  },
  {
   "id": "mohw-1492134",
@@ -519,7 +515,7 @@
   "origin": "MOHW",
   "origin_label": "보건복지부 공지",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4456",
@@ -550,7 +546,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4331",
@@ -581,7 +577,7 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  },
  {
   "id": "kmdf-4011",
@@ -612,6 +608,6 @@
   "origin": "KMDF",
   "origin_label": "KMDF 범부처의료기기사업단",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-16"
  }
 ]
