@@ -47,7 +47,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-540",
@@ -94,10 +94,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-536",
+  "id": "iris-prntc-534",
   "source": "IRIS",
   "kind": "forecast",
   "title": "mRNA 백신 임상지원",
@@ -140,8 +140,8 @@
   "score": 65,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-454",
@@ -184,7 +184,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-453",
@@ -229,10 +229,100 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-595",
+  "id": "iris-prntc-618",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "농산업글로벌확산협력(R&D)",
+  "notice_no": "",
+  "type": "",
+  "ministry": "농촌진흥청",
+  "agency": "농촌진흥청",
+  "status": "전년도 12월",
+  "posted": "2026-11-19",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2027",
+   "content": "○ 국내 기능성 소재화 기술을 적용한 농산자원 헬스케어푸드 소재의 효능검증\n - 유망자원 선발·가공적성 분석, 품질지표·기준안 마련 및 원료확보를 위한 생산기반 구축\n - 원료-공정-품질 예측 모델 개발 및 헬스케어푸드 시제품 개발 제품화\n\n○ 농업부산물 활용 맞춤형 비육우 사양기술 실증 및 육우 생산성 향상기술 개발\n - 한중 농업부산물 사료가치 평가 및 부산물 활용 맞춤형 TMR 배합·사양 프로그램 개발\n - 국내 기업 ICT 장비를 이용한 송아지 사양관리 방법 현장 실증\n - 국내 기업 보조사료(사료첨가제)·모니터링 장비 등의 현지 적용 실증 및 데이터 기반급이 관리 모델 개발\n\n○ 국내 개발 농약·비료의 브라질 현지 등록 및 실증\n - 제품별 현지 등록 전략 수립, 등록 요건에 부합하는 시험·실증자료 확보 및 등록 신청 \n\n○ 국내 개발 미생물제의 브라질 현지 실증 및 사업화 기술 개발\n - 현지 작물·재배환경별 효능 검증 및 적용 기술 확립, 전문시험기관 연계 현지 등록용 실증자료 확보 및 인허가 대응\n\n○ 멕시코 현지 적합형 농기계 개발 및 실증 연구\n - 현지의 지형, 토양, 작부체계에 적합한 농기계를 개발하고 현지 농가포장에서 실증, 사업화를 위한 인증·생산기반 구축\n\n○ 우즈베키스탄 유기농업기술 역량강화를 위한 훈련 프로그램 개발\n     - 현지 적용형 유기농업 핵심기술 개발 및 실증, 단계별 맞춤형 교육체계 구축, 수준별 교육프로그램 운영 등",
+   "purpose": "○ 정상외교 기반 바이오분야 공동연구를 추진하여, 기능성 소재 및 육우 생산성 향상 기술 개발과 현지 실증을 통한 국내 기술의 해외진출 기반 마련\n○ 국내 개발 농자재·농기계의 현지 적합성 실증 및 사업화, 유기농업기술 역량강화를 통한 글로벌 농산업 진출 기반 구축",
+   "field": "○ 한중그린바이오 협력\n○ 글로벌 농산업 전략거점 구축",
+   "budget_min": 600000000,
+   "budget_max": 2100000000,
+   "period": "중기",
+   "expected": "전년도 12월"
+  },
+  "domains": [
+   "바이오",
+   "디지털헬스"
+  ],
+  "matched": [
+   "글로벌",
+   "데이터",
+   "바이오",
+   "헬스케어"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "iris-prntc-606",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "농산업글로벌확산협력(R&D)",
+  "notice_no": "",
+  "type": "",
+  "ministry": "농촌진흥청",
+  "agency": "농촌진흥청",
+  "status": "1월",
+  "posted": "2026-11-19",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2027",
+   "content": "○ 국내 기능성 소재화 기술을 적용한 농산자원 헬스케어푸드 소재의 효능검증\n - 유망자원 선발·가공적성 분석, 품질지표·기준안 마련 및 원료확보를 위한 생산기반 구축\n - 원료-공정-품질 예측 모델 개발 및 헬스케어푸드 시제품 개발 제품화\n\n○ 농업부산물 활용 맞춤형 비육우 사양기술 실증 및 육우 생산성 향상기술 개발\n - 한중 농업부산물 사료가치 평가 및 부산물 활용 맞춤형 TMR 배합·사양 프로그램 개발\n - 국내 기업 ICT 장비를 이용한 송아지 사양관리 방법 현장 실증\n - 국내 기업 보조사료(사료첨가제)·모니터링 장비 등의 현지 적용 실증 및 데이터 기반급이 관리 모델 개발\n\n○ 국내 개발 농약·비료의 브라질 현지 등록 및 실증\n - 제품별 현지 등록 전략 수립, 등록 요건에 부합하는 시험·실증자료 확보 및 등록 신청 \n\n○ 국내 개발 미생물제의 브라질 현지 실증 및 사업화 기술 개발\n - 현지 작물·재배환경별 효능 검증 및 적용 기술 확립, 전문시험기관 연계 현지 등록용 실증자료 확보 및 인허가 대응\n\n○ 멕시코 현지 적합형 농기계 개발 및 실증 연구\n - 현지의 지형, 토양, 작부체계에 적합한 농기계를 개발하고 현지 농가포장에서 실증, 사업화를 위한 인증·생산기반 구축\n\n○ 우즈베키스탄 유기농업기술 역량강화를 위한 훈련 프로그램 개발\n     - 현지 적용형 유기농업 핵심기술 개발 및 실증, 단계별 맞춤형 교육체계 구축, 수준별 교육프로그램 운영 등",
+   "purpose": "○ 정상외교 기반 바이오분야 공동연구를 추진하여, 기능성 소재 및 육우 생산성 향상 기술 개발과 현지 실증을 통한 국내 기술의 해외진출 기반 마련\n○ 국내 개발 농자재·농기계의 현지 적합성 실증 및 사업화, 유기농업기술 역량강화를 통한 글로벌 농산업 진출 기반 구축",
+   "field": "○ 한중그린바이오 협력\n○ 글로벌 농산업 전략거점 구축",
+   "budget_min": 600000000,
+   "budget_max": 2100000000,
+   "period": "중기",
+   "expected": "1월"
+  },
+  "domains": [
+   "바이오",
+   "디지털헬스"
+  ],
+  "matched": [
+   "글로벌",
+   "데이터",
+   "바이오",
+   "헬스케어"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 60,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "iris-prntc-597",
   "source": "IRIS",
   "kind": "forecast",
   "title": "암정복추진연구개발사업",
@@ -270,8 +360,8 @@
   "score": 60,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-542",
@@ -324,10 +414,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-583",
+  "id": "iris-prntc-589",
   "source": "IRIS",
   "kind": "forecast",
   "title": "산림분야그린바이오미래형가치사슬기술개발(R&D)",
@@ -367,8 +457,8 @@
   "score": 60,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-403",
@@ -410,10 +500,104 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-543",
+  "id": "iris-prntc-620",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "중북부한계지역적응형농업생산성향상기술개발(R&D)",
+  "notice_no": "",
+  "type": "",
+  "ministry": "농촌진흥청",
+  "agency": "농촌진흥청",
+  "status": "전년도 12월",
+  "posted": "2026-11-19",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2027",
+   "content": "○ 주요 식량작물의 복합 기상 적응 재배 및 작부체계 통합 영농기술 개발\n   - 중북부 한계지역 특화 식량작물 재배기술 및 작부체계 개발\n\n○ 주요 원예작물의 복합 기상 대응 재배 및 작부체계 통합 영농기술 개발\n   - 중북부 지역에 적합한 연중 생산형 채소 작부체계 개발·실증 및중북부 지역 적응성·내한성이 우수한 과수 계통과 사과 대목 선발·실증\n\n○ 중북부 한계지역 적응형 조사료 품종 선발 및 최적 혼파조합 모델 개발\n   - 중북부 한계지역 적응형 우수 초종·품종 선발 및 중북부 산간지역 최적 혼파조합 개발\n\n○ 위성, AI 기반 작황 모니터링 및 재배적지 예측 모델 개발\n   - 위성 기반 원격탐사·공간정보·인공지능 융합 작목별 재배적지 정밀 예측 모델 개발\n\n○ 북방 유입 대응 작물 병원체 유전자 신속 검출 기술 및 저항성 판별 기술 개발\n   - 중북부 지역 벼 세균병 발생 모니터링 및 신속 진단 키트 개발 및 중북부 지역 고추·사과 병원체 신속 진단 키트와 표준 진단 매뉴얼 개발\n\n○ 북방 유입 우려 비래해충 무인예찰 시스템 구축\n   - 중북부 지역 밭작물 비래해충 무인예찰 체계 구축 및 예측·경보시스템 개발\n\n○ 접경지역 축산농가 실시간 가축 질병 모니터링 기술개발\n   - 중북부 지역 축산농가 가축질병 병원체 모니터링 체계 구축",
+   "purpose": "중북부 접경·산간·경사지에 적용 가능한 통합 영농기술과 작부체계와 농업 저해요소 대응체계를 구축 고도화하고 현장실증 확대를 통해 연구성과의 정책 반영성과 보급 확산 체계를 강화",
+   "field": "○ 중북부 한계지역 적응형 현장실증 및 통합 영농 기술개발\n○ 중북부 한계지역 농업 생산성 저해요소 대응 기술개발",
+   "budget_min": 1900000000,
+   "budget_max": 3168000000,
+   "period": "중기",
+   "expected": "전년도 12월"
+  },
+  "domains": [
+   "바이오",
+   "디지털헬스",
+   "의료기기"
+  ],
+  "matched": [
+   "AI",
+   "원격",
+   "유전자",
+   "인공지능",
+   "진단"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "iris-prntc-607",
+  "source": "IRIS",
+  "kind": "forecast",
+  "title": "중북부한계지역적응형농업생산성향상기술개발(R&D)",
+  "notice_no": "",
+  "type": "",
+  "ministry": "농촌진흥청",
+  "agency": "농촌진흥청",
+  "status": "1월",
+  "posted": "2026-11-19",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.iris.go.kr/contents/retrieveAncmPrntcListView.do",
+  "extra": {
+   "year": "2027",
+   "content": "○ 주요 식량작물의 복합 기상 적응 재배 및 작부체계 통합 영농기술 개발\n   - 중북부 한계지역 특화 식량작물 재배기술 및 작부체계 개발\n\n○ 주요 원예작물의 복합 기상 대응 재배 및 작부체계 통합 영농기술 개발\n   - 중북부 지역에 적합한 연중 생산형 채소 작부체계 개발·실증 및중북부 지역 적응성·내한성이 우수한 과수 계통과 사과 대목 선발·실증\n\n○ 중북부 한계지역 적응형 조사료 품종 선발 및 최적 혼파조합 모델 개발\n   - 중북부 한계지역 적응형 우수 초종·품종 선발 및 중북부 산간지역 최적 혼파조합 개발\n\n○ 위성, AI 기반 작황 모니터링 및 재배적지 예측 모델 개발\n   - 위성 기반 원격탐사·공간정보·인공지능 융합 작목별 재배적지 정밀 예측 모델 개발\n\n○ 북방 유입 대응 작물 병원체 유전자 신속 검출 기술 및 저항성 판별 기술 개발\n   - 중북부 지역 벼 세균병 발생 모니터링 및 신속 진단 키트 개발 및 중북부 지역 고추·사과 병원체 신속 진단 키트와 표준 진단 매뉴얼 개발\n\n○ 북방 유입 우려 비래해충 무인예찰 시스템 구축\n   - 중북부 지역 밭작물 비래해충 무인예찰 체계 구축 및 예측·경보시스템 개발\n\n○ 접경지역 축산농가 실시간 가축 질병 모니터링 기술개발\n   - 중북부 지역 축산농가 가축질병 병원체 모니터링 체계 구축",
+   "purpose": "중북부 접경·산간·경사지에 적용 가능한 통합 영농기술과 작부체계와 농업 저해요소 대응체계를 구축 고도화하고 현장실증 확대를 통해 연구성과의 정책 반영성과 보급 확산 체계를 강화",
+   "field": "○ 중북부 한계지역 적응형 현장실증 및 통합 영농 기술개발\n○ 중북부 한계지역 농업 생산성 저해요소 대응 기술개발",
+   "budget_min": 1900000000,
+   "budget_max": 3168000000,
+   "period": "중기",
+   "expected": "1월"
+  },
+  "domains": [
+   "바이오",
+   "디지털헬스",
+   "의료기기"
+  ],
+  "matched": [
+   "AI",
+   "원격",
+   "유전자",
+   "인공지능",
+   "진단"
+  ],
+  "focus_org": false,
+  "health": true,
+  "relevant": true,
+  "topics": [],
+  "category": "R&D",
+  "score": 50,
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "iris-prntc-544",
   "source": "IRIS",
   "kind": "forecast",
   "title": "지역거점AX혁신기술개발(R&D)_(내역1)표준모델 AX R&D_NIPA",
@@ -455,8 +639,8 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-541",
@@ -502,10 +686,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-390",
+  "id": "iris-prntc-401",
   "source": "IRIS",
   "kind": "forecast",
   "title": "건설전주기안전혁신기술개발사업(R&D)",
@@ -544,11 +728,11 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-384",
+  "id": "iris-prntc-395",
   "source": "IRIS",
   "kind": "forecast",
   "title": "연근해어선안전관리기술개발(R&D)",
@@ -588,11 +772,11 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-379",
+  "id": "iris-prntc-390",
   "source": "IRIS",
   "kind": "forecast",
   "title": "양식생물생물보안체계구축을위한기술개발(R&D)",
@@ -631,8 +815,8 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-488",
@@ -676,7 +860,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-370",
@@ -720,7 +904,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-369",
@@ -768,7 +952,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-451",
@@ -809,7 +993,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-417",
@@ -850,7 +1034,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-405",
@@ -891,10 +1075,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-397",
+  "id": "iris-prntc-380",
   "source": "IRIS",
   "kind": "forecast",
   "title": "필수의약품 혁신 평가기술 지원 연구",
@@ -931,11 +1115,11 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-570",
+  "id": "iris-prntc-577",
   "source": "IRIS",
   "kind": "forecast",
   "title": "AI기반작물모니터링및진단플랫폼개발(R&D)",
@@ -976,11 +1160,11 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-587",
+  "id": "iris-prntc-593",
   "source": "IRIS",
   "kind": "forecast",
   "title": "지역맞춤형오존관리기술개발사업(R&D)",
@@ -1019,11 +1203,11 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-564",
+  "id": "iris-prntc-571",
   "source": "IRIS",
   "kind": "forecast",
   "title": "환경보건빅데이터구축및AI활용고도화기술개발사업(R&D)",
@@ -1067,10 +1251,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-563",
+  "id": "iris-prntc-570",
   "source": "IRIS",
   "kind": "forecast",
   "title": "블록체인기반살생물제정보지능형공정관리기술개발(R&D)",
@@ -1110,7 +1294,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-467",
@@ -1153,7 +1337,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-447",
@@ -1200,7 +1384,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-446",
@@ -1243,10 +1427,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-546",
+  "id": "iris-prntc-547",
   "source": "IRIS",
   "kind": "forecast",
   "title": "농업빅데이터수집및생산성향상모델개발(R&D)",
@@ -1287,8 +1471,8 @@
   "score": 50,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-368",
@@ -1330,10 +1514,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-385",
+  "id": "iris-prntc-396",
   "source": "IRIS",
   "kind": "forecast",
   "title": "극한지 스마트 광역탐사를 위한 로봇-ICT 융합 기술개발 사업",
@@ -1372,11 +1556,11 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-380",
+  "id": "iris-prntc-391",
   "source": "IRIS",
   "kind": "forecast",
   "title": "연안하구 인간-자연시스템 환경관리 기술개발",
@@ -1413,8 +1597,8 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-452",
@@ -1453,7 +1637,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-416",
@@ -1492,7 +1676,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-456",
@@ -1533,7 +1717,7 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-411",
@@ -1575,10 +1759,10 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-574",
+  "id": "iris-prntc-580",
   "source": "IRIS",
   "kind": "forecast",
   "title": "대체단백특화시장맞춤형원료화(R&D)",
@@ -1616,11 +1800,11 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-571",
+  "id": "iris-prntc-578",
   "source": "IRIS",
   "kind": "forecast",
   "title": "AI기반생체·정서반응형농업활동서비스플랫폼개발(R&D)",
@@ -1659,11 +1843,11 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-588",
+  "id": "iris-prntc-550",
   "source": "IRIS",
   "kind": "forecast",
   "title": "환경성질환 예방관리 핵심 기술개발사업(R&D)",
@@ -1700,11 +1884,11 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "iris-prntc-396",
+  "id": "iris-prntc-379",
   "source": "IRIS",
   "kind": "forecast",
   "title": "환경성질환 예방관리 핵심 기술개발사업(R&D)",
@@ -1741,8 +1925,8 @@
   "score": 35,
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-02",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-prntc-490",
@@ -1781,6 +1965,6 @@
   "origin": "IRIS",
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  }
 ]

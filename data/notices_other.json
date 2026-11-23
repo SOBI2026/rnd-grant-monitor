@@ -1,5 +1,419 @@
 [
  {
+  "id": "mohw-1492615",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2027년도 예비양부모 조사 및 사후관리 사업 수행기관 재공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-20",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492615",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492612",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "(제2026-895호) 간호인력 지원센터 운영 사업 위탁기관 재공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-20",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492612",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492611",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2027년도 간호조무사 직무교육 개발 및 지원 사업 위탁기관 재공모",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-20",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492611",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "nipa-17006",
+  "source": "NIPA",
+  "kind": "notice",
+  "title": "「첨단 GPU 활용 지원 사업」베타서비스 참여자 모집 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "과학기술정보통신부",
+  "agency": "정보통신산업진흥원",
+  "status": "접수중",
+  "posted": "2026-11-19",
+  "open_date": "2026-11-19",
+  "close_date": "2026-11-24",
+  "url": "https://www.nipa.kr/home/2-2/17006",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "신청기간",
+   "business": "AI컴퓨팅자원 활용기반 강화사업 (첨단 GPU 활용 지원)"
+  },
+  "domains": [],
+  "matched": [
+   "AI"
+  ],
+  "focus_org": false,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "NIPA",
+  "origin_label": "NIPA 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492600",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "「중앙지역의사지원센터」 수탁기관 지정 신청 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-19",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492600",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492587",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "제20회 암 예방의 날 숨은 유공자 공개추천 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-19",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492587",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [
+   "암"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492579",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "2027년도 「필수의료 간호사 양성지원」사업 위탁기관 선정 공모(연장)",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-18",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492579",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492578",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "[2026-21호] 민간자격 등록폐지 공고",
+  "notice_no": "2026-21호",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-18",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492578",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "번호만",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "khidiweb-48952917",
+  "source": "KHIDIWEB",
+  "kind": "notice",
+  "title": "Medical Korea 2027 연계 지역 콘퍼런스 및 비즈니스 미팅 참여 지자체 모집 공모(~11.27.(금))",
+  "notice_no": "",
+  "type": "공모 (추정)",
+  "ministry": "보건복지부",
+  "agency": "한국보건산업진흥원",
+  "status": "접수중",
+  "posted": "2026-11-17",
+  "open_date": null,
+  "close_date": "2026-11-27",
+  "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&no1=937&linkId=48952917&menuId=MENU01108",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "제목 추정",
+   "pinned": false
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "KHIDIWEB",
+  "origin_label": "KHIDI 대표사이트 사업공고",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492575",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "보건복지부 복지돌봄인공지능정책과 파견근무자 모집 안내(2차)",
+  "notice_no": "",
+  "type": "참여기업 모집 (추정)",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-17",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492575",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [
+   "인공지능"
+  ],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492571",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "정신질환자 지속치료 지원 시범사업기관 추가 선정 결과 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-17",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492571",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "id": "mohw-1492568",
+  "source": "MOHW",
+  "kind": "notice",
+  "title": "가명정보 결합전문기관 재지정 사실 공고",
+  "notice_no": "",
+  "type": "비R&D 사업",
+  "ministry": "보건복지부",
+  "agency": "보건복지부",
+  "status": "게시중(기간 확인 필요)",
+  "posted": "2026-11-17",
+  "open_date": null,
+  "close_date": null,
+  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492568",
+  "extra": {
+   "category": "비R&D",
+   "terms_only": true,
+   "deadline_from": "",
+   "strict": true
+  },
+  "domains": [],
+  "matched": [],
+  "focus_org": true,
+  "health": false,
+  "relevant": false,
+  "topics": [],
+  "category": "비R&D",
+  "score": 15,
+  "origin": "MOHW",
+  "origin_label": "보건복지부 공지",
+  "notice_no_kind": "없음",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
+ },
+ {
   "id": "ntis-1282912",
   "source": "NTIS",
   "kind": "notice",
@@ -41,7 +455,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492536",
@@ -75,7 +489,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282916",
@@ -119,7 +533,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492525",
@@ -153,7 +567,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492507",
@@ -187,7 +601,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492497",
@@ -221,7 +635,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492484",
@@ -255,51 +669,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1282682",
-  "source": "NTIS",
-  "kind": "signal",
-  "title": "수출형 방산체계 고도화를 위한AI 방산 RD 품목발굴을 위한 기술수요조사",
-  "notice_no": "",
-  "type": "수요조사",
-  "ministry": "산업통상부",
-  "agency": "한국산업기술기획평가원",
-  "status": "접수중",
-  "posted": "2026-11-10",
-  "open_date": "2026-11-10",
-  "close_date": "2026-11-20",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282682",
-  "extra": {
-   "business": "관련정보없음",
-   "amount": "0 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "산업통상부",
-   "d_agency": "한국산업기술기획평가원",
-   "d_posted": "2026-11-10",
-   "d_type": "수요조사",
-   "d_form": "통합공고",
-   "d_business": "관련정보없음",
-   "d_amount": "0 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [
-   "AI"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 15,
-  "signal_type": "수요조사",
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492465",
@@ -333,7 +703,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492462",
@@ -367,7 +737,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492461",
@@ -401,7 +771,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492454",
@@ -435,7 +805,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492446",
@@ -469,7 +839,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492424",
@@ -503,104 +873,25 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "ntis-1281948",
-  "source": "NTIS",
+  "id": "iris-024717",
+  "source": "IRIS",
   "kind": "notice",
-  "title": "2026년 「AX실증밸리조성(RD)」 사업 신규지원대상 과제 통합 재공고_(내역3)[품목]AI 기반 에너지 운영 최적화 및 안전관리",
-  "notice_no": "산업통상부 공고 제 2026-683 호",
-  "type": "본공고",
-  "ministry": "과학기술정보통신부",
+  "title": "2026년 「AX실증밸리조성(R&D)」 사업 신규지원대상 과제 통합 재공고",
+  "notice_no": "산업통상부 공고 제2026-683호·기후에너지환경부 공고 제2026-1000호",
+  "type": "지정공모,품목지정공모",
+  "ministry": "다부처",
   "agency": "정보통신산업진흥원",
-  "status": "접수중",
+  "status": "마감",
   "posted": "2026-11-02",
   "open_date": "2026-11-03",
   "close_date": "2026-11-16",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281948",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024717&ancmPrg=ancmEnd",
   "extra": {
-   "business": "AX실증밸리조성(R&D)(과학기술정보통신부)",
-   "amount": "13.57 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "정보통신산업진흥원",
-   "d_posted": "2026-11-02",
-   "d_type": "본공고",
-   "d_form": "통합공고",
-   "d_business": "AX실증밸리조성(R&D)(과학기술정보통신부)",
-   "d_amount": "13.57 억원",
-   "d_notice_no": "산업통상부 공고 제 2026-683 호",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024717&ancmPrg=ancmIng"
-   },
-   "co_ministries": [
-    "다부처"
-   ],
-   "merged_ids": [
-    "iris-024717"
-   ]
-  },
-  "domains": [],
-  "matched": [
-   "AI",
-   "AX"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1281947",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년 「AX실증밸리조성(RD)」 사업 신규지원대상 과제 통합 재공고_(내역2-2)[지정]자율주행모빌리티AX",
-  "notice_no": "산업통상부 공고 제 2026-683 호",
-  "type": "본공고",
-  "ministry": "과학기술정보통신부",
-  "agency": "정보통신산업진흥원",
-  "status": "접수중",
-  "posted": "2026-11-02",
-  "open_date": "2026-11-03",
-  "close_date": "2026-11-16",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281947",
-  "extra": {
-   "business": "AX실증밸리조성(R&D)(과학기술정보통신부)",
-   "amount": "12.6 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "정보통신산업진흥원",
-   "d_posted": "2026-11-02",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "AX실증밸리조성(R&D)(과학기술정보통신부)",
-   "d_amount": "12.6 억원",
-   "d_notice_no": "산업통상부 공고 제 2026-683 호",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024717&ancmPrg=ancmIng"
-   },
-   "co_ministries": [
-    "다부처"
-   ],
-   "merged_ids": [
-    "iris-024717"
-   ]
+   "raw_status": "공고마감",
+   "raw_phase": "완료"
   },
   "domains": [],
   "matched": [
@@ -612,18 +903,18 @@
   "topics": [],
   "category": "R&D",
   "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492409",
   "source": "MOHW",
   "kind": "notice",
-  "title": "[2026-19호] 민간자격 등록폐지 공고",
-  "notice_no": "2026-19호",
+  "title": "[2026-20호] 민간자격 등록폐지 공고",
+  "notice_no": "2026-20호",
   "type": "비R&D 사업",
   "ministry": "보건복지부",
   "agency": "보건복지부",
@@ -650,7 +941,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "번호만",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492407",
@@ -684,7 +975,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492406",
@@ -718,7 +1009,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492403",
@@ -752,7 +1043,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492401",
@@ -786,7 +1077,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492400",
@@ -820,7 +1111,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492398",
@@ -854,7 +1145,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492397",
@@ -888,7 +1179,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492381",
@@ -922,7 +1213,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492370",
@@ -956,7 +1247,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492345",
@@ -992,7 +1283,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492341",
@@ -1028,7 +1319,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492340",
@@ -1062,7 +1353,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492332",
@@ -1098,7 +1389,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492329",
@@ -1132,7 +1423,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282526",
@@ -1186,7 +1477,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16976",
@@ -1222,7 +1513,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492316",
@@ -1258,51 +1549,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1281018",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년 「AX실증밸리조성(RD)」사업 AX촉진거점구축 과제(정책지정) 공고",
-  "notice_no": "",
-  "type": "본공고",
-  "ministry": "과학기술정보통신부",
-  "agency": "정보통신산업진흥원",
-  "status": "접수중",
-  "posted": "2026-10-21",
-  "open_date": "2026-10-21",
-  "close_date": "2026-11-17",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281018",
-  "extra": {
-   "business": "AX실증밸리조성(R&D)(과학기술정보통신부)",
-   "amount": "0 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "정보통신산업진흥원",
-   "d_posted": "2026-10-21",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "AX실증밸리조성(R&D)(과학기술정보통신부)",
-   "d_amount": "0 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [
-   "AX"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 15,
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492280",
@@ -1336,7 +1583,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492272",
@@ -1370,7 +1617,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492271",
@@ -1404,7 +1651,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492264",
@@ -1438,7 +1685,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492262",
@@ -1472,7 +1719,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492257",
@@ -1506,7 +1753,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492255",
@@ -1540,7 +1787,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492249",
@@ -1574,60 +1821,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "번호만",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1280523",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년도 AI 기반 주파수 간섭분석 및 전파예측기술 개발사업 신규지원 대상과제 공고",
-  "notice_no": "과학기술정보통신부 공고 제 2026-1015 호",
-  "type": "본공고",
-  "ministry": "과학기술정보통신부",
-  "agency": "정보통신기획평가원",
-  "status": "접수중",
-  "posted": "2026-10-15",
-  "open_date": "2026-11-03",
-  "close_date": "2026-11-16",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1280523",
-  "extra": {
-   "business": "AI기반주파수간섭분석및전파예측기술개발(R&D)",
-   "amount": "6 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "정보통신기획평가원",
-   "d_posted": "2026-10-15",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "AI기반주파수간섭분석및전파예측기술개발(R&D)",
-   "d_amount": "6 억원",
-   "d_notice_no": "과학기술정보통신부 공고 제 2026-1015 호",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024439&ancmPrg=ancmIng"
-   },
-   "merged_ids": [
-    "iris-024439"
-   ]
-  },
-  "domains": [],
-  "matched": [
-   "AI"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 15,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492239",
@@ -1663,7 +1857,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492205",
@@ -1697,7 +1891,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492173",
@@ -1731,7 +1925,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492171",
@@ -1765,7 +1959,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492158",
@@ -1799,7 +1993,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492141",
@@ -1833,7 +2027,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16952",
@@ -1869,77 +2063,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "mohw-1492123",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "2026년도 2차 간호조무사 신규교육훈련기관 예비 지정 평가 시행 계획 공고",
-  "notice_no": "",
-  "type": "비R&D 사업",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-10-01",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492123",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "",
-   "strict": true
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "MOHW",
-  "origin_label": "보건복지부 공지",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "mohw-1492069",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "2026년 상반기 기관생명윤리위원회 평가 인증(신규) 결과 공고",
-  "notice_no": "",
-  "type": "인증 (추정)",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-09-29",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492069",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "",
-   "strict": true
-  },
-  "domains": [],
-  "matched": [
-   "생명"
-  ],
-  "focus_org": true,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "MOHW",
-  "origin_label": "보건복지부 공지",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1279597",
@@ -1973,7 +2097,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16953",
@@ -2010,109 +2134,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "mohw-1492042",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "「공소청법」 및 「 중대범죄수사청법」 제정에 따른 보건복지부 및 소속기관 9개 행정..",
-  "notice_no": "",
-  "type": "비R&D 사업",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-09-22",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492042",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "",
-   "strict": true
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "MOHW",
-  "origin_label": "보건복지부 공지",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "mohw-1492037",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "오송보건의료행정타운 중앙후생관 구내식당 수탁업체 선정 공고",
-  "notice_no": "",
-  "type": "비R&D 사업",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-09-22",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492037",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "",
-   "strict": true
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "MOHW",
-  "origin_label": "보건복지부 공지",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "mohw-1492005",
-  "source": "MOHW",
-  "kind": "notice",
-  "title": "장애인보조견 전문훈련기관 지정 및 지원사업 보조사업자 재공모",
-  "notice_no": "",
-  "type": "공모 (추정)",
-  "ministry": "보건복지부",
-  "agency": "보건복지부",
-  "status": "게시중(기간 확인 필요)",
-  "posted": "2026-09-18",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492005",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "",
-   "strict": true
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "MOHW",
-  "origin_label": "보건복지부 공지",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "khidiweb-48949849",
@@ -2146,7 +2168,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "khidiweb-48949841",
@@ -2182,7 +2204,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1277080",
@@ -2216,7 +2238,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16921",
@@ -2252,7 +2274,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16899",
@@ -2288,7 +2310,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16897",
@@ -2325,7 +2347,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "khidiweb-48948191",
@@ -2361,7 +2383,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16883",
@@ -2397,7 +2419,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16882",
@@ -2433,7 +2455,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16874",
@@ -2469,7 +2491,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16846",
@@ -2505,7 +2527,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16866",
@@ -2541,7 +2563,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "khidiweb-48947533",
@@ -2577,7 +2599,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "khidiweb-48947470",
@@ -2613,41 +2635,7 @@
   "origin_label": "KHIDI 대표사이트 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "khidiweb-48947418",
-  "source": "KHIDIWEB",
-  "kind": "history",
-  "title": "2026년도 제3차 보건신기술(NET) 인증기술 신청 및 연장신청 접수 공고",
-  "notice_no": "",
-  "type": "인증 (추정)",
-  "ministry": "보건복지부",
-  "agency": "한국보건산업진흥원",
-  "status": "마감(추정)",
-  "posted": "2026-07-14",
-  "open_date": null,
-  "close_date": null,
-  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=907&linkId=48947418&menuId=MENU01108",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "",
-   "pinned": false
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "KHIDIWEB",
-  "origin_label": "KHIDI 대표사이트 사업공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16852",
@@ -2683,41 +2671,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "khidiweb-48947057",
-  "source": "KHIDIWEB",
-  "kind": "history",
-  "title": "2026 ESMO(유럽종양학회) 사절단 참여기업 모집 안내(~7.31.)",
-  "notice_no": "",
-  "type": "참여기업 모집 (추정)",
-  "ministry": "보건복지부",
-  "agency": "한국보건산업진흥원",
-  "status": "마감",
-  "posted": "2026-07-06",
-  "open_date": null,
-  "close_date": "2026-07-31",
-  "url": "https://www.khidi.or.kr/board/view?pageNum=3&rowCnt=10&no1=905&linkId=48947057&menuId=MENU01108",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "제목 추정",
-   "pinned": false
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": true,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "KHIDIWEB",
-  "origin_label": "KHIDI 대표사이트 사업공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16817",
@@ -2753,7 +2707,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1270451",
@@ -2787,7 +2741,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1269831",
@@ -2821,7 +2775,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16795",
@@ -2857,7 +2811,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16764",
@@ -2893,7 +2847,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16756",
@@ -2930,43 +2884,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "nipa-16752",
-  "source": "NIPA",
-  "kind": "history",
-  "title": "2026년 「수출 유망 디지털콘텐츠 강소기업 육성」지원기업 추가모집 공고",
-  "notice_no": "",
-  "type": "비R&D 사업",
-  "ministry": "과학기술정보통신부",
-  "agency": "정보통신산업진흥원",
-  "status": "마감",
-  "posted": "2026-05-04",
-  "open_date": "2026-05-04",
-  "close_date": "2026-05-23",
-  "url": "https://www.nipa.kr/home/2-2/16752",
-  "extra": {
-   "category": "비R&D",
-   "terms_only": true,
-   "deadline_from": "신청기간",
-   "business": "2026년 수출 유망 디지털콘텐츠 강소기업 육성 지원"
-  },
-  "domains": [],
-  "matched": [
-   "디지털"
-  ],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "비R&D",
-  "score": 15,
-  "origin": "NIPA",
-  "origin_label": "NIPA 사업공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1261061",
@@ -3000,7 +2918,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1256546",
@@ -3034,7 +2952,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1256544",
@@ -3068,7 +2986,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1255372",
@@ -3102,7 +3020,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1254355",
@@ -3137,7 +3055,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1254297",
@@ -3172,7 +3090,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1257112",
@@ -3206,7 +3124,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1253233",
@@ -3247,7 +3165,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1253138",
@@ -3281,7 +3199,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252939",
@@ -3315,7 +3233,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252889",
@@ -3349,7 +3267,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252856",
@@ -3383,7 +3301,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1253434",
@@ -3419,7 +3337,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1253420",
@@ -3455,7 +3373,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252587",
@@ -3489,7 +3407,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252495",
@@ -3523,7 +3441,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252617",
@@ -3557,7 +3475,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252616",
@@ -3598,7 +3516,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252332",
@@ -3639,7 +3557,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252213",
@@ -3673,7 +3591,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252212",
@@ -3707,7 +3625,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252207",
@@ -3741,7 +3659,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1252214",
@@ -3776,7 +3694,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492265",
@@ -3810,7 +3728,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16969",
@@ -3846,7 +3764,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "mohw-1492157",
@@ -3880,7 +3798,7 @@
   "origin_label": "보건복지부 공지",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16922",
@@ -3917,7 +3835,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1283030",
@@ -3959,7 +3877,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282959",
@@ -4001,7 +3919,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282958",
@@ -4043,7 +3961,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282955",
@@ -4085,7 +4003,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-024799",
@@ -4117,7 +4035,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282915",
@@ -4159,49 +4077,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1282913",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년 에너지국제공동연구사업 한-미 에너지협력센터 구축확산",
-  "notice_no": "",
-  "type": "본공고",
-  "ministry": "기후에너지환경부",
-  "agency": "한국에너지기술평가원",
-  "status": "접수중",
-  "posted": "2026-11-10",
-  "open_date": "2026-11-10",
-  "close_date": "2026-11-16",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282913",
-  "extra": {
-   "business": "에너지국제공동연구(R&D)",
-   "amount": "229.44 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "기후에너지환경부",
-   "d_agency": "한국에너지기술평가원",
-   "d_posted": "2026-11-10",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "에너지국제공동연구(R&D)",
-   "d_amount": "229.44 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282796",
@@ -4252,77 +4128,35 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
-  "id": "ntis-1282515",
-  "source": "NTIS",
-  "kind": "signal",
-  "title": "2027년도 소재부품기술개발사업 소부장 특화단지 RD 기술수요조사 공고",
-  "notice_no": "",
-  "type": "수요조사",
-  "ministry": "산업통상부",
-  "agency": "한국산업기술기획평가원",
-  "status": "접수중",
-  "posted": "2026-11-09",
-  "open_date": "2026-11-09",
-  "close_date": "2026-11-20",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282515",
-  "extra": {
-   "business": "관련정보없음",
-   "amount": "0 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "산업통상부",
-   "d_agency": "한국산업기술기획평가원",
-   "d_posted": "2026-11-09",
-   "d_type": "수요조사",
-   "d_form": "통합공고",
-   "d_business": "관련정보없음",
-   "d_amount": "0 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "signal_type": "수요조사",
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1282329",
-  "source": "NTIS",
+  "id": "iris-024762",
+  "source": "IRIS",
   "kind": "notice",
-  "title": "「K-문샷 반도체 미션 성과제고를 위한 연구모델 기획 연구」 정책연구과제 공고",
-  "notice_no": "",
-  "type": "본공고",
+  "title": "2027년도 1차 개인기초연구(세종과학펠로우십(복귀·유치트랙)) 신규과제 공모",
+  "notice_no": "과학기술정보통신부 공고 제2026-1069호",
+  "type": "자유공모",
   "ministry": "과학기술정보통신부",
-  "agency": "국가과학기술연구회",
-  "status": "접수중",
-  "posted": "2026-11-06",
-  "open_date": "2026-11-06",
-  "close_date": "2026-11-16",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282329",
+  "agency": "한국연구재단",
+  "status": "접수예정",
+  "posted": "2026-11-05",
+  "open_date": "2026-11-25",
+  "close_date": "2026-12-10",
+  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024762&ancmPrg=ancmPre",
   "extra": {
-   "business": "K-%25EB%25AC%25B8%25EC%2583%25B7%25EC%25B6%2594%25EC%25A7%2584%25EC%25A7%2580%25EC%259B%2590%25EC%2582%25AC%25EC%2597%2585",
-   "amount": "0.8 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "국가과학기술연구회",
-   "d_posted": "2026-11-06",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "K-%25EB%25AC%25B8%25EC%2583%25B7%25EC%25B6%2594%25EC%25A7%2584%25EC%25A7%2580%25EC%259B%2590%25EC%2582%25AC%25EC%2597%2585",
-   "d_amount": "0.8 억원",
-   "d_notice_no": ""
+   "raw_status": "공고예고",
+   "raw_phase": "예정",
+   "also_listed": [],
+   "links": {
+    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024761&ancmPrg=ancmPre"
+   },
+   "merged_ids": [
+    "iris-024761",
+    "iris-024757",
+    "iris-024742",
+    "iris-024760"
+   ]
   },
   "domains": [],
   "matched": [],
@@ -4332,53 +4166,11 @@
   "topics": [],
   "category": "R&D",
   "score": 0,
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1282328",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "「K-문샷 프로그램 성과관리·평가체계 수립 연구」 정책연구과제 공고",
-  "notice_no": "",
-  "type": "본공고",
-  "ministry": "과학기술정보통신부",
-  "agency": "국가과학기술연구회",
-  "status": "접수중",
-  "posted": "2026-11-06",
-  "open_date": "2026-11-06",
-  "close_date": "2026-11-16",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282328",
-  "extra": {
-   "business": "K-문샷추진지원사업",
-   "amount": "0.9 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "국가과학기술연구회",
-   "d_posted": "2026-11-06",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "K-문샷추진지원사업",
-   "d_amount": "0.9 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "origin": "IRIS",
+  "origin_label": "IRIS (범부처통합연구지원시스템)",
+  "notice_no_kind": "부처 공고",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282230",
@@ -4420,7 +4212,7 @@
   "origin": "NTIS",
   "origin_label": "NTIS 국가R&D통합공고",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-024778",
@@ -4452,7 +4244,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16982",
@@ -4486,7 +4278,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-024697",
@@ -4518,49 +4310,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1281599",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "「출연연 지역조직의 지역혁신 역량 고도화 방안 기획·연구」 정책연구과제 재공고",
-  "notice_no": "",
-  "type": "본공고",
-  "ministry": "과학기술정보통신부",
-  "agency": "국가과학기술연구회",
-  "status": "접수중",
-  "posted": "2026-10-28",
-  "open_date": "2026-10-28",
-  "close_date": "2026-11-16",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281599",
-  "extra": {
-   "business": "%25ED%2595%25B4%25EB%258B%25B9%25EC%2597%2586%25EC%259D%258C",
-   "amount": "2.75 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "국가과학기술연구회",
-   "d_posted": "2026-10-28",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "%25ED%2595%25B4%25EB%258B%25B9%25EC%2597%2586%25EC%259D%258C",
-   "d_amount": "2.75 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1281498",
@@ -4602,7 +4352,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1281433",
@@ -4644,7 +4394,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282525",
@@ -4695,7 +4445,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282524",
@@ -4746,7 +4496,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-024577",
@@ -4778,100 +4528,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1281132",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년도 제3차 기계장비산업기술개발사업 신규지원 대상과제 공고",
-  "notice_no": "산업통상부 공고 제 2026-661 호",
-  "type": "본공고",
-  "ministry": "산업통상부",
-  "agency": "한국산업기술기획평가원",
-  "status": "접수중",
-  "posted": "2026-10-22",
-  "open_date": "2026-10-29",
-  "close_date": "2026-11-20",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281132",
-  "extra": {
-   "business": "기계장비산업기술개발(R&D)",
-   "amount": "114.02 억원",
-   "form": "통합공고",
-   "detail_ok": true,
-   "d_ministry": "산업통상부",
-   "d_agency": "한국산업기술기획평가원",
-   "d_posted": "2026-10-22",
-   "d_type": "본공고",
-   "d_form": "통합공고",
-   "d_business": "기계장비산업기술개발(R&D)",
-   "d_amount": "114.02 억원",
-   "d_notice_no": "산업통상부 공고 제 2026-661 호",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024578&ancmPrg=ancmIng"
-   },
-   "merged_ids": [
-    "iris-024578"
-   ]
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1282512",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2027년도 농림축산검역검사기술개발사업 신규 산업체공동연구과제 참여기관 공모",
-  "notice_no": "",
-  "type": "본공고",
-  "ministry": "농림축산식품부",
-  "agency": "농림축산검역본부",
-  "status": "접수중",
-  "posted": "2026-10-19",
-  "open_date": "2026-10-19",
-  "close_date": "2026-11-18",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282512",
-  "extra": {
-   "business": "%EB%86%8D%EB%A6%BC%EC%B6%95%EC%82%B0%EA%B2%80%EC%97%AD%EA%B2%80%EC%82%AC%EA%B8%B0%EC%88%A0%EA%B0%9C%EB%B0%9C(R%26D)",
-   "amount": "8 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "농림축산식품부",
-   "d_agency": "농림축산검역본부",
-   "d_posted": "2026-10-19",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "%EB%86%8D%EB%A6%BC%EC%B6%95%EC%82%B0%EA%B2%80%EC%97%AD%EA%B2%80%EC%82%AC%EA%B8%B0%EC%88%A0%EA%B0%9C%EB%B0%9C(R%26D)",
-   "d_amount": "8 억원",
-   "d_notice_no": ""
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "NTIS",
-  "origin_label": "NTIS 국가R&D통합공고",
-  "notice_no_kind": "없음",
-  "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1282514",
@@ -4913,58 +4570,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-16",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "ntis-1280632",
-  "source": "NTIS",
-  "kind": "notice",
-  "title": "2026년 한미 이공분야 학생인력교류 프로그램(NSF IRES) 운영지원사업 신규과제 공모",
-  "notice_no": "과학기술정보통신부 공고 제2026-1007호",
-  "type": "본공고",
-  "ministry": "과학기술정보통신부",
-  "agency": "한국연구재단",
-  "status": "접수중",
-  "posted": "2026-10-16",
-  "open_date": "2026-10-16",
-  "close_date": "2026-11-17",
-  "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1280632",
-  "extra": {
-   "business": "국가간협력기반조성",
-   "amount": "229.38 억원",
-   "form": "개별공고",
-   "detail_ok": true,
-   "d_ministry": "과학기술정보통신부",
-   "d_agency": "한국연구재단",
-   "d_posted": "2026-10-16",
-   "d_type": "본공고",
-   "d_form": "개별공고",
-   "d_business": "국가간협력기반조성",
-   "d_amount": "229.38 억원",
-   "d_notice_no": "과학기술정보통신부 공고 제2026-1007호",
-   "also_listed": [
-    "IRIS"
-   ],
-   "links": {
-    "IRIS": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024477&ancmPrg=ancmIng"
-   },
-   "merged_ids": [
-    "iris-024477"
-   ]
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "NTIS + IRIS",
-  "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "부처 공고",
-  "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1280555",
@@ -5006,7 +4612,7 @@
   "origin": "NTIS",
   "origin_label": "NTIS 국가R&D통합공고",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1280452",
@@ -5048,12 +4654,12 @@
   "origin": "NTIS",
   "origin_label": "NTIS 국가R&D통합공고",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16967",
   "source": "NIPA",
-  "kind": "notice",
+  "kind": "history",
   "title": "하노이 IT지원센터‘26년 하반기 추가 입주기업 모집 공고",
   "notice_no": "",
   "type": "비R&D 사업",
@@ -5082,7 +4688,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1281283",
@@ -5124,7 +4730,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16931",
@@ -5158,39 +4764,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
- },
- {
-  "id": "iris-024737",
-  "source": "IRIS",
-  "kind": "notice",
-  "title": "범부처 신속대응 R&D IITP 전담 지정 과제",
-  "notice_no": "해당없음(신속대응R&D)",
-  "type": "자유공모",
-  "ministry": "과학기술정보통신부",
-  "agency": "정보통신기획평가원",
-  "status": "접수중",
-  "posted": "2026-08-25",
-  "open_date": "2026-08-25",
-  "close_date": "2026-11-20",
-  "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024737&ancmPrg=ancmIng",
-  "extra": {
-   "raw_status": "공고접수중",
-   "raw_phase": "진행중"
-  },
-  "domains": [],
-  "matched": [],
-  "focus_org": false,
-  "health": false,
-  "relevant": false,
-  "topics": [],
-  "category": "R&D",
-  "score": 0,
-  "origin": "IRIS",
-  "origin_label": "IRIS (범부처통합연구지원시스템)",
-  "notice_no_kind": "번호만",
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16900",
@@ -5224,7 +4798,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16887",
@@ -5258,7 +4832,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "iris-017852",
@@ -5290,7 +4864,7 @@
   "origin_label": "IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "IRIS 접수코드",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16872",
@@ -5324,7 +4898,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1278998",
@@ -5375,7 +4949,7 @@
   "origin_label": "NTIS 국가R&D통합공고 / IRIS (범부처통합연구지원시스템)",
   "notice_no_kind": "부처 공고",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16827",
@@ -5409,7 +4983,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16820",
@@ -5443,7 +5017,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16815",
@@ -5477,7 +5051,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16797",
@@ -5511,7 +5085,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "nipa-16774",
@@ -5545,7 +5119,7 @@
   "origin_label": "NIPA 사업공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1261311",
@@ -5577,7 +5151,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1258320",
@@ -5609,7 +5183,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1253341",
@@ -5651,7 +5225,7 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  },
  {
   "id": "ntis-1205127",
@@ -5693,6 +5267,6 @@
   "origin_label": "NTIS 국가R&D통합공고",
   "notice_no_kind": "없음",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-23"
  }
 ]

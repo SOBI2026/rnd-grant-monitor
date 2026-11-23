@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-23",
  "series": [
   {
    "key": "바이오접합체기술선도형플랫폼구축",
@@ -1596,6 +1596,83 @@
    "forecast_refs": []
   },
   {
+   "key": "국립보건연구원연구용역과제입찰",
+   "name": "국립보건연구원 신규 연구용역과제(학술) 입찰 통합공고",
+   "ministry": "다부처(국립보건연구원 연구용역과제·보건복지부)",
+   "agencies": [
+    "한국보건산업진흥원"
+   ],
+   "domains": [
+    "보건의료"
+   ],
+   "rounds_per_year": 2,
+   "rounds": [
+    {
+     "start": "2026-01-15",
+     "end": "2026-02-26",
+     "items": [
+      {
+       "id": "ntis-1253689",
+       "title": "2026년 국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253689",
+       "open_date": "2026-01-15",
+       "close_date": "2026-02-26",
+       "notice_no": "",
+       "source": "NTIS"
+      }
+     ]
+    },
+    {
+     "start": "2026-11-20",
+     "end": "2026-12-01",
+     "items": [
+      {
+       "id": "khidi-pban-9006",
+       "title": "2027년도 국립보건연구원 신규 연구용역과제(학술) 입찰 통합공고",
+       "url": "https://www.htdream.kr/",
+       "open_date": "2026-11-20",
+       "close_date": "2026-12-01",
+       "notice_no": "",
+       "source": "KHIDI"
+      }
+     ]
+    }
+   ],
+   "predictions": [
+    {
+     "start": "2027-01-15",
+     "end": "2027-02-26",
+     "confidence": "중",
+     "basis": [
+      "2026년 1월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2026년 국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253689",
+       "source": "NTIS"
+      }
+     ]
+    },
+    {
+     "start": "2027-11-20",
+     "end": "2027-12-01",
+     "confidence": "중",
+     "basis": [
+      "2026년 11월 공고 반복"
+     ],
+     "last_refs": [
+      {
+       "title": "2027년도 국립보건연구원 신규 연구용역과제(학술) 입찰 통합공고",
+       "url": "https://www.htdream.kr/",
+       "source": "KHIDI"
+      }
+     ]
+    }
+   ],
+   "forecast_refs": []
+  },
+  {
    "key": "범부처첨단의료기기연구개발사업",
    "name": "범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고",
    "ministry": "다부처(보건복지부·산업통상부)",
@@ -1610,18 +1687,18 @@
      "end": "2026-03-10",
      "items": [
       {
-       "id": "ntis-1255669",
-       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
+       "id": "ntis-1256662",
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
        "open_date": "2026-02-19",
        "close_date": "2026-03-10",
        "notice_no": "",
        "source": "NTIS"
       },
       {
-       "id": "ntis-1256662",
-       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+       "id": "ntis-1255669",
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
        "open_date": "2026-02-19",
        "close_date": "2026-03-10",
        "notice_no": "",
@@ -1730,13 +1807,13 @@
      ],
      "last_refs": [
       {
-       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
        "source": "NTIS"
       },
       {
-       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+       "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
+       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
        "source": "NTIS"
       }
      ]
@@ -3297,51 +3374,6 @@
    "forecast_refs": []
   },
   {
-   "key": "국립보건연구원연구용역과제입찰",
-   "name": "국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
-   "ministry": "보건복지부",
-   "agencies": [],
-   "domains": [
-    "보건의료"
-   ],
-   "rounds_per_year": 1,
-   "rounds": [
-    {
-     "start": "2026-01-15",
-     "end": "2026-02-26",
-     "items": [
-      {
-       "id": "ntis-1253689",
-       "title": "2026년 국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253689",
-       "open_date": "2026-01-15",
-       "close_date": "2026-02-26",
-       "notice_no": "",
-       "source": "NTIS"
-      }
-     ]
-    }
-   ],
-   "predictions": [
-    {
-     "start": "2027-01-15",
-     "end": "2027-02-26",
-     "confidence": "하",
-     "basis": [
-      "2026년 1월 공고 반복"
-     ],
-     "last_refs": [
-      {
-       "title": "2026년 국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1253689",
-       "source": "NTIS"
-      }
-     ]
-    }
-   ],
-   "forecast_refs": []
-  },
-  {
    "key": "혁신성장피부건강기반기술개발사업",
    "name": "혁신성장 피부건강 기반기술 개발사업 신규지원 대상과제 공고",
    "ministry": "보건복지부",
@@ -4852,9 +4884,7 @@
    "key": "융합형의사과학자양성사업",
    "name": "융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
    "ministry": "보건복지부",
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "domains": [
     "보건의료"
    ],
@@ -4870,8 +4900,8 @@
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281125",
        "open_date": "2026-10-22",
        "close_date": "2026-11-18",
-       "notice_no": "한국보건산업진흥원 공고 제 2026-295호",
-       "source": "NTIS + KHIDIWEB + KHIDI"
+       "notice_no": "",
+       "source": "NTIS"
       }
      ]
     }
@@ -4888,7 +4918,7 @@
       {
        "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
        "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281125",
-       "source": "NTIS + KHIDIWEB + KHIDI"
+       "source": "NTIS"
       }
      ]
     }
@@ -5480,7 +5510,7 @@
    "domains": [
     "보건의료"
    ],
-   "rounds_per_year": 2,
+   "rounds_per_year": 1,
    "rounds": [
     {
      "start": "2026-02-20",
@@ -5496,28 +5526,13 @@
        "source": "IRIS"
       }
      ]
-    },
-    {
-     "start": "2026-11-11",
-     "end": "2026-11-17",
-     "items": [
-      {
-       "id": "ntis-1282802",
-       "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282802",
-       "open_date": "2026-11-11",
-       "close_date": "2026-11-17",
-       "notice_no": "중소벤처기업부 공고 제 2026-12호",
-       "source": "NTIS + IRIS"
-      }
-     ]
     }
    ],
    "predictions": [
     {
      "start": "2027-02-20",
      "end": "2027-04-07",
-     "confidence": "중",
+     "confidence": "하",
      "basis": [
       "2026년 2월 공고 반복"
      ],
@@ -5526,21 +5541,6 @@
        "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
        "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017678",
        "source": "IRIS"
-      }
-     ]
-    },
-    {
-     "start": "2027-11-11",
-     "end": "2027-11-17",
-     "confidence": "중",
-     "basis": [
-      "2026년 11월 공고 반복"
-     ],
-     "last_refs": [
-      {
-       "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
-       "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282802",
-       "source": "NTIS + IRIS"
       }
      ]
     }
@@ -7170,15 +7170,17 @@
    ]
   },
   {
-   "name": "국립보건연구원 신규 연구용역과제(학술) 입찰 통합 공고 안내",
-   "ministry": "보건복지부",
+   "name": "국립보건연구원 신규 연구용역과제(학술) 입찰 통합공고",
+   "ministry": "다부처(국립보건연구원 연구용역과제·보건복지부)",
    "domains": [
     "보건의료"
    ],
-   "agencies": [],
+   "agencies": [
+    "한국보건산업진흥원"
+   ],
    "start": "2027-01-15",
    "end": "2027-02-26",
-   "confidence": "하",
+   "confidence": "중",
    "basis": [
     "2026년 1월 공고 반복"
    ],
@@ -7781,13 +7783,13 @@
    ],
    "last_refs": [
     {
-     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
-     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
+     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
      "source": "NTIS"
     },
     {
-     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고 안내",
-     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1256662",
+     "title": "2026년도 제1차 범부처 첨단 의료기기 연구개발사업 신규지원 대상과제 공고_(2026)[1내역] 글로벌 플래그십 의료기기 개발",
+     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1255669",
      "source": "NTIS"
     }
    ]
@@ -7825,7 +7827,7 @@
    ],
    "start": "2027-02-20",
    "end": "2027-04-07",
-   "confidence": "중",
+   "confidence": "하",
    "basis": [
     "2026년 2월 공고 반복"
    ],
@@ -9292,9 +9294,7 @@
    "domains": [
     "보건의료"
    ],
-   "agencies": [
-    "한국보건산업진흥원"
-   ],
+   "agencies": [],
    "start": "2027-10-22",
    "end": "2027-11-18",
    "confidence": "하",
@@ -9305,7 +9305,7 @@
     {
      "title": "2027년 융합형 의사과학자 양성 사업(대학원과정) 공고 안내",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281125",
-     "source": "NTIS + KHIDIWEB + KHIDI"
+     "source": "NTIS"
     }
    ]
   },
@@ -9479,29 +9479,6 @@
    ]
   },
   {
-   "name": "딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
-   "ministry": "중소벤처기업부",
-   "domains": [
-    "보건의료"
-   ],
-   "agencies": [
-    "중소기업기술정보진흥원"
-   ],
-   "start": "2027-11-11",
-   "end": "2027-11-17",
-   "confidence": "중",
-   "basis": [
-    "2026년 11월 공고 반복"
-   ],
-   "last_refs": [
-    {
-     "title": "2026년도 딥테크 챌린지 프로젝트(DCP)생태계혁신형 시행계획 공고",
-     "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282802",
-     "source": "NTIS + IRIS"
-    }
-   ]
-  },
-  {
    "name": "「신약개발 AI-ready 학습과 벤치마크 데이터 구축사업 기획 연구」 정책연구과제 공고",
    "ministry": "과학기술정보통신부",
    "domains": [
@@ -9522,6 +9499,29 @@
      "title": "「신약개발 AI-ready 학습과 벤치마크 데이터 구축사업 기획 연구」 정책연구과제 공고",
      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282957",
      "source": "NTIS"
+    }
+   ]
+  },
+  {
+   "name": "국립보건연구원 신규 연구용역과제(학술) 입찰 통합공고",
+   "ministry": "다부처(국립보건연구원 연구용역과제·보건복지부)",
+   "domains": [
+    "보건의료"
+   ],
+   "agencies": [
+    "한국보건산업진흥원"
+   ],
+   "start": "2027-11-20",
+   "end": "2027-12-01",
+   "confidence": "중",
+   "basis": [
+    "2026년 11월 공고 반복"
+   ],
+   "last_refs": [
+    {
+     "title": "2027년도 국립보건연구원 신규 연구용역과제(학술) 입찰 통합공고",
+     "url": "https://www.htdream.kr/",
+     "source": "KHIDI"
     }
    ]
   }
